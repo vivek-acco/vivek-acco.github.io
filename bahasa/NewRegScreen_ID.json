@@ -1,1 +1,0 @@
-{"label": "New Registration", "image": "", "key": "NewRegScreen", "elements": [{"label": "Sudah memiliki akun?", "type": "label", "key": "alreadyhaveacc"}, {"label": "Daftar", "type": "label", "key": "signup"}, {"label": "Masuk", "type": "label", "key": "signin"}]}
