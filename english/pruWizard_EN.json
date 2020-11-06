@@ -1,5 +1,5 @@
 {
-  "label": "Covid19 Post Registration Campaign",
+  "label": "Health Assessment Post Registration Campaign",
   "image": "",
   "key": "pruWizard",
   "elements": [
@@ -19,17 +19,17 @@
       "key": "skip"
     },
     {
-      "label": "Complete your profile to activate your ",
+      "label": "Complete your profile to receive your ",
       "type": "label",
       "key": "completeProfile"
     },
     {
-      "label": " 100% free " ,
+      "label": " 100% FREE Health Assessment. " ,
       "type": "label",
       "key": "free"
     },
     {
-      "label": "COVID-19 and personal accident protection and start your free health assessment today!" ,
+      "label": "Find out how healthy you are and get recommendations to make you healthier. ",
       "type": "label",
       "key": "freeHA"
     },
@@ -59,7 +59,7 @@
       "key": "done"
     },
     {
-      "label": "We need your age to see if you qualify for this free protection.",
+      "label": "We need your age to provide appropriate health recommendations and receive your 100% free health assessment. ",
       "type": "label",
       "key": "qualifyProtection"
     },
@@ -74,12 +74,12 @@
       "key": "whereDoYouLive"
     },
     {
-      "label": "We need your address to see if you qualify for this free protection.",
+      "label": "We need your address to see if you qualify for this free Health Assessment.",
       "type": "label",
       "key": "needYourAddress"
     },
     {
-      "label": "",
+      "label": "We need your gender to provide appropriate health recommendations and receive your 100% free health assessment.",
       "type": "label",
       "key": "needYourGender"
     },
@@ -94,27 +94,22 @@
       "key": "acknowledgement"
     },
     {
-      "label": "What is your National ID?",
+      "label": "What is your KTP No?",
       "type": "label",
       "key": "whatsYourNationalId"
     },
     {
-      "label":"We need to know your National ID to see if you qualify for this free protection.",
+      "label":"We need to know your KTP to see if you qualify for this Health Assessment.",
       "type": "label",
       "key": "needDetails"
     },
     {
-      "label": "Please start by entering your mobile phone number",
-      "type": "label",
-      "key": "needYourPhone"
-    },
-    {
-      "label":"National ID/ Passport/ UPMID/ Driver’s License",
+      "label": "KTP NO/ Passport/ SIM",
       "type":"label",
       "key":"nationalId"
     },
     {
-      "label":"ID No.",
+      "label":"KTP NO.",
       "type":"label",
       "key":"nationalIdTitle"
     },
@@ -155,6 +150,11 @@
       "key": "phoneNumber"
     },
     {
+      "label": "Please start by entering your mobile phone number",
+      "type": "label",
+      "key": "needYourPhone"
+    },
+    {
       "label": "Male",
       "type": "label",
       "key": "male"
@@ -178,6 +178,26 @@
       "label": "Enter Apt/House Number Details",
       "type": "label",
       "key": "enterAptSuiteNo"
+    },
+    {
+      "label": "What is your Name?",
+      "type": "label",
+      "key": "yourName"
+    },
+    {
+      "label": "We need your name to see if you qualify for this free health assessment.",
+      "type": "label",
+      "key": "needYourName"
+    },
+    {
+      "label": "First Name",
+      "type": "label",
+      "key": "firstName"
+    },
+    {
+      "label": "Last Name",
+      "type": "label",
+      "key": "lastName"
     }
   ]
 }

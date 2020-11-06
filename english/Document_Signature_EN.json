@@ -26,16 +26,6 @@
       "type": "label",
       "key": "signature_stroke_color",
       "label": "#0000FF"
-    },
-    {
-      "type": "label",
-      "key": "signature_stroke_width",
-      "label": 9
-    },
-    {
-      "type": "label",
-      "key": "signature_stroke_color",
-      "label": "#0000FF"
     }
   ]
 }

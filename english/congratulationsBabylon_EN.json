@@ -4,12 +4,12 @@
   "key": "pruWizardBabylon",
   "elements": [
     {
-      "label": "No, Maybe Later",
+      "label": "No thanks, i don't like free",
       "type": "label",
       "key": "noMayBeLater"
     },
     {
-      "label": "Activate Free Health Checkup",
+      "label": "START FREE ASSESSMENT",
       "type": "label",
       "key": "activateFreeHealthCheckup"
     },
@@ -44,27 +44,27 @@
       "key": "congrats"
     },
     {
-      "label": "You Are Eligible For A Free Teleconsultation Voucher",
+      "label": "You Are Eligible For a 100% Free Health Assessment",
       "type": "label",
       "key": "congrats1"
     },
     {
-      "label": "To Claim This Voucher, please activate & complete your free health check up by clicking below.",
+      "label": "Put your Health in your hands. Get health insights to stay healthy ",
       "type": "label",
       "key": "congrats2"
     },
     {
-      "label": "Avail one time free Teleconsultation benefit from our board certified doctrors",
+      "label": "Full analysis of your body & Picture of your current health",
       "type": "label",
       "key": "congrats3"
     },
     {
-      "label": "Get e-Prescriptions, recommendations and referrals.",
+      "label": "Practical insights to make positive life style changes",
       "type": "label",
       "key": "congrats4"
     },
     {
-      "label": "ID Number",
+      "label": "KTP",
       "type": "label",
       "key": "idNum"
     },

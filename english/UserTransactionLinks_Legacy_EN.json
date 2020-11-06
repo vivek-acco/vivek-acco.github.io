@@ -11,7 +11,7 @@
                 "type": "goToChat"
             },
             "overrideField": "enablePrudence",
-            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/940ed6e3-f1c1-42fb-af74-986ffc03d0fe?namespace=PH"
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/940ed6e3-f1c1-42fb-af74-986ffc03d0fe?namespace=ID"
         },
         {
             "label": "Update Beneficiary",
@@ -22,7 +22,7 @@
                 "type": "product-journeys/add-beneficiary-for-existing-policy"
             },
             "overrideField": "updateBeneficiaryRequired",
-            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e82553b8-d2b3-485d-95f0-4bdb0fb4bb18?namespace=PH"
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e82553b8-d2b3-485d-95f0-4bdb0fb4bb18?namespace=ID"
         },
         {
             "label": "Update Contact Details",
@@ -33,7 +33,7 @@
                 "type": "myPolicy/getPolicyDetails"
             },
             "overrideField": "endorsementRequired",
-            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9b624d45-f9cb-4ac5-abd5-dfb712863300?namespace=PH"
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9b624d45-f9cb-4ac5-abd5-dfb712863300?namespace=ID"
         },
         {
             "label": "View Transactions ",
@@ -44,7 +44,7 @@
                 "type": "myPolicy/getPolicyDetails"
             },
             "overrideField": "enableTransactions",
-            "iconUrl": ""
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5ae02642-bcaa-4f87-a7f2-0a8a111fe0ab?namespace=ID"
         },
         {
             "label": "Contact Us",
@@ -63,7 +63,7 @@
                 "type": "registerClaimfsm"
             },
             "overrideField": "enableClaimsJourney",
-            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0c717cfe-4ea2-40f0-b4e3-734afe7a03d8?namespace=PH"
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0c717cfe-4ea2-40f0-b4e3-734afe7a03d8?namespace=ID"
         },
         {
             "label": "Pru Cash",
@@ -75,7 +75,7 @@
             },
             "overrideField": "enablePruCash",
             "overrideFunction": "hasPruCash",
-            "iconUrl": ""
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5acfe7ab-6939-402b-a86b-e6d4d889bcaa?namespace=ID"
         },
         {
             "label": "Download E-Card",
@@ -87,7 +87,29 @@
             },
             "overrideField": "enableDownloadECard",
             "overrideFunction": "hasECard",
-            "iconUrl": ""
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/def59fb6-f987-4f18-8623-45846611e483"
+        },
+        {
+            "label": "Request for Loan",
+            "type": "label",
+            "key": "LOAN",
+            "action": {
+                "context": "LOAN_JOURNEY",
+                "type": "myPolicy/goToLoan"
+            },
+            "overrideField": "enableLoanRequest",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8b0fd8e4-a1fc-4297-af51-4e290577e96a?namespace=ID"
+        },
+        {
+            "label": "Maturity Claim",
+            "type": "label",
+            "key": "MATURITY",
+            "action": {
+                "context": "MATURITY_JOURNEY",
+                "type": "myPolicy/goToMaturity"
+            },
+            "overrideField": "enableMaturity",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/79e37da6-a826-4a16-bd73-95e37965960b?namespace=ID"
         }
     ]
 }

@@ -10,7 +10,7 @@
         },
         {
             "key": "TOTAL_AMOUNT",
-            "label": "Total Amount",
+            "label": "Total Contribution",
             "type": "label"
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "key": "CONFIRM_BUTTON",
-            "label": "Confirm",
+            "label": "Proceed",
             "type": "label"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "key": "CARD_PAYMENT_METHOD",
-            "label": "Debit/Credit Card",
+            "label": "Other Payment method",
             "type": "label"
         },
         {
@@ -86,6 +86,26 @@
         {
             "key": "NO_VOUCHER_AVAILABLE",
             "label": "No Voucher Available",
+            "type": "label"
+        },
+        {
+            "key": "WALLET",
+            "label": "Wallet",
+            "type": "label"
+        },
+        {
+            "key": "CARD_ICON",
+            "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/cee86a51-c875-4855-addb-e169f2e1fa7f?namespace=ID",
+            "type": "label"
+        },
+        {
+            "key": "VOUCHER_ICON",
+            "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/857e709e-38c6-4d19-b597-f8b2bd2f7f25?namespace=ID",
+            "type": "label"
+        },
+        {
+            "key": "WALLET_ICON",
+            "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a00d93ef-372c-4e27-9fca-75f94015becc?namespace=ID",
             "type": "label"
         },
         {

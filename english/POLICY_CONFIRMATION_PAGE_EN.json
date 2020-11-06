@@ -1,1 +1,47 @@
-{"label": "", "image": "", "key": "POLICY_CONFIRMATION_PAGE", "elements": [{"label": "Your policy is being issued.", "type": "label", "key": "POLICY_CREATED_SUCCESSFULLY_MESSAGE"}, {"label": "Policy creation failed.", "type": "label", "key": "POLICY_CREATION_FAILURE_MESSAGE"}, {"label": "Your", "type": "label", "key": "POLICY_CREATION_DESCRIPTION_TEXT1"}, {"label": "policy is issued as per date", "type": "label", "key": "POLICY_CREATION_DESCRIPTION_TEXT2"}, {"label": "Please check your policy details on PULSE.", "type": "label", "key": "POLICY_CREATION_INFO_TEXT"}, {"label": "Your policy number is  ", "type": "label", "key": "POLICY_NUMBER_INFO_TEXT"}, {"label": "Want to add a beneficiary?  ", "type": "label", "key": "BENEFICIARY_CREATION_QUESTION_TEXT"}, {"label": "Add Beneficiary", "type": "label", "key": "ADD_BENEFICIARY_LINK_TEXT"}]}
+{
+    "label": "",
+    "image": "",
+    "key": "POLICY_CONFIRMATION_PAGE",
+    "elements": [
+        {
+            "label": "Your policy is being issued.",
+            "type": "label",
+            "key": "POLICY_CREATED_SUCCESSFULLY_MESSAGE"
+        },
+        {
+            "label": "Policy creation failed.",
+            "type": "label",
+            "key": "POLICY_CREATION_FAILURE_MESSAGE"
+        },
+        {
+            "label": "Your",
+            "type": "label",
+            "key": "POLICY_CREATION_DESCRIPTION_TEXT1"
+        },
+        {
+            "label": "policy is issued as per date",
+            "type": "label",
+            "key": "POLICY_CREATION_DESCRIPTION_TEXT2"
+        },
+        {
+            "label": "Please check your policy details on PULSE.",
+            "type": "label",
+            "key": "POLICY_CREATION_INFO_TEXT"
+        },
+        {
+            "label": "Your policy number is  ",
+            "type": "label",
+            "key": "POLICY_NUMBER_INFO_TEXT"
+        },
+        {
+            "label": "Want to add a beneficiary?  ",
+            "type": "label",
+            "key": "BENEFICIARY_CREATION_QUESTION_TEXT"
+        },
+        {
+            "label": "Add Beneficiary",
+            "type": "label",
+            "key": "ADD_BENEFICIARY_LINK_TEXT"
+        }
+    ]
+}

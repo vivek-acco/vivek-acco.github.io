@@ -10,7 +10,7 @@
         },
         {
             "key": "PRODUCT_DETAILS_PAGE_TOTALPREMIUM_LABELS",
-            "label": "Total Premium",
+            "label": "Total Contribution",
             "type": "label"
         },
         {
@@ -66,6 +66,11 @@
         {
             "key": "PRODUCT_DETAILS_PAGE_RECOMMENDED_TEXT",
             "label": "Recommended",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_HEADER_IMGAE_URL",
+            "label": "https://pulse.prudential.co.id/api/v1_0_0/cms/4d37df72-235b-4a4c-bb65-1b8a813e2fb5?namespace=ID",
             "type": "label"
         }
     ]

@@ -1,1 +1,94 @@
-{"image": "", "label": "", "key": "docRegisterPage", "elements": [{"type": "label", "key": "doneKey", "label": "Done"}, {"type": "label", "key": "docRegisterNricRequired", "label": "Enter a valid National ID"}, {"type": "label", "key": "docRegisterPageTitle1", "label": "Before we can help, we need to know some details about you."}, {"type": "label", "key": "docRegisterPageIsRequired", "label": "is required"}, {"type": "label", "key": "docRegisterPageTitle2", "label": "This helps us to give the best advice to you."}, {"type": "label", "key": "docRegisterPageFirstName", "label": "First Name"}, {"type": "label", "key": "docRegisterPageLastName", "label": "Last Name"}, {"type": "label", "key": "docRegisterPageEmail", "label": "Email"}, {"type": "label", "key": "docRegisterPageCountry", "label": "County of Residence"}, {"type": "label", "key": "docRegisterPagePhone", "label": "Phone"}, {"type": "label", "key": "docRegisterPageUpdateText", "label": "If you wish to change any field please update your Profile"}, {"type": "label", "key": "docRegisterPageHereLinkText", "label": "here"}, {"type": "label", "key": "docRegisterPageConsentText", "label": "I give my consent for Pulse to share my personal information"}, {"type": "label", "key": "docRegisterPageProceedBtn", "label": "PROCEED"}, {"type": "label", "key": "docRegisterPageVerifyBtn", "label": "Verify Now"}, {"type": "label", "key": "docRegisterPageOtp", "label": "Enter OTP"}, {"type": "label", "key": "docRegisterPageResendOtp", "label": "Resend OTP"}, {"type": "label", "key": "docRegisterPageCancelBtn", "label": "CANCEL"}, {"type": "label", "key": "unverified", "label": "(Unverified)"}, {"type": "label", "key": "verified", "label": "(Verified)"}, {"key": "docRegisterPageUploadText", "label": "Upload", "type": "label"}, {"key": "docRegisterPageDob", "label": "Date of Birth", "type": "label"}]}
+{
+	"image": "",
+	"label": "",
+	"key": "docRegisterPage",
+	"elements": [{
+		"type": "label",
+		"key": "doneKey",
+		"label": "Done"
+	}, {
+		"type": "label",
+		"key": "docRegisterNricRequired",
+		"label": "Enter a valid National ID"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageTitle1",
+		"label": "Before we can help, we need to know some details about you."
+	}, {
+		"type": "label",
+		"key": "docRegisterPageIsRequired",
+		"label": "is required"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageTitle2",
+		"label": "This helps us to give the best advice to you."
+	}, {
+		"type": "label",
+		"key": "docRegisterPageFirstName",
+		"label": "First Name"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageLastName",
+		"label": "Last Name"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageEmail",
+		"label": "Email"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageCountry",
+		"label": "County of Residence"
+	}, {
+		"type": "label",
+		"key": "docRegisterPagePhone",
+		"label": "Phone"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageUpdateText",
+		"label": "If you wish to change any field please update your Profile"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageHereLinkText",
+		"label": "here"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageConsentText",
+		"label": "I give my consent for Pulse to share my personal information"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageProceedBtn",
+		"label": "PROCEED"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageVerifyBtn",
+		"label": "Verify Now"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageOtp",
+		"label": "Enter OTP"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageResendOtp",
+		"label": "Resend OTP"
+	}, {
+		"type": "label",
+		"key": "docRegisterPageCancelBtn",
+		"label": "CANCEL"
+	}, {
+		"type": "label",
+		"key": "unverified",
+		"label": "(Unverified)"
+	}, {
+		"type": "label",
+		"key": "verified",
+		"label": "(Verified)"
+	}, {
+		"key": "docRegisterPageUploadText",
+		"label": "Upload",
+		"type": "label"
+	}, {
+		"key": "docRegisterPageDob",
+		"label": "Date of Birth",
+		"type": "label"
+	}]
+}

@@ -9,6 +9,7 @@
       "label": [
         {
           "id": "myHealth",
+          "supportVersion": "1.0.0",
           "firstKey": "myHealth1",
           "secondKey": "myHealth2",
           "img": "assessHealth",
@@ -41,6 +42,7 @@
         },
         {
           "id": "myCommunities",
+          "supportVersion": "1.0.0",
           "firstKey": "myCommunities1",
           "secondKey": "myCommunities2",
           "img": "myCommunities",
@@ -73,6 +75,7 @@
         },
         {
           "id": "myContent",
+          "supportVersion": "1.0.0",
           "firstKey": "myContent1",
           "secondKey": "myContent2",
           "img": "healthArticle",
@@ -83,21 +86,26 @@
           ],
           "type": "GO_TO_SCREEN",
           "context": "PulseHealth",
-          "navigateTo": "HealthChannel",
+          "navigateTo": "AffinityGroupScreen",
           "imageStyle": {
             "width": 15.1,
             "height": 19.7
           },
           "params": {
             "params": {
-              "channelName": "Global Events",
-              "channelId": "globalEvents",
+              "channelId": "covid19",
               "channels": [
                 "globalEvents",
                 "healthAwareness",
                 "newsAndCommunications",
                 "covid19"
-              ]
+              ],
+              "navigateFrom": "content",
+              "enableTilePress": true,
+              "classification": "HealthChannels",
+              "disableTab": true,
+              "headerKey": "healthChannels",
+              "enableSearch": false
             }
           },
           "eventName": "launchMyContent",
@@ -118,6 +126,7 @@
         },
         {
           "id": "myPolicy",
+          "supportVersion": "1.0.0",
           "firstKey": "MyPolicy1",
           "secondKey": "MyPolicy2",
           "img": "myPolicy",
@@ -150,6 +159,7 @@
         },
         {
           "id": "pruShop",
+          "supportVersion": "1.0.0",
           "firstKey": "PruShop1",
           "secondKey": "PruShop2",
           "img": "pruShop",
@@ -158,7 +168,7 @@
             "#7ef9d3",
             "#4b9e84"
           ],
-          "navigateTo": "WebView",
+          "navigateTo": "PRODUCT_JOURNEY_CATALOG",
           "type": "GO_TO_SCREEN",
           "imageStyle": {
             "width": 21.6,
@@ -166,7 +176,7 @@
           },
           "params": {
             "params": {
-              "uri": "https://prushoppe.prulifeuk.com.ph/chat-pulse.html",
+              "navigateTo": "goToProductCatalog",
               "groupId": "",
               "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c72ae8113fa54b33b6a051dea25a51ac?namespace=PH",
               "desc": "",
@@ -187,6 +197,140 @@
               }
             },
             "firebase": "home_page_screen_launch_pruShop"
+          }
+        },
+        {
+          "id": "online-consultation",
+          "supportVersion": "1.0.0",
+          "firstKey": "haloDoc1",
+          "secondKey": "haloDoc2",
+          "img": "consult_doctor",
+          "img_uri": "/menu-stickers/consult_doctor.png",
+          "colors": [
+            "#f97ec0",
+            "#a14e7a"
+          ],
+          "type": "GO_TO_HALODOC_SERVICE",
+          "context": "PulseHealth",
+          "imageStyle": {
+            "width": 18.6,
+            "height": 14.7
+          },
+          "eventName": "launchHaloDoc",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.onlineConsultation",
+              "tags": [
+                "homepageSticker",
+                "launchHaloDoc"
+              ],
+              "attributes": {
+                "action": "launchHaloDoc",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_haloDoc"
+          }
+        },
+        {
+          "id": "trackActivity",
+          "supportVersion": "1.0.0",
+          "firstKey": "StepTracker1",
+          "secondKey": "StepTracker2",
+          "img": "Tracking_1",
+          "img_uri": "/menu-stickers/tracking.png",
+          "colors": [
+            "#e5b5e5",
+            "#7e5a7e"
+          ],
+          "type": "fitnessTrackers/goToWearablesContainer",
+          "context": "WearablesList",
+          "imageStyle": {
+            "width": 19.6,
+            "height": 15.7
+          },
+          "eventName": "launchMyTracker",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchFitnessActivityTracker",
+              "tags": [
+                "healthpageSticker",
+                "launchMyTracker"
+              ],
+              "attributes": {
+                "action": "launchMyTracker",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_MyTracker"
+          }
+        },
+        {
+          "id": "FoodTab",
+          "supportVersion": "1.1.23",
+          "firstKey": "myFood1",
+          "secondKey": "myFood2",
+          "img": "foodMenuIcon",
+          "img_uri": "/menu-stickers/foodMenuIcon.png",
+          "colors": [
+            "#e5b5e5",
+            "#7e5a7e"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "DynamicFoodTab",
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
+          "eventName": "launchFoodTab",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchFoodTab",
+              "tags": [
+                "launchFoodTab"
+              ],
+              "attributes": {
+                "action": "launchFoodTab",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_food_tab"
+          }
+        },
+        {
+          "id": "FitnessTab",
+          "supportVersion": "1.1.23",
+          "firstKey": "myFitness1",
+          "secondKey": "myFitness2",
+          "img": "fitnessMenuIcon",
+          "img_uri": "/menu-stickers/fitnessMenuIcon.png",
+          "colors": [
+            "#ffbbc1",
+            "#fe727e"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "DynamicFitnessTab",
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
+          "eventName": "launchFitnessTab",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchFitnessTab",
+              "tags": [
+                "launchFitnessTab"
+              ],
+              "attributes": {
+                "action": "launchFitnessTab",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_fitness_tab"
           }
         }
       ]

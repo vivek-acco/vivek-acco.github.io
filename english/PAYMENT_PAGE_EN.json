@@ -19,6 +19,11 @@
             "type": "label"
         },
         {
+            "key": "PAYMENT_REALM_NEEDED",
+            "label": "true",
+            "type": "label"
+        },
+        {
             "key": "SUBSCRIPTION_NOT_FOUND",
             "label": "Subscription id not found.",
             "type": "label"

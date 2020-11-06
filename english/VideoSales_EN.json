@@ -6,7 +6,7 @@
     {
       "type": "label",
       "key": "water_mark_text",
-      "label": "For Prudential use only"
+      "label": "For Prudential ID use only"
     },
     {
       "type": "label",
@@ -277,6 +277,31 @@
       "type": "label",
       "key": "groupVideoCall",
       "label": "Contacts"
+    },
+    {
+      "type": "label",
+      "label": "Would you like to create a new request?",
+      "key": "createNewRequest"
+    },
+    {
+      "type": "label",
+      "label": "Chat and Support",
+      "key": "chatSupport"
+    },
+    {
+      "type": "label",
+      "label": "Write your message here",
+      "key": "writeMessageHere"
+    },
+    {
+      "type": "label",
+      "label": "If yes, your current conversation will be removed.",
+      "key": "exitChatDesc"
+    },
+    {
+      "type": "label",
+      "key": "exitChat",
+      "label": "Do you want to exit from Chat window?"
     },
     {
       "type": "label",

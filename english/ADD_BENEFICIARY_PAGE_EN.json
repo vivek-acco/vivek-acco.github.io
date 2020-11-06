@@ -15,7 +15,7 @@
             "validation": [
                 {
                     "key": "ADD_BENEFICIARY_ID_LABEL_JSON_EXPRESSION",
-                    "value": "$contains(id, /^[a-zA-Z0-9\\-\\\\\\/]+$/)"
+                    "value": "$contains(id, /^[0-9]{16}$/)"
                 },
                 {
                     "key": "ADD_BENEFICIARY_ID_LABEL_REQUIRED_VALIDATION",
@@ -60,13 +60,23 @@
         },
         {
             "key": "ADD_BENEFICIARY_ID_INVALID_MESSAGE",
-            "label": "Please enter valid ID",
+            "label": "ID No must be 16 digits",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_FULLNAME",
             "label": "Beneficiary Full Name",
-            "type": "label"
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_FULLNAME_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_FULLNAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]*$"
+                }
+            ]
         },
         {
             "key": "ADD_BENEFICIARY_FULLNAME_REQUIRED_MESSAGE",
@@ -275,7 +285,7 @@
                 },
                 {
                     "key": "ADD_BENEFICIARY_FIRST_NAME_REGEX_VALIDATION",
-                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\€¥£0-9_+\\-()\\[\\]'`]*$"
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)]*$"
                 }
             ]
         },
@@ -300,7 +310,7 @@
                 },
                 {
                     "key": "ADD_BENEFICIARY_LAST_NAME_REGEX_VALIDATION",
-                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\€¥£0-9_+\\-()\\[\\]'`]*$"
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)]*$"
                 }
             ]
         },
@@ -326,32 +336,159 @@
         },
         {
             "key": "ADD_BENEFICIARY_ID_PLACEHOLDER",
-            "label": "Enter Beneficiary ID.",
+            "label": "Enter Beneficiary ID",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_EMAIL_PLACEHOLDER",
-            "label": "Enter Beneficiary Email.",
+            "label": "Enter Beneficiary Email",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_PERCENTAGE_PLACEHOLDER",
-            "label": "Enter Percentage.",
+            "label": "Enter Percentage",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_FIRST_NAME_PLACEHOLDER",
-            "label": "Enter Beneficiary First Name.",
+            "label": "Enter Beneficiary First Name",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_LAST_NAME_PLACEHOLDER",
-            "label": "Enter Beneficiary Last Name.",
+            "label": "Enter Beneficiary Last Name",
             "type": "label"
         },
         {
             "key": "ADD_BENEFICIARY_FULLNAME_PLACEHOLDER",
-            "label": "Enter Beneficiary Full Name.",
+            "label": "Enter Beneficiary Full Name",
+            "type": "label"
+        },
+        {
+            "key": "DPAS_DATE_FORMAT",
+            "label": "YYYY-MM-DD",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_LABEL",
+            "label": "Gender",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_REQUIRED_MESSAGE",
+            "label": "Please select a gender",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_LABEL_OPTIONS",
+            "label": "  |PL;Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL",
+            "label": "Marital Status",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_REQUIRED_MESSAGE",
+            "label": "Please select a marital status",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_OPTIONS",
+            "label": "  |PL;Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_LABEL",
+            "label": "Salutation",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_REQUIRED_MESSAGE",
+            "label": "Please select a salutation",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_LABEL_OPTIONS",
+            "label": "Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_NATIONALITY_LABEL",
+            "label": "Nationality",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_LABEL",
+            "label": "Address",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9+\\-\\.,#'\\/:; ]+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_PLACEHOLDER",
+            "label": "Enter Address",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REQUIRED_MESSAGE",
+            "label": "Address required",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_INVALID_MESSAGE",
+            "label": "Please enter a valid address",
             "type": "label"
         },
         {
@@ -405,11 +542,231 @@
             "key": "ADD_BENEFICIARY_TOAST_UPDATED",
             "label": "Beneficiary Updated",
             "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_SHOW_TNC1",
+            "label": true,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_SHOW_TNC2",
+            "label": true,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_CHECKBOX_VISIBLE",
+            "label": true,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_CHECKBOX_VISIBLE",
+            "label": true,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_CHECKED",
+            "label": false,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_CHECKED",
+            "label": false,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_REQUIRED",
+            "label": true,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_REQUIRED",
+            "label": false,
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT1",
+            "label": "The information above is correct",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT2",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT3",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT4",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK2_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK2_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT1",
+            "label": "Please advise my beneficiary that I have named him/her as such for this insurance product through the mobile number and email address given above",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT2",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT3",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT4",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3_LABEL",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3_HEADER",
+            "label": "",
+            "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3",
+            "label": "",
+            "type": "label"
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_LABEL",
+              "label": "Scan beneficiary ID",
+              "type": "label",
+              "validation": [
+                  {
+                      "key": "ADD_BENEFICIARY_SCAN_ID_LABEL_JSON_EXPRESSION",
+                      "value": "$exists(attributes.docId) and $type(attributes.docId)='string' and attributes.docId!=''"
+                  },
+                  {
+                      "key": "ADD_BENEFICIARY_SCAN_ID_LABEL_REQUIRED_VALIDATION",
+                      "value": "required"
+                  }
+              ]
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_PLACE_HOLDER",
+              "label": "SSS / Passport / UMID / Driver's License ",
+              "type": "label"
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_REQUIRED_MESSAGE",
+              "label": "Please upload an ID.",
+              "type": "label"
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_INVALID_MESSAGE",
+              "label": "Please upload a valid ID.",
+              "type": "label"
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_ALREADY_HAVE_ID",
+              "label": "We already have the ID.",
+              "type": "label"
+          },
+          {
+              "key": "ADD_BENEFICIARY_SCAN_ID_UPDATE",
+              "label": "Update ID",
+              "type": "label"
+          },
+          {
+            "key": "ADD_BENEFICIARY_LEGACY_GENDER_OPTIONS",
+            "label": "  |PL;Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+          }, 
+	      {
+            "key": "ADD_BENEFICIARY_LEGACY_RELATION_OPTIONS",
+            "label": " - Select relationship with beneficiary - |PL;Spouse|Spouse;Child|Child;Father|Father;Mother|Mother;Sibling|Sibling;GrandParent|GrandParent;Other|Other",
+            "type": "label"
         },
         {
           "key": "ENABLE_OTP_VALIDATION_FOR_UPDATE",
           "label": false,
           "type": "label"
-          }
+        }
     ]
 }

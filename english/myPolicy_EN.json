@@ -9,8 +9,58 @@
     },
     {
       "type": "label",
+      "value": "View Policy",
+      "key": "viewPolicy"
+    },
+    {
+      "type": "label",
+      "value": "Register a claim",
+      "key": "claimPolicy"
+    },
+    {
+      "type": "label",
       "label": "EMAIL",
       "key": "email"
+    },
+    {
+      "type": "label",
+      "label": "Date of Birth",
+      "key": "dob"
+    },
+    {
+      "type": "label",
+      "label": "Policy/Cert No. ",
+      "key": "policyNo"
+    },
+    {
+      "type": "label",
+      "label": "Inception Date",
+      "key": "inceptionDate"
+    },
+    {
+      "type": "label",
+      "label": "My Policies",
+      "key": "myPolicyLabel"
+    },
+    {
+      "type": "label",
+      "label": "For",
+      "key": "for"
+    },
+    {
+      "type": "label",
+      "label": "Relationship",
+      "key": "relationship"
+    },
+    {
+      "type": "label",
+      "label": "Agent Info",
+      "key": "agentInfo"
+    },
+    {
+      "type": "label",
+      "label": "NA",
+      "key": "NA"
     },
     {
       "type": "label",
@@ -29,6 +79,11 @@
     },
     {
       "type": "label",
+      "label": "Looks like no policies are linked to you at the moment.",
+      "key": "noPolicyLinked"
+    },
+    {
+      "type": "label",
       "label": "The contact info will be updated for all the policies.",
       "key": "contactInfoDisclaimer"
     },
@@ -41,6 +96,146 @@
       "type": "label",
       "label": "Authentication Required",
       "key": "authenticationRequired"
+    },
+    {
+      "type": "label",
+      "label": "Age",
+      "key": "age"
+    },
+    {
+      "type": "label",
+      "label": "Email",
+      "key": "emailAddress"
+    },
+    {
+      "type": "label",
+      "label": "Name",
+      "key": "name"
+    },
+    {
+      "type": "label",
+      "label": "Benefit Percentage",
+      "key": "benefitPercentage"
+    },
+    {
+      "type": "label",
+      "label": "IN FORCE",
+      "key": "INFORCE",
+      "colorCode": "green"
+    },
+    {
+      "type": "label",
+      "label": "SURRENDER",
+      "key": "SURRENDER",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "LAPSED",
+      "key": "LAPSED",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "DECLINED",
+      "key": "DECLINED",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "EXPIRY",
+      "key": "EXPIRY",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "CANCELLEDFROMINCEPTION",
+      "key": "CFI",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "MATURED",
+      "key": "MATURED",
+      "colorCode": "green"
+    },
+    {
+      "type": "label",
+      "label": "POSTPONE",
+      "key": "POSTPONE",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "PAID UP",
+      "key": "PAIDUP",
+      "colorCode": "green"
+    },
+    {
+      "type": "label",
+      "label": "TERMINATEDRIDER",
+      "key": "TERMINATED",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "WITHDRAWN",
+      "key": "WITHDRAWN",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "FROZEN",
+      "key": "FROZEN",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "DECLINECLAIM",
+      "key": "DECLINECL",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "DEATH CLM",
+      "key": "DEATHCLM",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "REGISTEREDDEATH",
+      "key": "REGDEATH",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "TPD CLAIM",
+      "key": "TPDCLAIM",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "U/W",
+      "key": "U/W",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "PROPOSAL",
+      "key": "PROPOSAL",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "CP",
+      "key": "CP",
+      "colorCode": "amber"
+    },
+    {
+      "type": "label",
+      "label": "VOID RIDER",
+      "key": "VOIDRIDER",
+      "colorCode": "amber"
     },
     {
       "type": "label",
@@ -114,7 +309,67 @@
     },
     {
       "type": "label",
-      "value": "Certificate Number",
+      "label": "Edit",
+      "key": "edit"
+    },
+    {
+      "type": "label",
+      "label": "Payment",
+      "key": "payment"
+    },
+    {
+      "type": "label",
+      "label": "Policy Details",
+      "key": "policyDetail"
+    },
+    {
+      "type": "label",
+      "label": "Benefit Details",
+      "key": "policyDetailHeaderInBenefit"
+    },
+    {
+      "type": "label",
+      "label": "Beneficiary",
+      "key": "beneficiary"
+    },
+    {
+      "type": "label",
+      "label": "Policy Coverage",
+      "key": "policyCoverage"
+    },
+    {
+      "type": "label",
+      "label": "Coverage Date",
+      "key": "coverageDate"
+    },
+    {
+      "type": "label",
+      "label": "End Date",
+      "key": "endDate"
+    },
+    {
+      "type": "label",
+      "label": "Inception Date",
+      "key": "inceptionDate"
+    },
+    {
+      "type": "label",
+      "label": "Issued Date",
+      "key": "issuedDate"
+    },
+    {
+      "type": "label",
+      "label": "Contact Details",
+      "key": "contactDetails"
+    },
+    {
+      "type": "label",
+      "label": "Next Premium/Contribution Due",
+      "key": "nextPremiumDue"
+    },
+    {
+      "type": "label",
+      "value": "Policy/Cert No.",
       "key": "policyNumber"
     },
     {
@@ -426,6 +681,11 @@
     },
     {
       "type": "label",
+      "value": "Link Policy/Cert.",
+      "key": "linkPolicy"
+    },
+    {
+      "type": "label",
       "value": "Benefits & Investment",
       "key": "benefitAndInvestment"
     },
@@ -446,7 +706,7 @@
     },
     {
       "type": "label",
-      "value": "Sum Assured",
+      "value": "Sum Assured / Insurance benefit ",
       "key": "coveragePrice"
     },
     {
@@ -551,27 +811,27 @@
     },
     {
       "type": "label",
-      "value": "Main Life Assured",
+      "value": "Life Assured / Participant",
       "key": "policyHolder"
     },
     {
       "type": "label",
-      "value": "Main Participant",
+      "value": "Life Assured / Participant",
       "key": "policyHolderSyaria"
     },
     {
       "type": "label",
-      "value": "My Premium",
+      "value": "Premium / Contribution",
       "key": "myPremium"
     },
     {
       "type": "label",
-      "value": "Contribution",
+      "value": "Premium / Contribution",
       "key": "myPremiumSyaria"
     },
     {
       "type": "label",
-      "value": "Insurance Benefit",
+      "value": "Sum Assured / Insurance benefit ",
       "key": "coveragePriceSyaria"
     },
     {
@@ -616,12 +876,12 @@
     },
     {
       "type": "label",
-      "value": "Basic Premium",
+      "value": "Basic Premium / Contribution",
       "key": "basicPremium"
     },
     {
       "type": "label",
-      "value": "Basic Contribution",
+      "value": "Basic Premium / Contribution",
       "key": "basicPremiumSyaria"
     },
     {
@@ -691,7 +951,7 @@
     },
     {
       "type": "label",
-      "value": "Life Assured",
+      "value": "Life Assured/Participant",
       "key": "assured"
     },
     {
@@ -731,7 +991,7 @@
     },
     {
       "type": "label",
-      "value": "Life Assured",
+      "value": "Life Assured / Participant",
       "key": "lifeAssured"
     },
     {
@@ -776,12 +1036,27 @@
     {
       "type": "value",
       "key": "showTransaction",
-      "value": "false"
+      "value": "true"
     },
     {
       "type": "value",
       "key": "beneficiaryDocumentName",
       "value": "policy-data"
+    },
+    {
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/6ff77c6b-02af-4e62-be26-89a583264f34?namespace=ID",
+      "key": "pageCoverImage",
+      "type": "label"
+    },
+    {
+      "type": "label",
+      "label": "Congratulations! File Downloaded successfully.",
+      "key": "pdfSuccess"
+    },
+    {
+      "type": "label",
+      "label": "Select Save to files to download the pdf.",
+      "key": "pdfSuccessIos"
     },
     {
       "type": "label",
@@ -835,7 +1110,7 @@
     },
     {
       "type": "label",
-      "label": "XXXX",
+      "label": "xxxx",
       "key": "pdfPasswordMessagePolicyPartHeaderText"
     },
     {
@@ -845,7 +1120,7 @@
     },
     {
       "type": "label",
-      "label": "Dd",
+      "label": "dd",
       "key": "pdfPasswordMessageBirthPartHeaderText"
     },
     {
@@ -860,7 +1135,7 @@
     },
     {
       "type": "label",
-      "label": "First three letters of your brith month in English with first letter in UPPERCASE",
+      "label": "First three letters of your birth month in English with first letter in UPPERCASE\n\n\nE Policy can be downloaded for Policy that has been issued with e-Policy option.",
       "key": "pdfPasswordMessageNamePartDetailText"
     },
     {
@@ -870,7 +1145,7 @@
     },
     {
       "type": "label",
-      "label": "Download",
+      "label": "Download E-Card",
       "key": "eCardDownloadLabel"
     },
     {
@@ -919,13 +1194,8 @@
       "key": "eCardDownloadDescriptionIos"
     },
     {
-      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/dfe4089f-e65e-4989-93d2-30278672bb51",
-      "key": "currencyUrl",
-      "type": "label"
-    },
-    {
       "type": "label",
-      "label": "L000001",
+      "label": "LID001",
       "key": "legacyProductCode"
     },
     {
@@ -960,6 +1230,11 @@
     },
     {
       "type": "label",
+      "value": "E Policy can be downloaded for Policy that has been issued with e-Policy option",
+      "key": "documentFailedMessage"
+    },
+    {
+      "type": "label",
       "label": true,
       "key": "verifyOldContactsWithOtpForPhoneUpdate"
     },
@@ -967,6 +1242,21 @@
       "type": "label",
       "label": true,
       "key": "verifyOldContactsWithOtpForEmailUpdate"
+    },
+    {
+      "type": "label",
+      "label": "Country",
+      "key": "country"
+    },
+    {
+      "type": "label",
+      "label": "countryValidationMessage",
+      "key": "countryValidationMessage"
+    },
+    {
+      "type": "label",
+      "label": "Indonesia|ID",
+      "key": "countryAllowedValues"
     },
     {
       "type": "label",

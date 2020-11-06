@@ -4,7 +4,7 @@
   "key": "cancelPolicy",
   "elements": [
     {
-      "label": "Policy No. ",
+      "label": "Policy/Cert No. ",
       "key": "policyNumberTextLabel",
       "type": "label"
     },
@@ -160,6 +160,11 @@
       "label": "newclaims.request@prulifeuk.com.ph",
       "key": "queryEmail",
       "type": "label"
+    },
+    { 
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/770ba4ab-d3b4-4138-bb4f-c5524e91c2d3?namespace=ID", 
+      "key": "pageCoverImage", 
+      "type": "label" 
     }
   ]
 }

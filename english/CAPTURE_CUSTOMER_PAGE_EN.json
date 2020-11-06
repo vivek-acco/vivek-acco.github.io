@@ -4,27 +4,27 @@
     "key": "CAPTURE_CUSTOMER_PAGE",
     "elements": [
         {
-            "label": "Please enter your details below to complete your insurance policy application or take picture of your card.",
+            "label": "Please enter your details below to complete your insurance policy application or take picture of your KTP.",
             "type": "label",
             "key": "CAPTURE_CUSTOMER_PAGE_INSTRUCTIONS_LABEL"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_HEADER_LABEL",
-            "label": "Your Details",
+            "label": "Your Personal Details",
             "type": "label"
         },
         {
-            "label": "ID No.",
+            "label": "KTP No.",
             "type": "label",
             "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL",
             "validation": [
                 {
-                    "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL_JSON_EXPRESSION",
-                    "value": "$contains(id, /^[a-zA-Z0-9\\-\\\\\\/]+$/)"
-                },
-                {
                     "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL_REQUIRED_VALIDATION",
                     "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL_JSON_EXPRESSION",
+                    "value": "$contains(id, /^[0-9]{16}$/)"
                 }
             ]
         },
@@ -39,7 +39,7 @@
                 },
                 {
                     "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_LABEL_REGEX_VALIDATION",
-                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\€¥£0-9_+\\-()\\[\\]'`]*$"
+                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\¿§«»ω⊙¤°℃℉€¥£¢¡®©0-9_+\\-()\\[\\]'`]*$"
                 }
             ]
         },
@@ -54,7 +54,7 @@
                 },
                 {
                     "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_LABEL_REGEX_VALIDATION",
-                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\€¥£0-9_+\\-()\\[\\]'`]*$"
+                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\¿§«»ω⊙¤°℃℉€¥£¢¡®©0-9_+\\-()\\[\\]'`]*$"
                 }
             ]
         },
@@ -79,22 +79,14 @@
             "type": "label",
             "validation": [
                 {
-                    "key": "CAPTURE_CUSTOMER_PAGE_GENDER_LABEL_REQUIRED_VALIDATION_WIZARD",
-                    "value": "required"
-                },
-                {
                     "key": "CAPTURE_CUSTOMER_PAGE_GENDER_LABEL_REQUIRED_VALIDATION",
-                    "value": "^(?!(PL)$).+$"
-                },
-                {
-                    "key": "CAPTURE_CUSTOMER_PAGE_GENDER_LABEL_REGEX_VALIDATION",
-                    "value": "^(?!(PL)$).+$"
+                    "value": "required"
                 }
             ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_LABEL",
-            "label": "Address",
+            "label": "Address as per ID",
             "type": "label",
             "validation": [
                 {
@@ -103,7 +95,7 @@
                 },
                 {
                     "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_LABEL_REGEX_VALIDATION",
-                    "value": "^[a-zA-Z0-9+\\-\\.,#'\\/:; ]+$"
+                    "value": "^[a-zA-Z0-9+\\-\\'.,#'\\/:; ’”“‘`()]+$"
                 }
             ]
         },
@@ -123,14 +115,24 @@
                 },
                 {
                     "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_LABEL_REGEX_VALIDATION",
-                    "value": "^\\d{8,11}$"
+                    "value": "^\\d{10,12}$"
                 }
             ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL",
             "label": "Email",
-            "type": "label"
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL_REGEX_VALIDATION",
+                    "value": "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"
+                }
+            ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_OCCUPATION_LABEL",
@@ -145,7 +147,7 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_ID_REQUIRED_MESSAGE",
-            "label": "ID is required.",
+            "label": "KTP is required.",
             "type": "label"
         },
         {
@@ -155,7 +157,7 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_INVALID_ID_NO_MESSAGE",
-            "label": "Please enter a valid ID.",
+            "label": "KTP No must be 16 digits.",
             "type": "label"
         },
         {
@@ -200,7 +202,7 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_INVALID_MESSAGE",
-            "label": "Please enter a valid address.",
+            "label": "Please enter a valid Address as per KTP.",
             "type": "label"
         },
         {
@@ -300,12 +302,12 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_LABEL",
-            "label": "Referral code (optional)",
+            "label": "Have you been in touch with Prudential agent? Please insert your agent code",
             "type": "label",
             "validation": [
                 {
                     "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_LABEL_REGEX_VALIDATION",
-                    "value": "^[a-zA-Z0-9]+$"
+                    "value": "^\\d{6,8}$"
                 }
             ]
         },
@@ -321,8 +323,18 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL",
-            "label": "Name",
-            "type": "label"
+            "label": "Name as per ID",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]*$"
+                }
+            ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_REQUIRED_MESSAGE",
@@ -331,13 +343,23 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_INVALID_MESSAGE",
-            "label": "Enter a valid Place of Birth.",
+            "label": "Please enter a valid Name as per KTP.",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL",
             "label": "Place of Birth",
-            "type": "label"
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9 \\-\\.,'\\/\\(\\)'’”“‘`]+$"
+                }
+            ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_REQUIRED_MESSAGE",
@@ -346,13 +368,23 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_INVALID_MESSAGE",
-            "label": "Enter a valid Place of Birth.",
+            "label": "Please enter a valid Place of Birth as per KTP.",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY",
-            "label": "City",
-            "type": "label"
+            "label": "Domicile City",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9 \\-\\.,'\\/\\(\\)'’”“‘`]+$"
+                }
+            ]
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REQUIRED_MESSAGE",
@@ -366,52 +398,52 @@
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_ID_PLACEHOLDER",
-            "label": "Enter ID.",
+            "label": "Enter ID as per KTP",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_PLACEHOLDER",
-            "label": "Enter Place of birth.",
+            "label": "Enter Place of birth",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_PLACEHOLDER",
-            "label": "Enter City.",
+            "label": "Enter City",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_PLACEHOLDER",
-            "label": "Enter Referral Code.",
+            "label": "Enter Referral Code",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_PLACEHOLDER",
-            "label": "Enter First Name.",
+            "label": "Enter First Name",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_PLACEHOLDER",
-            "label": "Enter Last Name.",
+            "label": "Enter Last Name",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_OCCUPATION_PLACEHOLDER",
-            "label": "Enter Occupation.",
+            "label": "Enter Occupation",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_PLACEHOLDER",
-            "label": "Enter Full Name.",
+            "label": "Enter Full Name",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_PLACEHOLDER",
-            "label": "Enter Address.",
+            "label": "Enter Address as per KTP",
             "type": "label"
         },
         {
             "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_PLACEHOLDER",
-            "label": "Enter Mobile Number.",
+            "label": "8xxxxxxxx",
             "type": "label"
         },
         {
@@ -420,12 +452,12 @@
             "type": "label",
             "validation": [
                 {
-                    "key": "ADD_BENEFICIARY_FULLNAME_REQUIRED_VALIDATION",
+                    "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_REQUIRED_VALIDATION",
                     "value": "required"
                 },
                 {
-                    "key": "ADD_BENEFICIARY_FULLNAME_REGEX_VALIDATION",
-                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]*$"
+                    "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]{1,60}$"
                 }
             ]
         },
@@ -440,23 +472,8 @@
             "type": "label"
         },
         {
-            "key": "CAPTURE_CUSTOMER_DETAILS_AUTO_RENEWAL_PRE_TEXT",
-            "label": "I want to enable auto-debit for renewal.",
-            "type": "label"
-        },
-        {
-            "key": "CAPTURE_CUSTOMER_DETAILS_AUTO_RENEWAL_LINK_LABEL",
-            "label": "",
-            "type": "label"
-        } ,
-        {
-            "key": "CAPTURE_CUSTOMER_DETAILS_AUTO_RENEWAL_POST_TEXT",
-            "label": "",
-            "type": "label"
-        },
-        {
-            "key": "CAPTURE_CUSTOMER_DETAILS_RECOMMENDED_TEXT",
-            "label": "Recommended",
+            "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_PLACEHOLDER",
+            "label": "Enter Beneficiary Full Name",
             "type": "label"
         },
         {
@@ -467,6 +484,11 @@
         {
             "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_INVALID_MESSAGE",
             "label": "Please enter a valid email.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_USE_WALLET_PAYMENT",
+            "label": "true",
             "type": "label"
         },
          {

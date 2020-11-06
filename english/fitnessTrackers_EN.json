@@ -1,8 +1,56 @@
 {
-    "key": "fitnessTrackers",
-    "image": "",
-    "elements": [
-      {
+	"key": "FitnessTrackersScreen",
+	"image": "",
+	"elements": [{
+		"label": "Customise",
+		"type": "label",
+		"key": "Customise"
+	}, {
+		"label": "Please complete your gender and birth details in your Profile.",
+		"type": "label",
+		"key": "ChallengerCheckMsg"
+	}, {
+		"label": "Please complete your gender and birth date under Profile, and connect to a Fitness Tracker under Customise.",
+		"type": "label",
+		"key": "HomeChallengerCheckMsg"
+	}, {
+		"label": "Please connect to a Fitness Tracker under Customise.",
+		"type": "label",
+		"key": "ChallengerCheckDeviceConnectionsMsg"
+	}, {
+		"label": "Fitness Trackers",
+		"type": "label",
+		"key": "fitness_tracker"
+	}, {
+		"label": "Connected",
+		"type": "label",
+		"key": "fitness_connected"
+	}, {
+		"label": "Not connected to any trackers",
+		"type": "label",
+		"key": "fitness_empty_trackers"
+	}, {
+		"label": "Available",
+		"type": "label",
+		"key": "fitness_available"
+	}, {
+		"label": "Connect",
+		"type": "label",
+		"key": "Connect"
+	}, {
+		"label": "Disconnect",
+		"type": "label",
+		"key": "Disconnect"
+	}, {
+		"label": "Supported through Apple Health",
+		"type": "label",
+		"key": "tracker_ios_specific_message"
+	}, {
+		"label": "We need your health data",
+		"type": "label",
+		"key": "healthdata"
+	},
+	{
         "type": "label",
         "key": "fitnessTracker",
         "label": "Fitness Tracker"
@@ -11,17 +59,7 @@
         "type": "label",
         "key": "available",
         "label": "Available"
-      },
-      {
-        "type": "label",
-        "key": "connect",
-        "label": "Connect"
-      },
-      {
-        "type": "label",
-        "key": "disConnect",
-        "label": "Disconnect"
-      },
+      },     
       {
         "type": "label",
         "key": "notConnected",
@@ -86,6 +124,26 @@
         "type": "label",
         "key": "wearables",
         "label": "Wearables"
+      },
+      {
+        "type": "label",
+        "key": "googlefit",
+        "label": "Google Fit"
+      },
+      {
+        "type": "label",
+        "key": "fitbit",
+        "label": "Fit Bit"
+      },
+      {
+        "type": "label",
+        "key": "garmin",
+        "label": "Garmin"
+      },
+      {
+        "type": "label",
+        "key": "applehealth",
+        "label": "Apple Health"
       },
       {
         "type": "label",
@@ -166,6 +224,5 @@
         "type": "label",
         "key": "disconnectDesc",
         "label": "Are you sure you want to continue and disconnect the wearable?"
-      }
-    ]
-  }
+      }]
+}

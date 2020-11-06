@@ -9,20 +9,29 @@
       "label": [
         {
           "id": "health",
+          "supportVersion": "1.0.0",
           "firstKey": "Health",
           "secondKey": "Assessment",
           "img": "assessHealth",
           "img_uri": "/menu-stickers/assess_health.png",
-          "colors": ["#f97ec0", "#a14e7a"],
+          "colors": [
+            "#f97ec0",
+            "#a14e7a"
+          ],
           "type": "BABYLON_GOTO_HEALTHASSESSMENT",
           "context": "PulseHealth",
-          "imageStyle": { "width": 22.6, "height": 19.1 },
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
           "eventName": "launchHealthAssessment",
           "eventDetails": {
             "platform": {
               "type": "ClickEvent",
               "name": "pulse.health.launchHealthAssessment",
-              "tags": ["launchHealthAssessment"],
+              "tags": [
+                "launchHealthAssessment"
+              ],
               "attributes": {
                 "action": "launchHealthAssessment",
                 "screen": "HealthPageScreen"
@@ -33,20 +42,29 @@
         },
         {
           "id": "checkSymptoms",
+          "supportVersion": "1.0.0",
           "firstKey": "Check",
           "secondKey": "Symptoms",
           "img": "checkSymptoms",
           "img_uri": "/menu-stickers/check_symptoms.png",
-          "colors": ["#e5b5e5", "#7e5a7e"],
+          "colors": [
+            "#e5b5e5",
+            "#7e5a7e"
+          ],
           "type": "BABYLON_GOTO_SYMPTOMPCHECKER",
           "context": "PulseHealth",
-          "imageStyle": { "width": 16.1, "height": 19.2 },
+          "imageStyle": {
+            "width": 16.1,
+            "height": 19.2
+          },
           "eventName": "launchCheckSymptoms",
-          "eventDetails":{
+          "eventDetails": {
             "platform": {
               "type": "ClickEvent",
               "name": "pulse.health.launchCheckSymptoms",
-              "tags": ["launchCheckSymptoms"],
+              "tags": [
+                "launchCheckSymptoms"
+              ],
               "attributes": {
                 "action": "launchCheckSymptoms",
                 "screen": "HealthPageScreen"
@@ -57,32 +75,48 @@
         },
         {
           "id": "wellnessGoals",
+          "supportVersion": "1.0.0",
           "firstKey": "Wellness",
           "secondKey": "Goals",
           "img": "wellnessGoals",
           "img_uri": "/menu-stickers/wellness_goals.png",
-          "colors": ["#7ef9d3", "#4b9e84"],
+          "colors": [
+            "#7ef9d3",
+            "#4b9e84"
+          ],
           "type": "GO_TO_SCREEN",
           "navigateTo": "ActionPlans",
-          "imageStyle": { "width": 19.1, "height": 19.1 },
+          "imageStyle": {
+            "width": 19.1,
+            "height": 19.1
+          },
           "eventName": "launchWellnessGoals"
         },
         {
           "id": "findHospital",
+          "supportVersion": "1.0.0",
           "firstKey": "Find",
           "secondKey": "Hospital",
           "img": "findHospital",
           "img_uri": "/menu-stickers/hospital.png",
-          "colors": ["#ff818c", "#ff4757"],
+          "colors": [
+            "#ff818c",
+            "#ff4757"
+          ],
           "context": "PulseHealth",
           "type": "GO_TO_NAVIGATOR",
-          "imageStyle": { "width": 20.5, "height": 19.2 },
+          "imageStyle": {
+            "width": 20.5,
+            "height": 19.2
+          },
           "eventName": "launchFindHospital",
           "eventDetails": {
             "platform": {
               "type": "ClickEvent",
               "name": "pulse.health.launchFindHospital",
-              "tags": ["launchFindHospital"],
+              "tags": [
+                "launchFindHospital"
+              ],
               "attributes": {
                 "action": "launchFindHospital",
                 "screen": "HealthPageScreen"
@@ -93,26 +127,204 @@
         },
         {
           "id": "checkBMI",
+          "supportVersion": "1.0.0",
           "firstKey": "Check",
           "secondKey": "Bmi",
           "img": "checkBmi",
-          "colors": ["#adadee", "#4d4d70"],
+          "colors": [
+            "#adadee",
+            "#4d4d70"
+          ],
           "img_uri": "/menu-stickers/bmi.png",
           "context": "PulseHealth",
           "type": "PULSE_GOTO_BMI",
-          "imageStyle": { "width": 18.4, "height": 18.4 },
+          "imageStyle": {
+            "width": 18.4,
+            "height": 18.4
+          },
           "eventName": "launchCheckSymptoms",
-          "eventDetails":{
+          "eventDetails": {
             "platform": {
               "type": "ClickEvent",
               "name": "pulse.health.launchCheckSymptoms",
-              "tags": ["launchCheckSymptoms"],
+              "tags": [
+                "launchCheckSymptoms"
+              ],
               "attributes": {
                 "action": "launchCheckSymptoms",
                 "screen": "HealthPageScreen"
               }
             },
             "firebase": "health_page_screen_launch_checkSymptoms"
+          }
+        },
+        {
+          "id": "trackActivity",
+          "supportVersion": "1.0.0",
+          "firstKey": "StepTracker1",
+          "secondKey": "StepTracker2",
+          "img": "Tracking_1",
+          "img_uri": "/menu-stickers/tracking.png",
+          "colors": [
+            "#e5b5e5",
+            "#7e5a7e"
+          ],
+          "type": "fitnessTrackers/goToWearablesContainer",
+          "context": "WearablesList",
+          "imageStyle": {
+            "width": 19.6,
+            "height": 15.7
+          },
+          "eventName": "launchMyTracker",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchFitnessActivityTracker",
+              "tags": [
+                "healthpageSticker",
+                "launchMyTracker"
+              ],
+              "attributes": {
+                "action": "launchMyTracker",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_MyTracker"
+          }
+        },
+        {
+          "id": "wrinkleIndex",
+          "supportVersion": "1.0.0",
+          "firstKey": "wrinkleIndex1",
+          "secondKey": "wrinkleIndex2",
+          "img": "wrinkleIndex_1",
+          "img_uri": "/menu-stickers/wrinkle.png",
+          "colors": [
+            "#7ef9d3",
+            "#4b9e84"
+          ],
+          "type": "PULSE_GOTO_WRINKLE_INDEX",
+          "context": "PulseHealth",
+          "navigateTo": "HealthChannel",
+          "imageStyle": {
+            "width": 14.1,
+            "height": 17.7
+          },
+          "eventName": "launchwrinkleIndex",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchWrinkleMirror",
+              "tags": [
+                "healthpageSticker",
+                "launchwrinkleIndex"
+              ],
+              "attributes": {
+                "action": "launchwrinkleIndex",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_wrinkleIndex"
+          }
+        },
+        {
+          "id": "online-consultation",
+          "supportVersion": "1.0.0",
+          "firstKey": "haloDoc1",
+          "secondKey": "haloDoc2",
+          "img": "consult_doctor",
+          "img_uri": "/menu-stickers/consult_doctor.png",
+          "colors": [
+            "#f97ec0",
+            "#a14e7a"
+          ],
+          "type": "GO_TO_HALODOC_SERVICE",
+          "context": "PulseHealth",
+          "imageStyle": {
+            "width": 18.6,
+            "height": 14.7
+          },
+          "eventName": "launchHaloDoc",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.onlineConsultation",
+              "tags": [
+                "homepageSticker",
+                "launchHaloDoc"
+              ],
+              "attributes": {
+                "action": "launchHaloDoc",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_haloDoc"
+          }
+        },
+        {
+          "id": "FoodTab",
+          "supportVersion": "1.1.23",
+          "firstKey": "myFood1",
+          "secondKey": "myFood2",
+          "img": "foodMenuIcon",
+          "img_uri": "/menu-stickers/foodMenuIcon.png",
+          "colors": [
+            "#adadee",
+            "#4d4d70"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "DynamicFoodTab",
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
+          "eventName": "launchFoodTab",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchFoodTab",
+              "tags": [
+                "launchFoodTab"
+              ],
+              "attributes": {
+                "action": "launchFoodTab",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_food_tab"
+          }
+        },
+        {
+          "id": "FitnessTab",
+          "supportVersion": "1.1.23",
+          "firstKey": "myFitness1",
+          "secondKey": "myFitness2",
+          "img": "fitnessMenuIcon",
+          "img_uri": "/menu-stickers/fitnessMenuIcon.png",
+          "colors": [
+            "#7ef9d3",
+            "#4b9e84"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "DynamicFitnessTab",
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
+          "eventName": "launchFitnessTab",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchFitnessTab",
+              "tags": [
+                "launchFitnessTab"
+              ],
+              "attributes": {
+                "action": "launchFitnessTab",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_fitness_tab"
           }
         }
       ]

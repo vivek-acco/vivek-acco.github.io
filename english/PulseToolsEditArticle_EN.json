@@ -47,7 +47,7 @@
 		"key": "sizeLimit250"
 	}, {
 		"label": "OK",
-		"type": "label",
+		"type": "error",
 		"key": "OK"
 	}, {
 		"label": "Please select file less than 500KB in size!",
@@ -97,6 +97,18 @@
 		"label": "Choose Health Channel",
 		"type": "label",
 		"key": "chooseHealthChannel"
+	}, {
+		"label": "Please select image of dimension",
+		"type": "label",
+		"key": "imageDimension1"
+	}, {
+		"label": "and size less than",
+		"type": "label",
+		"key": "imageDimension2"
+	}, {
+		"label": "KB",
+		"type": "label",
+		"key": "imageDimension3"
 	}, {
 		"label": "Error",
 		"type": "label",

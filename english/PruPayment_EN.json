@@ -80,7 +80,7 @@
             "key": "paymentTitle"
           },
           {
-            "label": "1.00",
+            "label": "10",
             "type": "label",
             "key": "paymentDefaultPrice"
           }

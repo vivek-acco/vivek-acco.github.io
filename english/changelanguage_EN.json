@@ -1,1 +1,17 @@
-{"image": "", "label": "Select Language", "key": "changelanguage", "elements": [{"type": "label", "key": "en", "label": "English (UK)"}]}
+{
+  "image": "",
+  "label": "Select Language",
+  "key": "changelanguage",
+  "elements": [
+    {
+      "type": "label",
+      "key": "en",
+      "label": "English (UK)"
+    },
+    {
+      "type": "label",
+      "key": "ms",
+      "label": "Malay"
+    }
+  ]
+}

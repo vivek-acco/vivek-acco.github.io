@@ -1,1 +1,17 @@
-{"image": "", "label": "Speciality", "key": "hospiptalDetailSpecialityScreen", "elements": [{"type": "placeholder", "key": "searchSpecialityPlaceholder", "label": "Search Speciality"}, {"type": "placeholder", "key": "emptySpecialityPlaceholder", "label": "No Specialities"}]}
+{
+  "image": "",
+  "label": "Speciality",
+  "key": "hospiptalDetailSpecialityScreen",
+  "elements": [
+    {
+      "type": "placeholder",
+      "key": "searchSpecialityPlaceholder",
+      "label": "Search Speciality"
+    },
+    {
+      "type": "placeholder",
+      "key": "emptySpecialityPlaceholder",
+      "label": "No Specialities"
+    }
+  ]
+}

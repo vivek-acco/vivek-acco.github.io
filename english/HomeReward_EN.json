@@ -5,7 +5,8 @@
         {
             "label": "I am enjoying getting fitter with pulse.Join me by downloading Pulse App.",
             "type": "label",
-            "key": "fitterpulse"
+            "key": "fitterpulse",
+            "context": "invite"
         },
         {
             "label": "News & Updates",
@@ -64,7 +65,7 @@
             "context": "gift"
         },
         {
-            "label": "I would like to gift you a free voucher for teleconsultation with mydoc board certified doctors. Please download Pulse and register to avail the offer",
+            "label": "I would like to gift you a free voucher for teleconsultation with DOC board certified doctors. Please download Pulse and register to avail the offer",
             "type": "label",
             "key": "fitterpulse",
             "context": "giftMydocVoucher"

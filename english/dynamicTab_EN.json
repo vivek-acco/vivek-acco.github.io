@@ -9,6 +9,8 @@
         "label": {
             "HomeTab": true,
             "GettingTreatment": true,
+            "fitnessTab": true,
+            "foodTab": true,
             "account": true
         }
       }

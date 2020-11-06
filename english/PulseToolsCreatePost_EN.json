@@ -74,6 +74,18 @@
 		"type": "error",
 		"key": "uploadContentEmpty"
 	}, {
+		"label": "Please select image of dimension",
+		"type": "label",
+		"key": "imageDimension1"
+	}, {
+		"label": "and size less than",
+		"type": "label",
+		"key": "imageDimension2"
+	}, {
+		"label": "KB",
+		"type": "label",
+		"key": "imageDimension3"
+	}, {
 		"label": "Error",
 		"type": "label",
 		"key": "error"

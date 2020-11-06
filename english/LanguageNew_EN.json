@@ -1,26 +1,31 @@
 {
-    "key": "LanguageNew",
-    "image": "",
-    "elements": [
-        {
-            "label": "Select Language",
-            "type": "label",
-            "key": "Language"
-        },
-        {
-            "label": "English (UK)",
-            "type": "label",
-            "key": "English"
-        },
-        {
-            "label": "Khmer",
-            "type": "label",
-            "key": "Khmer"
-        },
-        {
-            "label": "English (UK)",
-            "type": "label",
-            "key": "EN"
-        }
-    ]
+  "key": "LanguageNew",
+  "image": "",
+  "elements": [
+    {
+      "label": "Select Language",
+      "type": "label",
+      "key": "Language"
+    },
+    {
+      "label": "English (UK)",
+      "type": "label",
+      "key": "English"
+    },
+    {
+      "label": "Malay",
+      "type": "label",
+      "key": "Malay"
+    },
+    {
+      "label": "English (UK)",
+      "type": "label",
+      "key": "EN"
+    },
+    {
+      "label": "Bahasa Indonesia",
+      "type": "label",
+      "key": "ID"
+    }
+  ]
 }

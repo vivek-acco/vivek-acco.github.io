@@ -1,1 +1,292 @@
-{"image": "", "key": "docConsultDoctorLandingPage", "elements": [{"description": "Online Consultation", "label": "Consultation with Doctor.", "type": "label", "key": "consultwithdoctor"}, {"type": "label", "key": "199 MYR", "label": "videocallprice"}, {"type": "label", "key": "99 MYR", "label": "audiocallprice"}, {"image": "", "description": "Online Consultation", "label": "Consult with a doctor (VIDEO)", "type": "label", "key": "consultwithdoctorvideo"}, {"type": "validServiceId", "key": "docvideocall", "label": "MY_DOC_VC_15"}, {"type": "validServiceId", "key": "docaudiocall", "label": "MY_DOC_AC_15"}, {"image": "", "description": "Online Consultation", "label": "Consult with a doctor (VIDEO)", "type": "label", "key": "consultwithdoctorvideo"}, {"image": "", "description": "Online Consultation", "label": "Consult with a doctor (AUDIO)", "type": "label", "key": "consultwithdoctoraudio"}, {"type": "label", "key": "doctiming", "label": "Available daily, 8am to 12am"}, {"type": "label", "key": "docnotavailable", "label": "Online consultation is available between 08:00am to 11:59pm only"}, {"type": "label", "key": "pubholiday", "label": "(including public holidays)"}, {"type": "label", "key": "permissionDescriptionPart1", "label": "We need to access your device's "}, {"type": "label", "key": "permissionCamera", "label": "camera "}, {"type": "label", "key": "permissionMicrophone", "label": "microphone "}, {"type": "label", "key": "and", "label": "and "}, {"type": "label", "key": "permissionDescriptionPart2", "label": "before you can proceed "}, {"type": "label", "key": "info", "label": "Once the request for consultation is sent, it cannot be recalled or cancelled."}, {"type": "label", "key": "notes", "label": ""}, {"type": "label", "key": "grantaccess", "label": "GRANT ACCESS"}, {"type": "label", "key": "cancel", "label": "CANCEL"}, {"type": "label", "key": "symptoms", "label": " Please enter your symptoms (Optional)"}, {"type": "label", "key": "max", "label": "Max. "}, {"type": "label", "key": "chars", "label": "chars "}, {"type": "label", "key": "proceed", "label": "Proceed"}, {"image": "", "label": "Camera", "type": "permission", "key": "camera"}, {"image": "", "label": "Camera", "type": "permissionInActive", "key": "cameraInActive"}, {"image": "", "label": "Microphone", "type": "permission", "key": "micro_phone"}, {"image": "", "label": "Microphone", "type": "permissionInActive", "key": "microphoneInActive"}, {"type": "label", "key": "permissionRequired", "label": "Permissions required"}, {"type": "label", "key": "permissionRequiredDescription", "label": "To use this feature, both Camera and Microphone permissions are required. Click OK to take you to settings page where you can grant the permission."}, {"type": "label", "key": "permok", "label": "OK"}, {"type": "label", "key": "permcancel", "label": "Cancel"}, {"type": "label", "key": "consultrequest", "label": "Consultation request sent already"}, {"type": "label", "key": "permissionGranted", "label": "Permission garnted"}, {"type": "label", "key": "permissionNotGranted", "label": "Permission not granted"}, {"type": "label", "key": "appointment_type", "label": "Appointment Type:"}, {"type": "label", "key": "pricing", "label": "Pricing : "}, {"type": "label", "key": "payment_by", "label": "Payment by "}, {"type": "label", "key": "video", "label": "VIDEO"}, {"type": "label", "key": "audio", "label": "AUDIO"}, {"type": "label", "key": "for_video_call", "label": "For Video Call"}, {"type": "label", "key": "for_audio_call", "label": "For Audio Call"}, {"type": "label", "key": "pay", "label": "PAY"}, {"type": "label", "key": "next", "label": "NEXT"}, {"type": "label", "key": "appointment_confirmed", "label": "Appointment Confirmed"}, {"type": "label", "key": "audio_consultation", "label": "Audio Consultation"}, {"type": "label", "key": "payment_successfull", "label": "Payment Successfull"}, {"type": "label", "key": "audio_appointment", "label": "Audio Appointment"}, {"type": "label", "key": "appointment_not_confirmed", "label": "Appointment Not Confirmed"}, {"type": "label", "key": "payment_failed", "label": "Payment Failed"}, {"type": "label", "key": "cancel", "label": "CANCEL"}, {"type": "label", "key": "try_again", "label": "TRY AGAIN"}, {"type": "label", "key": "test", "label": "Test"}]}
+{
+  "image": "",
+  "key": "docConsultDoctorLandingPage",
+  "elements": [
+    {
+      "description": "Online Consultation",
+      "label": "Consultation with Doctor.",
+      "type": "label",
+      "key": "consultwithdoctor"
+    },
+    {
+      "type": "label",
+      "key": "videocallprice",
+      "label": "199 MYR"
+    },
+    {
+      "type": "label",
+      "key": "audiocallprice",
+      "label": "99 MYR"
+    },
+    {
+      "image": "",
+      "description": "Online Consultation",
+      "label": "Consult with a doctor (VIDEO)",
+      "type": "label",
+      "key": "consultwithdoctorvideo"
+    },
+    {
+      "type": "label",
+      "key": "videocallprice",
+      "label": "RM 199"
+    },
+    {
+      "type": "label",
+      "key": "audiocallprice",
+      "label": "RM 99"
+    },
+    {
+      "type": "validServiceId",
+      "key": "docvideocall",
+      "label": "MY_DOC_VC_15"
+    },
+    {
+      "type": "validServiceId",
+      "key": "docaudiocall",
+      "label": "MY_DOC_AC_15"
+    },
+    {
+      "image": "",
+      "description": "Online Consultation",
+      "label": "Consult with a doctor (VIDEO)",
+      "type": "label",
+      "key": "consultwithdoctorvideo"
+    },
+    {
+      "image": "",
+      "description": "Online Consultation",
+      "label": "Consult with a doctor (AUDIO)",
+      "type": "label",
+      "key": "consultwithdoctoraudio"
+    },
+    {
+      "type": "label",
+      "key": "doctiming",
+      "label": "Available daily, 8am to 12am"
+    },
+    {
+      "type": "label",
+      "key": "docnotavailable",
+      "label": "Online consultation is available between 08:00am to 11:59pm only"
+    },
+    {
+      "type": "label",
+      "key": "pubholiday",
+      "label": "(including public holidays)"
+    },
+    {
+      "type": "label",
+      "key": "permissionDescriptionPart1",
+      "label": "We need to access your device's "
+    },
+    {
+      "type": "label",
+      "key": "permissionCamera",
+      "label": "camera "
+    },
+    {
+      "type": "label",
+      "key": "permissionMicrophone",
+      "label": "microphone "
+    },
+    {
+      "type": "label",
+      "key": "and",
+      "label": "and "
+    },
+    {
+      "type": "label",
+      "key": "permissionDescriptionPart2",
+      "label": "before you can proceed "
+    },
+    {
+      "type": "label",
+      "key": "info",
+      "label": "Once the request for consultation is sent, it cannot be recalled or cancelled."
+    },
+    {
+      "type": "label",
+      "key": "notes",
+      "label": ""
+    },
+    {
+      "type": "label",
+      "key": "grantaccess",
+      "label": "GRANT ACCESS"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "CANCEL"
+    },
+    {
+      "type": "label",
+      "key": "symptoms",
+      "label": " Please enter your symptoms (Optional)"
+    },
+    {
+      "type": "label",
+      "key": "max",
+      "label": "Max. "
+    },
+    {
+      "type": "label",
+      "key": "chars",
+      "label": "chars "
+    },
+    {
+      "type": "label",
+      "key": "proceed",
+      "label": "Proceed"
+    },
+    {
+      "image": "",
+      "label": "Camera",
+      "type": "permission",
+      "key": "camera"
+    },
+    {
+      "image": "",
+      "label": "Camera",
+      "type": "permissionInActive",
+      "key": "cameraInActive"
+    },
+    {
+      "image": "",
+      "label": "Microphone",
+      "type": "permission",
+      "key": "micro_phone"
+    },
+    {
+      "image": "",
+      "label": "Microphone",
+      "type": "permissionInActive",
+      "key": "microphoneInActive"
+    },
+    {
+      "type": "label",
+      "key": "permissionRequired",
+      "label": "Permissions required"
+    },
+    {
+      "type": "label",
+      "key": "permissionRequiredDescription",
+      "label": "To use this feature, both Camera and Microphone permissions are required. Click OK to take you to settings page where you can grant the permission."
+    },
+    {
+      "type": "label",
+      "key": "permok",
+      "label": "OK"
+    },
+    {
+      "type": "label",
+      "key": "permcancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "consultrequest",
+      "label": "Consultation request sent already"
+    },
+    {
+      "type": "label",
+      "key": "permissionGranted",
+      "label": "Permission garnted"
+    },
+    {
+      "type": "label",
+      "key": "permissionNotGranted",
+      "label": "Permission not granted"
+    },
+    {
+      "type": "label",
+      "key": "appointment_type",
+      "label": "Appointment Type:"
+    },
+    {
+      "type": "label",
+      "key": "pricing",
+      "label": "Pricing : "
+    },
+    {
+      "type": "label",
+      "key": "payment_by",
+      "label": "Payment by "
+    },
+    {
+      "type": "label",
+      "key": "video",
+      "label": "VIDEO"
+    },
+    {
+      "type": "label",
+      "key": "audio",
+      "label": "AUDIO"
+    },
+    {
+      "type": "label",
+      "key": "for_video_call",
+      "label": "For Video Call"
+    },
+    {
+      "type": "label",
+      "key": "for_audio_call",
+      "label": "For Audio Call"
+    },
+    {
+      "type": "label",
+      "key": "pay",
+      "label": "PAY"
+    },
+    {
+      "type": "label",
+      "key": "next",
+      "label": "NEXT"
+    },
+    {
+      "type": "label",
+      "key": "appointment_confirmed",
+      "label": "Appointment Confirmed"
+    },
+    {
+      "type": "label",
+      "key": "audio_consultation",
+      "label": "Audio Consultation"
+    },
+    {
+      "type": "label",
+      "key": "payment_successfull",
+      "label": "Payment Successfull"
+    },
+    {
+      "type": "label",
+      "key": "audio_appointment",
+      "label": "Audio Appointment"
+    },
+    {
+      "type": "label",
+      "key": "appointment_not_confirmed",
+      "label": "Appointment Not Confirmed"
+    },
+    {
+      "type": "label",
+      "key": "payment_failed",
+      "label": "Payment Failed"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "CANCEL"
+    },
+    {
+      "type": "label",
+      "key": "try_again",
+      "label": "TRY AGAIN"
+    },
+    {
+      "type": "label",
+      "key": "test",
+      "label": "Test"
+    }
+  ]
+}

@@ -447,6 +447,11 @@
     },
     {
       "type": "label",
+      "key": "enableJadeSubcription",
+      "label": "disabled"
+    },
+    {
+      "type": "label",
       "key": "scanAgainBtnText",
       "label": "Scan Again"
     },
@@ -468,7 +473,7 @@
     {
       "type": "label",
       "key": "jadeSubInactiveContent",
-      "label": "Subscribe to our Pulse elite - Jade Green to get Privilege of consulting our Dietician and other Exclusive premium features."
+      "label": "Subscribe to our Pulse elite - Jade Green to get Privilege of consulting our Nutritionist and other Exclusive premium features."
     },
     {
       "type": "label",
@@ -619,11 +624,6 @@
       "type": "label",
       "key": "appBookSuccess",
       "label": "Appointment successfully booked."
-    },
-    {
-      "type": "label",
-      "key": "enableJadeSubcription",
-      "label": "disabled"
     },
     {
       "type": "label",
@@ -947,6 +947,16 @@
     },
     {
       "type": "label",
+      "key": "videotReqSentText",
+      "label": "Video Consultation Request Sent"
+    },
+    {
+      "type": "label",
+      "key": "videoReqSentDescText",
+      "label": "Thanks for your request, Dietician will get back to you."
+    },
+    {
+      "type": "label",
       "key": "pendingRequests",
       "label": "Pending Requests"
     },
@@ -968,7 +978,7 @@
     {
       "type": "label",
       "key": "chatTitle",
-      "label": "Nutritionist"
+      "label": "Dietician"
     },
     {
       "type": "label",
@@ -1162,173 +1172,168 @@
     },
     {
       "type": "label",
-      "key": "viewMore",
-      "label": "View More"
-    },
+      "key": "userJourneyTnCPDF",
+      "label": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/TeleConsultation_multi_concent_EN?namespace=VN"
+    },    
     {
       "type": "label",
-      "key": "viewLess",
-      "label": "View Less"
-    },
+      "key": "close",
+      "label": "Close"
+    },    
     {
       "type": "label",
-      "key": "rescheduleAppointment",
-      "label": "Re-Schedule Appointment"
-    },
-    {
-      "type": "label",
-      "key": "rescheduleAppointmentAlertMsg",
-      "label": "Are you sure you want to Re-Schedule this Appointment"
-    },
-    {
-      "type": "label",
-      "key": "fromColon",
-      "label": "From:"
-    },
-    {
-      "type": "label",
-      "key": "toColon",
-      "label": "To:"
-    },
-    {
-      "type": "label",
-      "key": "at",
-      "label": "at"
-    },
-    {
-      "type": "label",
-      "key": "yesText",
-      "label": "Yes"
-    },
-    {
-      "type": "label",
-      "key": "noText",
-      "label": "No"
-    },
-    {
-      "type": "label",
-      "key": "videoCallRequest",
-      "label": "Video Call Request"
-    },
-    {
-      "type": "label",
-      "key": "viewProfile",
-      "label": "View Profile"
-    },
-    {
-      "type": "label",
-      "key": "nextAvailableColon",
-      "label": "Next Available:"
-    },
-    {
-      "type": "label",
-      "key": "myAppointmentColon",
-      "label": "My Appointment :"
-    },
-    {
-      "type": "label",
-      "key": "cancelAppointment",
-      "label": "Cancel Appointment"
-    },
-    {
-      "type": "label",
-      "key": "reSchedule",
-      "label": "Re-Schedule"
-    },
-    {
-      "type": "label",
-      "key": "aboutDoctor",
-      "label": "About Doctor"
-    },
-    {
-      "type": "label",
-      "key": "bio",
-      "label": "Bio"
-    },
-    {
-      "type": "label",
-      "key": "qualificationColon",
-      "label": "Qualification:"
-    },
-    {
-      "type": "label",
-      "key": "currentPositionColon",
-      "label": "Current Position:"
-    },
-    {
-      "type": "label",
-      "key": "specialistColon",
-      "label": "Specialist:"
-    },
-    {
-      "type": "label",
-      "key": "languageColon",
-      "label": "Language:"
-    },
-    {
-      "type": "label",
-      "key": "videoTabText",
-      "label": "Video"
-    },
-    {
-      "type": "label",
-      "key": "chatsTabText",
-      "label": "Chats"
-    },
-    {
-      "type": "label",
-      "key": "convHistory",
-      "label": "Conversation History"
-    },
-    {
-      "type": "label",
-      "key": "suggested",
-      "label": "Suggested"
-    },
-    {
-      "type": "label",
-      "key": "breakfastTime",
-      "label": "7 AM - 10 AM"
-    },
-    {
-      "type": "label",
-      "key": "lunchTime",
-      "label": "12 PM - 1:30 PM"
-    },
-    {
-      "type": "label",
-      "key": "dinnerTime",
-      "label": "7 PM - 8:30 AM"
-    },
-    {
-      "type": "label",
-      "key": "uwtermsConditionsDesc",
-      "label": "By clicking on Continue, you are agreeing to Pulse"
-    },
+      "key": "requested",
+      "label": "Requested"
+    },    
     {
       "type": "label",
       "key": "uwtermsConditions",
       "label": " Terms and Conditions"
-    },
+    },    
     {
       "type": "label",
-      "key": "requested",
-      "label": "Requested"
-    },
+      "key": "uwtermsConditionsDesc",
+      "label": "By clicking on Continue, you are agreeing to Pulse"
+    },    
     {
       "type": "label",
-      "key": "close",
-      "label": "Close"
-    },
+      "key": "dinnerTime",
+      "label": "7 PM - 8:30 PM"
+    },    
     {
       "type": "label",
-      "key": "requested",
-      "label": "Requested"
-    },
+      "key": "lunchTime",
+      "label": "12 PM - 1:30 PM"
+    },    
     {
       "type": "label",
-      "key": "close",
-      "label": "Close"
+      "key": "breakfastTime",
+      "label": "7 AM - 10 AM"
+    },    
+    {
+      "type": "label",
+      "key": "suggested",
+      "label": "Suggested"
+    },    
+    {
+      "type": "label",
+      "key": "viewMore",
+      "label": "View More"
+    },    
+    {
+      "type": "label",
+      "key": "viewLess",
+      "label": "View Less"
+    },        
+    {
+      "type": "label",
+      "key": "reSchedule",
+      "label": "Re-Schedule"
+    },    
+    {
+      "type": "label",
+      "key": "rescheduleAppointment",
+      "label": "Re-Schedule Appointment"
+    },    
+    {
+      "type": "label",
+      "key": "rescheduleAppointmentAlertMsg",
+      "label": "Are you sure you want to Re-Schedule this Appointment"
+    },        
+    {
+      "type": "label",
+      "key": "fromColon",
+      "label": "From:"
+    },    
+    {
+      "type": "label",
+      "key": "toColon",
+      "label": "To:"
+    },    
+    {
+      "type": "label",
+      "key": "at",
+      "label": "at"
+    },    
+    {
+      "type": "label",
+      "key": "yesText",
+      "label": "Yes"
+    },    
+    {
+      "type": "label",
+      "key": "noText",
+      "label": "No"
+    },    
+    {
+      "type": "label",
+      "key": "videoCallRequest",
+      "label": "Video Call Request"
+    },    
+    {
+      "type": "label",
+      "key": "viewProfile",
+      "label": "View Profile"
+    },    
+    {
+      "type": "label",
+      "key": "nextAvailableColon",
+      "label": "Next Available:"
+    },    
+    {
+      "type": "label",
+      "key": "myAppointmentColon",
+      "label": "My Appointment :"
+    },    
+    {
+      "type": "label",
+      "key": "cancelAppointment",
+      "label": "Cancel Appointment"
+    },    
+    {
+      "type": "label",
+      "key": "aboutDoctor",
+      "label": "About Doctor"
+    },    
+    {
+      "type": "label",
+      "key": "bio",
+      "label": "Bio"
+    },    
+    {
+      "type": "label",
+      "key": "qualificationColon",
+      "label": "Qualification:"
+    },    
+    {
+      "type": "label",
+      "key": "currentPositionColon",
+      "label": "Current Position:"
+    },    
+    {
+      "type": "label",
+      "key": "specialistColon",
+      "label": "Specialist:"
+    },    
+    {
+      "type": "label",
+      "key": "languageColon",
+      "label": "Language:"
+    },    
+    {
+      "type": "label",
+      "key": "videoTabText",
+      "label": "Video"
+    },    
+    {
+      "type": "label",
+      "key": "chatsTabText",
+      "label": "Chats"
+    },    
+    {
+      "type": "label",
+      "key": "convHistory",
+      "label": "Conversation History"
     },    
     {
       "type": "label",
