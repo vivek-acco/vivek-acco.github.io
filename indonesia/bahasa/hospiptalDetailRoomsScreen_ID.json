@@ -1,0 +1,22 @@
+{
+  "image": "",
+  "label": "Kamar RS",
+  "key": "hospiptalDetailRoomsScreen",
+  "elements": [
+    {
+      "type": "tab",
+      "key": "roomTypeTitle",
+      "label": "Jenis"
+    },
+    {
+      "type": "tab",
+      "key": "roomCostTitle",
+      "label": ""
+    },
+    {
+      "type": "placeholder",
+      "key": "emptyRoomsPlaceholder",
+      "label": "Tidak ada Room"
+    }
+  ]
+}

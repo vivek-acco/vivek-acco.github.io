@@ -1,0 +1,142 @@
+{
+  "image": "",
+  "label": "",
+  "key": "docRegisterPage",
+  "elements": [
+    {
+      "type": "label",
+      "key": "doneKey",
+      "label": "Selesai"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterNricRequired",
+      "label": "Masukkan nomor KTP"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageTitle1",
+      "label": "Sebelum kami bantu, kami perlu mengetahui beberapa detail tentang kamu"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageIsRequired",
+      "label": "harus diisi"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageTitle2",
+      "label": "Bantu kami untuk memberikan saran terbaik untukmu"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageFirstName",
+      "label": "Nama depan"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageLastName",
+      "label": "Nama belakang"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageDateOfBirth",
+      "label": "Tanggal Lahir"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPagePhoneNumber",
+      "label": "Nomor telepon"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPagePhoneNumberError",
+      "label": "Nomor telepon harus diisi"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterGenderError",
+      "label": "Jenis kelamin harus diisi"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageDOBError",
+      "label": "Tanggal lahir harus diisi"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageEmail",
+      "label": "Email"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageCountry",
+      "label": "Wilayah Tempat Tinggal"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPagePhone",
+      "label": "Telepon"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageUpdateText",
+      "label": "Jika kamu ingin mengubah informasi, silakan perbarui profilmu"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageHereLinkText",
+      "label": "di sini"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageConsentText",
+      "label": "Saya memberikan persetujuan saya kepada Pulse untuk membagikan informasi pribadi saya"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageProceedBtn",
+      "label": "MEMPROSES"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageVerifyBtn",
+      "label": "Verifikasi Sekarang"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageOtp",
+      "label": "Masukkan OTP"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageResendOtp",
+      "label": "Kirim Ulang OTP"
+    },
+    {
+      "type": "label",
+      "key": "docRegisterPageCancelBtn",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "unverified",
+      "label": "(Belum diverifikasi)"
+    },
+    {
+      "type": "label",
+      "key": "verified",
+      "label": "(Telah diverifikasi)"
+    },
+    {
+      "key": "docRegisterPageUploadText",
+      "label": "Kirim",
+      "type": "label"
+    },
+    {
+      "key": "docRegisterPageDob",
+      "label": "Tanggal Lahir",
+      "type": "label"
+    }
+  ]
+}

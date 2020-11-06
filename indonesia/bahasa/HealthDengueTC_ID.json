@@ -1,0 +1,46 @@
+{
+  "key": "HealthDengueTC",
+  "image": "",
+  "elements": [
+    {
+      "label": "Tetap Waspada!",
+      "type": "label",
+      "key": "StayAlert"
+    },
+    {
+      "label": "Aplikasi ini akan memberi tahu jika area dimana kamu berada saat ini (atau akan bepergian) berisiko mengalami wabah",
+      "type": "label",
+      "key": "HealthDengueTCdescription"
+    },
+    {
+      "label": "Apabila",
+      "type": "label",
+      "key": "Whenever"
+    },
+    {
+      "label": "muncul, kamu menerima layanan dari AIME",
+      "type": "label",
+      "key": "fromAIME"
+    },
+    {
+      "label": "Dengan mengklik Setuju di bawah ini, saya menyetujui Syarat & Ketentuan AIME",
+      "type": "label",
+      "key": "TermsConditions"
+    },
+    {
+      "label": "Saya setuju",
+      "type": "label",
+      "key": "IAgree"
+    },
+    {
+      "label": "Syarat & Ketentuan AIME",
+      "type": "label",
+      "key": "AIMETermsConditions"
+    },
+    {
+      "label": "Cari Lokasi",
+      "type": "label",
+      "key": "SearchLocation"
+    }
+  ]
+}

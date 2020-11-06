@@ -1,0 +1,146 @@
+{
+  "key": "HomeNew",
+  "image": "",
+  "elements": [
+    {
+      "label": "Selamat datang kembali",
+      "type": "label",
+      "key": "WelcomeBack"
+    },
+    {
+      "label": "Hai!",
+      "type": "label",
+      "key": "homeWelcome"
+    },
+    {
+      "label": "Info seputar kesehatan",
+      "type": "label",
+      "key": "homeHealthChannel"
+    },
+    {
+      "label": "Informasi Covid-19",
+      "type": "label",
+      "key": "homeHealthLatestContent"
+    },
+    {
+      "label": "Info seputar kesehatan",
+      "type": "label",
+      "key": "homeHealthAdvisory"
+    },
+    {
+      "label": "Tonton sekarang",
+      "type": "label",
+      "key": "homeWatchNow"
+    },
+    {
+      "label": "Waktu Sholat",
+      "type": "label",
+      "key": "PrayerTime"
+    },
+    {
+      "label": "Pantau waktu sholat dan bantu kamu selalu tepat waktu beribadah.",
+      "type": "label",
+      "key": "InsanCardprompt"
+    },
+    {
+      "label": "Kamu akan menghapus fitur Waktu Sholat. Untuk mengaktifkan kembali, akses 'Customize' di menu pengaturan akun.",
+      "type": "label",
+      "key": "closePrayerCard"
+    },
+    {
+      "label": "Alert",
+      "type": "label",
+      "key": "prayerAlert"
+    },
+    {
+      "label": "IYA",
+      "type": "label",
+      "key": "prayerAlertYes"
+    },
+    {
+      "label": "TIDAK",
+      "type": "label",
+      "key": "prayerAlertNo"
+    },
+    {
+      "label": "Ayo Mulai",
+      "type": "label",
+      "key": "GetStarted"
+    },
+    {
+      "label": "Tantang Diri Kamu",
+      "type": "label",
+      "key": "ChallengeYourself"
+    },
+    {
+      "label": "Bergabunglah dengan tantangan ini untuk mendapatkan kesempatan memenangkan iPhone X!",
+      "type": "label",
+      "key": "Challengeprompt"
+    },
+    {
+      "label": "Berita & Info Terkini",
+      "type": "label",
+      "key": "NewsUpdate"
+    },
+    {
+      "label": "CARI",
+      "type": "label",
+      "key": "SEARCH"
+    },
+    {
+      "label": "",
+      "type": "label",
+      "key": "HEALTH_EMPTY_SEARCH"
+    },
+    {
+      "label": "Berita",
+      "type": "label",
+      "key": "NEWS"
+    },
+    {
+      "label": "Kode Voucher COVID-19 Rapid Test",
+      "type": "label",
+      "key": "covidCoupon"
+    },
+    {
+      "label": "ZVAWELKA09",
+      "type": "label",
+      "key": "CovidCouponCode"
+    },
+    {
+      "label": "Membatalkan",
+      "type": "label",
+      "key": "cancelCovidCoupon"
+    },
+    {
+      "label": "Lanjutkan pemesanan anda sekarang",
+      "type": "label",
+      "key": "ProceedCovidCoupon"
+    },
+    {
+      "label": "Mohon maaf. Silakan coba lagi.",
+      "type": "label",
+      "key": "earnRewardError"
+    },
+    {
+      "label": "Harap ingat dan simpan kode kupon dengan aman bersama Anda.",
+      "type": "label",
+      "key": "rememberCoupon"
+    },
+    {
+      "label": "Dapatkan kode kupon COVID-19 gratis sekarang",
+      "type": "label",
+      "key": "covidCouponButton"
+    },
+    {
+      "type": "label",
+      "label": "<p style=\"font-size:9.5px;\"><ol><li>Kode Kupon/Voucher untuk Rapid Test COVID-19 Drive Service disediakan oleh PRUDENTIAL INDONESIA atas kerja sama dengan HALODOC.</li><li>Kode Kupon/Voucher hanya untuk satu kali pakai, dan untuk digunakan pada Rapid Test COVID-19 Drive Service yang dioperasikan oleh HALODOC. Satu Pengguna hanya berhak mendapatkan satu Kode Kupon/Voucher.</li><li>Kode Kupon/Voucher yang diperoleh pada periode 28 April 2020 sampai dengan 31 Mei 2020 akan berlaku sampai dengan tanggal 31 Mei 2020. Kode Kupon/Voucher yang diperoleh pada periode 1 Juni 2020 sampai dengan 13 Juni 2020 akan berlaku sampai dengan tanggal 19 Juni 2020, sedangkan Kode Kupon/Voucher yang diperoleh pada periode 14 Juni 2020 sampai dengan 30 Juni 2020 akan berlaku sampai dengan tanggal 30 Juni 2020.</li><li>Untuk mendapatkan kode Kupon/Voucher, Pengguna harus:<br />a. Melengkapi fitur Pemeriksaan Kesehatan yang tersedia di aplikasi Pulse; dan<br />b. Memberikan referensi minimal 2 Pengguna baru untuk mengunduh dan mendaftar di aplikasi Pulse.</li><li>Penggunaan Kode Kupon/Voucher tunduk kepada Syarat-syarat dan Ketentuan-ketentuan dari HALODOC. Mohon mengacu ke aplikasi HALODOC untuk informasi rinci Syarat-syarat dan Ketentuan-ketentuan.</li><li>Memiliki Kode Kupon/Voucher tidak memberikan jaminan untuk memperoleh Rapid Test COVID-19 Drive Service, namun berdasarkan ketersediaan di HALODOC.</li><li>Penawaran yang disediakan selama periode 1 Juni 2020 sampai 30 Juni 2020 tidak melebihi 50.000 Kode Kupon/Voucher.</li><li>PRUDENTIAL INDONESIA berhak untuk mengubah, memutuskan, menghentikan program ini sewaktu-waktu dengan pemberitahuan sebelumnya.</li></ol></p>",
+      "key": "covidCoupontermsAndConditions"
+    },
+    {
+      "label": "Dengan klik tombol ‘Lanjut pemesanan anda sekarang’, Saya menyetujui Syarat-syarat dan Ketentuan-ketentuan di bawah ini:",
+      "type": "label",
+      "key": "covidCoupontermsAndConditionsHeading"
+    }
+  ]
+}

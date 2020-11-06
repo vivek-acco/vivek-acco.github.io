@@ -1,0 +1,99 @@
+{
+  "image": "",
+  "key": "UserTransactionLinks",
+  "requiredTransaction": [
+    "updateBeneficiaryRequired",
+    "enableClaimsJourney",
+    "enableRenewJourney",
+    "enableCancelJourney",
+    "endorsementRequired",
+    "enableCancelAutoDebit"
+  ],
+  "showLinksInDetailInfo": [
+    "updateBeneficiaryRequired"
+  ],
+  "elements": [
+    {
+      "label": "Update Policy",
+      "type": "label",
+      "key": "updatePolicy"
+    },
+    {
+      "label": "Update Beneficiary",
+      "type": "label",
+      "key": "CHANGEBENEFICIARY",
+      "action": {
+        "context": "PRODUCT_JOURNEYS",
+        "type": "product-journeys/add-beneficiary-for-existing-policy"
+      },
+      "overrideField": "updateBeneficiaryRequired",
+      "iconUrl": ""
+    },
+    {
+      "label": "Update Contact Details",
+      "type": "label",
+      "key": "CHANGECONTACTDETAILS",
+      "action": {
+        "context": "UPDATE_INFO_SCREEN",
+        "type": "myPolicy/getPolicyDetails"
+      },
+      "overrideField": "endorsementRequired",
+      "iconUrl": ""
+    },
+    {
+      "label": "Register a Claim",
+      "type": "label",
+      "key": "MAJORCLAIMS",
+      "action": {
+        "context": "myClaims",
+        "type": "registerClaimfsm"
+      },
+      "overrideField": "enableClaimsJourney",
+      "iconUrl": ""
+    },
+    {
+      "label": "Register a Claim",
+      "type": "label",
+      "key": "MINORCLAIMS",
+      "action": {
+        "context": "myClaims",
+        "type": "registerClaimfsm"
+      },
+      "overrideField": "enableClaimsJourney",
+      "iconUrl": ""
+    },
+    {
+      "label": "Renew",
+      "type": "label",
+      "key": "RENEW",
+      "action": {
+        "context": "RENEW_PRODUCT",
+        "type": "renewProduct"
+      },
+      "overrideField": "enableRenewJourney",
+      "iconUrl": ""
+    },
+    {
+      "label": "Cancel Policy",
+      "type": "label",
+      "key": "CANCEL",
+      "action": {
+        "context": "CANCEL_JOURNEY",
+        "type": "cancelPolicy"
+      },
+      "overrideField": "enableCancelJourney",
+      "iconUrl": ""
+    },
+    {
+      "label": "Cancel Auto Debit",
+      "type": "label",
+      "key": "CANCELAUTORENEW",
+      "action": {
+        "context": "PRODUCT_JOURNEYS",
+        "type": "product-journeys/cancel-auto-debit"
+      },
+      "overrideField": "enableCancelAutoDebit",
+      "iconUrl": ""
+    }
+  ]
+}

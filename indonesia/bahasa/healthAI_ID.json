@@ -1,0 +1,322 @@
+{
+    "image": "",
+    "label": "",
+    "key": "healthAI",
+    "elements": [
+        {
+            "image": "",
+            "key": "focusCameraText",
+            "label": "Please focus at the center, ensure sufficient lighting around your eyes and click the button when ready"
+        },
+        {
+            "image": "",
+            "key": "eyeResult",
+            "label": "Eye Result"
+        },
+        {
+            "image": "",
+            "key": "yourEyeIsLabel",
+            "label": "Your eye is "
+        },
+        {
+            "image": "",
+            "key": "diagnosisFailed",
+            "label": "Diagnosis Failed"
+        },
+        {
+            "image": "",
+            "key": "probabilityLabel",
+            "label": "Prediction(%): "
+        },
+        {
+            "image": "",
+            "key": "resp",
+            "label": "Respiration Rate"
+        },
+        {
+            "image": "",
+            "key": "spo2",
+            "label": "Saturated Oxygen Level"
+        },
+        {
+            "image": "",
+            "key": "focusVideoText",
+            "label": "Focus on the center of screen"
+        },
+        {
+            "image": "",
+            "key": "errorVideoText",
+            "label": "Failed to get results"
+        },
+        {
+            "image": "",
+            "key": "loadCameraText",
+            "label": "Estimating your result..."
+        },
+        {
+            "type": "label",
+            "key": "healthyEye",
+            "label": "My Eye Clinic Assessment"
+        },
+        {
+            "type": "label",
+            "key": "pinkEye",
+            "label": "My Eye Clinic Assessment"
+        },
+        {
+            "type": "label",
+            "key": "jaundiceEye",
+            "label": "My Eye Clinic Assessment"
+        },
+        {
+            "type": "label",
+            "key": "yellowEyeInstruction",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look yellow, this often happens if your bilirubin levels are high. If you have any associated symptoms, please get your eyes and overall health checked by a specialist. Thank you for visiting the OnePulse AI enabled Eye Clinic"
+        },
+        {
+            "type": "label",
+            "key": "pinkEyeInstruction",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look pink, this often happens if you have conjunctivitis. If you have any associated symptoms, please consult an eye specialist at the earliest. Thank you for visiting the OnePulse AI enabled Eye Clinic"
+        },
+        {
+            "type": "label",
+            "key": "healthyEyeInstruction",
+            "label": "Fabulous - Our OnePulse AI Eye Specialist assesses that you do not have conjunctivitis, jaundice, or cataract. Please continue to take good care of your eyes.If you have any irritations in your eye, please consult an eye specialist at the earliest.Thank you for visiting the OnePulse AI enabled Eye Clinic"
+        },
+        {
+            "type": "label",
+            "key": "share",
+            "label": "Share"
+        },
+        {
+            "type":"label",
+            "label": "Fabulous - Our OnePulse AI Eye Specialist assesses that you do not have conjunctivitis, or jaundice, or cataract.\n\nPlease continue to take good care of your eyes.\n\nIf you have any irritations in your eye, please consult an eye specialist at the earliest.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "instruction"
+        },
+        {
+            "type":"label",
+            "label": "My Eye Clinic Assessment",
+            "key": "yourResult"
+        },
+        {
+            "type": "label",
+            "label": "Please wait while your video uploading...",
+            "key": "videoUploadDesc"
+        },
+        {
+            "type": "label",
+            "label": "Eye Monitoring",
+            "key": "eyeMonitoring"
+        },
+        {
+            "type": "label",
+            "label": "Your Eye is Pink",
+            "key": "pinkEyeStatus"
+        },
+        {
+            "type": "label",
+            "label": "Your Eye is Yellow",
+            "key": "yellowEyeStatus"
+        },
+        {
+            "type": "label",
+            "label": "Fabulous! Your eye is Healthy",
+            "key": "healthyEyeStatus"
+        },
+        {
+            "type": "label",
+            "label": "What you should do next?",
+            "key": "nextStepLabel"
+        },
+        {
+            "type": "label",
+            "label": "Thank you for visiting the OnePulse AI enabled Eye Clinic!",
+            "key": "thankYouLabel"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look pink, this often happens if you have conjunctivitis.",
+            "key": "pinkEyeInstruction1"
+        },
+        {
+            "type": "label",
+            "label": "If you have any associated symptoms, please get your eyes and overall health checked by a specialist.",
+            "key": "pinkEyeInstruction2"
+        },
+        {
+            "type": "label",
+            "label": "Please continue to take good care of your eyes.",
+            "key": "pinkEyeInstruction3"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look yellow, this often happens if your bilirubin levels are high.",
+            "key": "yellowEyeInstruction1"
+        },
+        {
+            "type": "label",
+            "label": "If you have any associated symptoms, please get your eyes and overall health checked by a specialist.",
+            "key": "yellowEyeInstruction2"
+        },
+        {
+            "type": "label",
+            "label": "Please continue to take good care of your eyes.",
+            "key": "yellowEyeInstruction3"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that you do not have conjunctivitis or jaundice. ",
+            "key": "instruction1"
+        },
+        {
+            "type": "label",
+            "label": "Please continue to take good care of your eyes.",
+            "key": "instruction2"
+        },
+        {
+            "type": "label",
+            "label": "If you have any irritations in your eye, please consult an eye specialist at the earliest.",
+            "key": "instruction3"
+        },
+        {
+            "type": "label",
+            "label": "Failed to get results. Please try again later.",
+            "key": "eyeMonitoringErrorMsg"
+        },
+        {
+            "type": "label",
+            "label": "My Eye Clinic Assessment",
+            "key": "Pink Eyes"
+        },
+        {
+            "type": "label",
+            "label": "My Eye Clinic Assessment",
+            "key": "Jaundice Eyes"
+        },
+        {
+            "type": "label",
+            "label": "My Eye Clinic Assessment",
+            "key": "Healthy"
+        },
+        {
+            "type": "label",
+            "label": "<span style='text-align: center'><strong>Thank you for visiting the <span style='color:#ED1B2E'>Pulse</span> AI<br>enabled Eye Clinic!</strong></span>",
+            "key": "footer"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look <b>pink</b>, this often happens if you have <b>conjunctivitis</b>.\n\nIf you have any associated symptoms, please consult an eye specialist at the earliest.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "Pink Eyes_instructions"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your eyes look <b>yellow</b>, this often happens if your <b>bilirubin levels</b> are high.\n\nIf you have any associated symptoms, please get your eyes and overall health checked by a specialist.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "Jaundice Eyes_instructions"
+        },
+        {
+            "type": "label",
+            "label": "Fabulous - Our OnePulse AI Eye Specialist assesses that you do not have conjunctivitis, or jaundice, or cataract.\n\nPlease continue to take good care of your eyes.\n\nIf you have any irritations in your eye, please consult an eye specialist at the earliest.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "Healthy_instructions"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your left eye may have <b>Cataract</b>.\n\nCataracts may cause a variety of complaints and visual changes, including blurred vision, difficulty with glare , dulled color vision, increased nearsightedness.\n\nIf you have any associated symptoms, please get your eyes and overall health checked by a specialist.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "leftCataractEye_instructions"
+        },
+        {
+            "type": "label",
+            "label": "Our OnePulse AI Eye Specialist assesses that your right eye may have <b>Cataract</b>.\n\nCataracts may cause a variety of complaints and visual changes, including blurred vision, difficulty with glare , dulled color vision, increased nearsightedness.\n\nIf you have any associated symptoms, please get your eyes and overall health checked by a specialist.\n\nThank you for visiting the OnePulse AI enabled Eye Clinic.",
+            "key": "rightCataractEye_instructions"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 12px'>Your eyes look pink.Pinkness, redness or inflammation can be one of the signs of conjunctivitis.<br><br>If you experience any discomfort or abnormality with your eyes, please consult a doctor, you may also use our AI enabled <br><br><div style='align-self:center;text-align:center;background-color:#ED1B2E;color:white;height:30;width:200;border-radius:5;line-height:30'><a href='#' data-source='symptomChecker' style='align-self:center;text-decoration:none;'>Check Symptoms</a></div><br><br><span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span></span>",
+            "key": "Pink Eyes_eyeinstructions"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 12px'>Your eyes show signs of yellowness, this often happens if your bilirubin levels are high.High bilirubin levels are one of the signs of jaundice.<br><br>If you experience any discomfort or abnormality with your eyes, please consult a doctor, you may also use our AI enabled <br><br><div style='align-self:center;text-align:center;background-color:#ED1B2E;color:white;height:30;width:200;border-radius:5;line-height:30'><a href='#' data-source='symptomChecker' style='align-self:center;text-decoration:none;'>Check Symptoms</a></div><br><br><span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span></span>",
+            "key": "Jaundice Eyes_eyeinstructions"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 12px'>Our AI does not detect any clear signs of cataract, jaundice or conjunctivitis.<br><br>Yellow colouration in the eyes may indicate high bilirubin levels which can indicate jaundice.Pink colouration in the eyes may indicate inflammation which is often associated with conjunctivitis.A cataract is a buildup of protein on the cornea that can cause it to look cloudy, whitish or grey.<br><br>Please continue to take care of your eyes and have an eye check regularly.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled <br><br><div style='align-self:center;text-align:center;background-color:#ED1B2E;color:white;height:30;width:200;border-radius:5;line-height:30'><a href='#' data-source='symptomChecker' style='align-self:center;text-decoration:none;'>Check Symptoms</a></div><br><br><span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span></span>",
+            "key": "Healthy_eyeinstructions"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 12px'>There are signs of greyness or cloudiness in your Cornea.This can be sign of protein buildup which can indicate a Cataract buildup.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled <br><br><div style='align-self:center;text-align:center;background-color:#ED1B2E;color:white;height:30;width:200;border-radius:5;line-height:30'><a href='#' data-source='symptomChecker' style='align-self:center;text-decoration:none;'>Check Symptoms</a></div><br><br><span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span></span>",
+            "key": "leftCataractEye_eyeinstructions"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 12px'>There are signs of greyness or cloudiness in your Cornea.This can be sign of protein buildup which can indicate a Cataract buildup.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled <br><br><div style='align-self:center;text-align:center;background-color:#ED1B2E;color:white;height:30;width:200;border-radius:5;line-height:30'><a href='#' data-source='symptomChecker' style='align-self:center;text-decoration:none;'>Check Symptoms</a></div><br><br><span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span></span>",
+            "key": "rightCataractEye_eyeinstructions"
+        },
+        {
+            "type": "label",
+            "label": "Your Result",
+            "key": "yourResultText"
+        },
+        {
+            "type": "label",
+            "label": "Periksa Gejala",
+            "key": "symtomChecker"
+        },
+        {
+            "type": "label",
+            "label": "Try Healthcheck",
+            "key": "teleconsultation"
+        },
+        {
+            "type": "label",
+            "label": "<span style='font-size: 8px'>These AI Eye Clinic features are intended to be used for general wellbeing purposes, and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided by these AI Eye Clinic features should not be treated as medical advice or diagnosis.</span>",
+            "key": "termsCondition"
+        },
+        {
+            "type": "object",
+            "key": "Healthy_details",
+            "data": {
+                "instructions": ["<span style='font-size: 12px'>Our AI does not detect any clear signs of cataract, jaundice or conjunctivitis.<br><br>Yellow colouration in the eyes may indicate high bilirubin levels which can indicate jaundice.<br>Pink colouration in the eyes may indicate inflammation which is often associated with conjunctivitis.<br>A cataract is a buildup of protein on the cornea that can cause it to look cloudy, whitish or grey.<br><br>Please continue to take care of your eyes and have an eye check regularly.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled</span>"],
+                "circleColor": "81, 81, 81",
+                "tnc": ""
+            }
+        },
+        {
+            "type": "object",
+            "key": "Pink Eyes_details",
+            "data": {
+                "instructions": ["<span style='font-size: 12px'>Your eyes look pink.Pinkness, redness or inflammation can be one of the signs of conjunctivitis.<br><br>If you experience any discomfort or abnormality with your eyes, please consult a doctor, you may also use our AI enabled</span>"],
+                "circleColor": "81, 81, 81",
+                "tnc": ""
+            }
+        },
+        {
+            "type": "object",
+            "key": "Jaundice Eyes_details",
+            "data": {
+                "instructions": ["<span style='font-size: 12px'>Your eyes show signs of yellowness, this often happens if your bilirubin levels are high.High bilirubin levels are one of the signs of jaundice.<br><br>If you experience any discomfort or abnormality with your eyes, please consult a doctor, you may also use our AI enabled</span>"],
+                "circleColor": "81, 81, 81",
+                "tnc": ""
+            }
+        },
+        {
+            "type": "object",
+            "key": "leftCataractEye_details",
+            "data": {
+                "instructions": ["<span style='font-size: 12px'>There are signs of greyness or cloudiness in your Cornea.This can be sign of protein buildup which can indicate a Cataract buildup.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled</span>"],
+                "circleColor": "81, 81, 81",
+                "tnc": ""
+            }
+        },
+        {
+            "type": "object",
+            "key": "rightCataractEye_details",
+            "data": {
+                "instructions": ["<span style='font-size: 12px'>There are signs of greyness or cloudiness in your Cornea.This can be sign of protein buildup which can indicate a Cataract buildup.<br><br>If experience clouded or blurred vision or heightened sensitivity or discomfort with light and glare, please consult a doctor, you may also use our AI enabled</span>"],
+                "circleColor": "81, 81, 81",
+                "tnc": ""
+            }
+        }
+    ]
+}

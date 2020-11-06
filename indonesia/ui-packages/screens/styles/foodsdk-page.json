@@ -1,0 +1,85 @@
+{
+  "default": {
+    "tileContainer": {
+      "backgroundColor": "#ffffff",
+      "elevation": 5,
+      "paddingHorizontal": 2,
+      "marginHorizontal": 14,
+      "paddingVertical": 2,
+      "justifyContent": "center",
+      "marginVertical": 10,
+      "borderRadius": 3.3,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "width": 0,
+        "height": 2
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84
+    },
+    "descriptionContainer": {
+      "flexDirection": "row",
+      "justifyContent": "space-evenly"
+    },
+    "imageStyle": {
+      "width": "100%",
+      "height": 150,
+      "borderRadius": 3.3
+    },
+    "screenText": {
+      "fontFamily": "Open Sans",
+      "lineHeight": 16.7,
+      "fontSize": 12,
+      "color": "#ffffff",
+      "marginTop": 5,
+      "marginBottom": 3
+    },
+    "imageBackGround": {
+      "position": "absolute",
+      "top": 3,
+      "marginLeft": 7
+    },
+    "buttonContainer": {
+      "backgroundColor": "transparent",
+      "width": 136.7,
+      "height": 40,
+      "borderRadius": 130.3,
+      "position":"absolute",
+      "bottom":16,
+      "right":20
+    },
+    "textStyle": {
+      "fontFamily": "Open Sans",
+      "color": "#ffffff",
+      "fontSize": 16,
+      "lineHeight": 22,
+      "fontWeight": "bold"
+    },
+    "medicalRecords": {
+      "lineHeight": 16.7,
+      "fontSize": 12,
+      "color": "#ec1c2e",
+      "margin": 7,
+      "alginSelf": "center"
+    },
+    "buttonGradient": {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "width": 136.7,
+      "height": 40,
+      "borderRadius": 130.3
+    },
+    "buttonText": {
+      "fontFamily": "Open Sans",
+      "lineHeight": 14.7,
+      "fontSize": 10.7,
+      "color": "#ffffff",
+      "fontWeight": "bold"
+    },
+    "titleUnderline": {
+      "borderBottomWidth": 2,
+      "borderBottomColor": "#ec1c2e",
+      "width": "10%"
+    }
+  }
+}

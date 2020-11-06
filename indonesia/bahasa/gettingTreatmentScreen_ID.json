@@ -1,0 +1,17 @@
+{
+  "image": "",
+  "label": "",
+  "key": "gettingTreatmentScreen",
+  "elements": [
+    {
+      "image": "",
+      "key": "gettingTreatmentLabel",
+      "label": "Dapatkan Perawatan"
+    },
+    {
+      "image": "",
+      "key": "gettingTreatmentIcon",
+      "label": ""
+    }
+  ]
+}

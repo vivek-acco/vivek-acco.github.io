@@ -1,0 +1,1 @@
+{"image": "", "label": "Doctors", "key": "hospiptalDetailDoctorsScreen", "elements": [{"type": "placeholder", "key": "searchDoctorsPlaceholder", "label": "Search Doctors"}, {"type": "placeholder", "key": "emptyDoctorsPlaceholder", "label": "No Doctors"}]}

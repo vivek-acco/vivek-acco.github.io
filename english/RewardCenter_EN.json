@@ -1,0 +1,549 @@
+{
+  "key": "RewardCenter",
+  "image": "",
+  "elements": [
+    {
+      "label": false,
+      "type": "label",
+      "key": "enableNewRewardsUI"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableVoucher"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableBadge"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableFAQ"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableMyRewards"
+    },
+    {
+      "label": "FAQ List",
+      "type": "label",
+      "key": "faqQaList",
+      "faqQaList": [
+        {
+          "question": "1. What is the My Rewards feature of the app?",
+          "answer": "My Rewards enables users to earn points with repeated use of the different features of Pulse. You can view how many points you have earned and later exchange these for cool and exciting rewards."
+        },
+        {
+          "question": "2. How will I be able to use these points?",
+          "answer": "Your points can be used to claim exciting rewards that will soon be added to the Pulse app. Stay tuned for further announcements."
+        },
+        {
+          "question": "3. How do I earn more points?",
+          "answer": "You may earn more points by using and completing Pulse features. There are corresponding points for use of the different features of the app. \nComplete Healthcheck 15 points \nUse Symptom Checker 5 points \nRefer a Friend 2 points \nNote: \nAdditional points will soon be added to other Pulse features. \nPoint system might also change favorably as we improve our future rewards."
+        },
+        {
+          "question": "4. I have completed Healthcheck and used Symptom Checker previously, will I earn points for those activities?",
+          "answer": "No. You will only earn points from your activities starting March 19 up to present."
+        },
+        {
+          "question": "5. Where can I view the points I have earned?",
+          "answer": "You can check your points by clicking Account on your app, then go to My Rewards and you can view the total points you’ve earned in My Reward Wallet, including a detailed summary or your rewards points."
+        },
+        {
+          "question": "6. How long will it take for points to be posted to my account?",
+          "answer": "You should receive points in your account immediately once you complete a Pulse feature."
+        },
+        {
+          "question": "7. Will my points expire?",
+          "answer": "No. Your My Rewards points will never expire and will continue to accumulate."
+        },
+        {
+          "question": "8. Does it cost anything to begin earning points?",
+          "answer": "Download and use of the Pulse app is free. Once you’ve registered to the app, you immediately earn 2 points and will continue to earn points with continued use of the app."
+        },
+        {
+          "question": "9. Can I transfer points to a friend?",
+          "answer": "Points are non-transferable. All points are awarded every Pulse user through continued use of the different Pulse features."
+        }
+      ]
+    },
+    {
+      "label": "Rewards",
+      "type": "label",
+      "key": "rewards"
+    },
+    {
+      "label": "You currently have",
+      "type": "label",
+      "key": "youcurrentlyhave"
+    },
+    {
+      "label": "No Transactions",
+      "type": "label",
+      "key": "notransactions"
+    },
+    {
+      "label": "Earn more rewards?",
+      "type": "label",
+      "key": "earnMoreRewards"
+    },
+    {
+      "label": "My Badges",
+      "type": "label",
+      "key": "transactions"
+    },
+    {
+      "label": "FAQ",
+      "type": "label",
+      "key": "faq"
+    },
+    {
+      "label": "Successful Referral",
+      "type": "label",
+      "key": "successfulReferral"
+    },
+    {
+      "label": "Complete your health check",
+      "type": "label",
+      "key": "cha"
+    },
+    {
+      "label": "Use Symptom Checker",
+      "type": "label",
+      "key": "csc"
+    },
+    {
+      "label": "View All",
+      "type": "label",
+      "key": "viewAll"
+    },
+    {
+      "label": "Coming soon",
+      "type": "label",
+      "key": "comingSoon"
+    },
+    {
+      "label": "Bonus Rewarded",
+      "type": "label",
+      "key": "bonusRewarded"
+    },
+    {
+      "label": "15",
+      "type": "label",
+      "key": "firstRewardValue"
+    },
+    {
+      "label": "5",
+      "type": "label",
+      "key": "secondRewardValue"
+    },
+    {
+      "label": "My Rewards",
+      "type": "label",
+      "key": "myRewards"
+    },
+    {
+      "label": "No Rewards Yet",
+      "type": "label",
+      "key": "noRewards"
+    },
+    {
+      "label": "Please check back here regularly after taking up a few activities in Pulse.",
+      "type": "label",
+      "key": "checkRegularly"
+    },
+    {
+      "label": "Curated Content",
+      "type": "label",
+      "key": "curatedContent"
+    },
+    {
+      "label": "Experiences",
+      "type": "label",
+      "key": "experiences"
+    },
+    {
+      "label": "Vouchers",
+      "type": "label",
+      "key": "vouchers"
+    },
+    {
+      "label": "Badges",
+      "type": "label",
+      "key": "badges"
+    },
+    {
+      "label": "Health",
+      "type": "label",
+      "key": "health"
+    },
+    {
+      "label": "Food",
+      "type": "label",
+      "key": "food"
+    },
+    {
+      "label": "Fitness",
+      "type": "label",
+      "key": "fitness"
+    },
+    {
+      "label": "Entertainment",
+      "type": "label",
+      "key": "entertainment"
+    },
+    {
+      "label": "Fuel",
+      "type": "label",
+      "key": "fuel"
+    },
+    {
+      "label": "What is this?",
+      "type": "label",
+      "key": "whatisthis"
+    },
+    {
+      "label": "Expires On",
+      "type": "label",
+      "key": "expireson"
+    },
+    {
+      "label": "We are happy to expand our Pulse family and we thank you for helping us extend it. We would like to show our loyalty by rewarding you for the same. Get rewarded for every referral.",
+      "type": "label",
+      "key": "rewardProgressInfo"
+    },
+    {
+      "label": "No experiance yet",
+      "type": "label",
+      "key": "noexperions"
+    },
+    {
+      "label": "No badges yet",
+      "type": "label",
+      "key": "nobadge"
+    },
+    {
+      "label": "No vouchers yet",
+      "type": "label",
+      "key": "novoucher"
+    },
+    {
+      "label": "Expires on",
+      "type": "label",
+      "key": "expiredin"
+    },
+    {
+      "label": "Expired",
+      "type": "label",
+      "key": "expired"
+    },
+    {
+      "label": "Reward Progress",
+      "type": "label",
+      "key": "rewardProgress",
+      "rewardProgressList": [
+        {
+          "key": 0,
+          "date": "03 Jan 2020",
+          "point": "20",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": true
+        },
+        {
+          "key": 1,
+          "date": "20 Jan 2020",
+          "point": "30",
+          "desc": "You have reacthed 30 referrals. You will earn 1 badge for every 4 referrals going forward",
+          "isLastIndex": false,
+          "bonusRewarded": true,
+          "taskCompleted": true
+        },
+        {
+          "key": 2,
+          "point": "50",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        },
+        {
+          "key": 3,
+          "point": "60",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        },
+        {
+          "key": 4,
+          "point": "100",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": true,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        }
+      ]
+    },
+    {
+      "label": "Earn vouchers?",
+      "type": "label",
+      "key": "earnMoreVouchers"
+    },
+    {
+      "label": "Coming soon",
+      "type": "label",
+      "key": "completeYourHealth"
+    },
+    {
+      "label": "Coming soon",
+      "type": "label",
+      "key": "completeYourProfile"
+    },
+    {
+      "label": "Voucher Transactions",
+      "type": "label",
+      "key": "voucherTransactions"
+    },
+    {
+      "label": "FAQ's",
+      "type": "label",
+      "key": "faqs"
+    },
+    {
+      "label": "Your Offers",
+      "type": "label",
+      "key": "yourOffer"
+    },
+    {
+      "label": "Earn More",
+      "type": "label",
+      "key": "earnMore"
+    },
+    {
+      "label": "Earned Date",
+      "type": "label",
+      "key": "earnedDate"
+    },
+    {
+      "label": "Expiry Date",
+      "type": "label",
+      "key": "expiredDate"
+    },
+    {
+      "label": "Active Vouchers",
+      "type": "label",
+      "key": "activeVouchers"
+    },
+    {
+      "label": "All Vouchers",
+      "type": "label",
+      "key": "allVouchers"
+    },
+    {
+      "label": "Total Badges",
+      "type": "label",
+      "key": "totalBadge"
+    },
+    {
+      "label": "View Details ",
+      "type": "label",
+      "key": "viewDetails"
+    },
+    {
+      "label": "Redeem for",
+      "type": "label",
+      "key": "redeemFor"
+    },
+    {
+      "label": "times",
+      "type": "label",
+      "key": "times"
+    },
+    {
+      "label": "Remaining",
+      "type": "label",
+      "key": "remaining"
+    },
+    {
+      "label": "Expires in",
+      "type": "label",
+      "key": "expiresIn"
+    },
+    {
+      "label": "Earn Badges",
+      "type": "label",
+      "key": "earnBadges"
+    },
+    {
+      "label": "Bonus Activity",
+      "type": "label",
+      "key": "bonusActivityList",
+      "bonusActivityList": []
+    },
+    {
+      "label": "Go",
+      "type": "label",
+      "key": "go"
+    },
+    {
+      "label": "Search",
+      "type": "label",
+      "key": "search"
+    },
+    {
+      "label": "Days",
+      "type": "label",
+      "key": "days"
+    },
+    {
+      "label": "No offers yet",
+      "type": "label",
+      "key": "noOffers"
+    },
+    {
+      "label": "Expired on",
+      "type": "label",
+      "key": "expiredOn"
+    },
+    {
+      "label": "Active",
+      "type": "label",
+      "key": "active"
+    },
+    {
+      "label": "Expired",
+      "type": "label",
+      "key": "expired"
+    },
+    {
+      "label": "Partial Redeemed",
+      "type": "label",
+      "key": "partialRedeemed"
+    },
+    {
+      "label": "Redeemed",
+      "type": "label",
+      "key": "redeemed"
+    },
+    {
+      "label": "Please read through",
+      "type": "label",
+      "key": "pleaseReadThrough"
+    },
+    {
+      "label": "which are applicable for this offer.",
+      "type": "label",
+      "key": "applicableForOffer"
+    },
+    {
+      "label": "View Terms & Conditions",
+      "type": "label",
+      "key": "viewTandCLabel"
+    },
+    {
+      "label": "Discover Rewards",
+      "type": "label",
+      "key": "discoverRewards"
+    },
+    {
+      "label": "No Rewards Yet",
+      "type": "label",
+      "key": "noRewardsYet"
+    },
+    {
+      "label": "FAQ's",
+      "type": "label",
+      "key": "faqs"
+    },
+    {
+      "label": "Stay healthy and earn rewards at the same time. Want to know how?",
+      "type": "label",
+      "key": "noRewardsText"
+    },
+    {
+      "label": "Transaction History",
+      "type": "label",
+      "key": "transactionHistory"
+    },
+    {
+      "label": "Valid till",
+      "type": "label",
+      "key": "validTill"
+    },
+    {
+      "label": "Claim Now",
+      "type": "label",
+      "key": "claimNow"
+    },
+    {
+      "label": "Completed",
+      "type": "label",
+      "key": "complete"
+    },
+    {
+      "label": "Check Now",
+      "type": "label",
+      "key": "checkNow"
+    },
+    {
+      "label": "Earn 20 badges by checking your BMI.",
+      "type": "label",
+      "key": "checkBmi"
+    },
+    {
+      "label": "Discover Rewards",
+      "type": "label",
+      "key": "discoverRewards"
+    },
+    {
+      "label": "No Rewards Yet",
+      "type": "label",
+      "key": "noRewardsYet"
+    },
+    {
+      "label": "FAQ's",
+      "type": "label",
+      "key": "faqs"
+    },
+    {
+      "label": "Stay healthy and earn rewards at the same time. Want to know how?",
+      "type": "label",
+      "key": "noRewardsText"
+    },
+    {
+      "label": "Transaction History",
+      "type": "label",
+      "key": "transactionHistory"
+    },
+    {
+      "label": "Valid till",
+      "type": "label",
+      "key": "validTill"
+    },
+    {
+      "label": "Claim Now",
+      "type": "label",
+      "key": "claimNow"
+    },
+    {
+      "label": "Completed",
+      "type": "label",
+      "key": "complete"
+    },
+    {
+      "label": "Check Now",
+      "type": "label",
+      "key": "checkNow"
+    },
+    {
+      "label": "Earn 20 badges by checking your BMI.",
+      "type": "label",
+      "key": "checkBmi"
+    }
+  ]
+}

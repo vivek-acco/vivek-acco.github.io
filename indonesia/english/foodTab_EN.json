@@ -1,0 +1,22 @@
+{
+    "image": "",
+    "label": "",
+    "key": "foodTab",
+    "elements": [
+        {
+			"label": "{\"fontSize\": 12, \"color\": \"#7e7e7e\", \"textAlign\": \"center\"}",
+			"type": "label",
+			"key": "food/thatsallStyle"
+		},
+		{
+			"label": "That's all for now!",
+			"type": "label",
+			"key": "food/thatsallText"
+		},
+		{
+			"label": "enable",
+			"type": "label",
+            "key": "food/thatsallConfig"
+        }
+    ]
+}

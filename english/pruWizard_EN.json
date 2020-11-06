@@ -1,0 +1,183 @@
+{
+  "label": "Covid19 Post Registration Campaign",
+  "image": "",
+  "key": "pruWizard",
+  "elements": [
+    {
+      "label": true,
+      "type": "label",
+      "key": "useWizardRegistration"
+    },
+    {
+      "label": "Welcome to Pulse!",
+      "type": "label",
+      "key": "welcomeMsg"
+    },
+    {
+      "label": "SKIP",
+      "type": "label",
+      "key": "skip"
+    },
+    {
+      "label": "Complete your profile to activate your ",
+      "type": "label",
+      "key": "completeProfile"
+    },
+    {
+      "label": " 100% free " ,
+      "type": "label",
+      "key": "free"
+    },
+    {
+      "label": "COVID-19 and personal accident protection and start your free health assessment today!" ,
+      "type": "label",
+      "key": "freeHA"
+    },
+    {
+      "label": "Continue" ,
+      "type": "label",
+      "key": "continueBtnText"
+    },
+    {
+      "label": "What's your mobile number?",
+      "type": "label",
+      "key": "yourNumber"
+    },
+    {
+      "label": "When is your birthday?",
+      "type": "label",
+      "key": "yourBirthday"
+    },
+    {
+      "label": "Date of birth",
+      "type": "label",
+      "key": "dob"
+    },
+    {
+      "label": "Done",
+      "type": "label",
+      "key": "done"
+    },
+    {
+      "label": "We need your age to see if you qualify for this free protection.",
+      "type": "label",
+      "key": "qualifyProtection"
+    },
+    {
+      "label": "What is your gender?",
+      "type": "label",
+      "key": "whatIsYourGender"
+    },
+    {
+      "label": "Where do you live?",
+      "type": "label",
+      "key": "whereDoYouLive"
+    },
+    {
+      "label": "We need your address to see if you qualify for this free protection.",
+      "type": "label",
+      "key": "needYourAddress"
+    },
+    {
+      "label": "",
+      "type": "label",
+      "key": "needYourGender"
+    },
+    {
+      "label": "Activate your Free COVID-19 Insurance and Personal Accident Protection by providing your KTP Number below",
+      "type": "label",
+      "key": "activateCovidInsurance"
+    },
+    {
+      "label": "I hereby confirm that the entered data is correct and I have read, understood, and agreed to the applicable of PRUTech Syarah DBD insurance.",
+      "type": "label",
+      "key": "acknowledgement"
+    },
+    {
+      "label": "What is your National ID?",
+      "type": "label",
+      "key": "whatsYourNationalId"
+    },
+    {
+      "label":"We need to know your National ID to see if you qualify for this free protection.",
+      "type": "label",
+      "key": "needDetails"
+    },
+    {
+      "label": "Please start by entering your mobile phone number",
+      "type": "label",
+      "key": "needYourPhone"
+    },
+    {
+      "label":"National ID/ Passport/ UPMID/ Driver’s License",
+      "type":"label",
+      "key":"nationalId"
+    },
+    {
+      "label":"ID No.",
+      "type":"label",
+      "key":"nationalIdTitle"
+    },
+    {
+      "label":"please enter your id",
+      "type":"label",
+      "key":"idRequired"
+    },
+    { 
+      "errorMessages": [
+      {
+        "key": "required",
+        "message": "Please enter your address"
+      }
+    ],
+      "label": "Enter address",
+      "type": "label",
+      "key": "enterAddress"
+    },
+    {
+      "label": "please select your gender",
+      "type": "label",
+      "key": "selectGender"
+    },
+    {
+      "label": "What's your number?",
+      "type": "label",
+      "key": "yourNumber"
+    },
+    {
+      "label": "Country Code",
+      "type": "label",
+      "key": "countryCode"
+    },
+    {
+      "label": "Phone Number",
+      "type": "label",
+      "key": "phoneNumber"
+    },
+    {
+      "label": "Male",
+      "type": "label",
+      "key": "male"
+    },
+    {
+      "label": "Female",
+      "type": "label",
+      "key": "female"
+    },
+    {
+      "label": "Others",
+      "type": "label",
+      "key": "others"
+    },
+    {
+      "label": "Apt/House Number",
+      "type": "label",
+      "key": "aptSuite"
+    },
+    {
+      "label": "Enter Apt/House Number Details",
+      "type": "label",
+      "key": "enterAptSuiteNo"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+    "image": "",
+    "key": "myPolicy",
+    "elements": [
+        {
+            "type": "label",
+            "value": "Download Failed",
+            "key": "modal_epolicy_failed_title"
+        },
+        {
+            "type": "label",
+            "value": "The e-Policy failed to download. Check your internet connection or please contact us if it cannot be downloaded.",
+            "key": "modal_epolicy_failed_desc"
+        },
+        {
+            "type": "label",
+            "value": "Go Back",
+            "key": "modal_epolicy_failed_button"
+        },
+        {
+            "type": "label",
+            "value": "Download Succeed",
+            "key": "modal_epolicy_success_title"
+        },
+        {
+            "type": "label",
+            "value": "Your e-Policy has been downloaded successfully, please open it via your cellphone and enjoy the benefits of PRUAccess Plus.",
+            "key": "modal_epolicy_success_desc"
+        },
+        {
+            "type": "label",
+            "value": "Done",
+            "key": "modal_epolicy_success_button"
+        },
+        {
+            "type": "label",
+            "value": "IN FORCE",
+            "key": "policyInForce"
+        },
+        {
+            "type": "label",
+            "value": "SURRENDER",
+            "key": "policySurrender"
+        },
+        {
+            "type": "label",
+            "value": "LAPSED",
+            "key": "policyInactive"
+        },
+        {
+            "type": "label",
+            "value": "Policy Status",
+            "key": "policyStatus"
+        },
+        {
+            "type": "label",
+            "value": "Rider",
+            "key": "policyRider"
+        },
+        {
+            "type": "label",
+            "value": "Scan QR",
+            "key": "scanQR"
+        },
+        {
+            "type": "label",
+            "value": "Done",
+            "key": "done"
+        },
+        {
+            "type": "label",
+            "value": "Your e-medical card successfully saved, now you can admit even if you're offline.",
+            "key": "eCardDownloadSuccess"
+        },
+        {
+            "type": "label",
+            "value": "E-Card Saved",
+            "key": "eCardDownloadSuccessTitle"
+        },
+        {
+            "type": "label",
+            "value": "Download Failed",
+            "key": "eCardDownloadFailedTitle"
+        },
+        {
+            "type": "label",
+            "value": "e-Medical Card download failed. Please check your internet connection or contact us if your problem persists.",
+            "key": "eCardDownloadFailed"
+        },
+        {
+            "type": "label",
+            "value": "Requesting Access To Photos",
+            "key": "iosPermissionRequestTitle"
+        },
+        {
+            "type": "label",
+            "value": "Pulse needs to access your Photos library in order to save the e-Medical Card",
+            "key": "iosPermissionRequestDescription"
+        },
+        {
+            "type": "label",
+            "value": "No",
+            "key": "cancel"
+        },
+        {
+            "type": "label",
+            "value": "OK",
+            "key": "confirm"
+        },
+        {
+            "type": "label",
+            "value": "Open Settings",
+            "key": "iosPermissionsOpenSettings"
+        },
+        {
+            "type": "label",
+            "value": "Pulse needs to access your external storage to save the e-Medical Card.",
+            "key": "androidRequestDescription"
+        },
+        {
+            "type": "label",
+            "value": "Ask Me Later",
+            "key": "later"
+        },
+        {
+            "type": "label",
+            "value": "Your E Policy is unavailable.",
+            "key": "noEPolicy"
+        },
+        {
+            "type": "label",
+            "value": "Loading...",
+            "key": "detailLoading"
+        },
+        {
+            "type": "label",
+            "value": "Back",
+            "key": "errorBack"
+        },
+        {
+            "type": "label",
+            "value": "Download E-medical card",
+            "key": "eMedicalCardDownload"
+        },
+        {
+            "type:": "label",
+            "value": "Add missing Policies",
+            "key": "addMissingPoliciesButton"
+        },
+        {
+            "type": "label",
+            "value": "Policy Info",
+            "key": "policyInfo"
+        },
+        {
+            "type": "label",
+            "value": "Benefits & Investment",
+            "key": "benefitAndInvestment"
+        },
+        {
+            "type": "label",
+            "value": "Electronic Policy",
+            "key": "ePolicy"
+        },
+        {
+            "type": "label",
+            "value": "Loading your policies...",
+            "key": "policyDetailLoading"
+        },
+        {
+            "type": "label",
+            "value": "Sum Assured",
+            "key": "coveragePrice"
+        },
+        {
+            "type": "label",
+            "value": "Coverage Start Date",
+            "key": "coverageStartDate"
+        },
+        {
+            "type": "label",
+            "value": "Coverage End Date",
+            "key": "coverageEndDate"
+        },
+        {
+            "type": "label",
+            "value": "Rider",
+            "key": "additionalInsurance"
+        },
+        {
+            "type": "label",
+            "value": "Investment Fund",
+            "key": "investmentFund"
+        },
+        {
+            "type": "label",
+            "value": "Investment Fund Calculating...",
+            "key": "investmentFundLoading"
+        },
+        {
+            "type": "label",
+            "value": "To see your e-policy, use the guideline below as your password.",
+            "key": "ePolicyInstruction1"
+        },
+        {
+            "type": "label",
+            "value": "Downloading...",
+            "key": "ePolicyDownloading"
+        },
+        {
+            "type": "label",
+            "value": "Example: 539512Jan",
+            "key": "ePolicyPwdFormat"
+        },
+        {
+            "type": "label",
+            "value": "Last four digits of policy number",
+            "key": "ePolicyInstruction2"
+        },
+        {
+            "type": "label",
+            "value": "Two digits of your birthdate",
+            "key": "ePolicyInstruction3"
+        },
+        {
+            "type": "label",
+            "value": "First three letters of your birth month in English with first letter in uppercase",
+            "key": "ePolicyInstruction4"
+        },
+        {
+            "type": "label",
+            "value": "Documents not included in your electonic policy.",
+            "key": "ePolicyInfo1"
+        },
+        {
+            "type": "label",
+            "value": "Welcome Letter",
+            "key": "ePolicyTitle1"
+        },
+        {
+            "type": "label",
+            "value": "E-policy Holder Guideline",
+            "key": "ePolicyTitle2"
+        },
+        {
+            "type": "label",
+            "value": "Cost Breakdown",
+            "key": "ePolicyTitle3"
+        },
+        {
+            "type": "label",
+            "value": "How to read transaction statement",
+            "key": "ePolicyTitle4"
+        },
+        {
+            "type": "label",
+            "value": "Illustration",
+            "key": "ePolicyTitle5"
+        },
+        {
+            "type": "label",
+            "value": "Insurance exception",
+            "key": "ePolicyTitle6"
+        },
+        {
+            "type": "label",
+            "value": "Agent Name",
+            "key": "agentName"
+        },
+        {
+            "type": "label",
+            "value": "Office",
+            "key": "marketingOffice"
+        },
+        {
+            "type": "label",
+            "value": "MY AGENT",
+            "key": "myAgent"
+        },
+        {
+            "type": "label",
+            "value": "Main Life Assured",
+            "key": "policyHolder"
+        },
+        {
+            "type": "label",
+            "value": "Main Participant",
+            "key": "policyHolderSyaria"
+        },
+        {
+            "type": "label",
+            "value": "My Premium",
+            "key": "myPremium"
+        },
+        {
+            "type": "label",
+            "value": "Contribution",
+            "key": "myPremiumSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Insurance Benefit",
+            "key": "coveragePriceSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Frequency",
+            "key": "frequency"
+        },
+        {
+            "type": "label",
+            "value": "Payment Method",
+            "key": "paymentMethod"
+        },
+        {
+            "type": "label",
+            "value": "Due Date",
+            "key": "dueDate"
+        },
+        {
+            "type": "label",
+            "value": "Bank Account",
+            "key": "bankAccount"
+        },
+        {
+            "type": "label",
+            "value": "Active",
+            "key": "active"
+        },
+        {
+            "type": "label",
+            "value": "Inactive",
+            "key": "inactive"
+        },
+        {
+            "type": "label",
+            "value": "Premium Status",
+            "key": "premiumStatus"
+        },
+        {
+            "type": "label",
+            "value": "Premium Status",
+            "key": "premiumStatusSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Basic Premium",
+            "key": "basicPremium"
+        },
+        {
+            "type": "label",
+            "value": "Basic Contribution",
+            "key": "basicPremiumSyaria"
+        },
+        {
+            "type": "label",
+            "value": "PRUSaver",
+            "key": "pruSaver"
+        },
+        {
+            "type": "label",
+            "value": "Premium Total",
+            "key": "totalPremium"
+        },
+        {
+            "type": "label",
+            "value": "Total Contribution",
+            "key": "totalPremiumSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Paid to Date",
+            "key": "paidToDate"
+        },
+        {
+            "type": "label",
+            "value": "Inception Date",
+            "key": "policyStartingDate"
+        },
+        {
+            "type": "label",
+            "value": "Top-up",
+            "key": "topUp"
+        },
+        {
+            "type": "label",
+            "value": "Premium in Suspense",
+            "key": "totalPremiumDeposit"
+        },
+        {
+            "type": "label",
+            "value": "Premium in Suspense",
+            "key": "totalPremiumDepositSyaria"
+        },
+        {
+            "type": "label",
+            "value": "First Premium Payment",
+            "key": "firstPremiumPayment"
+        },
+        {
+            "type": "label",
+            "value": "First Premium Payment",
+            "key": "firstPremiumPaymentSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Policy Delivery Date",
+            "key": "policyDocumentSendDate"
+        },
+        {
+            "type": "label",
+            "value": "Policy Received Date",
+            "key": "policyDocumentReceivedDate"
+        },
+        {
+            "type": "label",
+            "value": "Policy Info",
+            "key": "policyData"
+        },
+        {
+            "type": "label",
+            "value": "Life Assured",
+            "key": "assured"
+        },
+        {
+            "type": "label",
+            "value": "Participant",
+            "key": "assuredSyaria"
+        },
+        {
+            "type": "label",
+            "value": "Beneficiary",
+            "key": "benefitReceiver"
+        },
+        {
+            "type": "label",
+            "value": "Total",
+            "key": "cashTotal"
+        },
+        {
+            "type": "label",
+            "value": "Unit Balance",
+            "key": "unitBalance"
+        },
+        {
+            "type": "label",
+            "value": "Unit Price",
+            "key": "unitPrice"
+        },
+        {
+            "type": "label",
+            "value": "Unit Value",
+            "key": "unitValue"
+        },
+        {
+            "type": "label",
+            "value": "Pricing Date",
+            "key": "unitPriceDate"
+        },
+        {
+            "type": "label",
+            "value": "Life Assured",
+            "key": "lifeAssured"
+        },
+        {
+            "type": "label",
+            "value": "Age at entry",
+            "key": "enrollmentAge"
+        },
+        {
+            "type": "label",
+            "value": "Rider",
+            "key": "riderInsurance"
+        }
+    ]
+}

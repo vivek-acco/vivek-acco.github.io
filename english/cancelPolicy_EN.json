@@ -1,0 +1,165 @@
+{
+  "label": "Cancel Policy",
+  "image": "",
+  "key": "cancelPolicy",
+  "elements": [
+    {
+      "label": "Policy No. ",
+      "key": "policyNumberTextLabel",
+      "type": "label"
+    },
+    {
+      "label": "Cancel Policy",
+      "key": "backButtonLabel",
+      "type": "label"
+    },
+    {
+      "label": "Submit",
+      "key": "submitLabel",
+      "type": "label"
+    },
+    {
+      "label": "Life Insured Details",
+      "key": "lifeInsuredDetailsLabel",
+      "type": "label"
+    },
+    {
+      "label": "Life Assured Name",
+      "key": "lifeAssuredNameLabel",
+      "type": "label"
+    },
+    {
+      "label": "Cancel Reasons",
+      "key": "CancelReasonsLabel",
+      "type": "label"
+    },
+    {
+      "label": "Select Reasons",
+      "key": "reasonsdropdown",
+      "allowedValues": [
+        {
+          "key": "financialDependents",
+          "label": "No longer have financial dependents.",
+          "displayLabel": "No longer have financial dependents.",
+          "value": "No longer have financial dependents."
+        },
+        {
+          "key": "debitPaidOff",
+          "label": "All debt paid off.",
+          "displayLabel": "All debt paid off.",
+          "value": "All debt paid off."
+        },
+        {
+          "key": "cantAffordPremiums",
+          "label": "Can’t afford the premiums.",
+          "displayLabel": "Can’t afford the premiums.",
+          "value": "Can’t afford the premiums."
+        },
+        {
+          "key": "aggressiveApproach",
+          "label": "Want to take aggressive approach to investing.",
+          "displayLabel": "Want to take aggressive approach to investing.",
+          "value": "Want to take aggressive approach to investing."
+        },
+        {
+          "key": "collectCashValue",
+          "label": "Want to collect the cash value portion.",
+          "displayLabel": "Want to collect the cash value portion.",
+          "value": "Want to collect the cash value portion."
+        },
+        {
+          "key": "betterRateElsewhere",
+          "label": "Have been offered a better rate elsewhere.",
+          "displayLabel": "Have been offered a better rate elsewhere.",
+          "value": "Have been offered a better rate elsewhere."
+        },
+        {
+          "key": "others",
+          "label": "Others",
+          "displayLabel": "Others",
+          "value": "Others"
+        }
+      ]
+    },
+    {
+      "label": "Refund Amount",
+      "key": "RefundAmountLabel",
+      "type": "label"
+    },
+    {
+      "label": "Confirm Cancellation",
+      "key": "ConfirmCancellationLabel",
+      "type": "label"
+    },
+    {
+      "label": "Are your sure you want to cancel your policy",
+      "key": "PolicyCancelConfirmationLabel",
+      "type": "label"
+    },
+    {
+      "label": "There seems to be an issue. Please try again after sometime",
+      "key": "someIssueError",
+      "type": "label"
+    },
+    {
+      "label": "Please try again after sometime",
+      "key": "someError",
+      "type": "label"
+    },
+    {
+      "label": "Policy has been cancelled sucessfully!",
+      "key": "cancelSuccess",
+      "type": "label"
+    },
+    {
+      "label": "I have read, understood and agreed to the applicable",
+      "key": "termaAndConditionLabel_1",
+      "type": "label"
+    },
+    {
+      "label": "Terms and conditions",
+      "key": "termaAndConditionLabel_2",
+      "type": "label"
+    },
+    {
+      "label": "for",
+      "key": "termaAndConditionLabel_3",
+      "type": "label"
+    },
+    {
+      "label": "Its very unfortunate to know that you want to cancel your policy. Your policy is eligible for 100% refund in the first 15 days. Please speak to our agents if you are unsure.",
+      "key": "cancelPolicyHeader",
+      "type": "label"
+    },
+    {
+      "label": "Your refund amount will be credited to the payment channel used during sale in 24 hrs. For any enquiries please contact",
+      "key": "queryContactPrefix",
+      "type": "label"
+    },
+    {
+      "label": "and quote your policy number",
+      "key": "queryContactSuffix",
+      "type": "label"
+    },
+    {
+      "label": "Policy has been cancelled sucessfully!",
+      "key": "cancelSuccess",
+      "type": "label"
+    },
+    {
+      "label": "CAPTURE_CUSTOMER_PAGE_TERMSANDCONDITION_LINK",
+      "key": "termsAndCondition",
+      "type": "label"
+    },
+    {
+      "label": "Continue",
+      "key": "continueLabel",
+      "type": "label"
+    },
+    {
+      "label": "newclaims.request@prulifeuk.com.ph",
+      "key": "queryEmail",
+      "type": "label"
+    }
+  ]
+}

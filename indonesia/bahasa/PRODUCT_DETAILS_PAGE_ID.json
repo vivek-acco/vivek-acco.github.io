@@ -1,0 +1,77 @@
+{
+    "label": "Paket Produk",
+    "image": "",
+    "key": "PRODUCT_DETAILS_PAGE",
+    "elements": [
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BENEFITS_LABELS",
+            "label": "Manfaat",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TOTALPREMIUM_LABELS",
+            "label": "Total Kontribusi",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_SHOWMORE_LABELS",
+            "label": "Tampilkan lebih banyak",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_SHOWLESS_LABELS",
+            "label": "Tampilkan lebih sedikit",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_AGREE_LABELS",
+            "label": "Saya menyetujui",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TERMSANDCONDITION_LABELS",
+            "label": "Syarat dan Ketentuan",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BUY_LABELS",
+            "label": "Memproses",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_API_CALL_FAILURE_LABELS",
+            "label": "Terjadi kesalahan pada saat menampilkan paket produk.",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_DISCLOSURE_DOC_LABELS",
+            "label": "Dokumen Pengungkapan",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BY_LABELS",
+            "label": "oleh",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_DISCLOSURE_DOCUMENT_HEADER",
+            "label": "Dokumen Pengungkapan",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TERMS_AND_CONDITIONS_HEADER",
+            "label": "Syarat dan Ketentuan",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_RECOMMENDED_TEXT",
+            "label": "Rekomendasi",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_HEADER_IMGAE_URL",
+            "label": "https://pulse.prudential.co.id/api/v1_0_0/cms/4d37df72-235b-4a4c-bb65-1b8a813e2fb5?namespace=ID",
+            "type": "label"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+	"key": "CreateVoucher",
+	"image": "",
+	"elements": [{
+		"label": "Voucher has been created successfully",
+		"type": "label",
+		"key": "voucherCreated"
+	}, {
+		"label": "Discount Amount",
+		"type": "label",
+		"key": "discountAmount"
+	}, {
+		"label": "Discount Percentage",
+		"type": "label",
+		"key": "discountPercentage"
+	}, {
+		"label": "Enter minute, should be less than 60",
+		"type": "label",
+		"key": "minuteLessThan60"
+	}, {
+		"label": "Select date from calender",
+		"type": "label",
+		"key": "dateFromCalender"
+	}, {
+		"label": "Enter hour, should be less than equal to 12",
+		"type": "label",
+		"key": "hourLessThan12"
+	}, {
+		"label": "Select time period",
+		"type": "label",
+		"key": "timePeriod"
+	}, {
+		"label": "AM",
+		"type": "label",
+		"key": "AM"
+	}, {
+		"label": "PM",
+		"type": "label",
+		"key": "PM"
+	}, {
+		"label": "Upload Voucher Image",
+		"type": "label",
+		"key": "uploadVoucherImage"
+	}, {
+		"label": "Discount Amount",
+		"type": "label",
+		"key": "discountAmount"
+	}, {
+		"label": "Code",
+		"type": "label",
+		"key": "Code"
+	}, {
+		"label": "Icon",
+		"type": "label",
+		"key": "icon"
+	}, {
+		"label": "Description",
+		"type": "label",
+		"key": "description"
+	}, {
+		"label": "Max Redeem",
+		"type": "label",
+		"key": "maxRdeem"
+	}, {
+		"label": "Name",
+		"type": "label",
+		"key": "name"
+	}, {
+		"label": "Discount Type",
+		"type": "label",
+		"key": "discountType"
+	}, {
+		"label": "Expiry",
+		"type": "label",
+		"key": "expiry"
+	}, {
+		"label": "Category",
+		"type": "label",
+		"key": "category"
+	}, {
+		"label": "One Time",
+		"type": "label",
+		"key": "oneTime"
+	}, {
+		"label": "Platform",
+		"type": "label",
+		"key": "platform"
+	}, {
+		"label": "Terms & Conditions",
+		"type": "label",
+		"key": "terms&Conditions"
+	}, {
+		"label": "Discount Percent",
+		"type": "label",
+		"key": "discountPercent"
+	}, {
+		"label": "Discount",
+		"type": "label",
+		"key": "discount"
+	}, {
+		"label": "All fields are empty",
+		"type": "label",
+		"key": "allFieldEmpty"
+	}, {
+		"label": "Name field is empty",
+		"type": "label",
+		"key": "nameFieldEmpty"
+	}, {
+		"label": "Code field is empty",
+		"type": "label",
+		"key": "codeFieldEmpty"
+	}, {
+		"label": "Discount Amount field is empty",
+		"type": "label",
+		"key": "discountAmountEmpty"
+	}, {
+		"label": "Discount Percent should be less than 100",
+		"type": "label",
+		"key": "discountPercent"
+	}, {
+		"label": "Description field is empty",
+		"type": "label",
+		"key": "descriptionFieldEmpty"
+	}, {
+		"label": "Category field is empty",
+		"type": "label",
+		"key": "categoryEmpty"
+	}, {
+		"label": "Size Limit Exceeded",
+		"type": "label",
+		"key": "sizeLimit"
+	}, {
+		"label": "Please select file less than 500KB in size!",
+		"type": "label",
+		"key": "lessThan500KB"
+	}, {
+		"label": "Please select image less than 50KB in size!",
+		"type": "label",
+		"key": "lessThan50KB"
+	}, {
+		"label": "Please select expiry date",
+		"type": "label",
+		"key": "expiryDate"
+	}, {
+		"label": "Please upload voucher image.",
+		"type": "label",
+		"key": "uploadVoucherImage"
+	}]
+}

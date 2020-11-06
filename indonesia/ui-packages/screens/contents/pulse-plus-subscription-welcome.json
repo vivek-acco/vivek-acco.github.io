@@ -1,0 +1,15 @@
+{
+    "en": {
+        "headerImage": "pulse-plus/pulse-plus-header.png",
+        "backButton": "pulse-plus/back.png",
+        "checkMark": "pulse-plus/checkmark-red.png",
+        "closeIcon": "pulse-plus/close-dark.png"
+
+    },
+    "id": {
+        "headerImage": "pulse-plus/pulse-plus-header.png",
+        "backButton": "pulse-plus/back.png",
+        "checkMark": "pulse-plus/checkmark-red.png",
+        "closeIcon": "pulse-plus/close-dark.png"
+    }
+}

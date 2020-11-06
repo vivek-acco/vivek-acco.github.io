@@ -1,0 +1,16 @@
+{
+    "image": "",
+    "label": "",
+    "key": "DynamicTabs",
+    "elements": [
+      {
+        "type": "label",
+        "key": "enabledTabs",
+        "label": {
+            "HomeTab": true,
+            "GettingTreatment": true,
+            "account": true
+        }
+      }
+          ]
+  }

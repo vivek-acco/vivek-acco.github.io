@@ -1,0 +1,16 @@
+{
+  "key": "ChatbotSymptom",
+  "image": "",
+  "elements": [
+    {
+      "label": "Saya butuh beberapa info detil sebelum kita mulai percakapan.",
+      "type": "label",
+      "key": "ChatbotSymptomdescription"
+    },
+    {
+      "label": "Mulai sekarang.",
+      "type": "label",
+      "key": "Getstarted"
+    }
+  ]
+}

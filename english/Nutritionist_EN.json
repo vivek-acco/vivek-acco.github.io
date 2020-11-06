@@ -1,0 +1,337 @@
+{
+  "image": "",
+  "label": "",
+  "key": "nutritionist",
+  "elements": [
+    {
+      "type": "label",
+      "key": "nutritionistTitle",
+      "label": "Nutritionist"
+    },
+    {
+      "type": "label",
+      "key": "nutritionistDesc",
+      "label": "Collect data and statistics, Oversee meal planning, Offer dietetic educational service."
+    },
+    {
+      "type": "label",
+      "key": "nutritionistBtnText",
+      "label": "Continue"
+    },
+    {
+      "type": "label",
+      "key": "requestFor",
+      "label": "Request for"
+    },
+    {
+      "type": "label",
+      "key": "today",
+      "label": "Today"
+    },
+    {
+      "type": "label",
+      "key": "pm",
+      "label": "pm"
+    },
+    {
+      "type": "label",
+      "key": "am",
+      "label": "am"
+    },
+    {
+      "type": "label",
+      "key": "reject",
+      "label": "Reject"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "start",
+      "label": "Start"
+    },
+    {
+      "type": "label",
+      "key": "yourAppointments",
+      "label": "Your Call Appointments"
+    },
+    {
+      "type": "label",
+      "key": "upcomingAppointments",
+      "label": "Upcoming Appointments"
+    },
+    {
+      "type": "label",
+      "key": "viewCals",
+      "label": "View Calenders"
+    },
+    {
+      "type": "label",
+      "key": "incmgRqsts",
+      "label": "Incoming Request"
+    },
+    {
+      "type": "label",
+      "key": "chatHistory",
+      "label": "Chat History"
+    },
+    {
+      "type": "label",
+      "key": "mailIdNo",
+      "label": "Mail-ID/Mobile No"
+    },
+    {
+      "type": "label",
+      "key": "nameHuman",
+      "label": "Name of Human"
+    },
+    {
+      "type": "label",
+      "key": "chatRequest",
+      "label": "Chat Request"
+    },
+    {
+      "type": "label",
+      "key": "history",
+      "label": "History"
+    },
+    {
+      "type": "label",
+      "key": "dayMo",
+      "label": "Mo"
+    },
+    {
+      "type": "label",
+      "key": "dayTu",
+      "label": "Tu"
+    },
+    {
+      "type": "label",
+      "key": "dayWe",
+      "label": "We"
+    },
+    {
+      "type": "label",
+      "key": "dayTh",
+      "label": "Th"
+    },
+    {
+      "type": "label",
+      "key": "dayFr",
+      "label": "Fr"
+    },
+    {
+      "type": "label",
+      "key": "daySa",
+      "label": "Sa"
+    },
+    {
+      "type": "label",
+      "key": "daySu",
+      "label": "Su"
+    },
+    {
+      "type": "label",
+      "key": "pmCap",
+      "label": "PM"
+    },
+    {
+      "type": "label",
+      "key": "amCap",
+      "label": "AM"
+    },
+    {
+      "type": "label",
+      "key": "workingDays",
+      "label": "Working Days"
+    },
+    {
+      "type": "label",
+      "key": "workingHours",
+      "label": "Working Hours"
+    },
+    {
+      "type": "label",
+      "key": "myAvail",
+      "label": "My Availability"
+    },
+    {
+      "type": "label",
+      "key": "nutrLanding",
+      "label": "Nutritionist Landing"
+    },
+    {
+      "type": "label",
+      "key": "calendar",
+      "label": "Calender"
+    },
+    {
+      "type": "label",
+      "key": "approve",
+      "label": "Approve"
+    },
+    {
+      "type": "label",
+      "key": "myAvailTimingConfig",
+      "label":  "[{\"startTime\":\"08:00:00\",\"endTime\":\"08:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"08:00 - 08:30 AM\"},{\"startTime\":\"08:30:00\",\"endTime\":\"09:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"08:30 - 09:00 AM\"},{\"startTime\":\"09:00:00\",\"endTime\":\"09:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"09:00 - 09:30 AM\"},{\"startTime\":\"09:30:00\",\"endTime\":\"10:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"09:30 - 10:00 AM\"},{\"startTime\":\"10:00:00\",\"endTime\":\"10:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"10:00 - 10:30 AM\"},{\"startTime\":\"10:30:00\",\"endTime\":\"11:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"10:30 - 11:00 AM\"},{\"startTime\":\"11:00:00\",\"endTime\":\"11:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"11:00 - 11:30 AM\"},{\"startTime\":\"11:30:00\",\"endTime\":\"12:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"11:30 - 12:00 PM\"},{\"startTime\":\"12:00:00\",\"endTime\":\"12:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"12:00 - 12:30 PM\"},{\"startTime\":\"12:30:00\",\"endTime\":\"13:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"12:30 - 13:00 PM\"},{\"startTime\":\"13:00:00\",\"endTime\":\"13:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"13:00 - 13:30 PM\"},{\"startTime\":\"13:30:00\",\"endTime\":\"14:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"13:30 - 14:00 PM\"},{\"startTime\":\"14:00:00\",\"endTime\":\"14:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"14:00 - 14:30 PM\"},{\"startTime\":\"14:30:00\",\"endTime\":\"15:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"14:30 - 15:00 PM\"},{\"startTime\":\"15:00:00\",\"endTime\":\"15:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"15:00 - 15:30 PM\"},{\"startTime\":\"15:30:00\",\"endTime\":\"16:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"15:30 - 16:00 PM\"},{\"startTime\":\"16:00:00\",\"endTime\":\"16:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"16:00 - 16:30 PM\"},{\"startTime\":\"16:30:00\",\"endTime\":\"17:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"16:30 - 17:00 PM\"},{\"startTime\":\"17:00:00\",\"endTime\":\"17:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"17:00 - 17:30 PM\"},{\"startTime\":\"17:30:00\",\"endTime\":\"18:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"17:30 - 18:00 PM\"},{\"startTime\":\"18:00:00\",\"endTime\":\"18:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"18:00 - 18:30 PM\"},{\"startTime\":\"18:30:00\",\"endTime\":\"19:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"18:30 - 19:00 PM\"},{\"startTime\":\"19:00:00\",\"endTime\":\"19:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"19:00 - 19:30 PM\"},{\"startTime\":\"19:30:00\",\"endTime\":\"20:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"19:30 - 20:00 PM\"},{\"startTime\":\"20:00:00\",\"endTime\":\"20:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"20:00 - 20:30 PM\"},{\"startTime\":\"20:30:00\",\"endTime\":\"21:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"20:30 - 21:00 PM\"},{\"startTime\":\"21:00:00\",\"endTime\":\"21:30:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"21:00 - 21:30 PM\"},{\"startTime\":\"21:30:00\",\"endTime\":\"22:00:00\",\"selected\":false,\"status\":\"NOT_AVAILABLE\",\"label\":\"21:30 - 22:00 PM\"}]"
+    },
+    {
+      "type": "label",
+      "key": "defaultColorCode",
+      "label": "#edeef7"
+    },
+    {
+      "type": "label",
+      "key": "bookedColorCode",
+      "label": "#ffa5ad"
+    },
+    {
+      "type": "label",
+      "key": "expiredColorCode",
+      "label": "#edeef7"
+    },
+    {
+      "type": "label",
+      "key": "availableColorCode",
+      "label": "#ffcf54"
+    },
+    {
+      "type": "label",
+      "key": "save",
+      "label": "Save"
+    },
+    {
+      "type": "label",
+      "key": "nowText",
+      "label": "Now"
+    },
+    {
+      "type": "label",
+      "key": "noAppointmentsMsgText",
+      "label": "No appointments as of now."
+    },
+    {
+      "type": "label",
+      "key": "noPendingRequestText",
+      "label": "No Pending requests for now."
+    },
+    {
+      "type": "label",
+      "key": "noPendingRequestText",
+      "label": "No Pending requests for now."
+    },
+    {
+      "type": "label",
+      "key": "call_interval",
+      "label": "30"
+    },
+    {
+      "type": "label",
+      "key": "videoCallMinIntervals",
+      "label": "[\"00-30\", \"30-59\"]"
+    },
+    {
+      "type": "label",
+      "key": "viewAll",
+      "label": "View All"
+    },
+    {
+      "type": "label",
+      "key": "noAppointments",
+      "label": "No Appointments"
+    },
+    {
+      "type": "label",
+      "key": "tomorrow",
+      "label": "Tomorrow"
+    },
+    {
+      "type": "label",
+      "key": "conversationHistory",
+      "label": "Conversation History"
+    },
+    {
+      "type": "label",
+      "key": "conversationDesc",
+      "label": "Check your video and chat conversations here"
+    },
+    {
+      "type": "label",
+      "key": "availDesc",
+      "label": "Set your availability and leaves here"
+    },
+    {
+      "type": "label",
+      "key": "upcoming",
+      "label": "Upcoming"
+    },
+    {
+      "type": "label",
+      "key": "foodJournal",
+      "label": "Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "foorJournalTileDesc",
+      "label": "View Users Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "myAvailabilityBannerImageUrl",
+      "label": "/nutritionist/myAvailability.png"
+    },
+    {
+      "type": "label",
+      "key": "conversationsBannerImageUrl",
+      "label": "/nutritionist/consultHistory.png"
+    },
+    {
+      "type": "label",
+      "key": "userFoodJournalBannerImageUrl",
+      "label": "/nutritionist/userJournal.png"
+    },
+    {
+      "type": "label",
+      "key": "saveAvailSlotsSuccessMsg",
+      "label": "Your available slots are updated successfully."
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "OK"
+    },
+    {
+      "type": "label",
+      "key": "dietician",
+      "label": "Dietician"
+    },
+    {
+      "type": "label",
+      "key": "showcancel_callintervalmin",
+      "label": "60"
+    },
+    {
+      "type": "label",
+      "key": "showCancel_call",
+      "label": "enabled"
+    },
+    {
+      "type": "label",
+      "key": "cancelAppointmentAlertMsg",
+      "label": "Are you sure you want to cancel this appointment"
+    },
+    {
+      "type": "label",
+      "key": "yesLabel",
+      "label": "Yes"
+    },
+    {
+      "type": "label",
+      "key": "noLabel",
+      "label": "No"
+    }
+  ]
+}

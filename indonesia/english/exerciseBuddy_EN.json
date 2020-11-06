@@ -1,0 +1,220 @@
+{
+  "image": "",
+  "label": "",
+  "key": "ExerciseBuddy",
+  "elements": [
+    {
+      "type": "label",
+      "key": "enabledExercises",
+      "label": {
+        "Squats": true,
+        "PushUps": true,
+        "Plank": true,
+        "Crunches": true,
+        "Meditation": false,
+        "DumblePress": false,
+        "Lunges": true,
+        "DumbbellCurls": true,
+        "SquatHold": true,
+        "StraightArmPlank":true,
+        "SingleArmPlank":true,
+        "SideArmPlank":false,
+        "BlastOffPlank":true,
+        "OverheadTricepExtension":false,
+        "WallSit":true,
+        "SingleLegSquatReachAcross":true,
+        "CrossBodyCurl":true,
+        "DeadLift":true,
+        "Vrksasana":false,
+        "GobletSquats":true,
+        "SplitSquats":true,
+        "AdhoMukhaSvanasana":false,
+        "UttanaShishosana":false,
+        "Kumbhakasana":false,
+        "BentOverRow":true,
+        "LandminePress":true,
+        "PressUpsKnees":true
+      }
+    },
+    {
+      "label": "You Planked",
+      "type": "label",
+      "key": "youPlanked"
+    },
+    {
+      "label": "You Meditated",
+      "type": "label",
+      "key": "youMeditated"
+    },
+    {
+      "type": "label",
+      "key": "leaderBoardTitle",
+      "label": "Leader Board"
+    },
+    {
+      "type": "label",
+      "key": "leaderBoardStats",
+      "label": "Stats"
+    },
+    {
+      "type": "label",
+      "key": "emptyLeaderBoard",
+      "label": "Please Join A Group To Check Leaderboard"
+    },
+    {
+      "type": "label",
+      "key": "emptyHistory",
+      "label": "No history found. Please start doing exercises and come back here to view your exercise history"
+    },
+    {
+      "type": "label",
+      "key": "tryOurWorkout",
+      "label": "Try Our Workouts"
+    },
+    {
+      "type": "label",
+      "key": "pickAWorkout",
+      "label": "Pick a workout from below and try it. We recommend consulting a physician to get your optimal workout regime"
+    },
+    {
+      "type": "label",
+      "key": "history",
+      "label": "History"
+    },
+    {
+      "type": "label",
+      "key": "exerciseBuddyTitle",
+      "label": "Exercise Buddy"
+    },
+    {
+      "type": "label",
+      "key": "welcomeTo",
+      "label": "Welcome to Exercise Buddy"
+    },
+    {
+      "type": "label",
+      "key": "our",
+      "label": "Our "
+    },
+    {
+      "type": "label",
+      "key": "aiBuddy",
+      "label": "AI Buddy"
+    },
+    {
+      "type": "label",
+      "key": "willProvideSuggestion",
+      "label": " will provide suggestions that will help you improve your fitness level. You can workout alone or make it more challenging by assembling your crew."
+    },
+    {
+      "type": "label",
+      "key": "assembleCrew",
+      "label": "Assemble your crew"
+    },
+    {
+      "type": "label",
+      "key": "comingSoon",
+      "label": "Coming Soon"
+    },
+    {
+      "type": "label",
+      "key": "beginner",
+      "label": "Beginner"
+    },
+    {
+      "type": "label",
+      "key": "intermediate",
+      "label": "Intermediate"
+    },
+    {
+      "type": "label",
+      "key": "advance",
+      "label": "Advance"
+    },
+    {
+      "type": "label",
+      "key": "today",
+      "label": "Today"
+    },
+    {
+      "type": "label",
+      "key": "yesterday",
+      "label": "Yesterday"
+    },
+    {
+      "type": "label",
+      "key": "historyTitle",
+      "label": "History"
+    },
+    {
+      "type": "label",
+      "key": "ankleWarmup",
+      "label": "3 minutes by doing ankle rotation, hip rotation and toe rotation."
+    },
+    {
+      "type": "label",
+      "key": "workoutDescText",
+      "label": "Workout Description"
+    },
+    {
+      "type": "label",
+      "key": "warmUpText",
+      "label": "Warmup"
+    },
+    {
+      "type": "label",
+      "key": "instructionsText",
+      "label": "Instructions"
+    },
+    {
+      "type": "label",
+      "key": "done",
+      "label": "Done"
+    },
+    {
+      "type": "label",
+      "key": "goodWorkout",
+      "label": "Good Workout"
+    },
+    {
+      "type": "label",
+      "key": "goodWorkoutSubText",
+      "label": "That was a good workout but not your best. Let's keep it going and i'll help you push you limits and reach the next level."
+    },
+    {
+      "type": "label",
+      "key": "goodWorkoutSuggestion",
+      "label": "Would you like to try again and beat your own best?"
+    },
+    {
+      "type": "label",
+      "key": "awesome",
+      "label": "Awesome!"
+    },
+    {
+      "type": "label",
+      "key": "awesomeWorkoutSubText",
+      "label": "You have beaten your own best. Way to go! Let's keep it up and i'll help you push you limits and reach the next level."
+    },
+    {
+      "type": "label",
+      "key": "awesomeWorkoutSuggestion",
+      "label": "lets finish another set to complete toda's workout"
+    },
+    {
+      "type": "label",
+      "key": "greatStart",
+      "label": "Great Start"
+    },
+    {
+      "type": "label",
+      "key": "greatStartSubText",
+      "label": "That's a great workout. Way to go! I'm here you to be help you be consistent achieve your fitness goals. Let's meet soon in the next workout."
+    },
+    {
+      "type": "label",
+      "key": "greatStartSuggestion",
+      "label": "Would you like to try again and beat your own best?"
+    }
+  ]
+}

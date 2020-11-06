@@ -1,0 +1,77 @@
+{
+    "image": "",
+    "label": "",
+    "key": "likesAndComments",
+    "elements": [
+      {
+        "type": "label",
+        "key": "viewAllComments",
+        "label": "View more comments"
+      },  
+      {
+        "type": "label",
+        "key": "likeCap",
+        "label": "Like"
+      },
+      {
+        "type": "label",
+        "key": "commentCap",
+        "label": "Comment"
+      },
+      {
+          "type": "label",
+          "key": "shareCap",
+          "label": "Share" 
+      },
+      {
+        "type": "label",
+        "key": "reply",
+        "label": "Reply"
+      },
+      {
+        "type": "label",
+        "key": "comments",
+        "label": "comments"
+      },
+      {
+        "type": "label",
+        "key": "likes",
+        "label": "likes"
+      },
+      {
+        "type": "label",
+        "key": "comment",
+        "label": "comment"
+      },
+      {
+        "type": "label",
+        "key": "like",
+        "label": "like"
+      },
+      {
+        "type": "label",
+        "key": "enterYourComment",
+        "label": "Enter Your Comment"
+      },
+      {
+          "type": "label",
+          "key": "shareMessage",
+          "label": "I found this article in Pulse app." 
+      },
+      {
+        "type": "label",
+        "key": "commentsCap",
+        "label": "Comments"
+      },
+      {
+        "type": "label",
+        "key": "profanityError",
+        "label": "Your comment doesn't provide a constructive feedback or encouragement. Please revise your comment and resubmit."
+      },
+      {
+        "type": "label",
+        "key": "modify",
+        "label": "modify"
+      }
+    ]
+}

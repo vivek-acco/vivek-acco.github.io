@@ -1,0 +1,1176 @@
+{
+	"key": "PruInsaan",
+	"image": "",
+	"elements": [
+		{
+			"label": "PRUShalira",
+			"type": "label",
+			"key": "pruFeatureName"
+		},
+		{
+			"label": "Insaan",
+			"type": "label",
+			"key": "pruInsaanLabel"
+		},
+		{
+			"label": "Daily Doa",
+			"type": "label",
+			"key": "pruDailyDoa"
+		},
+		{
+			"label": [
+				{
+					"categoryName": "Doa Sehari-hari",
+					"subCategoryList": [
+						{
+							"subCategoryName": "Doa Sebelum Makan",
+							"arabicQuote": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+							"translatedQuote": "O Allah, bless us in what You have provided us, and defend us from the torment of the Fire."
+						},
+						{
+							"subCategoryName": "Doa Sesudah Makan",
+							"arabicQuote": "اَلْحَمْدُ ِللهِ الَّذِي اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ مُسْلِمِيْنَ",
+							"translatedQuote": "All praise be to Allah who has fed us and our drink, and made us muslims"
+						},
+						{
+							"subCategoryName": "Doa Sebelum Tidur",
+							"arabicQuote": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ",
+							"translatedQuote": "By calling your name O Allah, I live and I die"
+						},
+						{
+							"subCategoryName": "Doa Ketika Mendapat Mimpi Baik",
+							"arabicQuote": "اَلْحَمْدُ ِللهِ الَّذِيْ قَطْلَ الْحَاجَتِ",
+							"translatedQuote": "Praise be to Allah who has given me my will"
+						},
+						{
+							"subCategoryName": "Doa Ketika Mimpi Buruk",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي أَعُوْذُ بِكَ مِنْ عَمَلِ الشَّيْطَانِ وَسَيِّئاَتِ اْلأَحْلاَمِ",
+							"translatedQuote": "O Allah, verily I ask thee for protection from satan's deeds and from bad dreams"
+						},
+						{
+							"subCategoryName": "Doa Bangun Tidur",
+							"arabicQuote": "اَلْحَمْدُ ِللهِ الَّذِي اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ",
+							"translatedQuote": "Praise be to Allah, who has given us life after we die (awaken us from our sleep), and to Him we will be returned."
+						},
+						{
+							"subCategoryName": "Doa Masuk Kamar Mandi Atau Toilet",
+							"arabicQuote": "اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+							"translatedQuote": "O Allah, I seek refuge in You from the temptations of male satan and female satan"
+						},
+						{
+							"subCategoryName": "Doa Keluar Kamar Mandi Atau Toilet",
+							"arabicQuote": "غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِي اَذْهَبَ عَنِّي اْلاَذَى وَعَافَانِي",
+							"translatedQuote": "In the hope of Your forgiveness, all praise belongs to God who has removed impurities from my body and who has prospered me."
+						},
+						{
+							"subCategoryName": "Doa Ketika Bercermin",
+							"arabicQuote": "اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِيْ  فَحَسِّـنْ خُلُقِي",
+							"translatedQuote": "Praise be to God, glorify my ethics as You have made my face better"
+						},
+						{
+							"subCategoryName": "Doa Masuk Rumah",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي اَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبِّنَا تَوَكَّلْنَا",
+							"translatedQuote": "O Allah, I ask thee good of an  entrance and the good place to leave, and by the name of we enter, by the the name of our God we leave and to God our Lord, we put our trust."
+						},
+						{
+							"subCategoryName": "Doa Memakai Pakaian",
+							"arabicQuote": "بِسْمِ اللهِ اَللّٰهُمَّ إِنِّي اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ",
+							"translatedQuote": "By your name O Allah, I ask You the goodness of this garment and the goodness of what is in it, and I seek refuge unto You from the wickedness of this garment and the wickedness therein"
+						},
+						{
+							"subCategoryName": "Doa Memohon Ilmu Yang Bermanfaat",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً",
+							"translatedQuote": "O Allah, Verily I ask You useful knowledge, good fortune and good deeds received."
+						},
+						{
+							"subCategoryName": "Doa Sebelum Belajar",
+							"arabicQuote": "يَارَبِّ زِدْنِي عِلْمًا وَارْزُقْنِي فَهْمًا",
+							"translatedQuote": "O Allah, add me knowledge and give me the fortune of understanding"
+						},
+						{
+							"subCategoryName": "Doa Sesudah Belajar",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي اسْتَوْدِعُكَ مَاعَلَّمْتَنِيْهِ فَارْدُدْهُ إِلَيَّ عِنْدَ حَاجَتِي وَلاَ تَنْسَنِيْهِ يَارَبَّ الْعَالَمِيْنَ",
+							"translatedQuote": "O Allah, I have given you the knowledge which You have taught me, and return it to me when I need to return, and do not forget me, O Lord of the Universe."
+						},
+						{
+							"subCategoryName": "Doa Menengok Orang Sakit",
+							"arabicQuote": "للَّهُمَّ رَبَّ النَّاسِ مُذْهِبَ الْبَاسِ اشْفِ أَنْتَ الشَّافِى لاَ شَافِىَ إِلاَّ أَنْتَ ، شِفَاءً لاَ يُغَادِرُ سَقَمًا",
+							"translatedQuote": "O Allah the God of all mankind, remove the disease, and heal him. (Only) You are the one who can heal him, there is no healing but healing from You, a healing that does not relapse anymore."
+						},
+						{
+							"subCategoryName": "Doa Setelah Adzan",
+							"arabicQuote": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلاَةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِى وَعَدْتَهُ",
+							"translatedQuote": "O Allah, the Lord who has this perfect calling and prayer to be established. Give wasilah and virtue to Muhammad. Raise him to the commendable position that You promised him."
+						},
+						{
+							"subCategoryName": "Doa Ketika Turun Hujan",
+							"arabicQuote": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+							"translatedQuote": "We were given rain by the grace and mercy of Allah."
+						},
+						{
+							"subCategoryName": "Doa Setelah Turun Hujan",
+							"arabicQuote": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+							"translatedQuote": "Kami dianugerahi hujan karena karunia dan rahmat Allah"
+						},
+						{
+							"subCategoryName": "Doa Ketika Angin Kencang/Gempa",
+							"arabicQuote": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا فِيهَا وَخَيْرَ مَا أُرْسِلَتْ بِهِ وَأَعُوذُ بِكَ مِنْ شَرِّهَا وَشَرِّ مَا فِيهَا وَشَرِّ مَا أُرْسِلَتْ بِهِ",
+							"translatedQuote": "O Allah, verily I ask for His kindness, the goodness that is in it and the goodness that You send with it. And I take refuge from the badness that is in it and the badness that you send with it."
+						},
+						{
+							"subCategoryName": "Doa Ketika Ada Petir",
+							"arabicQuote": "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ",
+							"translatedQuote": "Glory be to Allah, who glorifies the lightning and the angels for fear of Him."
+						},
+						{
+							"subCategoryName": "Doa Ditetapkan Hati",
+							"arabicQuote": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+							"translatedQuote": "O God who turns a heart, set my heart on Your religion"
+						},
+						{
+							"subCategoryName": "Doa Berbuka Puasa",
+							"arabicQuote": "اللَّهُمَّ لَك صُمْت وَعَلَى رِزْقِك أَفْطَرْت",
+							"translatedQuote": "O Allah, for You I fast, and with sustenance from You I break my fast"
+						},
+						{
+							"subCategoryName": "Doa untuk Kedua Orangtua",
+							"arabicQuote": "رَبّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+							"translatedQuote": "O our Lord! Please forgive me and for both my father and mother and for those who believe when the calculation of deeds and retribution is applied."
+						},
+						{
+							"subCategoryName": "Doa Mohon Hujan",
+							"arabicQuote": "اللَّهُمَّ اسْقِنَا غَيْثًا مُغِيثًا، مَرِيئًا مَرِيعًا، نَافِعًا غَيْرَ ضَارٍّ، عَاجِلًا غَيْرَ آجِلٍ",
+							"translatedQuote": "O Allah, please bring rain to us evenly, it is refreshing, nourishes the plants, is beneficial without harm and we ask that it be sent down immediately without being postponed."
+						},
+						{
+							"subCategoryName": "Doa Dibebaskan dari Hutang",
+							"arabicQuote": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحَزَنِ وَأَعُوذُ بِكَ مِنْ الْعَجْزِ وَالْكَسَلِ وَأَعُوذُ بِكَ مِنْ الْجُبْنِ وَالْبُخْلِ وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ",
+							"translatedQuote": "O God, I seek refuge with You from grief and sorrow. I seek refuge in Thee from weakness and lazily. I seek refuge in Thee from cowardice and hunch. And I seek refuge with You from the burden of debt and oppression of men."
+						},
+						{
+							"subCategoryName": "Doa Dicukupkan Rezeki",
+							"arabicQuote": "اللَّهُمَّ اكْفِنِى بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِى بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+							"translatedQuote": "O Allah! Suffice me with what is chalal and keep me away from what is haram, and suffice me with Your gifts instead of depending on other than You."
+						},
+						{
+							"subCategoryName": "Doa Bila Diundang Makan",
+							"arabicQuote": "اللهُمَّ، بَارِكْ لَهُمْ فِي مَا رَزَقْتَهُمْ، وَاغْفِرْ لَهُمْ وَارْحَمْهُمْ",
+							"translatedQuote": "O Allah, our Lord, bless them with what You have provided for them and forgive them and have mercy on them"
+						},
+						{
+							"subCategoryName": "Doa Memohon Hidayah",
+							"arabicQuote": "اللَّهُمَّ إنِّي أسْألُكَ الهُدَى ، والتُّقَى ، والعَفَافَ ، والغِنَى",
+							"translatedQuote": "O Allah! In fact, I ask You for guidance, piety, 'iffah' (restraint from matters that take the form of immorality) and wealth."
+						},
+						{
+							"subCategoryName": "Doa Dipermudahkan Segala Urusan",
+							"arabicQuote": "اللَّهُمَّ لا سَهْلَ إِلاَّ ما جَعَلْتَهُ سَهْلاً، وأنْتَ تَجْعَلُ الحَزْنَ إذَا شِئْتَ سَهْلاً",
+							"translatedQuote": "Oh my God! There is no ease but what You have made an ease. And It is You who make the difficult thing if you will with ease."
+						}
+					]
+				},
+				{
+					"categoryName": "Doa Bepergian",
+					"subCategoryList": [
+						{
+							"subCategoryName": "Doa Keluar Rumah",
+							"arabicQuote": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
+							"translatedQuote": "By mentioning the name of God I put my trust in God, there is no power but with the help of God."
+						},
+						{
+							"subCategoryName": "Doa Mohon Perlindungan dalam Bepergian",
+							"arabicQuote": "اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِ وَ الْخَلِيْفَةُ فِى الْاَهْلِ",
+							"translatedQuote": "O Allah, make it easy for us to travel, and bring it closer to the distance. O Allah who accompanies you in traveling, and You also protect the family."
+						},
+						{
+							"subCategoryName": "Doa Naik Kendaraan",
+							"arabicQuote": "سُبْحَانَ الَّذِي سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
+							"translatedQuote": "Glory to Allah who has subjected us to this (vehicle). Whereas previously we were unable to master it, and only to You will we return"
+						},
+						{
+							"subCategoryName": "Doa Ketika Sampai di Tempat Tujuan",
+							"arabicQuote": "اَلْحَمْدُ ِللهِ الَّذِي سَلَمَنِي وَالَّذِي اَوَنِيْ وَالَّذِي جَمَعَ الشَّمْلَ بِ",
+							"translatedQuote": "Praise be to Allah, who saved me and who protected me and who gathered me with my family."
+						},
+						{
+							"subCategoryName": "Doa Ketika Menuju Masjid",
+							"arabicQuote": "اَللّٰهُمَّ اجْعَلْ فِي قَلْبِي نُوْرًا وَفِي لِسَانِي نُوْرًا وَفِي بَصَرِي نُوْرًا وَفِي سَمْعِي نُوْرًا وَعَنْ يَسَارِي نُوْرًا وَعَنْ يَمِيْنِي نُوْرًا وَفَوْقِي نُوْرًا وَتَحْتِي نُوْرًا وَاَمَامِي نُوْرًا وَخَلْفِي نُوْرًا وَاجْعَلْ لِّي نُوْرًا",
+							"translatedQuote": "O Allah, make light in my heart, in my mouth,  in my sight, in my hearing , from my right, from my left, from above me , from below me a light, from before me, behind me, and make for me a light."
+						}
+					]
+				},
+				{
+					"categoryName": "Doa Sakit, Bala, dan kematian",
+					"subCategoryList": [
+						{
+							"subCategoryName": "Doa Menolak Kemudaratan",
+							"arabicQuote": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ، وَهُوَ السَّمِيعُ الْعَلِيمُ",
+							"translatedQuote": "In the name of Allah, who is in His name, nothing can give harm on earth or in the sky, He is the Hearing, the Knowing."
+						},
+						{
+							"subCategoryName": "Doa Menolak Bala",
+							"arabicQuote": "أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+							"translatedQuote": "I take refuge with the perfect sentence of Allah from all the badness that Allah the Most High creates"
+						},
+						{
+							"subCategoryName": "Doa Mohon Keselamatan",
+							"arabicQuote": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ",
+							"translatedQuote": "O Allah I ask You for salvation in this world and the hereafter"
+						},
+						{
+							"subCategoryName": "Doa Dijauhkan Penyakit yang Buruk",
+							"arabicQuote": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ البَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الْأَسْقَامِ",
+							"translatedQuote": "O God I seek refuge with you from the diseases of sopak, madness, leprosy and bad diseases"
+						},
+						{
+							"subCategoryName": "Doa Meninggal dengan Akhir yang Baik",
+							"arabicQuote": "اللَهُمَّ اخْتِمْ لنا بِحُسْنِ الْخَاتِمَة وَلاَ تَخْتِمْ عَلَيْنَا بِسُوءِ الخَاتِمَة",
+							"translatedQuote": "O Allah, end our life with a good ending and do not you end our life with a bad ending."
+						}
+					]
+				},
+				{
+					"categoryName": "Doa Bersuci",
+					"subCategoryList": [
+						{
+							"subCategoryName": "Doa Istinja (Bersuci setelah Buang Air Besar)",
+							"arabicQuote": "اَللّٰهُمَّ طَهِّرُ قَلْبِي مِنَ النِّفَاقِ وَحَصِّنْ فَرْجِي مِنَ الْفَوَاحِشِ",
+							"translatedQuote": "O my Lord, purify my heart from the nature of pretense (munafiq) and protect my genitals from evil deeds"
+						},
+						{
+							"subCategoryName": "Doa Niat Wudhu",
+							"arabicQuote": "نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالَى",
+							"translatedQuote": "I intend to do wudhu to remove the small hadast fardu (obligatory) because of Allah the Most High"
+						},
+						{
+							"subCategoryName": "Doa Setelah Wudhu",
+							"arabicQuote": "اَشْهَدُ اَنْ لاَّاِلَهَ اِلاَّاللهُ وَحْدَهُ لاَشَرِيْكَ لَهُ وَاَشْهَدُ اَنَّ مُحَمَّدًاعَبْدُهُ وَرَسُوْلُهُ. اَللّٰهُمَّ اجْعَلْنِي مِنَ التَّوَّابِيْنَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِيْنَ، وَجْعَلْنِيْ مِنْ عِبَادِكَ الصَّالِحِيْنَ",
+							"translatedQuote": "I testify that there is no god but Allah the Almighty, there is no ally for Him, and I confess that the Prophet Muhammad is a servant and Messenger of Allah. O Allah, make me from the class of those who repent and make me from the class that are clean and make me from the class of your pious servants"
+						},
+						{
+							"subCategoryName": "Doa Tayamum",
+							"arabicQuote": "نَوَيْتُ التَّيَمُّمَ لاِسْتِبَاحَةِ الصَّلاَةِ فَرْضً ِللهِ تَعَالَى",
+							"translatedQuote": "I intend to do tayamum so that I can do the fardhu prayer because of Allah The Most High."
+						},
+						{
+							"subCategoryName": "Doa akan Mandi (Bukan Mandi Wajib)",
+							"arabicQuote": "اَللّٰهُمَّ اغْفِرْلِي ذَنْبِي وَوَسِّعْ لِي فِىْ دَارِي وَبَارِكْ لِي فِي رِزْقِي",
+							"translatedQuote": "O Allah, forgive my sins and give freedom to my house and bless my sustenance"
+						},
+						{
+							"subCategoryName": "Doa Niat mandi wajib (umum)",
+							"arabicQuote": "نَوَيْتُ الْغُسْلَ لِرَفْعِ الْحَدَثِ اْلاَكْبَرِ فَرْضًا ِللهِ تَعَالَى",
+							"translatedQuote": "I intend to take a big bath to remove the great hadast, fardhu (obligatory) because of Allah the Most High."
+						}
+					]
+				},
+				{
+					"categoryName": "Doa Sebelum/Setelah Sholat",
+					"subCategoryList": [
+						{
+							"subCategoryName": "Doa Menjelang Sholat Shubuh",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي اَعُوْذُ بِكَ مِنْ ضِيْقِ الدُّنْيَا وَضِيْقِ يَوْمِ الْقِيَامَةِ",
+							"translatedQuote": "O Allah! Verily I will take refuge in You from the narrowness of the world and the narrowness of the Day of Judgment"
+						},
+						{
+							"subCategoryName": "Doa Menyambut Pagi hari",
+							"arabicQuote": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ",
+							"translatedQuote": "O Allah, because of You we have morning and evening, and because of You we live and die and to You also we will return."
+						},
+						{
+							"subCategoryName": "Doa Menyambut Sore Hari",
+							"arabicQuote": "اَللّٰهُمَّ بِكَ اَمْسَيْنَا وَبِكَ اَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ",
+							"translatedQuote": "O Allah, because of You we have evening and morning, because of You we live and die and to You also we will return."
+						},
+						{
+							"subCategoryName": "Doa Masuk Masjid",
+							"arabicQuote": "اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ",
+							"translatedQuote": "O Allah, open for me the doors of Your grace"
+						},
+						{
+							"subCategoryName": "Doa Keluar Masjid",
+							"arabicQuote": "اَللّٰهُمَّ إِنِّي اَسْأَلُكَ مِنْ فَضْلِكَ",
+							"translatedQuote": "O Allah, verily I ask Your favor/kindness"
+						},
+						{
+							"subCategoryName": "Doa Keselamatan Dunia dan Akhirat",
+							"arabicQuote": "رَبَّنَا اٰتِنَا فِى الدُّنْيَا حَسَنَةً وَّفِى اْلاٰخِرَةِ حَسَنَةً وَّقِنَا عَذَابَ النَّارِ",
+							"translatedQuote": "O our God, give us the goodness of living in this world and the goodness of living in the hereafter, and protect us from the torments of hellfire."
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 1",
+							"arabicQuote": "أَسْتَغْفِرُ اللهَ (3x) اَللَّهُمَّ أَنْتَ السَّلاَمُ، وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الْجَلاَلِ وَاْلإِكْرَامِ.",
+							"translatedQuote": "“I ask forgiveness from Allah,” (3x). Then read: O Allah, You are the giver of salvation, and from You are salvation, Glory be to You, O Lord Who Has Greatness and Glory"
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 2",
+							"arabicQuote": "لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ، اَللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
+							"translatedQuote": "“I ask forgiveness from Allah,”(3x). O Allah, You are the giver of salvation, and from You are salvation, Glory be to You, O Lord of Greatness and Glory"
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 3",
+							"arabicQuote": "لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ. لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ، لاَ إِلَـهَ إِلاَّ اللهُ، وَلاَ نَعْبُدُ إِلاَّ إِيَّاهُ، لَهُ النِّعْمَةُ وَلَهُ الْفَضْلُ وَلَهُ الثَّنَاءُ الْحَسَنُ، لاَ إِلَـهَ إِلاَّ اللهُ مُخْلِصِيْنَ لَهُ الدِّيْنَ وَلَوْ كَرِهَ الْكَافِرُوْنَ",
+							"translatedQuote": "There is no God (who has the right to be worshiped) except Allah, the One and Only, there is no ally for Him. To him kingdom and all worships. He has power over all things. There is no power and strength except (with the help of) Allah. There is no Rabb (who has the right to be worshiped) except Allah. We do not worship except Him. For Him, favors, gifts and good adoration. There is no Rabb (who has the right to be worshiped) except Allah, by purifying worship to Him, even though the disbelievers hated"
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 4",
+							"arabicQuote": "سُبْحَانَ اللهِ وَالْحَمْدُ لِلَّهِ وَاللهُ أَكْبَرُ (33 ×) لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ",
+							"translatedQuote": "Glory to Allah, praise be to Allah, and Allah is Great (33 x). There is no Rabb (who has the right to be worshiped) except Allah Almighty, there is no partner for Him. To him the kingdom. To him adoration. He is the Almighty over all things"
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 5",
+							"arabicQuote": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+							"translatedQuote": "Allah, there is no God (who has the right to be worshiped) but He who has eternal life and takes care of (His creatures); not sleepy and not sleeping. His is what is in the heavens and the earth. No one can give syafa'at to be by Allah's side without His permission. Allah knows what is in front of them and behind them, and they do not know anything from Allah's knowledge but what He wills. The seat of Allah covers the heavens and the earth. And Allah does not feel heavy taking care of both of them, and Allah is Most High, Most Great."
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 6",
+							"arabicQuote": "لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِيْ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ. 10× بعد صلاة المغرب والصبح",
+							"translatedQuote": "No Rabb has the right to be worshiped except Allah Almighty, there is no ally for Him, for Him is the kingdom, for Him all worship. He is the one who gives life (the person who has died or gives the spirit of the fetus to be born) and the one who is deadly. He is the Almighty over all things."
+						},
+						{
+							"subCategoryName": "Doa Setelah Sholat 7",
+							"arabicQuote": "اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً",
+							"translatedQuote": "O Allah, actually I ask You useful knowledge, lawful sustenance and deeds that are accepted."
+						}
+					]
+				}
+			],
+			"type": "label",
+			"key": "pruDailyDoaData"
+		},
+		{
+			"label": "View",
+			"type": "label",
+			"key": "pruView"
+		},
+		{
+			"label": "Inspiration",
+			"type": "label",
+			"key": "pruInspirasi"
+		},
+		{
+			"label": {
+				"category": "Motivasi",
+				"inspiration": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion.",
+				"reference": "Q.S. Al-Maidah 5: 3"
+			},
+			"type": "label",
+			"key": "pruInspirasiDetails"
+		},
+		{
+			"label": "Zakat Maal",
+			"type": "label",
+			"key": "pruZakatMaal"
+		},
+		{
+			"label": "Gold, Silver, And / Or Gem Values",
+			"type": "label",
+			"key": "pruGoldSilver"
+		},
+		{
+			"label": "Enter Gold, Silver, And/Or Gem Values",
+			"type": "label",
+			"key": "pruGoldSilverPlace"
+		},
+		{
+			"label": "(Excluding Daily Use)",
+			"type": "label",
+			"key": "pruExcludeDaily"
+		},
+		{
+			"label": "Revenue Earned From Savings",
+			"type": "label",
+			"key": "pruEarnedSavings"
+		},
+		{
+			"label": "Enter Revenue Earned From Savings",
+			"type": "label",
+			"key": "pruEarnedSavingsPlace"
+		},
+		{
+			"label": "Proceeds obtained from Savings, Deposits, Other Valuable Letters",
+			"type": "label",
+			"key": "pruOtherDeposits"
+		},
+		{
+			"label": "Enter Deposits, Other Valuable Letters",
+			"type": "label",
+			"key": "pruOtherDepositsPlace"
+		},
+		{
+			"label": "Rental Revenue From Property, Vehicles And Other Assets",
+			"type": "label",
+			"key": "pruRentalRevenue"
+		},
+		{
+			"label": "Debts & Obligations Due In This Year",
+			"type": "label",
+			"key": "pruOtherDebts"
+		},
+		{
+			"label": "Current Gold Price Estimate (1 gram)",
+			"type": "label",
+			"key": "pruGoldPrice"
+		},
+		{
+			"label": "Must Pay Asset Zakat (Maal)?",
+			"type": "label",
+			"key": "pruIsEligibleMaal"
+		},
+		{
+			"label": "Total Asset After Debt & Other Liabilities",
+			"type": "label",
+			"key": "pruTotalProperty"
+		},
+		{
+			"label": "Zakat Maal Nishab (85 grams of gold)",
+			"type": "label",
+			"key": "pruNishabMaal"
+		},
+		{
+			"label": "Amount of Asset Zakat (Maal)",
+			"type": "label",
+			"key": "pruZumlahZakat"
+		},
+		{
+			"label": "Zakat Income",
+			"type": "label",
+			"key": "pruIncome"
+		},
+		{
+			"label": "Income per Month",
+			"type": "label",
+			"key": "pruIncomePerMonth"
+		},
+		{
+			"label": "Other Income (Bonus, THR, dII)",
+			"type": "label",
+			"key": "pruOtherIncome"
+		},
+		{
+			"label": "Must Pay Income Zakat?",
+			"type": "label",
+			"key": "pruIsEligibleZakat"
+		},
+		{
+			"label": "Total Income",
+			"type": "label",
+			"key": "pruIsTotalIncome"
+		},
+		{
+			"label": "Nishab Zakat Pendapatan",
+			"type": "label",
+			"key": "pruNishabIncome"
+		},
+		{
+			"label": "Amount of Income Zakat",
+			"type": "label",
+			"key": "pruIncomeZakat"
+		},
+		{
+			"label": "Yes",
+			"type": "label",
+			"key": "pruYes"
+		},
+		{
+			"label": "No",
+			"type": "label",
+			"key": "pruNo"
+		},
+		{
+			"label": "Rp.",
+			"type": "label",
+			"key": "pruCurrency"
+		},
+		{
+			"label": "Simpan",
+			"type": "label",
+			"key": "pruSave"
+		},
+		{
+			"label": "Enter Rental Revenue From Property",
+			"type": "label",
+			"key": "pruRentalRevenuePlace"
+		},
+		{
+			"label": "Enter Other Debt Due In That Year",
+			"type": "label",
+			"key": "pruOtherDebtsPlace"
+		},
+		{
+			"label": "Enter Current Gold Price Estimates",
+			"type": "label",
+			"key": "pruGoldPricePlace"
+		},
+		{
+			"label": "Enter Income per Month",
+			"type": "label",
+			"key": "pruIncomePerMonthPlace"
+		},
+		{
+			"label": "Enter Other Income (Bonus, THR, dII)",
+			"type": "label",
+			"key": "pruOtherIncomePlace"
+		},
+		{
+			"label": "Zakat Calculator",
+			"type": "label",
+			"key": "pruZakatCalculator"
+		},
+		{
+			"label": "Islamic Calendar",
+			"type": "label",
+			"key": "pruIslamicCalendar"
+		},
+		{
+			"label": "Mosque Locator",
+			"type": "label",
+			"key": "pruMosqueLocator"
+		},
+		{
+			"label": "Hijabi Style",
+			"type": "label",
+			"key": "pruHijabiStyle"
+		},
+		{
+			"label": "Halal Lifestyle Community",
+			"type": "label",
+			"key": "pruHalalCommunity"
+		},
+		{
+			"label": "Sharia Insurance Products",
+			"type": "label",
+			"key": "pruTakafulProd"
+		},
+		{
+			"label": "Halal Recipes",
+			"type": "label",
+			"key": "pruHalalRecipe"
+		},
+		{
+			"label": "Coming Soon",
+			"type": "label",
+			"key": "pruComingSoon"
+		},
+		{
+			"label": "Get Started",
+			"type": "label",
+			"key": "pruGetStarted"
+		},
+		{
+			"label": "Prayer Calendar",
+			"type": "label",
+			"key": "pruPrayerCalendar"
+		},
+		{
+			"label": "Start",
+			"type": "label",
+			"key": "pruStart"
+		},
+		{
+			"label": "Subscribe to PRUShalira to unlock exciting features",
+			"type": "label",
+			"key": "pruSubscribe"
+		},
+		{
+			"label": "Select State & Zone",
+			"type": "label",
+			"key": "pruSelectState"
+		},
+		{
+			"label": "Prayer Reminders",
+			"type": "label",
+			"key": "pruPrayerReminder"
+		},
+		{
+			"label": "Select one prayer timing Convention",
+			"type": "label",
+			"key": "pruPrayerConvention"
+		},
+		{
+			"label": "Be a part of Insaan and be updated on Halaal lifestyle trend",
+			"type": "label",
+			"key": "pruInsaanTileDesc"
+		},
+		{
+			"label": "Be a part of PRUShalira and be updated on Halaal lifestyle trend",
+			"type": "label",
+			"key": "pruUpdatedTileDesc"
+		},
+		{
+			"label": "My Health",
+			"type": "label",
+			"key": "pruMyHealth"
+		},
+		{
+			"label": "My Community",
+			"type": "label",
+			"key": "pruMyCommunity"
+		},
+		{
+			"label": "My Policies",
+			"type": "label",
+			"key": "pruMyPolicies"
+		},
+		{
+			"label": "PRUShoppe",
+			"type": "label",
+			"key": "pruPRUShope"
+		},
+		{
+			"label": "My Rewards",
+			"type": "label",
+			"key": "pruMyRewards"
+		},
+		{
+			"label": "Qiblat",
+			"type": "label",
+			"key": "pruQiblat"
+		},
+		{
+			"label": "Imsak",
+			"type": "label",
+			"key": "pruImsak"
+		},
+		{
+			"label": "Subuh",
+			"type": "label",
+			"key": "pruSubuh"
+		},
+		{
+			"label": "Subuh (Fajr)",
+			"type": "label",
+			"key": "pruSubuhFajr"
+		},
+		{
+			"label": "Sunrise",
+			"type": "label",
+			"key": "pruTerbit"
+		},
+		{
+			"label": "Sunrise",
+			"type": "label",
+			"key": "pruSyuruk"
+		},
+		{
+			"label": "Dzuhur",
+			"type": "label",
+			"key": "pruDzuhur"
+		},
+		{
+			"label": "Asar",
+			"type": "label",
+			"key": "pruAsar"
+		},
+		{
+			"label": "Maghrib",
+			"type": "label",
+			"key": "pruMaghrib"
+		},
+		{
+			"label": "Isyak",
+			"type": "label",
+			"key": "pruIsyak"
+		},
+		{
+			"label": "State",
+			"type": "label",
+			"key": "pruState"
+		},
+		{
+			"label": "Zone",
+			"type": "label",
+			"key": "pruZone"
+		},
+		{
+			"label": "Kaba, Mecca",
+			"type": "label",
+			"key": "pruKabaMecca"
+		},
+		{
+			"label": "Distance from Mecca",
+			"type": "label",
+			"key": "pruMeccaDistance"
+		},
+		{
+			"label": "km",
+			"type": "label",
+			"key": "pruKilometer"
+		},
+		{
+			"label": "Faraid Calculator",
+			"type": "label",
+			"key": "pruFaraidCal"
+		},
+		{
+			"label": "Fill up your Details",
+			"type": "label",
+			"key": "pruFillDetails"
+		},
+		{
+			"label": "Gender",
+			"type": "label",
+			"key": "pruGender"
+		},
+		{
+			"label": "Male",
+			"type": "label",
+			"key": "pruMale"
+		},
+		{
+			"label": "Female",
+			"type": "label",
+			"key": "pruFemale"
+		},
+		{
+			"label": "Status",
+			"type": "label",
+			"key": "pruStatus"
+		},
+		{
+			"label": "Single",
+			"type": "label",
+			"key": "pruSingle"
+		},
+		{
+			"label": "Married",
+			"type": "label",
+			"key": "pruMarried"
+		},
+		{
+			"label": "Divorced/Widowed",
+			"type": "label",
+			"key": "pruDivorced"
+		},
+		{
+			"label": "Total Assets",
+			"type": "label",
+			"key": "pruTotalAssets"
+		},
+		{
+			"label": "Enter Total Assets",
+			"type": "label",
+			"key": "pruTotalAssetsPlace"
+		},
+		{
+			"label": "Next",
+			"type": "label",
+			"key": "pruNext"
+		},
+		{
+			"label": "You",
+			"type": "label",
+			"key": "pruYou"
+		},
+		{
+			"label": "Family Members",
+			"type": "label",
+			"key": "pruFamilyMembers"
+		},
+		{
+			"label": "Husband",
+			"type": "label",
+			"key": "pruHusband"
+		},
+		{
+			"label": "Father",
+			"type": "label",
+			"key": "pruFather"
+		},
+		{
+			"label": "Mother",
+			"type": "label",
+			"key": "pruMother"
+		},
+		{
+			"label": "Sons",
+			"type": "label",
+			"key": "pruSons"
+		},
+		{
+			"label": "Daughters",
+			"type": "label",
+			"key": "pruDaughters"
+		},
+		{
+			"label": "Brothers",
+			"type": "label",
+			"key": "pruBrothers"
+		},
+		{
+			"label": "Sisters",
+			"type": "label",
+			"key": "pruSisters"
+		},
+		{
+			"label": "Calculate",
+			"type": "label",
+			"key": "pruCalculate"
+		},
+		{
+			"label": "Wives (upto 4)",
+			"type": "label",
+			"key": "pruWives"
+		},
+		{
+			"label": "Distribution Result",
+			"type": "label",
+			"key": "pruDistribution"
+		},
+		{
+			"label": "Amount",
+			"type": "label",
+			"key": "pruAmount"
+		},
+		{
+			"label": "(per person)",
+			"type": "label",
+			"key": "pruPerPerson"
+		},
+		{
+			"label": "Spouse",
+			"type": "label",
+			"key": "pruSpouse"
+		},
+		{
+			"label": "Percentage",
+			"type": "label",
+			"key": "pruPercentage"
+		},
+		{
+			"label": "Balance (if any, will go to Baitul-Mal)",
+			"type": "label",
+			"key": "pruBalance"
+		},
+		{
+			"label": "Re-Calculate",
+			"type": "label",
+			"key": "pruReCalculate"
+		},
+		{
+			"label": "Mandatory",
+			"type": "label",
+			"key": "pruObligatory"
+		},
+		{
+			"label": "Sunday",
+			"type": "label",
+			"key": "pruSunday"
+		},
+		{
+			"label": "Monday",
+			"type": "label",
+			"key": "pruMonday"
+		},
+		{
+			"label": "Tuesday",
+			"type": "label",
+			"key": "pruTuesday"
+		},
+		{
+			"label": "Wednesday",
+			"type": "label",
+			"key": "pruWednesday"
+		},
+		{
+			"label": "Thursday",
+			"type": "label",
+			"key": "pruThursday"
+		},
+		{
+			"label": "Friday",
+			"type": "label",
+			"key": "pruFriday"
+		},
+		{
+			"label": "Saturday",
+			"type": "label",
+			"key": "pruSaturday"
+		},
+		{
+			"label": "Egypt General Authority",
+			"type": "label",
+			"key": "pruEgyptName"
+		},
+		{
+			"label": "North America (ISNA)",
+			"type": "label",
+			"key": "pruIsnaName"
+		},
+		{
+			"label": "Muslim World League (MWL)",
+			"type": "label",
+			"key": "pruMwlName"
+		},
+		{
+			"label": "Umm Al-Qura, Mekah",
+			"type": "label",
+			"key": "pruMekahName"
+		},
+		{
+			"label": "Islamic University, Karachi",
+			"type": "label",
+			"key": "pruKarachiName"
+		},
+		{
+			"label": "Africa, Syria, Lebanon, Malaysia, Indonesia",
+			"type": "label",
+			"key": "pruEgyptDesc"
+		},
+		{
+			"label": "North America (US and Canada)",
+			"type": "label",
+			"key": "pruIsnaDesc"
+		},
+		{
+			"label": "Europe, Far East, Part of US",
+			"type": "label",
+			"key": "pruMwlDesc"
+		},
+		{
+			"label": "Arabian Peninsula",
+			"type": "label",
+			"key": "pruMekahDesc"
+		},
+		{
+			"label": "Pakistan, Afghanistan, Bangladesh, India",
+			"type": "label",
+			"key": "pruKarachiDesc"
+		},
+		{
+			"label": "JAKIM, Malaysia",
+			"type": "label",
+			"key": "pruJakimMalay"
+		},
+		{
+			"label": "Set notifications and Athan reminders",
+			"type": "label",
+			"key": "pruSetNotification"
+		},
+		{
+			"label": "January",
+			"type": "label",
+			"key": "pruJan"
+		},
+		{
+			"label": "February",
+			"type": "label",
+			"key": "pruFeb"
+		},
+		{
+			"label": "March",
+			"type": "label",
+			"key": "pruMar"
+		},
+		{
+			"label": "April",
+			"type": "label",
+			"key": "pruApr"
+		},
+		{
+			"label": "May",
+			"type": "label",
+			"key": "pruMay"
+		},
+		{
+			"label": "June",
+			"type": "label",
+			"key": "pruJun"
+		},
+		{
+			"label": "July",
+			"type": "label",
+			"key": "pruJul"
+		},
+		{
+			"label": "August",
+			"type": "label",
+			"key": "pruAug"
+		},
+		{
+			"label": "September",
+			"type": "label",
+			"key": "pruSep"
+		},
+		{
+			"label": "October",
+			"type": "label",
+			"key": "pruOct"
+		},
+		{
+			"label": "November",
+			"type": "label",
+			"key": "pruNov"
+		},
+		{
+			"label": "December",
+			"type": "label",
+			"key": "pruDec"
+		},
+		{
+			"label": "Prayer time is about to begin",
+			"type": "label",
+			"key": "pruNotifWithoutOffset"
+		},
+		{
+			"label": "minutes for the next prayer",
+			"type": "label",
+			"key": "pruNotifWithOffset"
+		},
+		{
+			"label": "Asabah",
+			"type": "label",
+			"key": "pruAsabah"
+		},
+		{
+			"label": "Daily essential Dua's from Qur'an and Sunnah for various occasion on your finger tips.",
+			"type": "label",
+			"key": "pruDailyDoaDesc"
+		},
+		{
+			"label": "Know how much Zakat to pay, and you are ready to make your payment.",
+			"type": "label",
+			"key": "pruZakatCalDesc"
+		},
+		{
+			"label": "Calculate inheritance shares of eligible heirs according to islamic law based on Qur'an & Sunnah.",
+			"type": "label",
+			"key": "pruFaraidCalDesc"
+		},
+		{
+			"label": "Find the nearest mosques to you in a sorted list from the nearest to the farthest from you.",
+			"type": "label",
+			"key": "pruMosqueLocDesc"
+		},
+		{
+			"label": "Worldwide method of calculations for prayer time & hijri date such as awqaf, ummul qura, & many more.",
+			"type": "label",
+			"key": "pruIslamicCalDesc"
+		},
+		{
+			"label": "There are thousand of styles to explore, here are some ideas to get you started.",
+			"type": "label",
+			"key": "pruHijabiStyleDesc"
+		},
+		{
+			"label": "Get started and be updated with the Halal Community lifestyle trends.",
+			"type": "label",
+			"key": "pruHalalComDesc"
+		},
+		{
+			"label": "Being protected is important, we have various offerings on takaful plans which will suit your every need.",
+			"type": "label",
+			"key": "pruTakafulProdDesc"
+		},
+		{
+			"label": "Delicious and easy to prepare halal recipes.",
+			"type": "label",
+			"key": "pruHalalRecDesc"
+		},
+		{
+			"label": "Within 2 km range",
+			"type": "label",
+			"key": "pruRangeOne"
+		},
+		{
+			"label": "Within 3 km range",
+			"type": "label",
+			"key": "pruRangeTwo"
+		},
+		{
+			"label": "Within 5 km range",
+			"type": "label",
+			"key": "pruRangeThree"
+		},
+		{
+			"label": "Nearest Mosque to me",
+			"type": "label",
+			"key": "pruNearestMosque"
+		},
+		{
+			"label": "Closed",
+			"type": "label",
+			"key": "pruClosed"
+		},
+		{
+			"label": "Open",
+			"type": "label",
+			"key": "pruOpen"
+		},
+		{
+			"label": "Closed Permanently",
+			"type": "label",
+			"key": "pruClosedPermanently"
+		},
+		{
+			"label": "Always Open",
+			"type": "label",
+			"key": "pruAlwaysOpen"
+		},
+		{
+			"label": "Mosque",
+			"type": "label",
+			"key": "pruMosque"
+		},
+		{
+			"label": "no reviews",
+			"type": "label",
+			"key": "pruNoReviews"
+		},
+		{
+			"label": "Opens",
+			"type": "label",
+			"key": "pruOpens"
+		},
+		{
+			"label": "Closes",
+			"type": "label",
+			"key": "pruCloses"
+		},
+		{
+			"label": "Masjid Details",
+			"type": "label",
+			"key": "pruMasjidDetails"
+		},
+		{
+			"label": "Get Direction to this Masjid",
+			"type": "label",
+			"key": "pruGetDirection"
+		},
+		{
+			"label": "You are here",
+			"type": "label",
+			"key": "pruYouAreHere"
+		},
+		{
+			"label": "Facing a Problem while fetching Current Location.",
+			"type": "label",
+			"key": "pruFacingProblem"
+		},
+		{
+			"label": "Ok",
+			"type": "label",
+			"key": "pruOk"
+		},
+		{
+			"label": "Open in Maps",
+			"type": "label",
+			"key": "pruOpenMaps"
+		},
+		{
+			"label": "What app would you like to choose?",
+			"type": "label",
+			"key": "pruSelectMaps"
+		},
+		{
+			"label": "Cancel",
+			"type": "label",
+			"key": "pruCancel"
+		},
+		{
+			"label": "Reset Values",
+			"type": "label",
+			"key": "pruReset"
+		}
+	]
+}

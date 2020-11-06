@@ -1,0 +1,16 @@
+{
+  "image": "",
+  "key": "aimecontainerscreen",
+  "elements": [
+    {
+      "type": "label",
+      "key": "denguezonetab",
+      "label": "Zona DBD"
+    },
+    {
+      "type": "label",
+      "key": "trendstab",
+      "label": "Tren"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "label": "Try Pulse Plus",
+  "image": "",
+  "key": "PULSE_PLUS_TRY_PREMIUM",
+  "elements": [
+    {
+      "key": "TITLE",
+      "label": "Try Premium for FREE",
+      "type": "label"
+    },
+    {
+      "key": "SUBTITLE",
+      "label": "Premium members are 65% more likely to reach their health goals. ",
+      "type": "label"
+    },
+    {
+      "key": "SEE_PREMIUM_FEATURES",
+      "label": "See all premium features",
+      "type": "label"
+    },
+    {
+      "key": "FREE_TRIAL_TEXT1",
+      "label": "FREE 1-month trial and ",
+      "type": "label"
+    },
+    {
+      "key": "FREE_GOLD_TRIAL_TEXT1",
+      "label": "FREE 7-days trial and ",
+      "type": "label"
+    },
+    {
+      "key": "FREE_TRIAL_TEXT2",
+      "label": "/month after",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00120_TITLE",
+      "label": "Free PA And COVID Product",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00114_TITLE",
+      "label": "Exclusive access to bike riding community.",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00114_SUBTEXT1",
+      "label": "Exclusive access to PRU Running community.",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00114_SUBTEXT",
+      "label": "RIDER_S00114_SUBTEXT1_IMG|RIDER_S00114_SUBTEXT1",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00106_TITLE",
+      "label": "Talk to a doctor live every month to evaluate your health.",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00107_TITLE",
+      "label": "AI recommended meal planner for healthier eating",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00110_TITLE",
+      "label": "Pru Accident Protect",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00113_TITLE",
+      "label": "Gain insight into your nutition with healthy eating goals",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00115_TITLE",
+      "label": "AI recommended meal planner for healthier eating",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00122_TITLE",
+      "label": "Track and monitor calories to stay fit",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00121_TITLE",
+      "label": "Dengue X",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00124_TITLE",
+      "label": "Exclusive access to running community",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00128_TITLE",
+      "label": "Gain insight into your nutrition with healthy eating goals",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00132_TITLE",
+      "label": "Chat with a dietician to improve your health",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00133_TITLE",
+      "label": "Exclusive access to move more wellness goal",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00133_SUBTEXT1",
+      "label": "Gain insights on losing weight with lose weight wellness goal",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00133_SUBTEXT",
+      "label": "RIDER_S00133_SUBTEXT1_IMG|RIDER_S00133_SUBTEXT1",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00134_TITLE",
+      "label": "Exclusive access to Pulse Fitness",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00134_SUBTEXT1",
+      "label": "Exclusive access to fitness videos from experts",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00134_SUBTEXT",
+      "label": "RIDER_S00134_SUBTEXT1_IMG|RIDER_S00134_SUBTEXT1",
+      "type": "label"
+    },
+    {
+      "key": "RIDER_S00135_TITLE",
+      "label": "Talk to a dietician live every month to evaluate your health.",
+      "type": "label"
+    },
+    {
+      "key": "CONTINUE",
+      "label": "Continue",
+      "type": "label"
+    },
+    {
+      "key": "PULSE_GOLD_TITLE",
+      "label": "Try PULSE GOLD",
+      "type": "label"
+    },
+    {
+      "key": "PULSE_GOLD_SUBTITLE",
+      "label": "Gold members are 65% more likely to reach their health goals. ",
+      "type": "label"
+    }
+  ]
+}

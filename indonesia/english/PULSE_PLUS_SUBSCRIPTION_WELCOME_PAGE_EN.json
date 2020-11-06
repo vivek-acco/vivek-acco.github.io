@@ -1,0 +1,42 @@
+{
+  "label": "Pulse Plus Features",
+  "image": "",
+  "key": "PULSE_PLUS_SUBSCRIPTION_WELCOME_PAGE",
+  "elements": [
+    {
+      "key": "HEADER_TITLE",
+      "label": "Welcome to Pulse",
+      "type": "label"
+    },
+    {
+      "key": "SUB_TITLE",
+      "label": "where you do health your way",
+      "type": "label"
+    },
+    {
+      "key": "DESCRIPTION",
+      "label": "Here is how  you can improve your health and wellness everyday with Pulse Basics",
+      "type": "label"
+    },
+    {
+      "key": "FEATURE_1",
+      "label": "Track and monitor activity to improve physical health",
+      "type": "label"
+    },
+    {
+      "key": "FEATURE_2",
+      "label": "Assess and monitor BMI to stay fit",
+      "type": "label"
+    },
+    {
+      "key": "FEATURE_3",
+      "label": "AI powered digital health insights and symptom diagnosis assistance",
+      "type": "label"
+    },
+    {
+      "key": "CONTINUE",
+      "label": "Continue",
+      "type": "label"
+    }
+  ]
+}

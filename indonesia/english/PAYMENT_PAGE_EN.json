@@ -1,0 +1,32 @@
+{
+    "label": "",
+    "image": "",
+    "key": "PAYMENT_PAGE",
+    "elements": [
+        {
+            "key": "PAYMENT_SUCCESSFUL_MESSAGE_TEXT",
+            "label": "Payment Successful",
+            "type": "label"
+        },
+        {
+            "key": "PAYMENT_FAILURE_MESSAGE_TEXT",
+            "label": "Payment Failed",
+            "type": "label"
+        },
+        {
+            "key": "PAYMENT_CANCELLED_MESSAGE_TEXT",
+            "label": "Payment Cancelled",
+            "type": "label"
+        },
+        {
+            "key": "PAYMENT_REALM_NEEDED",
+            "label": "true",
+            "type": "label"
+        },
+        {
+            "key": "SUBSCRIPTION_NOT_FOUND",
+            "label": "Subscription id not found.",
+            "type": "label"
+        }
+    ]
+}

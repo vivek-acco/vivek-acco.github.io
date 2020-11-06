@@ -1,0 +1,31 @@
+{
+  "key": "RegisterTC",
+  "image": "",
+  "elements": [
+    {
+      "label": "Persyaratan Layanan",
+      "type": "label",
+      "key": "TermsofService"
+    },
+    {
+      "label": "Pilihan Lain",
+      "type": "label",
+      "key": "MoreOptions"
+    },
+    {
+      "label": "Pemberitahuan Privasi",
+      "type": "label",
+      "key": "PrivacyPolicy"
+    },
+    {
+      "label": "Dengan mengklik 'Saya Setuju' di bawah ini, saya menerima Persyaratan Layanan.",
+      "type": "label",
+      "key": "PrivacyPolicyhint"
+    },
+    {
+      "label": "Saya setuju",
+      "type": "label",
+      "key": "I_Agree"
+    }
+  ]
+}

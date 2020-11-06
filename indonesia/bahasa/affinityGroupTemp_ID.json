@@ -1,0 +1,1230 @@
+{
+    "image": "",
+    "label": "Grup Afinitas Utama",
+    "key": "affinityGroupTempKey",
+    "elements": [
+	    {
+            "key": "COVID19",
+            "type": "label",
+            "label": {
+                "title": "Info Terbaru COVID-19",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/b2604224-656e-4433-859d-d6fd40330382?namespace=PH",
+                "description": "Gejala. Informasi terbaru. Tindakan pencegahan. Semua informasi terkait Covid-19 di satu tempat."
+            }
+        },
+        {
+            "key": "GLOBALEVENTS",
+            "type": "label",
+            "label": {
+                "title": "Peristiwa dan Kejadian Global",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e42f8d8f-be85-4c96-8444-715091607554?namespace=PH",
+                "description": "Acara kesehatan terkini dari seluruh dunia"
+            }
+        },
+        {
+            "key": "HEALTHAWARENESS",
+            "type": "label",
+            "label": {
+                "title": "Info Kesehatan",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a5a5928e-7329-4b8c-bd3d-0f4ae5920bef?namespace=PH",
+                "description": "Selalu dapatkan informasi terbaru seputar tren kesehatan"
+            }
+        },
+        {
+            "key": "WORKOUT",
+            "type": "label",
+            "label": {
+                "title": "My Workout Guide",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/280966c5-cbe6-4446-8b29-86d04844534b?namespace=ID",
+                "description": "Get Access to our repository of the workout videos, try them from the comfort of your living room and stay healthy !!."
+            }
+        },
+        {
+            "key": "NEWS",
+            "type": "label",
+            "label": {
+                "title": "PRU News",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/fd0d9dc5-df4a-43f0-9c7e-513400cecc9a?namespace=PH",
+                "description": "Informasi terbaru & pengumuman penting"
+            }
+        },
+        {
+            "key": "HEALTH_AWARENESS_UPDATES",
+            "type": "label",
+            "label": {
+                "title": "Informasi Seputar Kesehatan",
+                "description": "Tetap up to date tentang konten kesehatan yang sedang tren"
+            }
+        },
+        {
+            "key": "HEALTH_EVENTS_CALENDAR",
+            "type": "label",
+            "label": {
+                "title": "Jadwal Acara Kesehatan",
+                "description": "Acara kesehatan terkini dari seluruh dunia"
+            }
+        },
+        {
+            "key": "PRU_NEWS",
+            "type": "label",
+            "label": {
+                "title": "PRU News",
+                "description": "Berita terbaru & pengumuman penting"
+            }
+        },
+        {
+            "key": "COVID19_SYMPTOMS_UPDATES",
+            "type": "label",
+            "label": {
+                "title": "Covid-19 Updates",
+                "description": "Gejala. Informasi terkini. Tindakan pencegahan. Semua informasi yang terkait dengan Covid-19 di satu tempat."
+            }
+        },
+        {
+            "key": "HEALTHY_EATING",
+            "type": "label",
+            "label": {
+                "title": "Makan sehat",
+                "description": "Gabung dengan komunitas, bentuk pola makan sehat yang nikmat, dan bagikan inspirasi dengan teman komunitasmu dengan cara bagikan foto dan video makanan sehatmu. Dengan berbagi inspirasi kamu bisa dapat hadiah lho. \n Kamu juga bisa berkonsultasi dengan (pakar nutrisi/ahli gizi kami) yang dengan senang hati membantumu."
+            }
+        },
+        {
+            "key": "MOVE_MORE",
+            "type": "label",
+            "label": {
+                "title": "Bergerak Lebih Banyak",
+                "description": "Gabung dengan komunitas, jadi lebih aktif untuk tingkatkan kebugaranmu, dan bagikan inspirasi dengan teman komunitasmu dengan cara bagikan foto dan video aktivitas olah ragamu. Dengan berbagi inspirasi kamu bisa dapat hadiah lho. \n Kamu juga bisa lho mendapatkan dukungan dari habit coach kami yang didukung oleh teknologi Ai."
+            }
+        },
+        {
+            "key": "SHAPE_UP_BODY",
+            "type": "label",
+            "label": {
+                "title": "Tubuh Ideal",
+                "description": "Kesehatan tubuh yang optimal dan imunitas tubuh yang kuat sangatlah diperlukan, terutama pada masa sekarang ini, oleh karena itu jagalah kebugaran meskipun kamu hanya berada di dalam ruangan aja. Ini beberapa tips yang bisa bantu kamu jaga kebugaranmu."
+            }
+        },
+        {
+            "key": "SLEEP_BETTER",
+            "type": "label",
+            "label": {
+                "title": "Tidur lebih baik",
+                "description": "Kesehatan tubuh yang optimal dan imunitas tubuh yang kuat sangatlah diperlukan, terutama pada masa sekarang ini, oleh karena itu jagalah kebugaran meskipun kamu hanya berada di dalam ruangan aja. Ini beberapa tips yang bisa bantu kamu jaga kebugaranmu."
+            }
+        },
+        {
+            "key": "KEEP_FIT_HEALTHY_AT_HOME",
+            "type": "label",
+            "label": {
+                "title": "Tetap bugar dan sehat di rumah",
+                "description": "Kesehatan tubuh yang optimal dan imunitas tubuh yang kuat sangatlah diperlukan, terutama pada masa sekarang ini, oleh karena itu jagalah kebugaran meskipun kamu hanya berada di dalam ruangan aja. Ini beberapa tips yang bisa bantu kamu jaga kebugaranmu."
+            }
+        },
+        {
+            "key": "PRU_RUNNING",
+            "type": "label",
+            "label": {
+                "title": "PRURunning",
+                "description": "Ayo gabung komunitas lari PRURuning untuk mendapatkan info terkini seputar tips bersepeda sehat dan menyenangkan. Juga kesempatan untuk bertemu dengan peminat lari lainnya, untuk saling bertukar informasi dan latihan bersama."
+            }
+        }, 
+        {
+            "key": "PRU_RIDE",
+            "type": "label",
+            "label": {
+                "title": "PRURide",
+                "description": "Ayo gabung komunitas bersepeda PRURide untuk mendapatkan info terkini seputar tips bersepeda sehat dan menyenangkan. Dapatkan juga penawaran menarik dan ekslusif dari rangkaian acara PRURide Indonesia."
+            }
+        }, 
+        {
+            "key": "COVID19_HEROES",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/f824707f-7b1b-4e01-9fca-f7747c775491?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/04/09/thank-you-healthcareheroes/"
+            }
+        },
+        {
+            "key": "COVID19_MASK_RECOMMENDATION",
+            "type": "label",
+            "label": {
+                "title": "Recommended Materials for Cloth Mask, to Slowdown the COVID-19 Spread",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/f1ea8596-6ea9-4d88-a679-5a875ffa6947?namespace=ID",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/11f7f3e5-582c-406d-a4b1-0c5a569d5fd3?namespace=ID"
+            }
+        },
+        {
+            "key": "COVID19_GENDER_EQUALITY",
+            "type": "label",
+            "label": {
+                "title": "Gender Euality During Covid 19",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c54757f2-d6e0-4266-aafe-ae5d677a03ce?namespace=ID",
+                "webviewUrl": "https://blogs.unicef.org/blog/covid-19-gender-equality-5-actions/"
+            }
+        },
+        {
+            "key": "COVID19_VACCINE",
+            "type": "label",
+            "label": {
+                "title": "How Close are We to a COVID-19 Vaccine?",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/4eae7b69-81a2-4e51-8d64-94c38605196f?namespace=ID",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/b81eeec8-c85b-4c61-82b4-3f637f72b56e?namespace=ID"
+            }
+        },
+        {
+            "key": "REFERRAL_HOSPITAL",
+            "type": "label",
+            "label": {
+                "title": "COVID-19 Referral Hospital in Indonesia",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c13ca54e-368d-4921-a4b2-b5ecd4f909a8?namespace=ID",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/822a78ad-f1f9-4835-8a57-815eb5248f06?namespace=ID"
+            }
+        },
+        {
+            "key": "EFFECTIVE_HANDWASHING_TECHNIQUE",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c3c12eba-a1be-4ae6-bf02-afcce951e3d1?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/04/01/effective-handwashing-technique/"
+            }
+        },
+        {
+            "key": "COVID19_MYTHBUSTERS",
+            "type": "label",
+            "label": {
+                "title": "Mythbuster on COVID-19",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/dbc724ab-9560-492f-88cb-1fe3118ce70a?namespace=ID",
+                "webviewUrl": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+            }
+        },
+        {
+            "key": "COVID19_RAPIDTEST",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c861ef5d-d5ac-4f4e-887c-958deda124d2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/22/what-is-covid-19-rapid-test-and-the-benefit/"
+            }
+        },
+        {
+            "key": "COVID19_MASKS",
+            "type": "label",
+            "label": {
+                "title": "Covid-19 : - How to use masks",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/b8ff7ed8-a55c-4f0c-b264-2ff09db4f433?namespace=ID",
+                "webviewUrl": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
+            }
+        },
+        {
+            "key": "EID_GREETINGS",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/170a03af-ddfc-45ae-af65-b5c604530f41?namespace=ID",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9a3d8bdd-782b-44e7-892d-d91e23580f2f?namespace=ID"
+            }
+        },
+        {
+            "key": "COVID19_PHYSICAL_ACTIVITY",
+            "type": "label",
+            "label": {
+                "title": "COVID-19 Referral Hospital in Indonesia",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/20357ef4-29c4-442b-91b2-d9e4f044f204?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/03/physical-activity-during-the-covid-19-pandemic/"
+            }
+        },
+        {
+            "key": "COVID19_SAFETY",
+            "type": "label",
+            "label": {
+                "title": "5 steps to wear face mask properly",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/4786de11-f6e0-4938-9dbb-3f35bb8469be?namespace=ID",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/3b948035-9ff7-4636-8e58-1a3266168509?namespace=ID"
+            }
+        },
+        {
+            "key": "COVID19_FOOD_SAFETY",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/873054c8-ceef-4140-aa63-eea79533eab0?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/15/keeping-food-safe-from-virus-contamination-during-covid-19/"
+            }
+        },
+        {
+            "key": "COVID19_SOCIAL_DISTANCING",
+            "type": "label",
+            "label": {
+                "title": "Tips to avoid corona virus infection",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/20357ef4-29c4-442b-91b2-d9e4f044f204?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/03/physical-activity-during-the-covid-19-pandemic/"
+            }
+        },
+        {
+            "key": "COVID19_ISOLATION_EFFECTS",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/51b43140-21d5-44fe-9ae8-22bb5bbcc3f3?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/04/23/mental-effects-of-isolation-covid-19/"
+            }
+        },
+        {
+            "key": "COVID19_FITNESS_ROUTINE",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8451776f-ee6b-4a59-a59c-aa6079770233?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/05/14/5-exercises…ne-if-you-spend-the-majority-of-your-day-sitting/"
+            }
+        },
+        {
+            "key": "COVID19_HELP_CHILDREN",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5fabaffc-ee9b-464a-b2c3-323fce495ef1?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/05/30/tips-to-help-children-cope-with-covid-19-pandemic-situation/"
+            }
+        },
+        {
+            "key": "COVID19_SAFE_STEPS",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ac4a582f-5093-47d1-ad48-80993dd6a7a9?namespace=ID",
+                "webviewUrl": "https://safesteps.com/main/covid-19/"
+            }
+        },
+        {
+            "key": "COVID19_AI_SUPPORT",
+            "type": "label",
+            "label": {
+                "title": "",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0aaf39a5-9998-4bbd-837f-4f9abe3ad94f?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/30/during-the-…rtificial-intelligence-support-on-your-pulse-app/"
+            }
+        },
+        {
+            "key": "COVID19_RAPIDTEST_BENEFITS",
+            "type": "label",
+            "label": {
+                "title": "Covid19 Rapid Test and Benfits",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/273d894a-d3e7-46dd-8ae2-1ab7ea0d4943?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/22/what-is-covid-19-rapid-test-and-the-benefit/"
+            }
+        },
+        {
+            "key": "COVID19_AI_SUPPORT_1",
+            "type": "label",
+            "label": {
+                "title": "During the pandemic get artificial intelligence support on your pulse app",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d8739147-8f2b-49ea-a213-db6b88a5b102?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/30/during-the-…rtificial-intelligence-support-on-your-pulse-app/"
+            }
+        },
+        {
+            "key": "BENEFITS_OF_BIODIVERSITY",
+            "type": "label",
+            "label": {
+                "title": "Benefits_of_biodiversity",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/61676f54-0bcf-4d3b-81a0-283d769edcb2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/05/30/benefits-of-biodiversity-for-humans/"
+            }
+        },
+        {
+            "key": "HEALTH_AWARENESS_UPDATED_2",
+            "type": "label",
+            "label": {
+                "title": "Well being",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/92fd1ffd-f9d2-4640-ba2e-25c67e394c12?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/19/5-types-of-insurance-that-you-need-to-have-now/"
+            }
+        },
+        {
+            "key": "MENS_HEALTH_WEEK",
+            "type": "label",
+            "label": {
+                "title": "International-means-health-week-15-21-june-2020",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/fc05b193-f921-4916-8a61-680b8e2195e2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/05/22/international-mens-health-week-15-21-june-2020/"
+            }
+        },
+        {
+            "key": "STREPTOCOCCAL_AWARENESS_MONTH",
+            "type": "label",
+            "label": {
+                "title": "International GBS Awareness month",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9365f593-cab9-4618-8e63-c39200593e09?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/22/july-is-the-international-group-b-gbs-streptococcal-awareness-month/"
+            }
+        },
+        {
+            "key": "NO_TOBACCO_DAY",
+            "type": "label",
+            "label": {
+                "title": "World No Tobacco Day",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/98a9cf34-6674-4a8d-97aa-c6e4ea9e9bc2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/05/12/world-no-tobacco-day-2020/"
+            }
+        },
+		{
+            "key": "PRU_RIDE",
+            "type": "label",
+            "label": {
+                "title": "PRURide",
+                "description": "Dapatkan tips bersepeda yang menyenangkan serta penawaran ekslusif dan menarik."
+            }
+        },
+		{
+            "key": "PRU_RUNNING",
+            "type": "label",
+            "label": {
+                "title": "PRURunning",
+                "description": "Dapatkan tips lari yang menyenangkan, berbagi informasi dan latihan bersama sahabat larimu."
+            }
+        },
+		{
+            "key": "Covid19_Current_Situation",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Ikuti Situasi Terkini Perkembangan COVID-19.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/661b570d-634a-4bc2-82e8-6073e0b8c9df?namespace=ID",
+                "webviewUrl": "https://data.kemkes.go.id/covid19/"
+				}
+        },
+		{
+            "key": "Covid19_Safe_steps",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Langkah-langkah aman dan tips pencegahan yang perlu Anda ambil untuk menghindari COVID-19.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/b3b88873-6a51-4edd-a479-26dd561c65ea?namespace=ID",
+                "webviewUrl": "https://safesteps.com/main/covid-19/"
+				}
+        },
+		{
+            "key": "Covid19_Maintaining_our_health",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Pada masa pandemi ini, kita dianjurkan untuk terus menjaga kesehatan dan kualitas hidup.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/6537599f-9e09-4ebe-bd18-476b3faebdd6?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/30/saat-pandemi-dapatkan-bantuan-kecerdasan-buatan-di-aplikasi-pulse-anda/"
+				}
+        },
+		{
+            "key": "Covid19_Digital_Technology",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Di era serba digital ini, teknologi memungkinkan kita melakukan berbagai macam hal dari jarak jauh secara daring, termasuk konsultasi dengan dokter.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d1cac39f-eea2-4614-81d8-21c4d5680064?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/06/harus-konsultasi-dengan-dokter-saat-pandemi-yuk-gunakan-fasilitas-telemedis-di-pulse/"
+				}
+        },
+		{
+            "key": "Covid19_Positive_Cases",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Jumlah orang yang positif terinfeksi virus corona atau COVID-19 di Indonesia semakin bertambah setiap hari.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ac5a1d3f-2aad-4f5a-ac5f-c7f71c7d024f?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/22/kenali-apa-itu-rapid-test-covid-19-ketahui-fungsinya/"
+				}
+        },
+		{
+            "key": "Covid19_Regarding_the_Mythbusters",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Saran WHO mengenai Mythbusters COVID-19 kepada public.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/cfd3eb4b-c81e-41c7-a731-646659236664?namespace=ID",
+                "webviewUrl": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+				}
+        },
+		{
+            "key": "Covid19_How_To_Wash_Hands",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Tonton video cara mencuci tangan yang efektif.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8dcd2f8d-62d3-4584-8882-c88010b9a084?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/27/teknik-cuci-tangan-yang-efektif/"
+				}
+        },
+		{
+            "key": "Covid19_Stayed_At_Home",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Banyak dari kita yang tetap berada di rumah dan lebih banyak duduk serta kurang aktif bergerak di saat situasi pandemi ini.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/6917ea35-b7d8-4111-81ca-cdfaad3b003d?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/03/aktivitas-fisik-saat-pandemi-covid-19/"
+				}
+        },
+		{
+            "key": "Covid19_Children_Most_Vulnerable",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Situasi COVID-19 seperti ini bisa berdampak ke kondisi psikologis anak.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5017fc4a-d4cc-4fd8-81dd-e854bfe4ab4d?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/05/30/tips-membantu-anak-menghadapi-situasi-pandemi-covid-19/"
+				}
+        },
+		{
+            "key": "Covid19_Children_Food_Packaging",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Saat ini belum ada bukti bahwa COVID-19 dapat menyebar melalui kontak melalui makanan atau kemasan makanan.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d94b4d4d-fccb-4c1d-a4ec-09e39fe57fcb?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/15/menjaga-makanan-yang-aman-dari-kontaminasi-virus-selama-covid-19/"
+				}
+        },
+		{
+            "key": "Covid19_Air_Pollution",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Polusi udara dapat menyebabkan berbagai masalah kesehatan, dan penelitian menunjukkan bahwa polusi udara juga secara signifikan mempengaruhi wabah COVID-19.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/2d6021d6-51da-4d76-b333-a4f95af74c58?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/02/hubungan-antara-polusi-udara-covid-19/"
+				}
+        },
+		{
+            "key": "Health_Awareness_Donating_Blood",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Menurut Palang Merah Indonesia, satu donasi dapat menyelamatkan sebanyak tiga nyawa, dan seseorang di Indonesia membutuhkan transfusi darah setiap 8 detik.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/20350dab-78c8-4f70-a077-37307276a407?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/05/29/manfaat-kesehatan-dari-mendonorkan-darah/"
+				}
+        },
+		{
+            "key": "Health_Awareness_Cha_Ching",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Hi Sahabat Cha-Ching, kenalkan kami dari kelas musik di sekolah, kami membuat sebuah grup musik yang bernama band Cha-Ching.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ce424007-0319-4760-a01e-f8850cc8fb07?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/08/04/lets-meet-cha-ching-band/"
+				}
+        },
+		{
+            "key": "Health_Awareness_Yoga_Yuji",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Yoga berasal dari kata Sansekerta “yuji,” yang berarti kuk atau penyatuan.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/86635c4b-f242-47eb-bd24-90b1fb1fcc26?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/03/lima-manfaat-yoga-bagi-kesehatan-tubuh/"
+				}
+        },
+		{
+            "key": "Health_Awareness_Depression_Causes",
+            "type": "label",
+            "label": 
+				{
+                "title": "                 ",
+				"description": "Depresi menyebabkan perasaan sedih dan kehilangan minat pada aktivitas dulunya disukai.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/95cfec41-cc86-4d67-91ee-a7cb7f6451c6?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/30/memahami-depresi/"
+				}
+        },
+		{
+            "key": "HealthAwareness_Hepatitis_inflammation",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "Hepatitis adalah peradangan hati, yang mungkin disebabkan oleh obat-obatan, penggunaan alkohol, atau kondisi medis tertentu.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1bfdb415-882d-420d-ad50-8d6f9c6d8fa6?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/10/apa-itu-virus-hepatitis/"
+                }
+        },
+        {
+            "key": "HealthAwareness_Tuberculosis_TB",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "Tuberkulosis atau TBC merupakan salah satu penyakit yang paling banyak merenggut jiwa di seluruh dunia.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/39070070-b0a6-45d9-a044-60606794d03d?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/13/7-gejala-tbc-yang-wajib-kamu-ketahui/"
+                }
+        },
+        {
+            "key": "HealthAwareness_future_Sharia_Insurance",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "Mari lihat video bagaimana rencanakan masa depan dengan Asuransi Syariah\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a12618d0-7ede-428a-8ee6-de941e8a95d3?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/30/rencanakan-masa-depan-dengan-asuransi-syariah/"
+                }
+        },
+        {
+            "key": "HealthAwareness_Scoliosis_curvature",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "Skoliosis adalah kelengkungan tulang belakang, dan paling sering terjadi selama masa pertumbuhan tepat sebelum masa pubertas.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/2eb167ee-ed81-45e7-b2cb-2327e95e58e6?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/06/22/mengenal-lebih-dalam-mengenai-skoliosis/"
+                }
+        },
+        {
+            "key": "HealthAwareness_Hajj_departure",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "Tidak ada yang menyangka keberangkatan haji tahun ini ditunda akibat pandemi yang masih berlangsung.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/2b65cb0a-7c67-41be-97ac-05f52584607a?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/30/berangkat-haji-tertunda-bukti-perlunya-persiapan-antisipasi-risiko-masa-depan/"
+                }
+        },
+        {
+            "key": "GlobalEvents_Cara_ASI_Melindungi_Bayi",
+            "type": "label",
+            "label":
+                {
+                "title": "                 ",
+                "description": "WHO dan UNICEF menetapkan tanggal 1-7 Agustus sebagai Pekan ASI Sedunia.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ac5fea38-a257-4116-b423-0de21385fd41?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/08/04/cara-asi-melindungi-bayi-terutama-di-tengah-pandemi-covid-19/"
+                }
+        },
+		{
+            "key": "Health_Awareness_In_Indonesia",
+            "type": "label",
+           "label": {
+                "title": "                 ",
+                "description": "Di Indonesia, terdapat banyak sekali jenis dan produk asuransi yang ditawarkan.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/eea8b71c-052f-4aa3-a2bd-a74395bd5b58?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/07/27/mengenal-asuransi-kecelakaan-dan-manfaat-pentingnya/"
+               }
+            },
+			{
+            "key": "GlobalEvents_Breast_Milk",
+            "type": "label",
+           "label": {
+                "title": "Cara ASI Melindungi Bayi,Terutama di Tengah Pandemi",
+                "description": "WHO dan UNICEF menetapkan tanggal 1-7 Agustus sebagai Pekan ASI Sedunia.\n", 
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ac5fea38-a257-4116-b423-0de21385fd41?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/08/04/cara-asi-melindungi-bayi-terutama-di-tengah-pandemi-covid-19/"
+               }
+            },
+		{
+            "key": "WorkoutGuide_Split_Squat",
+            "type": "label",
+            "label":
+                {
+                "title": "Split Squat",
+                "description": "Works the tops of your legs. Use dumbbells, or any light weight around the house, once you have got used to the movement.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/f89ddfa9-f372-4b7e-bdb2-94e2d48aa0d7?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c7b34ae8-73d5-4f9f-9715-60dae38466ea?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Single_Leg_Romainian",
+            "type": "label",
+            "label":
+                {
+                "title": "Single Leg Romainian Deadlift",
+                "description": "This works your whole body but especially the backs of your legs. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0be763ad-61e8-4ee4-80e3-2d55de36d750?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1d6138c9-7d18-4ef5-a669-18a3f33740e0?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Single_Arm_Extension",
+            "type": "label",
+            "label":
+                {
+                "title": "Single Arm Extension",
+                "description": "This exercise works your back. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/4abb0cbd-4990-45e9-8b39-ee6e55500243?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/800ecc6c-5718-4079-ac04-e757de25795f?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Walkout",
+            "type": "label",
+            "label":
+                {
+                "title": "Walkout",
+                "description": "It looks easy, but this works a lot of muscles. Make sure you engage your core and pause before you walk back.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/59aee444-2152-4f4b-9341-e23f5bf731bf?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d204b984-a974-491b-9bf2-949cc8bead1c?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Seesaw_Shoulder_Extension",
+            "type": "label",
+            "label":
+                {
+                "title": "Seesaw Shoulder Extension",
+                "description": "Work your shoulders. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ddc6e8bd-cb7d-41bf-a834-5ae753979296?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/3c4b22f2-87bb-49c5-898b-c3672ae2a118?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Renegade_Row",
+            "type": "label",
+            "label":
+                {
+                "title": "Renegade Row",
+                "description": "A great exercise for your whole core, but especially your back.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/3a5cfc23-6c1f-4e63-a87e-c698426c92dc?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/2087c796-28ee-443b-a95f-728cd056d779?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Interval_Runs",
+            "type": "label",
+            "label":
+                {
+                "title": "Interval Runs",
+                "description": "Interval runs are a great way to get your heart rate going faster than if you keep a steady pace for a longer time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e2c2cdf8-0153-4d5f-a9ee-7eb05e7a997d?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5f9333be-f201-4f04-9b8e-8d0b546dfe9e?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Interval_Runs",
+            "type": "label",
+            "label":
+                {
+                "title": "Interval Runs",
+                "description": "Interval runs are a great way to get your heart rate going faster than if you keep a steady pace for a longer time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e2c2cdf8-0153-4d5f-a9ee-7eb05e7a997d?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5f9333be-f201-4f04-9b8e-8d0b546dfe9e?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Hammer_Curls",
+            "type": "label",
+            "label":
+                {
+                "title": "Hammer Curls",
+                "description": "An alternative to a bicep curl. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9f955d32-4b35-4333-8b46-4e844b814f59?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/7593149e-d6f0-4717-b5b9-8e9f780dad99?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Goblet_Squats",
+            "type": "label",
+            "label":
+                {
+                "title": "Goblet Squats",
+                "description": "This will get your thighs working. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells or a kettlebell.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5268a56f-11aa-4412-b7b3-ad1add1806c3?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ebc21fa2-a525-44a3-9b32-e04b396739df?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Intro_For_Intermediate",
+            "type": "label",
+            "label":
+                {
+                "title": "Exercise Introduction for Intermediate",
+                "description": "Exercise improves muscle strength.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ce3239df-e2fd-49c1-8bb5-13429c50203b?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5698ff0b-5056-4da5-8776-2c427b0f12ea?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Intro_For_Beginners",
+            "type": "label",
+            "label":
+                {
+                "title": "Exercise Introduction for Beginners",
+                "description": "Exercise increases energy levels. Exercise improves both the strength and the efficiency of your cardiovascular system.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/f57a78b7-5be3-4591-83cc-09904dde99cc?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a421547b-01f9-4fa7-a142-dfb8a88a1dd5?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Squat_Hold",
+            "type": "label",
+            "label":
+                {
+                "title": "Squat Hold",
+                "description": "You will really feel this in the tops of your legs. Set a timer to make sure you hold for the full time set in your programme.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a1573c67-3a8a-43af-9cfa-02a4dcfccf3b?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/68f9292e-2e66-4f92-9ecc-0d3329f78b6d?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Side_Plank",
+            "type": "label",
+            "label":
+                {
+                "title": "Side Plank",
+                "description": "The side plank helps strengthen your side and core. Set a timer to make sure you hold it for the full time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9bafc8f9-7a0c-44af-80c2-1072c677788d?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9f6549d1-e2a0-4e3f-854d-7aaec9db62de?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Hip_Tap",
+            "type": "label",
+            "label":
+                {
+                "title": "Hip Tap",
+                "description": "Works your core (abdomen). Keep your body in a straight line as you tap your hip.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a3fe8a71-ff48-4090-b1ea-85a1dd4ddb21?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8a332b21-6ad6-468d-87f3-d1e63a549c34?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Glute_Bridge",
+            "type": "label",
+            "label":
+                {
+                "title": "Glute Bridge",
+                "description": "This is a great core (abdomen) exercise. Set a timer to make sure you hold it for the full time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/fc28daaa-d414-463e-9084-3b34d7663203?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/bad872f7-9504-462b-9796-0890c208b64c?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Glute_Bridge_2",
+            "type": "label",
+            "label":
+                {
+                "title": "Glute Bridge",
+                "description": "This is a great core (abdomen) exercise. Set a timer to make sure you hold it for the full time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/28778e01-2d74-4a3e-9346-87f944e3379b?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e59ac5c7-9562-4933-bae8-aafdcb610da2?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Plank_Reach",
+            "type": "label",
+            "label":
+                {
+                "title": "Plank Reach",
+                "description": "This is a harder version of the plank exercise to work your core (abdomen). Keep your hips straight as you lift your arms!",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/7e800956-f19d-4478-9d38-9b4aea61a928?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/7d837514-fe87-48ed-8521-e26e86bd4f02?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Plank",
+            "type": "label",
+            "label":
+                {
+                "title": "Plank",
+                "description": "This is classic exercies to work your core (abdomen). Set a timer to make sure you hold it for the full time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/93749570-54a5-43a6-923d-ba93ec6a4193?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8d68c220-a020-4f05-acb4-04a8cb0b1479?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Plank_2",
+            "type": "label",
+            "label":
+                {
+                "title": "Plank",
+                "description": "This is classic exercies to work your core (abdomen). Set a timer to make sure you hold it for the full time.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1b097165-412e-4ca7-ad29-f16939d7e85b?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/59d0f06b-44b5-4fde-a681-fb6c87738d51?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Overhead_Tricep_Extension",
+            "type": "label",
+            "label":
+                {
+                "title": "Overhead Tricep Extension",
+                "description": "Works the backs of your arms. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/99e0aa9a-5143-411c-b25d-a91a4d9beb70?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/dd47c069-0f71-4f1d-8c2d-ac7be11e489b?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Marching_Mountain_Climb",
+            "type": "label",
+            "label":
+                {
+                "title": "Marching Mountain Climb",
+                "description": "This works your core (abdomen). Wait for your first foot to touch back into place before driving your second leg forward.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/cac39036-45a9-492e-801b-5594a64c084c?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5ddeceec-e126-4fcc-b692-6f6f4d071735?namespace=PH"              
+				}
+        },
+			{
+            "key": "WorkoutGuide_Chest_Fly",
+            "type": "label",
+            "label":
+                {
+                "title": "Chest Fly",
+                "description": "Works your chest. Use a light object around the house, such as bag of sugar or can of food, if you don't have dumbbells.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c8aa34ed-bc48-4ede-a57b-d512c1df5a73?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/691dc979-dadd-481a-a819-42d4e96dc7e8?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Press_ups_knees",
+            "type": "label",
+            "label":
+                {
+                "title": "Press ups knees",
+                "description": "Knee push-ups are a valuable alternative to toe push-ups in order to give your chest, shoulders and arms a quality workout.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1522faa7-41b6-46bc-885d-69ac24d5fca6?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d360231c-7723-4604-be55-1fe4f087929f?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Build_Biceps",
+            "type": "label",
+            "label":
+                {
+                "title": "Build your great Biceps",
+                "description": "It is a great exercise, the biceps flexors the elbow joint, but the push up extends it, which is the triceps job.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/73516266-6481-46ad-8423-887a2561ff6d?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0d6e3215-ec0e-4fca-916c-02fbeb4c9083?namespace=PH"              
+				}
+        },
+		{
+            "key": "WorkoutGuide_Intro_For_Beginners_01",
+            "type": "label",
+            "label":
+                {
+                "title": "Exercise Introduction for Beginners_01",
+                "description": "It is a great exercise, the biceps flexors the elbow joint, but the push up extends it, which is the triceps job.",
+                "imageUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/fc64c408-969f-4a67-af6b-5caffc39ee94?namespace=PH",
+                "webviewUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0d6e3215-ec0e-4fca-916c-02fbeb4c9083?namespace=PH"              
+				}
+        },
+		{
+    "key": "Health_Awareness_Wellness_Part1",
+    "type": "label",
+    "label":
+    {
+        "title": "Bekerja Dari Rumah? Ini Tipsnya!",
+        "description": "Agar bisa bekerja dengan fokus di rumah, kita harus mampu memisahkan kehidupan professional dengan kehidupan rumah tangga. Simak 5 tips dari Daryl untuk menciptakan suasana ideal untuk bekerja di rumah!",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/04ec19eb-8a5f-4470-9172-bd7be6d2fa9b?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/04/kerja-dari-rumah-kami-memiliki-beberapa-tips/"
+    }
+},
+{
+    "key": "Health_Awareness_Wellness_Part2",
+    "type": "label",
+    "label":
+    {
+        "title": "Keputihan - Penyebab & Perawatan",
+        "description": "Terkadang kita sendiri malu untuk membahas perubahan pada keputihan. Namun jangan khawatir, kebanyakan keluhan seputar keputihan cukup mudah diobati! Dr. Claudia dari Babylon menjelaskan 5 penyebab paling umum.",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/aa09defa-f9e4-4afb-8fa8-becd0f9529d5?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/04/keputihan-penyebab-perawatan/"
+    }
+},
+{
+    "key": "Health_Awareness_Wellness_Part3",
+    "type": "label",
+    "label":
+    {
+        "title": "Mitos atau Fakta: Bisakah Daun Pepaya Menyembuhkan Demam Berdarah?",
+        "description": "Daun pepaya dipercaya oleh banyak orang memiliki segudang manfaat berkat sifat anti-inflamasi dan manfaat lainnya yang berkaitan dengan pencernaan. Namun, apakah daun pepaya benar-benar mampu menyembuhkan demam berdarah?",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ff5d02af-831e-43aa-9c8c-312000b45a06?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/07/mitos-atau-fakta-bisakah-daun-pepaya-menyembuhkan-demam-berdarah/"
+    }
+},
+{
+    "key": "Health_Awareness_Wellness_Part4",
+    "type": "label",
+    "label":
+    {
+        "title": "Serial Anak Mengajar Orang Dewasa: Kebahagiaan",
+        "description": "Apa yang membuatmu bahagia? David berusia 4 tahun punya beberapa nasihat!",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/b57c344b-e7ee-41a5-9a7f-f63bd89efc80?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/04/serial-anak-mengajar-orang-dewasa-kebahagiaan/"
+    }
+},
+{
+    "key": "Health_Awareness_Wellness_Part5",
+    "type": "label",
+    "label":
+    {
+        "title": "",
+        "description": "Lena Chauhan dari RiseIQ dan Sabiha Ladak dari Pulse membahas masalah umum kesehatan pribadi wanita yang mereka alami dan pentingnya kesehatan preventif!",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/2131199f-d1ec-430e-9c4d-839594279c06?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/07/yuk-kita-bicara-tentang-haid/"
+    }
+},
+{
+    "key": "Health_Awareness_Wellness_Part6",
+    "type": "label",
+    "label":
+    {
+        "title": "Hari Jantung Sedunia 2020 - Manfaat Berhenti Merokok",
+        "description": "Penyakit kardiovaskular (CVD) adalah penyebab kematian # 1 secara global & biasanya akibat merokok. Pada Hari Jantung Sedunia ini, kami menyoroti betapa bermanfaatnya berhenti merokok.",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/332837bb-50f7-45f1-b868-2cdecb514575?namespace=ID",
+        "webviewUrl": "https://wedoarticles.com/rg/2020/09/09/hari-jantung-sedunia-2020-manfaat-berhenti-merokok/"
+    }
+},
+{
+    "key": "Halal_Life_Style",
+    "type": "label",
+    "label":
+    {
+        "title": "Gaya Hidup Halal",
+        "description": "Komunitas seru untuk berbagi tips seputar gaya hidup halal yang menenangkan.",
+        "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/083bb90c-0a83-4582-a701-7cf4b3ed1dd8?namespace=ID"
+    }
+},
+
+		{
+            "key": "Vitamin_D_Deficiency",
+            "type": "label",
+            "label":
+                {
+                "title": "Defisiensi Vitamin D dan Depresi",
+                "description": "Lebih dari 1 miliar orang dewasa & anak-anak di seluruh dunia mengalami kekurangan Vitamin D, tetapi tahukah kamu Vitamin D dapat memengaruhi suasana hati? Kami meminta saran dari Dokter Naturopathic, Julie Hwang, (ND) tentang cara meningkatkan kadar Vitamin D dalam tubuh.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/3f97f93b-1786-4c83-a8de-c12e34c9b92a?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/23/vitamin-d-kesehatan-mental/"
+                }
+        },
+		{
+            "key": "Every_Woman_Matters",
+            "type": "label",
+            "label":
+                {
+                "title": "Semua Perempuan Luar Biasa",
+                "description": "Semua perempuan luar biasa #BCAM\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/bfbcba61-f25f-478d-a0fd-c1ef5c2f2753?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/22/semua-perempuan-luar-biasa/"
+                }
+        },
+		{
+            "key": "Breast_Save_Lives",
+            "type": "label",
+            "label":
+                {
+                "title": "Ucapkan #Breast, Selamatkan Hidup",
+                "description": "Bisakah kamu mengucapkan kata ini untukku?\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/bfa91635-a981-47e6-a729-54ef533929d5?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/22/ucapkan-breast-selamatkan-hidup/"
+                }
+        },
+		{
+            "key": "World_Mental_Health_Day",
+            "type": "label",
+            "label":
+                {
+                "title": "Hari Kesehatan Mental Sedunia 2020",
+                "description": "Banyak pertanyaan tentang kesehatan mental & pencegahan bunuh diri, namun tidak mudah untuk mendapatkan jawaban yang benar. Dokter umum & pakar kesehatan mental Babylon siap membantu.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/5238c522-c7c1-4616-8998-88da47884b45?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/23/hari-kesehatan-mental-sedunia-2020-10-okt/"
+                }
+        },
+		{
+            "key": "Inside_A_Breast_Cancer",
+            "type": "label",
+            "label":
+                {
+                "title": "Di Dalam Lab Penelitian Kanker Payudara",
+                "description": "Dr. Jingmei Li, Ilmuwan Riset Senior dari Genome Institute of Singapore & pakar kesehatan wanita terkemuka, menjawab 8 pertanyaan utama seputar kanker payudara.\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ff694a23-7dcd-4cde-8697-ac2d74b239f2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/22/di-dalam-lab-penelitian-kanker-payudara/"
+                }
+        },
+		{
+            "key": "Kids_Ask_Doctor",
+            "type": "label",
+            "label":
+                {
+                "title": "Anak Bertanya Ke Dokter: Mitos Kanker Payudara",
+                "description": "Apakah kanker payudara selalu berakhir dengan kematian? Apakah menyakitkan?\n",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/80353b61-c143-4031-8134-c31f21881dc2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/09/23/anak-tanya-dokter-mitos-kanker-payudara/"
+                }
+        },
+		 {
+            "key": "Health_Awareness_KidsTeachAdultSeries",
+            "type": "label",
+            "label":
+                {
+                "title": "Serial Anak Mengajar Orang Dewasa: Kebahagiaan(bagian. 2)",
+                "description": "Apa yang membuatmu bahagia? Untuk Megan yang berusia 6 tahun, kebahagiaan adalah bisa minum milkshake, menghabiskan waktu untuk liburan, & menaiki roller coaster! <<Tonton Video>>",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/bcff1d88-5dd9-4f94-9e98-b4a280c78ef8?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/02/serial-anak-mengajar-orang-dewasa-kebahagiaan-bagian-2/"
+                }
+        },
+        {
+            "key": "Health_Awareness_BreastCancerDiagnosed",
+            "type": "label",
+            "label":
+                {
+                "title": "Kisah Saya: Didiagnosis dengan Kanker Payudara",
+                "description": "Evelyn Ong didiagnosis menderita Kanker Payudara Stadium II. Ikuti kisahnya.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/728f84a5-54b8-45e4-aaed-91e6949df5f5?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/02/kisah-saya-didiagnosis-dengan-kanker-payudara/"
+                }
+        },
+		{
+            "key": "vapid_covid",
+            "type": "label",
+            "label":
+                {
+                "title": "Risiko Vaping & COVID-19",
+                "description": "Riset baru menunjukkan bahwa remaja & dewasa muda yang menghisap rokok elektrik berisiko lebih tinggi terkena COVID-19.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0c816f28-2132-4991-816b-f1fdc6e9bb13?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/02/risiko-vaping-covid-19/"
+                }
+        },
+		{
+            "key": "Overeating_Out_Loneliness",
+            "type": "label",
+            "label":
+                {
+                "title": "Makan Berlebihan Karena Kesepian: Apakah kamu memang ingin makan sebanyak itu?",
+                "description": "Rasa kesepian sering disertai dengan meningkatnya keinginan untuk makan secara berlebihan, namun ingat masalah utama yang harus dihadapi adalah adalah emosi.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/f51491cd-c08d-4b9f-bae1-fa8fa2d05459?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/02/makan-berlebihan-karena-kesepian-apakah-kamu-memang-ingin-makan-sebanyak-itu/"
+                }
+        },
+		{
+            "key": "Breast_Cancer_Explained",
+            "type": "label",
+            "label":
+                {
+                "title": "Tanya Dokter: Kanker Payudara",
+                "description": "Apakah kanker payudara mempengaruhi kesuburan? Masih bisakah penderita menyusui anaknya? Pelajari lebih lanjut dari Ahli Onkologi Medis, Dr. Wong Chiung Ing.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/166e4bd1-0506-4c30-9a6e-cc7e44d998a7?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/02/tanya-dokter-kanker-payudara/"
+                }
+        },
+        {
+            "key": "COVID19_Happy_Hypoxia",
+            "type": "label",
+            "label":
+                {
+                "title": "Mengenal Happy Hypoxia",
+                "description": "Istilah happy hypoxia / Silent Hypoxia adalah suatu kondisi terjadinya penurunan kadar oksigen di dalam darah, tetapi pasien tidak terlihat sesak napas.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/16243de7-dc2a-4dd6-9acf-1b16d800291d?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/id/2020/10/12/mengenal-happy-hypoxia/"
+                }
+        },
+        {
+            "key": "HealthAwareness_Better_Mental_Health",
+            "type": "label",
+            "label":
+                {
+                "title": "Memelihara Hewan: Bisa Jadi Kunci Menuju Kesehatan Mental yang Lebih Baik?",
+                "description": "Penelitian baru menunjukkan pemilik hewan peliharaan memiliki kesehatan mental yang lebih baik selama masa lockdown akibat dari COVID-19.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/114a6e41-46af-41fe-b6a9-9031b9080f0e?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/19/memelihara-hewan-kunci-kesehatan-mental-yang-lebih-baik/"
+                }
+        },
+		{
+            "key": "Global_Events_Better_After_Breast_Cancer",
+            "type": "label",
+            "label":
+                {
+                "title": "Kisah Saya: Kehidupan Setelah Kanker Payudara",
+                "description": "Setelah melalui proses pengobatan kanker payudara yang sangat melelahkan, Irene berhasil membangun kekuatannya & tetap semangat untuk hidup secara aktif pasca-mastektomi!",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/6c691605-424e-4585-ba6f-df4097913284?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/19/kisah-pribadi-kehidupan-setelah-kanker-payudara/"
+                }
+        },
+		{
+            "key": "HealthAwareness_Intermittent_Fasting",
+            "type": "label",
+            "label":
+                {
+                "title": "Puasa Intermiten: Benarkah Bisa Menunjukkan Hasil?",
+                "description": "Puasa intermiten diklaim sebagai cara yang sehat & efektif untuk menurunkan berat badan, tetapi penelitian baru menunjukkan sebaliknya.",
+                "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1eceb09f-3ba1-42e6-ab57-6354ad2d7fb2?namespace=ID",
+                "webviewUrl": "https://wedoarticles.com/rg/2020/10/19/puasa-intermiten-apakah-ada-manfaatnya/"
+                }
+        },
+		{
+			"key": "Personal_Story_Breast_Cancer",
+			"type": "label",
+			"label":
+				{
+				"title": "Kisah Saya: Menemukan Dukungan Selama Kanker Payudara",
+				"description": "Ketika Branda didiagnosis mengidap kanker payudara, pacarnya (yang saat ini sudah menjadi suaminya!), Zai, selalu hadir memberikan dukungan dan menyemangati Branda.\n",
+				"imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/ac056de1-e3a9-4547-9e0c-0e928f2648a3?namespace=ID",
+				"webviewUrl": "https://wedoarticles.com/rg/2020/10/12/kisah-saya-menemukan-dukungan-selama-kanker-payudara/"
+
+               }
+
+        },
+        {
+
+            "key": "Pets_The_Key",
+			"type": "label",
+			"label":
+				{
+				"title": "Memelihara Hewan: Bisa Jadi Kunci Menuju Kesehatan Mental yang Lebih Baik?",
+				"description": "Do you find pet owners are less anxious & stressed? New research shows pet owners had better mental health during COVID-19-related lockdowns. ",
+				"imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/12e510e0-f807-4a12-b6a4-9796e18643c2?namespace=ID",
+				"webviewUrl": "https://wedoarticles.com/rg/2020/10/13/pets-the-key-to-better-mental-health/"
+               }
+		},
+		{
+
+            "key": "Personal_Story_Bodybuilder",
+			"type": "label",
+			"label":
+				{
+				"title": "Kisah Saya: Bagaimana Saya Bisa Menjadi Binaragawan",
+				"description": "Ketika berat badan Sugan bertambah dengan pesat, dia tidak terlena dan segera mengambil tindakan!",
+				"imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/86fd22ce-957e-410c-b844-d7577d3ffbcd?namespace=ID",
+				"webviewUrl": "https://wedoarticles.com/rg/2020/10/19/kisah-pribadi-bagaimana-saya-bisa-menjadi-seorang-binaragawan/"
+               }
+		},
+        {
+
+            "key": "Health_Awareness_8_Questions_Breast_Cancer",
+			"type": "label",
+			"label":
+				{
+				"title": "8 Pertanyaan Dengan Peneliti Kanker Payudara",
+				"description": "Dr. Jingmei Li, Ilmuwan Riset Senior di Genome Institute of Singapore & pakar kesehatan wanita terkemuka, menjawab 8 pertanyaan umum seputar kanker payudara.",
+				"imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/a2184f04-ced4-459d-a749-1d77e0097706?namespace=ID",
+				"webviewUrl": "https://wedoarticles.com/rg/2020/10/19/8-pertanyaan-dengan-peneliti-kanker-payudara/"
+               }
+		},
+        {
+
+            "key": "Health_Awareness_Allulose",
+			"type": "label",
+			"label":
+				{
+				"title": "Apa itu Allulose? Pelajari Manfaat Pengganti Gula yang Ramah untuk Diet Keto",
+				"description": "Mencari pengganti gula yang enak namun efektif? Tidak usah bingung lagi!",
+				"imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e9b92955-7040-4cfc-b1b9-72e9f662cc22?namespace=ID",
+				"webviewUrl": "https://wedoarticles.com/rg/2020/10/19/apa-itu-allulose-apa-manfaatnya/"
+               }
+		}		
+    ]
+}

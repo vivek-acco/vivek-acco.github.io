@@ -1,0 +1,186 @@
+{
+  "key": "commonErrorMessages",
+  "values": [
+    {
+      "message": "Tolong periksa koneksi jaringan anda",
+      "key": "network_error3333"
+    },
+    {
+      "message": "Login ke Babylon gagal",
+      "key": "babylon_login_error"
+    },
+    {
+      "message": "Oops! Ada kesalahan. Silakan coba kembali!",
+      "key": "server_error"
+    },
+    {
+      "message": "Waktu respon habis",
+      "key": "RESPONSE_TIMEOUT"
+    },
+    {
+      "message": "Workflow invalid atau kadaluwarsa",
+      "key": "INVALID_OR_EXPIRED_WORKFLOW_EVENT"
+    },
+    {
+      "message": "Deserialization exception",
+      "key": "DESERIALIZATION_EXCEPTION"
+    },
+    {
+      "message": "Jwt token kadaluwarsa",
+      "key": "EXPIRED_JWT"
+    },
+    {
+      "message": "Jwt token cacat",
+      "key": "MALFORMED_JWT"
+    },
+    {
+      "message": "Id Dokumen Salah",
+      "key": "DOCUMENT_ID_ERROR"
+    },
+    {
+      "message": "Token tidak ditemukan",
+      "key": "TOKEN_MISSING"
+    },
+    {
+      "message": "Refresh jwt gagal",
+      "key": "REFRESH_JWT_FAILED"
+    },
+    {
+      "message": "Event kadaluwarsa / Event Invalid",
+      "key": "2090",
+      "label": "INVALID_EVENT"
+    },
+    {
+      "message": "Internal Server Error",
+      "key": "500",
+      "label": "SYSTEM_ERROR"
+    },
+    {
+      "message": "Oops! Ada kesalahan. Silakan coba kembali!",
+      "key": "999",
+      "label": "GENERIC_ERROR"
+    },
+    {
+      "message": "Parse error",
+      "key": "3040",
+      "label": "PARSE_ERROR"
+    },
+    {
+      "message": "Kesalahan terjadi ketika mengambil dokumen",
+      "key": "4000",
+      "label": "DOCUMENT_FETCH_ERROR"
+    },
+    {
+      "message": "Dokumen tidak ditemukan",
+      "key": "4010",
+      "label": "DOCUMENT_NOT_FOUND"
+    },
+    {
+      "message": "Kesalahan terjadi ketika mengambil dokumen",
+      "key": "4020",
+      "label": "RESOURCE_FETCH_ERROR"
+    },
+    {
+      "message": "Resource tidak ditemukan",
+      "key": "4030",
+      "label": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "message": "User sudah terdaftar.",
+      "key": "2070",
+      "label": "USER_ALREADY_REGISTERED"
+    },
+    {
+      "message": "Babylon Registration has failed for this user",
+      "key": "babylonRestrictionMessage"
+    },
+    {
+      "message": "User tidak terdaftar.",
+      "key": "2000"
+    },
+    {
+      "message": "User Id dan/atau kata sandi invalid.",
+      "key": "2010"
+    },
+    {
+      "message": "User Id dan/atau kata sandi invalid.",
+      "key": "2020"
+    },
+    {
+      "message": "Setidaknya 1 Social Id diharuskan.",
+      "key": "2030"
+    },
+    {
+      "message": "Social id tidak cocok.",
+      "key": "2040"
+    },
+    {
+      "message": "User Id dan/atau kata sandi tidak valid.",
+      "key": "2060"
+    },
+    {
+      "message": "User memasukkan OTP yang salah.",
+      "key": "2080"
+    },
+    {
+      "message": "Syarat dan Ketentuan tidak disetujui.",
+      "key": "2100"
+    },
+    {
+      "message": "User Id dan/atau kata sandi tidak valid.",
+      "key": "2110"
+    },
+    {
+      "message": "Kesalahan terjadi ketika reset kata sandi.",
+      "key": "2120"
+    },
+    {
+      "message": "User Id dan/atau kata sandi tidak valid.",
+      "key": "2140"
+    },
+    {
+      "message": "User Id dan/atau kata sandi tidak valid.",
+      "key": "2150"
+    },
+    {
+      "message": "Entry tidak valid.",
+      "key": "2160"
+    },
+    {
+      "message": "Syarat dan Ketentuan tidak dibuat.",
+      "key": "2170"
+    },
+    {
+      "message": "Akun anda terkunci. Silakan klik 'Lupa Kata Sandi' untuk reset akun anda",
+      "key": "2180"
+    },
+    {
+      "message": "Bad Selfie.",
+      "key": "2001"
+    },
+    {
+      "message": "Credential pelanggan tidak tepat.",
+      "key": "3000"
+    },
+    {
+      "message": "Data tidak valid.",
+      "key": "2002"
+    },
+    {
+      "message": "Kata Sandi baru dan lama tidak boleh kosong",
+      "key": "2130"
+    },
+    {
+      "message": "Email tidak boleh kosong",
+      "key": "required"
+    },
+    {
+      "message": "Email tidak valid",
+      "key": "not_valid"
+    },
+    {
+      "message": "Kami tidak mengenali email ini",
+      "key": "recognise_email"
+    }
+  ]
+}

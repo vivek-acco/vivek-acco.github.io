@@ -1,0 +1,23 @@
+{
+  "image": "",
+  "label": "",
+  "key": "stayingWellScreen",
+  "elements": [
+    {
+      "image": "",
+      "key": "stayingWellLabel",
+      "label": "Staying Well"
+    },
+    {
+      "image": "",
+      "key": "stayingWellIcon",
+      "label": ""
+    },
+    {
+      "image": "",
+      "label": "Peringatan Demam Berdarah",
+      "type": "menu",
+      "key": "dengueAlertMenu"
+    }
+  ]
+}

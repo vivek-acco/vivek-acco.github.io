@@ -1,0 +1,1 @@
+{"label": "New Registration", "image": "", "key": "NewRegScreen", "elements": [{"label": "Already have an account?", "type": "label", "key": "alreadyhaveacc"}, {"label": "Sign Up", "type": "label", "key": "signup"}, {"label": "Sign In", "type": "label", "key": "signin"}]}

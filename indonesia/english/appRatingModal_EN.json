@@ -1,0 +1,37 @@
+{
+    "image": "",
+    "label": "App Rating Modal",
+    "key": "appRatingScreenKey",
+    "elements": [
+        {
+            "key": "appRatingTitle",
+            "type": "label",
+            "label": "Your Feedback help us provide better service"
+        },
+        {
+            "key": "appRatingExperience",
+            "type": "label",
+            "label": "How was your Experience?"
+        },
+        {
+            "key": "appRatingthanks",
+            "type": "label",
+            "label": "Thanks for your Help"
+        },
+        {
+            "key": "appRatingSubmit",
+            "type": "label",
+            "label": "Continue"
+        },
+        {
+            "key": "appRatingSkip",
+            "type": "label",
+            "label": "Not Now"
+        },
+        {
+            "key": "appRatingAlertMsg",
+            "type": "label",
+            "label": "Please choose your rating before submit."
+        }
+    ]
+}

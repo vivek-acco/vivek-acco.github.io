@@ -1,0 +1,98 @@
+{
+  "image": "",
+  "label": "PPG Vitals",
+  "key": "ppgVitals",
+  "elements": [
+    {
+      "key": "vitalsMeta",
+      "type": "object",
+      "data": {
+        "o2Level": {
+          "range": {
+            "low": {
+              "percent": "90%",
+              "value": 90,
+              "color": "rgb(205, 8, 20)",
+              "endColor": "rgb(233, 75, 30)",
+              "label": "Low"
+            },
+            "mid": {
+              "percent": "5%",
+              "value": 5,
+              "color": "rgb(233, 75, 30)",
+              "endColor": "rgb(253, 152, 39)",
+              "label": "Normal"
+            },
+            "high": {
+              "percent": "5%",
+              "value": 5,
+              "color": "rgb(253, 152, 39)",
+              "endColor": "rgb(78, 165, 88)",
+              "label": "High"
+            }
+          }
+        },
+        "respiratoryRate": {
+          "range": {
+            "minValue": 12,
+            "maxValue": 20
+          }
+        },
+        "heartBeat": {
+          "range": {},
+          "disabled": true
+        }
+      }
+    },
+    {
+      "key": "failureMsg",
+      "label": "Scanning failed. Would you like to try again?",
+      "type": "label"
+    },
+    {
+      "key": "tryAgain",
+      "label": "Try again",
+      "type": "label"
+    },
+    {
+      "key": "cancelMsg",
+      "label": "Cancel",
+      "type": "label"
+    },
+    {
+      "key": "lowRange",
+      "label": "<=90%",
+      "type": "label"
+    },
+    {
+      "key": "midRange",
+      "label": "91-94%",
+      "type": "label"
+    },
+    {
+      "key": "highRange",
+      "label": "95-100%",
+      "type": "label"
+    },
+    {
+      "key": "lowRangeDesc",
+      "label": "Consider consulting your doctor.",
+      "type": "label"
+    },
+    {
+      "key": "midRangeDesc",
+      "label": "Below average for population monitor closely.",
+      "type": "label"
+    },
+    {
+      "key": "highRangeDesc",
+      "label": "Average for the population. the red blood cells are well oxygenated and sufficiently transporting oxygen around the body.",
+      "type": "label"
+    },
+    {
+      "key": "resultsHeader",
+      "label": "Vitals Results",
+      "type": "label"
+    }
+  ]
+}

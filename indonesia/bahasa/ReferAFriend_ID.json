@@ -1,0 +1,66 @@
+{
+  "key": "ReferAFriend",
+  "image": "",
+  "elements": [
+    {
+      "type": "label",
+      "key": "referAFriendYouRefer",
+      "label": "Kamu telah mereferensikan temanmu"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendTheyJoin",
+      "label": "Mereka sudah bergabung di Pulse"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendYouReward",
+      "label": "Kamu mendapatkan reward"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendTheyReward",
+      "label": "Mereka mendapatkan reward"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendInvite",
+      "label": "Undang"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendDashboard",
+      "label": "Beranda"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendShareQrCode",
+      "label": "Bagikan kode QR Kamu"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendScanningAppStore",
+      "label": "Kamu akan menuju ke Application Store setelah melakukan scanning atas kode yang ada"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendShareURL",
+      "label": "Bagikan melalui link URL"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendInvited",
+      "label": "Diundang"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendJoined",
+      "label": "Bergabung"
+    },
+    {
+      "type": "label",
+      "key": "referAFriendRewards",
+      "label": "Rewards"
+    }
+  ]
+}

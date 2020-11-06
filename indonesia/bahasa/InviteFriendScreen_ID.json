@@ -1,0 +1,35 @@
+{
+  "image": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/8636db5b-1616-4260-bb56-11bf94d03ff3?namespace=PH",
+  "key": "InviteFriendScreen",
+  "context": "gift",
+  "screenMode": "full",
+  "showDescription": false,
+  "elements": [
+    {
+      "label": "Hadiah teman Anda untuk mendaftar",
+      "type": "label",
+      "key": "inviteDesc1"
+    },
+    {
+      "label": "untuk Polis PA dan COVID gratis",
+      "type": "label",
+      "key": "inviteDesc2"
+    },
+    {
+      "label": "Hadiah Perlindungan Gratis",
+      "type": "label",
+      "key": "inviteBtnText"
+    },
+    {
+      "label": "Melewati",
+      "type": "label",
+      "key": "skip"
+    },
+    {
+      "label": "Saya ingin memberi Anda personal accident secara gratis dan polis COVID -19. Silakan unduh Pulse dan daftar untuk memanfaatkan penawaran",
+      "type": "label",
+      "key": "giftapolicy",
+      "context": "gift"
+    }
+  ]
+}

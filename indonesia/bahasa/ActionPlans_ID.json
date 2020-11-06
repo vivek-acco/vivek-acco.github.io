@@ -1,0 +1,207 @@
+{
+    "image": "",
+    "label": "",
+    "key": "ActionPlans",
+    "elements": [
+      {
+        "type": "label",
+        "key": "actionPlan",
+        "label": "Target Kesehatan dan Kebugaran"
+      },
+      {
+        "type": "label",
+        "key": "availablePlans",
+        "label": "Available Plans"
+      },
+      {
+        "type": "label",
+        "key": "joinActionPlanDesc",
+        "label": "Ayo gabung Target Kesehatan dan Kebugaran untuk hidup sehat dan tetap fit sesuai dengan gaya hidupmu"
+      },
+      {
+        "label": "Baru",
+        "type": "label",
+        "key": "New"
+      },
+      {
+        "type": "label",
+        "key": "allActionType",
+        "label": "Semua"
+      },
+      {
+        "type": "label",
+        "key": "availableActionType",
+        "label": "Tersedia"
+      },
+      {
+        "type": "label",
+        "key": "inProgressActionType",
+        "label": "Dalam Proses"
+      },
+      {
+        "type": "label",
+        "key": "completedActionType",
+        "label": "Proses Selesai"
+      },
+      {
+        "type": "label",
+        "key": "inProgressPlanStatus",
+        "label": "Dalam Proses"
+      },
+      {
+        "type": "label",
+        "key": "completePlanStatus",
+        "label": "Selesai"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanAlertTitle",
+        "label": "Keluar dari Plan?"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanAlertMsg",
+        "label": "Semua data akan terhapus jika kamu keluar dari plan sekarang. Apakah kamu yakin?"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanAlertConfirmBtn",
+        "label": "Konfirmasi"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanAlertCancelBtn",
+        "label": "Batal"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanBtn",
+        "label": "Keluar dari plan"
+      },
+      {
+        "type": "label",
+        "key": "habitCountStatus",
+        "label": "IDR {0} dari IDR {1} selesai"
+      },
+      {
+        "type": "label",
+        "key": "milestoneCountStatus",
+        "label": "${0} out of ${1} ${2}"
+      },
+      {
+        "type": "label",
+        "key": "milestoneCompletedStatus",
+        "label": "Tugas selesai"
+      },
+      {
+        "type": "label",
+        "key": "milestoneDoneToday",
+        "label": "Selesai Hari Ini"
+      },
+      {
+        "type": "label",
+        "key": "changeHabit",
+        "label": "Ubah Kebiasaan"
+      },
+      {
+        "type": "label",
+        "key": "pickNewHabit",
+        "label": "Pilih Kebiasaan Baru"
+      },
+      {
+        "type": "label",
+        "key": "changeHabitAlertTitle",
+        "label": "Konfirmasi Perubahan??"
+      },
+      {
+        "type": "label",
+        "key": "changeHabitAlertMsg",
+        "label": "Dengan mengubah, kemajuanmu dalam kebiasaan saat ini akan diatur ulang. Yakin untuk lanjut?"
+      },
+      {
+        "type": "label",
+        "key": "changeHabitAlertConfirmBtn",
+        "label": "Konfirmasi"
+      },
+      {
+        "type": "label",
+        "key": "changeHabitAlertCancelBtn",
+        "label": "Batal"
+      },
+      {
+        "type": "label",
+        "key": "viewMoreText",
+        "label": "Selengkapnya"
+      },
+      {
+        "type": "label",
+        "key": "viewLessText",
+        "label": "Tutup"
+      },
+      {
+        "type": "label",
+        "key": "emptyHabitsError",
+        "label": "Sepertinya kamu belum memilih kebiasaan olahraga di sini"
+      },
+      {
+        "type": "label",
+        "key": "changeHabitFailureError",
+        "label": "Terjadi hambatan dalam memproses. Mau coba lagi?"
+      },
+      {
+        "type": "label",
+        "key": "leavePlanFailureError",
+        "label": "Terjadi hambatan dalam memproses. Mau coba lagi?"
+      },
+      {
+        "type": "label",
+        "key": "setMilestoneFailureError",
+        "label": "Terjadi hambatan dalam memproses. Mau coba lagi?"
+      },
+      {
+        "type": "label",
+        "key": "joinActionFailureError",
+        "label": "Terjadi hambatan dalam memproses. Mau coba lagi?"
+      },
+      {
+        "type": "label",
+        "key": "okCaps",
+        "label": "OK"
+      },
+      {
+        "type": "label",
+        "key": "actionPlan",
+        "label": "Target Kesehatan dan Kebugaran"
+      },
+      {
+        "type": "label",
+        "key": "createActionPlanDesc",
+        "label": "Ciptakan Target Kesehatan dan Kebugaran untuk hidup sehat dan tetap fit yang sesuai dengan gaya hidupmu."
+      },
+      {
+        "type": "label",
+        "key": "about",
+        "label": "Tentang"
+      },
+      {
+        "type": "label",
+        "key": "joinPlan",
+        "label": "Gabung Plan"
+      },
+      {
+        "type": "label",
+        "key": "noActionPlanAvailable",
+        "label": "Maaf, tidak ada Target Kesehatan dan Kebugaran yang tersedia saat ini."
+      },
+      {
+        "type": "label",
+        "key": "noInprogressActionPlans",
+        "label": "Kamu tidak memiliki Target Kesehatan dan Kebugaran yang sedang berlangsung. Silakan bergabung dengan Target Kesehatan dan Kebugaran yang tersedia dengan mengklik tab tersedia."
+      },
+      {
+        "type": "label",
+        "key": "noCompletedActionPlans",
+        "label": "Kamu tidak memiliki Target Kesehatan dan Kebugaran yang lengkap. Silakan periksa plan berjalan Anda dengan mengklik tab."
+      }
+    ]
+  }

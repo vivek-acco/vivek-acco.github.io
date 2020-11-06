@@ -1,0 +1,26 @@
+{
+  "image": "",
+  "key": "trendsscreen",
+  "elements": [
+    {
+      "type": "label",
+      "key": "area",
+      "label": "Area "
+    },
+    {
+      "type": "label",
+      "key": "thisweek",
+      "label": "Minggu ini"
+    },
+    {
+      "type": "label",
+      "key": "cases",
+      "label": "Kasus"
+    },
+    {
+      "type": "label",
+      "key": "outbreak",
+      "label": "Wabah"
+    }
+  ]
+}

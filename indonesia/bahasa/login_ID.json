@@ -1,0 +1,228 @@
+{
+  "image": "",
+  "key": "login",
+  "elements": [
+    {
+      "type": "label",
+      "key": "newuser",
+      "label": "Pengguna baru?"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Diperlukan email",
+          "key": "required"
+        },
+        {
+          "message": "Email tidak valid",
+          "key": "not_valid"
+        }
+      ],
+      "label": "Email",
+      "type": "input",
+      "required": "yes",
+      "key": "email"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Kata Sandi harus diisi",
+          "key": "required"
+        },
+        {
+          "message": "Password does not match password policy",
+          "key": "match_criteria"
+        }
+      ],
+      "security": [
+        {
+          "policy": {
+            "message": "More than 8 characters with at least 1 number, 1 upper case and 1 special character",
+            "key": "password_policy"
+          }
+        }
+      ],
+      "label": "Password",
+      "type": "password",
+      "required": "yes",
+      "key": "password"
+    },
+    {
+      "type": "label",
+      "key": "registerlabel",
+      "label": "Daftar"
+    },
+    {
+      "type": "label",
+      "key": "internalservererror",
+      "label": "Terjadi kesalahan. Silakan coba lagi nanti."
+    },
+    {
+      "type": "label",
+      "key": "dont_have_an_account",
+      "label": "Belum punya akun?"
+    },
+    {
+      "type": "label",
+      "key": "separatorConventionalAndSocialRegister",
+      "label": "atau"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Data e-mail dan / atau kata sandi tidak valid",
+          "key": "2020",
+          "label": "WRONG_CREDENTIAL"
+        },
+        {
+          "message": "Customer login failed",
+          "key": "2060",
+          "label": "LOGIN_ERROR"
+        },
+        {
+          "message": "Data kamu sudah terregistrasi",
+          "key": "2070",
+          "label": "USER_EXIST"
+        },
+        {
+          "message": "Incorrect password",
+          "key": "2140",
+          "label": "WRONG_PSWD"
+        },
+        {
+          "message": "Data kamu belum terregistrasi",
+          "key": "2000",
+          "label": "REGISTER_ERROR"
+        },
+        {
+          "message": "User is not active",
+          "key": "2010",
+          "label": "NOT_ACTIVE"
+        },
+        {
+          "message": "Atleast one Social id is required",
+          "key": "2030",
+          "label": "NO_SOCIALID"
+        },
+        {
+          "message": "Email harus diisi",
+          "key": "2050",
+          "label": "EMAIL_REQUIRED"
+        },
+        {
+          "message": "User not registered with given social Id",
+          "key": "2150",
+          "label": "SOCIAL_RESGISTER_ERROR"
+        },
+        {
+          "message": "Data kamu sudah terregistrasi",
+          "key": "2070",
+          "label": "USER_EXIST"
+        },
+        {
+          "message": "Akun Kamu saat ini terkunci, silahkan gunakan tautan Lupa Kata Sandi untuk mengatur ulang akun Kamu",
+          "key": "2180",
+          "label": "ACCOUNT_LOCKED"
+        }
+      ],
+      "label": "Masuk",
+      "type": "button",
+      "key": "loginbutton"
+    },
+    {
+      "key": "faceid_enrolment_alert_header",
+      "label": "Pendaftaran FaceID",
+      "type": "label"
+    },
+    {
+      "key": "faceid_not_enabled",
+      "label": "FaceID tidak diaktifkan. Harap aktifkan dari akun -> keamanan.",
+      "type": "label"
+    },
+    {
+      "key": "faceid_cancel",
+      "label": "Batal",
+      "type": "label"
+    },
+    {
+      "key": "fingerprint_user_login",
+      "label": "Masuk sebagai pengguna",
+      "type": "label"
+    },
+    {
+      "key": "fingerprintconfirmtouch",
+      "label": "Konfirmasi Sidik Jari",
+      "type": "label"
+    },
+    {
+      "type": "label",
+      "key": "forgotpasswordLabel",
+      "label": "Lupa Password?"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintlogintitlelabel",
+      "label": "Masuk"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintusetouchidlabel",
+      "label": "Gunakan Fingerprint"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintauthorizefailedlabel",
+      "label": "Gagal menghubungkan"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintcancellabel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintshowpasscodelabel",
+      "label": "Tampilkan Passcode"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintdetailedmessagelabel",
+      "label": "Letakkan jari di tempat sensor"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintoopslabel",
+      "label": "Ups!"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintaddfingerprintmessagelabel",
+      "label": "Silakan tambahkan sidik jari di pengaturan untuk melanjutkan."
+    },
+    {
+      "type": "label",
+      "key": "fingerprintEnablePostLoginMessageLabel",
+      "label": "Silakan"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintError",
+      "label": "Sidik jari error"
+    },
+    {
+      "type": "label",
+      "key": "fingerprintNotEnrolled",
+      "label": "Sidik jari tidak diaktifkan di perangkat ini. Silakan aktifkan di Pengaturan."
+    },
+    {
+      "type": "label",
+      "key": "fingerprintaddfingerprintconventionalloginlabel",
+      "label": "Silakan masuk dengan akun Pulse, dan aktifkan sidik jari di Lainnya -> Pengaturan -> Sidik Jari"
+    },
+    {
+      "type": "label",
+      "key": "touchid",
+      "label": "Gunakan Touch ID"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "image": "",
+    "label": "",
+    "key": "fitnessTab",
+    "elements": [
+        {
+			"label": "{\"fontSize\": 12, \"color\": \"#7e7e7e\", \"textAlign\": \"center\"}",
+			"type": "label",
+			"key": "fitness/thatsallStyle"
+		},
+		{
+			"label": "That's all for now!",
+			"type": "label",
+			"key": "fitness/thatsallText"
+		},
+		{
+			"label": "enable",
+			"type": "label",
+            "key": "fitness/thatsallConfig"
+        }
+    ]
+}

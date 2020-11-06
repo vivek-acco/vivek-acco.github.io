@@ -1,0 +1,118 @@
+{
+  "label": "Update Details",
+  "image": "",
+  "key": "pruWizardBabylon",
+  "elements": [
+    {
+      "label": "No, Maybe Later",
+      "type": "label",
+      "key": "noMayBeLater"
+    },
+    {
+      "label": "Activate Free Health Checkup",
+      "type": "label",
+      "key": "activateFreeHealthCheckup"
+    },
+    {
+      "label": "By clicking on the button below, I consent to the Babylon",
+      "type": "label",
+      "key": "babylonConsent1"
+    },
+    {
+      "label": " Terms & Conditions ",
+      "type": "label",
+      "key": "babylonConsent2"
+    },
+    {
+      "label": "and Babylon's collection, use and disclosure of my personal data in accordance with the Babylon",
+      "type": "label",
+      "key": "babylonConsent3"
+    },
+    {
+      "label": " Privacy Policy",
+      "type": "label",
+      "key": "babylonConsent4"
+    },
+    {
+      "label": "Your Details",
+      "type": "label",
+      "key": "yourDetails"
+    },
+    {
+      "label": "Congrats",
+      "type": "label",
+      "key": "congrats"
+    },
+    {
+      "label": "You Are Eligible For A Free Teleconsultation Voucher",
+      "type": "label",
+      "key": "congrats1"
+    },
+    {
+      "label": "To Claim This Voucher, please activate & complete your free health check up by clicking below.",
+      "type": "label",
+      "key": "congrats2"
+    },
+    {
+      "label": "Avail one time free Teleconsultation benefit from our board certified doctrors",
+      "type": "label",
+      "key": "congrats3"
+    },
+    {
+      "label": "Get e-Prescriptions, recommendations and referrals.",
+      "type": "label",
+      "key": "congrats4"
+    },
+    {
+      "label": "ID Number",
+      "type": "label",
+      "key": "idNum"
+    },
+    {
+      "label": "First name",
+      "type": "label",
+      "key": "firstName"
+    },
+    {
+      "label": "Last Name",
+      "type": "label",
+      "key": "lastName"
+    },
+    {
+      "label": "Date Of birth",
+      "type": "label",
+      "key": "dob"
+    },
+    {
+      "label": "Gender",
+      "type": "label",
+      "key": "gender"
+    },
+    {
+      "label": "Email",
+      "type": "label",
+      "key": "email"
+    },
+    {
+      "label": "Address",
+      "type": "label",
+      "key": "address"
+    },
+    {
+      "label": "Phone Number",
+      "type": "label",
+      "key": "phone"
+    },
+    {
+      "label": "Male",
+      "type": "label",
+      "key": "male"
+    },
+    {
+      "label": "Female",
+      "type": "label",
+      "key": "female"
+    }
+
+  ]
+}

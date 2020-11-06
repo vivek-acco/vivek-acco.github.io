@@ -1,0 +1,23 @@
+{
+    "image": "",
+    "label": "Privacy Notice",
+    "key": "aboutprivacypolicyNew",
+    "elements": [
+      {
+        "key": "prutopia",
+        "label": "Pulse"
+      },
+      {
+        "key": "docservice",
+        "label": "Halodoc"
+      },
+      {
+        "key": "babylon",
+        "label": "Babylon"
+      },
+      {
+        "key": "babylonPrivacyPolicyTitle",
+        "label": "Privacy Policy"
+      }
+    ]
+  }

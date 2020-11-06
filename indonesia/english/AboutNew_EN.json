@@ -1,0 +1,96 @@
+{
+    "key": "AboutNew",
+    "image": "",
+    "elements": [
+        {
+            "label": "Terms & Conditions",
+            "type": "label",
+            "key": "TermsConditions"
+        },
+        {
+            "label": "Privacy Notice",
+            "type": "label",
+            "key": "PrivacyNotice"
+        },
+        {
+            "label": "App Version",
+            "type": "label",
+            "key": "AppVersion"
+        },
+        {
+            "label": "HK 1.0.4",
+            "type": "label",
+            "key": "AppVersionNumber"
+        },
+        {
+            "label": "© Pulse Ecosystems Pte. Ltd. 2020.  All rights reserved.",
+            "type": "label",
+            "key": "about"
+        },
+        {
+            "label": "PRUShoppe",
+            "type": "label",
+            "key": "PruShop"
+        },
+        {
+            "label": "Babylon",
+            "type": "label",
+            "key": "babylon"
+        },
+        {
+            "label": "Clinical Safety",
+            "type": "label",
+            "key": "clinicalSafety"
+        },
+        {
+            "label": "Patient Clinical Safety",
+            "type": "label",
+            "key": "patientClinicalSafety"
+        },
+        {
+            "label": "Localisation",
+            "type": "label",
+            "key": "localisation"
+        },
+        {
+            "label": "Privacy & Data Protection",
+            "type": "label",
+            "key": "privacydata"
+        },
+        {
+            "label": "Raising Concerns & Reporting issues",
+            "type": "label",
+            "key": "raisingConcerns"
+        },
+        {
+            "label": "Regulatory",
+            "type": "label",
+            "key": "regulatory"
+        },
+        {
+            "label": "https://www.babylonhealth.com/apac/responsibility/clinical-safety",
+            "type": "label",
+            "key": "clinicalSafetyLink"
+        },
+        {
+            "label": "https://www.babylonhealth.com/apac/responsibility/patient-clinical-safety",
+            "type": "label",
+            "key": "patientClinicalSafetyLink"
+        },
+        {
+            "label": "https://www.babylonhealth.com/apac/responsibility/localisation",
+            "type": "label",
+            "key": "localisationLink"
+        },
+        {
+            "label": "https://www.babylonhealth.com/apac/responsibility/privacy-data-protection",
+            "type": "label",
+            "key": "privacyDataProtectionLink"
+        },
+        {
+            "label": "https://www.babylonhealth.com/apac/responsibility/raising-concerns-and-reporting-issues",
+            "type": "label",
+            "key": "raisingConcernsLink"
+        }
+    ]
+}

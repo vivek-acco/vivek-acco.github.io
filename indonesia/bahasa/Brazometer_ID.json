@@ -1,0 +1,457 @@
+{
+	"key": "AirQualityData",
+	"image": "",
+	"elements": [
+		{
+			"label": "SIAPA YANG LEBIH TERPENGARUH?",
+			"type": "label",
+			"key": "AQHIMoreEffected"
+		},
+		{
+			"label": "Selamat sore,",
+			"type": "label",
+			"key": "AQHIGoodAfternoon"
+		},
+		{
+			"label": "Selamat malam,",
+			"type": "label",
+			"key": "AQHIGoodEvening"
+		},
+		{
+			"label": "Tips Kesehatan",
+			"type": "label",
+			"key": "AQHIHealthTips"
+		},
+		{
+			"label": "Asma",
+			"type": "label",
+			"key": "AQHIAsthama"
+		},
+		{
+			"label": "Jantung",
+			"type": "label",
+			"key": "AQHIHeart"
+		},
+		{
+			"label": "Hamil",
+			"type": "label",
+			"key": "AQHIPregnant"
+		},
+		{
+			"label": "Kurangi intensitas aktivitas luar ruangan Anda. Anda disarankan untuk membatasi waktu Anda berada di dekat jalan yang sibuk, lokasi konstruksi, kebakaran terbuka, dan sumber asap lainnya. Tetap di dalam ruangan dengan sistem penyaringan udara aktif akan menjadi yang terbaik untuk kesehatan jangka panjang Anda.",
+			"type": "label",
+			"key": "AQHITabText1"
+		},
+		{
+			"label": "Kurangi intensitas aktivitas luar ruangan Anda. Jaga ketersediaan obat-obatan yang relevan dan konsultasikan dengan dokter jika ada pertanyaan. Direkomendasikan untuk membatasi waktu Anda berada di dekat jalan yang sibuk, api terbuka, dan sumber asap lainnya. Selain itu, pertimbangkan untuk mengurangi waktu yang Anda habiskan di dekat tumpukan emisi industri. Tetap di dalam ruangan dengan sistem penyaringan udara aktif akan menjadi yang terbaik untuk kesehatan jangka panjang Anda.",
+			"type": "label",
+			"key": "AQHITabText2"
+		},
+		{
+			"label": "Kurangi intensitas aktivitas luar ruangan Anda. Jaga ketersediaan obat-obatan yang relevan dan konsultasikan dengan dokter jika ada pertanyaan. Anda disarankan untuk membatasi waktu Anda berada di dekat jalan yang sibuk, lokasi konstruksi, kebakaran terbuka, dan sumber asap lainnya. Selain itu, pertimbangkan untuk mengurangi waktu yang Anda habiskan di dekat tumpukan emisi industri. Tetap di dalam ruangan dengan sistem penyaringan udara aktif akan menjadi yang terbaik untuk kesehatan jangka panjang Anda.",
+			"type": "label",
+			"key": "AQHITabText3"
+		},
+		{
+			"label": "Kurangi intensitas aktivitas luar ruangan Anda. Anda disarankan untuk membatasi waktu Anda berada di dekat jalan yang sibuk, lokasi konstruksi, kebakaran terbuka, dan sumber asap lainnya. Selain itu, pertimbangkan untuk mengurangi waktu yang Anda habiskan di dekat tumpukan emisi industri. Tetap di dalam ruangan dengan sistem penyaringan udara aktif akan menjadi yang terbaik untuk kesehatan jangka panjang Anda.",
+			"type": "label",
+			"key": "AQHITabText4"
+		},
+		{
+			"label": "Untuk menjaga kesehatan Anda dan bayi, kurangi intensitas aktivitas luar ruangan Anda. Anda disarankan untuk membatasi waktu Anda berada di dekat jalan yang sibuk, lokasi konstruksi, kebakaran terbuka, dan sumber asap lainnya. Tetap di dalam ruangan dengan sistem penyaringan udara aktif akan menjadi yang terbaik untuk kesehatan jangka panjang Anda.",
+			"type": "label",
+			"key": "AQHITabText5"
+		},
+		{
+			"label": "Selamat pagi,",
+			"type": "label",
+			"key": "AQHIGoodMorning"
+		},
+		{
+			"label": "Tentang Anda",
+			"type": "label",
+			"key": "AQHIAboutYou"
+		},
+		{
+			"label": "Minat",
+			"type": "label",
+			"key": "AQHIInterest"
+		},
+		{
+			"label": "Penyakit Medis",
+			"type": "label",
+			"key": "AQHIMedicalAilments"
+		},
+		{
+			"label": "jenis kelamin",
+			"type": "label",
+			"key": "AQHIGender"
+		},
+		{
+			"label": "Pria",
+			"type": "label",
+			"key": "AQHIMale"
+		},
+		{
+			"label": "wanita",
+			"type": "label",
+			"key": "AQHIFemale"
+		},
+		{
+			"label": "Lainnya",
+			"type": "label",
+			"key": "AQHIOthers"
+		},
+		{
+			"label": "Kelompok usia",
+			"type": "label",
+			"key": "AQHIAgeGroup"
+		},
+		{
+			"label": "Anak",
+			"type": "label",
+			"key": "AQHIChild"
+		},
+		{
+			"label": "Dewasa",
+			"type": "label",
+			"key": "AQHIAdult"
+		},
+		{
+			"label": "Tua",
+			"type": "label",
+			"key": "AQHIElderly"
+		},
+		{
+			"label": "Seberapa Aktif Anda?",
+			"type": "label",
+			"key": "AQHIHowActive"
+		},
+		{
+			"label": "Kurang aktif",
+			"type": "label",
+			"key": "AQHINotVery"
+		},
+		{
+			"label": "Aktif",
+			"type": "label",
+			"key": "AQHIActive"
+		},
+		{
+			"label": "Sangat aktif",
+			"type": "label",
+			"key": "AQHIVeryActive"
+		},
+		{
+			"label": "Apakah Anda hamil?",
+			"type": "label",
+			"key": "AQHIAreYouPregnant"
+		},
+		{
+			"label": "Iya",
+			"type": "label",
+			"key": "AQHIYes"
+		},
+		{
+			"label": "Tidak",
+			"type": "label",
+			"key": "AQHINo"
+		},
+		{
+			"label": "Mungkin",
+			"type": "label",
+			"key": "AQHIMayBe"
+		},
+		{
+			"label": "Lokasi Pilihan",
+			"type": "label",
+			"key": "AQHIPreferredLocation"
+		},
+		{
+			"label": "Rumah",
+			"type": "label",
+			"key": "AQHIHome"
+		},
+		{
+			"label": "Kantor",
+			"type": "label",
+			"key": "AQHIOffice"
+		},
+		{
+			"label": "Pilih Polutan",
+			"type": "label",
+			"key": "AQHISelectPollutant"
+		},
+		{
+			"label": "Kualitas udara",
+			"type": "label",
+			"key": "AQHIAirQuality"
+		},
+		{
+			"label": "Serbuk sari",
+			"type": "label",
+			"key": "AQHIPollen"
+		},
+		{
+			"label": "Kebakaran",
+			"type": "label",
+			"key": "AQHIFires"
+		},
+		{
+			"label": "Pilih Durasi",
+			"type": "label",
+			"key": "AQHISelectTheDuration"
+		},
+		{
+			"label": "Arus",
+			"type": "label",
+			"key": "AQHICurrent"
+		},
+		{
+			"label": "Historis",
+			"type": "label",
+			"key": "AQHIHistorical"
+		},
+		{
+			"label": "Ramalan cuaca",
+			"type": "label",
+			"key": "AQHIForecast"
+		},
+		{
+			"label": "Apakah Anda mengidap Penyakit Paru-paru?",
+			"type": "label",
+			"key": "AQHILungDisease"
+		},
+		{
+			"label": "Tidak Tahu",
+			"type": "label",
+			"key": "AQHIDontKnow"
+		},
+		{
+			"label": "Apakah Anda mengidap Penyakit Jantung?",
+			"type": "label",
+			"key": "AQHIHeartDisease"
+		},
+		{
+			"label": "Apakah Anda mengalami Radang Mata atau Iritasi Kulit?",
+			"type": "label",
+			"key": "AQHISkinDisease"
+		},
+		{
+			"label": "Kedua",
+			"type": "label",
+			"key": "AQHIBoth"
+		},
+		{
+			"label": "Terus",
+			"type": "label",
+			"key": "AQHIContinue"
+		},
+
+		{
+			"label": "Iritasi kulit",
+			"type": "label",
+			"key": "AQHISkin"
+		},
+		{
+			"label": "Pneumonia, Bronkitis",
+			"type": "label",
+			"key": "AQHIPneumonia"
+		},
+		{
+			"label": "Batuk, Pernapasan yang Menyakitkan",
+			"type": "label",
+			"key": "AQHICoughing"
+		},
+		{
+			"label": "Hidung, Tenggorokan, Radang Mata",
+			"type": "label",
+			"key": "AQHIInflammation"
+		},
+		{
+			"label": "Sakit kepala",
+			"type": "label",
+			"key": "AQHIHeadache"
+		},
+		{
+			"label": "Efek-Efek Jangka Pendek",
+			"type": "label",
+			"key": "AQHIShortTermEffect"
+		},
+		{
+			"label": "Anak-anak",
+			"type": "label",
+			"key": "AQHIChildren"
+		},
+		{
+			"label": "Wanita hamil",
+			"type": "label",
+			"key": "AQHIPregnantWoman"
+		},
+		{
+			"label": "Orang yang berolahraga di luar ruangan",
+			"type": "label",
+			"key": "AQHIOutdoorPeople"
+		},
+		{
+			"label": "Warga Senior",
+			"type": "label",
+			"key": "AQHISeniorCitizen"
+		},
+		{
+			"label": "Orang dengan penyakit paru / jantung kronis, diabetes",
+			"type": "label",
+			"key": "AQHIPeopleWith"
+		},
+		{
+			"label": "Pada waktu tertentu, ada ratusan, bahkan ribuan kebakaran hutan aktif yang terjadi di seluruh dunia. Terlebih lagi, polusi terkait kebakaran tetap ada bahkan setelah api berlalu. Anda tidak bisa selalu diinformasikan & membuat rencana ke depan dan tetap aman",
+			"type": "label",
+			"key": "AQHIContext3"
+		},
+		{
+			"label": "Save Lives",
+			"type": "label",
+			"key": "AQHISaveLives"
+		},
+		{
+			"label": "Orang dengan sensitif serbuk sari sensitif tidak hanya terhadap berbagai jenis serbuk sari, tetapi serbuk sari itu sendiri, bahkan dari spesies yang sama, dapat berbeda secara geografis dan juga sepanjang musim tertentu, dengan lebih atau kurang komponen alergenik yang mengiritasi saluran udara dan sistem imun",
+			"type": "label",
+			"key": "AQHIContext2"
+		},
+		{
+			"label": "Kendalikan Alergi Anda",
+			"type": "label",
+			"key": "AQHIControlAllergy"
+		},
+		{
+			"label": "Informasi kualitas udara yang sangat akurat berarti kita semua dapat membuat pilihan yang lebih sehat untuk melindungi diri kita sendiri dan orang yang dicintai serta mengurangi paparan mereka terhadap udara yang tercemar. Ini bisa sesederhana menutup jendela, mengambil dan rute alternatif ke tempat kerja.",
+			"type": "label",
+			"key": "AQHIContext"
+		},
+		{
+			"label": "Kendalikan Udara yang Anda Bernapas",
+			"type": "label",
+			"key": "AQHITakeControl"
+		},
+		{
+			"label": "Dampaknya pada Sistem Reproduksi",
+			"type": "label",
+			"key": "AQHIImpactsOnReproductive"
+		},
+		{
+			"label": "Dampaknya pada Hati, Limpa, Darah",
+			"type": "label",
+			"key": "AQHIImpactsOnLiver"
+		},
+		{
+			"label": "Penyakit Pernafasan (Asma, Kanker)",
+			"type": "label",
+			"key": "AQHIRespiratory"
+		},
+		{
+			"label": "Penyakit kardiovaskular",
+			"type": "label",
+			"key": "AQHICardio"
+		},
+		{
+			"label": "(Sakit Kepala, Kecemasan)",
+			"type": "label",
+			"key": "AQHIHeadacheAnxiety"
+		},
+		{
+			"label": "Mempengaruhi Sistem Saraf Pusat",
+			"type": "label",
+			"key": "AQHIAffectNervous"
+		},
+		{
+			"label": "Efek jangka panjang",
+			"type": "label",
+			"key": "AQHILongTermEffect"
+		},
+		{
+			"label": "Polusi Tidak Meninggalkan Siapa Pun Tidak Terkena Dampak",
+			"type": "label",
+			"key": "AQHIPollution"
+		},
+		{
+			"label": "Indeks Kualitas Udara",
+			"type": "label",
+			"key": "AQHIQualityIndex"
+		},
+		{
+			"label": "Masukkan lokasinya",
+			"type": "label",
+			"key": "AQHIEnterLocation"
+		},
+		{
+			"label": "Kami saat ini tidak tersedia di lokasi ini.",
+			"type": "label",
+			"key": "AQHIUnavailable"
+		},
+		{
+			"label": "Kami minta maaf",
+			"type": "label",
+			"key": "AQHITimeoutError"
+		},
+		{
+			"label": "[[\"Tingkat Polusi Udara\",\"Colour Code\",\"AQI\"],[\"Baik\",\"#00e400\",\"0-50\"],[\"Moderat\",\"#ffff00\",\"51-100\"],[\"Tidak Sehat untuk Kelompok Sensitif\",\"#ff7e00\",\"101-150\"],[\"Tidak sehat\",\"#fd0000\",\"151-200\"],[\"Sangat Tidak Sehat\",\"#8f3e9a\",\"201-300\"],[\"Berbahaya\",\"#7e0023\",\"300+\"]]",
+			"type": "label",
+			"key": "aqhiValueModal"
+		},
+		{
+			"label": "Rentang AQI",
+			"type": "label",
+			"key": "aqhiValueModalHeader"
+		},
+		{
+			"label": "Menutup",
+			"type": "label",
+			"key": "failureModalClose"
+		},
+		{
+			"label": "Akses Lokasi Diperlukan",
+			"type": "label",
+			"key": "locationModal"
+		},
+		{
+			"label": "Pulse memerlukan akses ke lokasi Anda untuk fitur indeks kualitas udara.",
+			"type": "label",
+			"key": "locationModalDesc"
+		},
+		{
+			"label": "Melewatkan",
+			"type": "label",
+			"key": "locationModalSkip"
+		},
+		{
+			"label": "Izinkan Akses",
+			"type": "label",
+			"key": "locationModalAllow"
+		},
+		{
+			"label": "Air Composition",
+			"type": "label",
+			"key": "airComposition"
+		},
+		{
+			"label": "Komposisi Udara",
+			"type": "label",
+			"key": "loadingModalloading"
+		},
+		{
+			"label": "Sumber daya Anda sedang dimuat. Mohon tunggu.",
+			"type": "label",
+			"key": "loadingModalcontent"
+		},
+		{
+			"label": "Ini memakan waktu lebih lama dari biasanya. Silakan coba lagi nanti.",
+			"type": "label",
+			"key": "AQHITimeoutErrorDesc"
+		},
+		{
+			"label": "Kami mengalami masalah konektivitas internet. Silakan coba lagi nanti.",
+			"type": "label",
+			"key": "AQHIConnectivityErrorDesc"
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+  "key": "AvatarCreation",
+  "image": "",
+  "elements": [
+    {
+      "label": "Foto profil akan diubah dengan gambar avatar.",
+      "type": "label",
+      "key": "ChangeAlert"
+    },
+    {
+      "label": "Hasilkan gambar Avatar otomatis",
+      "type": "label",
+      "key": "AutoGenerate"
+    },
+    {
+      "label": "Baru",
+      "type": "label",
+      "key": "New"
+    },
+    {
+      "label": "Anda yakin ingin membuang perubahan? Tindakan ini tidak bisa dibatalkan.",
+      "type": "label",
+      "key": "DiscardChanges"
+    },
+    {
+      "label": "Selesai",
+      "type": "label",
+      "key": "Done"
+    },
+    {
+      "label": "Anda yakin ingin menyimpan perubahan?",
+      "type": "label",
+      "key": "ConfirmChanges"
+    },
+    {
+      "label": "Ok",
+      "type": "label",
+      "key": "Ok"
+    },
+    {
+      "label": "MEMBATALKAN",
+      "type": "label",
+      "key": "Cancel"
+    },
+    {
+      "label": "Membuang perubahan",
+      "type": "label",
+      "key": "DiscardText"
+    },
+    {
+      "label": "Simpan perubahan",
+      "type": "label",
+      "key": "SaveChangeText"
+    },
+    {
+      "label": "Selamat Datang di Pulse",
+      "type": "label",
+      "key": "welcomePulse"
+    },
+    {
+      "label": "Apakah kamu ingin membuat Avatar untuk profilmu?",
+      "type": "label",
+      "key": "createAvatar"
+    },
+    {
+      "label": "Lewati",
+      "type": "label",
+      "key": "skipButton"
+    },
+    {
+      "label": "Iya",
+      "type": "label",
+      "key": "yesButton"
+    },
+    {
+      "label": "Avatar",
+      "type": "label",
+      "key": "avatarText"
+    },
+    {
+      "label": "Selesai",
+      "type": "label",
+      "key": "doneText"
+    },
+    {
+      "label": "Ubah ulang",
+      "type": "label",
+      "key": "resetText"
+    },
+    {
+      "label": "Batalkan Perubahan",
+      "type": "label",
+      "key": "resetTitle"
+    },
+    {
+      "label": "Kamu yakin ingin membatalkan perubahan? Jika lanjut, perubahan tidak bisa dibatalkan.",
+      "type": "label",
+      "key": "resetSummery"
+    },
+    {
+      "label": "Batal",
+      "type": "label",
+      "key": "cancelText"
+    },
+    {
+      "label": "Ok",
+      "type": "label",
+      "key": "okText"
+    },
+    {
+      "label": "Simpan Perubahan",
+      "type": "label",
+      "key": "doneTitle"
+    },
+    {
+      "label": "Kamu yakin ingin menyimpan perubahan?",
+      "type": "label",
+      "key": "doneSummery"
+    },
+    {
+      "label": "Menyimpan",
+      "type": "label",
+      "key": "SaveText"
+    },
+    {
+      "label": "Buat Avatar Otomatis",
+      "type": "label",
+      "key": "globalRandomText"
+    },
+    {
+      "label": "Membuat gambar Avatar",
+      "type": "label",
+      "key": "AvatarCreationText"
+    }
+  ]
+}

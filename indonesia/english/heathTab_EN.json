@@ -1,0 +1,402 @@
+{
+  "image": "",
+  "label": "",
+  "key": "healthTab",
+  "elements": [
+    {
+      "type": "label",
+      "key": "vaccineCarousalTitle",
+      "label": "My Family Vaccine Calendar"
+    },
+    {
+      "type": "label",
+      "key": "vaccineCarousalDesc",
+      "label": "Never miss a vaccination date. \nHave you set up a vaccination calendar for your family?"
+    },
+    {
+      "type": "label",
+      "key": "vaccineCarousalButton",
+      "label": "Schedule"
+    },
+    {
+      "type": "label",
+      "key": "vaccineTitle",
+      "label": "My Family Vaccine Calendar"
+    },
+    {
+      "type": "label",
+      "key": "vaccineDescription",
+      "label": "Schedule and track vaccinations of your family"
+    },
+    {
+      "type": "label",
+      "key": "vaccineButton",
+      "label": "Schedule"
+    },
+    {
+      "label": "Take your health in your hands.",
+      "type": "label",
+      "key": "babylonServiceSubtitle"
+    },
+    {
+      "label": "Babylon Healthcheck",
+      "type": "label",
+      "key": "babylonService"
+    },
+    {
+      "label": "Dengue Alert",
+      "type": "label",
+      "key": "amieSubTitle"
+    },
+    {
+      "label": "Symptom Checker",
+      "type": "label",
+      "key": "symptomChecker"
+    },
+    {
+      "type": "label",
+      "key": "descriptionSC",
+      "label": "Feeling sick? Let our AI powered symptom checker tell you what you might be suffering with.\n"
+    },
+    {
+      "type": "label",
+      "key": "descriptionSC1",
+      "label": "Feeling unwell?"
+    },
+    {
+      "type": "label",
+      "key": "descriptionSC2",
+      "label": "Let our AI powered interactive symptom checker ask you questions to analyse your condition. "
+    },
+    {
+      "type": "label",
+      "key": "descriptionAmie",
+      "label": "Stay alert with Dengue outbreak near your location for a peace of mind. "
+    },
+    {
+      "type": "label",
+      "key": "buttonSC",
+      "label": "Check Symptoms"
+    },
+    {
+      "type": "label",
+      "key": "newUserDescriptionSC",
+      "label": "Ask Babylon now."
+    },
+    {
+      "type": "label",
+      "key": "healthAssessment",
+      "label": "Healthcheck"
+    },
+    {
+      "type": "label",
+      "key": "descriptionHA",
+      "label": "Let our AI powered Healthcheck help you understand your current health, view your digital twin and give practical insights to stay healthy\n"
+    },
+    {
+      "type": "label",
+      "key": "buttonHA",
+      "label": "Try Healthcheck"
+    },
+    {
+      "type": "label",
+      "key": "newUserDescriptionHA",
+      "label": "Put your health in your hands."
+    },
+    {
+      "type": "label",
+      "key": "bmi",
+      "label": "BMI Recorder"
+    },
+    {
+      "type": "label",
+      "key": "wrinkle",
+      "label": "Wrinkle Mirror"
+    },
+    {
+      "type": "label",
+      "key": "foodsdk",
+      "label": "Gout Buster"
+    },
+    {
+      "type": "label",
+      "key": "bmiDescription",
+      "label": "Are you watching your BMI? Take a selfie now to check"
+    },
+    {
+      "type": "label",
+      "key": "bmiDescription1",
+      "label": "Are you watching your BMI?"
+    },
+    {
+      "type": "label",
+      "key": "bmiDescription2",
+      "label": "Take a selfie now to check"
+    },
+    {
+      "label": "Worried about Wrinkles? Take a selfie now to check",
+      "type": "label",
+      "key": "wrinkleDescription"
+    },
+    {
+      "label": "Worried about Wrinkles?",
+      "type": "label",
+      "key": "wrinkleDescription1"
+    },
+    {
+      "label": "Take a selfie now to check",
+      "type": "label",
+      "key": "wrinkleDescription2"
+    },
+    {
+      "label": "Our Tongue Scanner and hydration tracker will help you stay away from a Gout Attack",
+      "type": "label",
+      "key": "foodsdkDescription"
+    },
+    {
+      "label": "Take a Selfie",
+      "type": "label",
+      "key": "bmiButton"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleButton",
+      "label": "Take a Selfie"
+    },
+    {
+      "type": "label",
+      "key": "foodsdkButton",
+      "label": "Start"
+    },
+    {
+      "type": "label",
+      "key": "wellnessGoals",
+      "label": "My Wellness Goals"
+    },
+    {
+      "type": "label",
+      "key": "wellnessGoalSubTitle",
+      "label": "Set Goals. Master Habits. \nChallenge yourself to lead a healthier life"
+    },
+    {
+      "type": "label",
+      "key": "wellnessGoalButton",
+      "label": "Practise Habits"
+    },
+    {
+      "type": "label",
+      "key": "navigator",
+      "label": "Locator"
+    },
+    {
+      "type": "label",
+      "key": "navigatorSubTitle",
+      "label": "Find clinics and hospitals near you"
+    },
+    {
+      "type": "label",
+      "key": "navigatorButton",
+      "label": "Find Now"
+    },
+    {
+      "type": "label",
+      "key": "onlineConsultation",
+      "label": "Online Consultation"
+    },
+    {
+      "type": "label",
+      "key": "onlineConsultationSubTitle",
+      "label": "Get Consultation from our doctors right from your house"
+    },
+    {
+      "type": "label",
+      "key": "onlineConsultationButton",
+      "label": "Start consultation"
+    },
+    {
+      "type": "label",
+      "key": "medicalRecords",
+      "label": "Medical Records"
+    },
+    {
+      "type": "label",
+      "key": "consultDoctor",
+      "label": "Consult Doctor"
+    },
+    {
+      "type": "label",
+      "key": "checkSymptoms",
+      "label": "Check Symptoms"
+    },
+    {
+      "type": "label",
+      "key": "newChallenge",
+      "label": "New Challenge"
+    },
+    {
+      "type": "label",
+      "key": "wellnessGoals",
+      "label": "Join Goals"
+    },
+    {
+      "type": "label",
+      "key": "assessHealth",
+      "label": "Complete Assessment"
+    },
+    {
+      "type": "label",
+      "key": "findHospital",
+      "label": "Find Clinic"
+    },
+    {
+      "type": "label",
+      "key": "checkBmi",
+      "label": "Take a Selfie"
+    },
+    {
+      "type": "label",
+      "key": "Wellness",
+      "label": "Join"
+    },
+    {
+      "type": "label",
+      "key": "Goals",
+      "label": "Wellness Goals"
+    },
+    {
+      "type": "label",
+      "key": "Health",
+      "label": "Complete"
+    },
+    {
+      "type": "label",
+      "key": "Assessment",
+      "label": "Healthcheck"
+    },
+    {
+      "type": "label",
+      "key": "Find",
+      "label": "Find"
+    },
+    {
+      "type": "label",
+      "key": "Hospital",
+      "label": "a Clinic"
+    },
+    {
+      "type": "label",
+      "key": "Check",
+      "label": "Check"
+    },
+    {
+      "type": "label",
+      "key": "Bmi",
+      "label": "BMI"
+    },
+    {
+      "type": "label",
+      "key": "Check",
+      "label": "Check"
+    },
+    {
+      "type": "label",
+      "key": "Symptoms",
+      "label": "Symptoms"
+    },    
+    {
+      "type": "label",
+      "key": "navigatorSubTitle",
+      "label": "Find clinics and hospitals near you"
+    },
+    {
+      "type": "label",
+      "key": "onlineConsultationDesc",
+      "label": "Get Consultation from our doctors right from your house"
+    },
+    {
+      "type": "label",
+      "key": "startConsultation",
+      "label": "Start consultation"
+    },
+    {
+      "type": "label",
+      "key": "haloDoc",
+      "label": "Online Consultation"
+    },
+    {
+      "type": "label",
+      "key": "haloDocSubTitle",
+      "label": "Consult one of our certified doctors online"
+    },
+    {
+      "type": "label",
+      "key": "haloDocButton",
+      "label": "Consult Now"
+    },
+    {
+      "type": "label",
+      "key": "buyMedicine",
+      "label": "Medicine Delivery"
+    },
+    {
+      "type": "label",
+      "key": "buyMedicineSubTitle",
+      "label": "Get your medicine at the click of a button."
+    },
+    {
+      "type": "label",
+      "key": "buyMedicineButton",
+      "label": "Buy Medicine"
+    },
+    {
+      "type": "label",
+      "key": "foodsdkSubTitle",
+      "label": "Made your eating easy"
+    },			
+		{
+			"type": "label",
+			"key": "wrinkleIndex1",
+			"label": "Wrinkle"
+		},
+		{
+			"type": "label",
+			"key": "wrinkleIndex2",
+			"label": "Mirror"
+    },
+    {
+			"type": "label",
+			"key": "checkNow",
+			"label": "Check Now"
+		},
+		{
+			"type": "label",
+			"key": "workoutVideo",
+			"label": "My Fitness Channel"
+		},
+		{
+			"type": "label",
+			"key": "checkNewVideos",
+			"label": "Refer to our curated fitness videos to help in your exercise regimen."
+    },
+    {
+      "type": "label",
+      "key": "myFood1",
+      "label": "My"
+    },
+    {
+      "type": "label",
+      "key": "myFood2",
+      "label": "Food"
+    },
+    {
+      "type": "label",
+      "key": "myFitness1",
+      "label": "My"
+    },
+    {
+      "type": "label",
+      "key": "myFitness2",
+      "label": "Fitness"
+    }
+  ]
+}

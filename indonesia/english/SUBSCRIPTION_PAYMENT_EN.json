@@ -1,0 +1,22 @@
+{
+  "label": "Subscription Payment",
+  "image": "",
+  "key": "SUBSCRIPTION_PAYMENT",
+  "elements": [
+    {
+      "key": "SUBSCRIPTION_GOOGLE_PAYMENTGATEWAY_CODE",
+      "label": "GOOGLEPLAY",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_GOOGLE_PAYMENT_FAILURE_PAGE",
+      "label": "TryPremiumSubscription",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_GOOGLE_PAYMENT_SUCCESS_REDIRECT_KEY",
+      "label": "redirectScreen",
+      "type": "label"
+    }
+  ]
+}

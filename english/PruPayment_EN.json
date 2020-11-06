@@ -1,0 +1,88 @@
+{
+    "label": "",
+    "image": "",
+    "key": "pruPaymentPage",
+    "elements": [
+        {
+            "label": "Products",
+            "type": "label",
+            "key": "pruPaymentProductHeading"
+          },
+          {
+            "label": "Payment Method",
+            "type": "label",
+            "key": "pruPaymentPaymentHeading"
+          },
+          {
+            "label": "Teleconsultation",
+            "type": "label",
+            "key": "pruPaymentProductName"
+          },
+          {
+            "label": "Thank you for using Teleconsultation, the fees covers video consultation. Your card will be charged after the video consultation.",
+            "type": "label",
+            "key": "pruPaymentProductDesc"
+          },
+          {
+            "label": "Free Telemedicine Voucher Applied",
+            "type": "label",
+            "key": "pruPaymentVoucherApplied"
+          },
+  
+          {
+            "label": "Your Products",
+            "type": "label",
+            "key": "yourProducts"
+          },
+          {
+            "label": "Teleconsultation",
+            "type": "label",
+            "key": "paymentTeleconsultation"
+          },
+          {
+            "label": "Apply",
+            "type": "label",
+            "key": "paymentApply"
+          },
+          {
+            "label": "offers available",
+            "type": "label",
+            "key": "paymentCouponOffers"
+          },
+          {
+            "label": "Delivering to:",
+            "type": "label",
+            "key": "paymentDeliveringTo"
+          },
+          {
+            "label": "Details",
+            "type": "label",
+            "key": "paymentDetails"
+          },
+          {
+            "label": "Payment Details",
+            "type": "label",
+            "key": "paymentDetailsHeader"
+          },
+          {
+            "label": "Total Amount",
+            "type": "label",
+            "key": "paymentTotalAmount"
+          },
+          {
+            "label": "CONTINUE",
+            "type": "label",
+            "key": "paymentContinue"
+          },
+          {
+            "label": "Payment",
+            "type": "label",
+            "key": "paymentTitle"
+          },
+          {
+            "label": "1.00",
+            "type": "label",
+            "key": "paymentDefaultPrice"
+          }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "key": "CollectSocialEmail",
+  "image": "",
+  "elements": [
+    {
+      "type": "label",
+      "key": "congratsHeader",
+      "label": "Selamat!"
+    },
+    {
+      "type": "label",
+      "key": "youCanNowLoginToFacebook",
+      "label": "Sekarang Kamu dapat masuk dengan akun Facebook Kamu."
+    },
+    {
+      "type": "label",
+      "key": "whatsYourEmail",
+      "label": "Apa alamat email Kamu?"
+    },
+    {
+      "type": "label",
+      "key": "youWillRecievePersonalHA",
+      "label": "Kamu akan menerima penilaian kesehatan pribadi Kamu langsung ke kotak masuk Kamu"
+    },
+    {
+      "type": "label",
+      "key": "emailAddress",
+      "label": "Alamat email"
+    },
+    {
+      "type": "label",
+      "key": "enterYourEmail",
+      "label": "Masukkan email Kamu"
+    },
+    {
+      "type": "label",
+      "key": "continueButton",
+      "label": "LANJUT"
+    },
+    {
+      "type": "label",
+      "key": "almostDone",
+      "label": "Almost done!"
+    }
+  ]
+}

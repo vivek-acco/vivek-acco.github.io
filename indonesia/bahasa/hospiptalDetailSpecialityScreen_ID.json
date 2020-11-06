@@ -1,0 +1,17 @@
+{
+  "image": "",
+  "label": "Spesialisasi",
+  "key": "hospiptalDetailSpecialityScreen",
+  "elements": [
+    {
+      "type": "placeholder",
+      "key": "searchSpecialityPlaceholder",
+      "label": "Cari Spesialisasi"
+    },
+    {
+      "type": "placeholder",
+      "key": "emptySpecialityPlaceholder",
+      "label": "Data spesialisasi belum tersedia"
+    }
+  ]
+}

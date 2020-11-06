@@ -1,0 +1,106 @@
+{
+	"key": "HaloDocConsultationHistory",
+	"image": "",
+	"elements": [
+		{
+			"label": "Complete your Medical Profile",
+			"type": "label",
+			"key": "consultHistoryMedicalTile"
+		},
+		{
+			"label": "Such as your allergies and Medical conditions and your emergency contacts",
+			"type": "label",
+			"key": "consultHistoryMedicalDesc"
+		},
+		{
+			"label": "Consultation History",
+			"type": "label",
+			"key": "consultHistoryTitle"
+		},
+		{
+			"label": "Load More",
+			"type": "label",
+			"key": "loadMore"
+		},
+		{
+			"label": "No conversation done with the doctor",
+			"type": "label",
+			"key": "noConversation"
+		},
+		{
+			"label": "Please try again",
+			"type": "label",
+			"key": "pleaseTryAgain"
+		},
+		{
+			"label": "Retry",
+			"type": "label",
+			"key": "retry"
+		},
+		{
+			"label": "All My Files",
+			"type": "label",
+			"key": "allMyFiles"
+		},
+		{
+			"label": "Received",
+			"type": "label",
+			"key": "recieved"
+		},
+		{
+			"label": "Consultation Date: ",
+			"type": "label",
+			"key": "consultationDate"
+		},
+		{
+			"label": "Patient Note: ",
+			"type": "label",
+			"key": "patientNote"
+		},
+		{
+			"label": "Diagnosis: ",
+			"type": "label",
+			"key": "diagnosis"
+		},
+		{
+			"label": "Modal has been closed.",
+			"type": "label",
+			"key": "modelClose"
+		},
+		{
+			"label": "Doctor's Chat",
+			"type": "label",
+			"key": "doctorChat"
+		},
+		{
+			"label": "Attachments",
+			"type": "label",
+			"key": "attachments"
+		},
+		{
+			"label": "Digital Receipt",
+			"type": "label",
+			"key": "digitalReciept"
+		},
+		{
+			"label": "Prescription",
+			"type": "label",
+			"key": "prescription"
+		},
+		{
+			"label": "Doctor Note",
+			"type": "label",
+			"key": "doctorNote"
+		},
+		{
+			"label": "Referral",
+			"type": "label",
+			"key": "referral"
+		},
+		{
+			"label": "Follow Up",
+			"type": "label",
+			"key": "followUp"
+		}
+	]
+}

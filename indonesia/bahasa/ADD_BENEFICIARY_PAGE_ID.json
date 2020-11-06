@@ -1,0 +1,772 @@
+{
+    "label": "Tambah Penerima manfaat",
+    "image": "",
+    "key": "ADD_BENEFICIARY_PAGE",
+    "elements": [
+        {
+            "key": "ADD_BENEFICIARY_TITLE",
+            "label": "Penerima Manfaat",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ID_LABEL",
+            "label": "Nomor KTP",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_ID_LABEL_JSON_EXPRESSION",
+                    "value": "$contains(id, /^[0-9]{16}$/)"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_ID_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_DATEOFBIRTH_LABEL",
+            "label": "Tanggal Lahi",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_DATEOFBIRTH_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_DATEOFBIRTH_LABEL_REGEX_VALIDATION",
+                    "value": "^\\d\\d-\\d\\d-\\d\\d\\d\\d$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_DOB_REQUIRED_MESSAGE",
+            "label": "Tanggal lahir wajib diisi.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_DOB_INVALID_MESSAGE",
+            "label": "Mohon masukkan tanggal yang valid.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ID_REQUIRED_MESSAGE",
+            "label": "Nomor KTP wajib diisi.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ID_INVALID_DOCUMENT_MESSAGE",
+            "label": "Dokumen tidak valid",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ID_INVALID_MESSAGE",
+            "label": "Nomor KTP harus 16 digit",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FULLNAME",
+            "label": "Nama Penerima Manfaat",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_FULLNAME_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_FULLNAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]*$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_FULLNAME_REQUIRED_MESSAGE",
+            "label": "Nama wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FULLNAME_INVALID_MESSAGE",
+            "label": "Mohon masukkan nama yang valid",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_EMAIL",
+            "label": "Email Penerima Manfaat",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_EMAIL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_EMAIL_REGEX_VALIDATION",
+                    "value": "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_EMAIL_REQUIRED_MESSAGE",
+            "label": "Email wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_EMAIL_INVALID_MESSAGE",
+            "label": "Mohon masukkan email yang valid",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE",
+            "label": "Pembagian Manfaat Asuransi(%)",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_PERCENTAGE_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_PERCENTAGE_REGEX_VALIDATION",
+                    "value": "^([1-9][0-9]?|100|d{1,2}.d{1,2}|d{1,2})$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_REQUIRED_MESSAGE",
+            "label": "Persentase wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_INVALID_MESSAGE",
+            "label": "Persentase wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_INVALID_SUM_MESSAGE",
+            "label": "Total persentase harus 100%",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION",
+            "label": "Hubungan",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_RELATION_REGEX_VALIDATION",
+                    "value": "^(?!PL$)"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_REQUIRED_MESSAGE",
+            "label": "Mohon masukkan hubungan",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_SELECT",
+            "label": " - Pilih hubungan dengan penerima manfaat –",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_SPOUSE",
+            "label": "Suami/Istri",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_CHILD",
+            "label": "Anak",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_FATHER",
+            "label": "Ayah",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_MOTHER",
+            "label": "Ibu",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_SIBLING",
+            "label": "Saudara Kandung",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_GRANDPARENTS",
+            "label": "Kakek/Nenek",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_RELATION_OTHER",
+            "label": "Lainnya",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ALL_DETAILS_VALIDATION",
+            "label": "Mohon masukkan semua rincian",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ALL_DETAILS_VALIDATION",
+            "label": "Mohon masukkan semua rincian",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_MORE",
+            "label": "Total persentase harus 100%",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_VALIDATION",
+            "label": "Persentase harus berupa angka",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_POLICY_NUMBER",
+            "label": "Nomor Polis:",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADD_BUTTON_TEXT",
+            "label": "Tambah",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SAVE_BUTTON_TEXT",
+            "label": "Simpan",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_REMOVE_BUTTON_TEXT",
+            "label": "X Hapus Penerima Manfaat",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_TITLE",
+            "label": "Tambah Penerima manfaat",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TOAST_ADDED",
+            "label": "Penerima Manfaat berhasil ditambahkan",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_LABEL_ERROR",
+            "label": "Kesalahan",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_INSTRUCTION",
+            "label": "Pilih gambar dari",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_CAMERA_LABEL",
+            "label": "Kamera",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_GALLERY_LABEL",
+            "label": "Galeri",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_NOTE",
+            "label": "Penerima manfaat harus mendaftar dan masuk ke Pulse dengan email yang telah terverifikasi untuk melihat sertifikat polis.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FIRST_NAME",
+            "label": "Nama depan",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_FIRST_NAME_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_FIRST_NAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)]*$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_FIRSTNAME_REQUIRED",
+            "label": "Nama depan wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FIRSTNAME_INVALID_MESSAGE",
+            "label": "Mohon masukkan nama yang valid",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_LAST_NAME",
+            "label": "Nama belakang",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_LAST_NAME_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_LAST_NAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)]*$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_LASTNAME_REQUIRED",
+            "label": "Nama belakang wajib diisi",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_LASTNAME_INVALID_MESSAGE",
+            "label": "Mohon masukkan nama yang valid",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SAVE_ALL_BUTTON_TEXT",
+            "label": "Simpan Semua",
+            "type": "label"
+        },
+        {
+            "key": "OCR_IMAGE_SIZE_MESSAGE",
+            "label": "Mohon masukkan gambar dengan ukuran kurang dari {0} MB.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ID_PLACEHOLDER",
+            "label": "Masukkan ID Penerima",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_EMAIL_PLACEHOLDER",
+            "label": "Masukkan Email Penerima",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PERCENTAGE_PLACEHOLDER",
+            "label": "Masukkan Persentase",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FIRST_NAME_PLACEHOLDER",
+            "label": "Masukkan Nama Depan Penerima",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_LAST_NAME_PLACEHOLDER",
+            "label": "Masukkan Nama Belakang Penerima",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_FULLNAME_PLACEHOLDER",
+            "label": "Masukkan Nama Lengkap Penerima",
+            "type": "label"
+        },
+        {
+            "key": "DPAS_DATE_FORMAT",
+            "label": "YYYY-MM-DD",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_LABEL",
+            "label": "Jenis Kelamin",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_GENDER_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_REQUIRED_MESSAGE",
+            "label": "Jenis kelamin wajib diisi.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_GENDER_LABEL_OPTIONS",
+            "label": "  |PL;Pria|MALE;Wanita|FEMALE;Lainnya|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL",
+            "label": "Marital Status",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_REQUIRED_MESSAGE",
+            "label": "Please select a marital status",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_MARITIAL_STATUS_LABEL_OPTIONS",
+            "label": "  |PL;Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_LABEL",
+            "label": "Salutation",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REQUIRED_VALIDATION_WIZARD",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REQUIRED_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_SALUTATION_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_REQUIRED_MESSAGE",
+            "label": "Please select a salutation",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SALUTATION_LABEL_OPTIONS",
+            "label": "Male|MALE;Female|FEMALE;Other|OTHER",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_NATIONALITY_LABEL",
+            "label": "Nationality",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_LABEL",
+            "label": "Address",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9+\\-\\.,#'\\/:; ]+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_PLACEHOLDER",
+            "label": "Enter Address",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_LABEL_REQUIRED_MESSAGE",
+            "label": "Address required",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_ADDRESS_INVALID_MESSAGE",
+            "label": "Please enter a valid address",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_MOBILENUMBER_LABEL",
+            "label": "Nomor Handphone",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_PAGE_MOBILENUMBER_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_MOBILENUMBER_PLACEHOLDER",
+            "label": "8xxxxxxxx",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_PHONE_REQUIRED_MESSAGE",
+            "label": "Nomor handphone wajib diisi.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_INVALID_PHONE_MESSAGE",
+            "label": "Mohon masukkan nomor handphone yang valid.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_GENDER_LABEL",
+            "label": "Jenis Kelamin",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_PAGE_GENDER_LABEL_REGEX_VALIDATION",
+                    "value": "^(?!(PL)$).+$"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_GENDER_REQUIRED_MESSAGE",
+            "label": "Jenis kelamin wajib diisi.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_PAGE_COUNTRYCODE_LABEL",
+            "label": "Kode Negara",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TOAST_UPDATED",
+            "label": "Benefisiari berjaya dikemas kini",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SHOW_TNC1",
+            "label": true,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SHOW_TNC2",
+            "label": true,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_CHECKBOX_VISIBLE",
+            "label": true,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_CHECKBOX_VISIBLE",
+            "label": true,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_CHECKED",
+            "label": false,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_CHECKED",
+            "label": false,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_REQUIRED",
+            "label": true,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_REQUIRED",
+            "label": false,
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT1",
+            "label": "Maklumat di atas adalah betul",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT2",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT3",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_TEXT4",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK1",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK2_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK2_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC1_LINK3",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT1",
+            "label": "Harap maklumkan kepada benefisiari bahawa saya telah menamakannya untuk produk insurans ini melalui nombor telefon bimbit dan alamat e-mel yang diberikan di atas",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT2",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT3",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_TEXT4",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK1",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK2",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3_LABEL",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3_HEADER",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_TNC2_LINK3",
+            "label": "",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_LABEL",
+            "label": "Scan beneficiary ID",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "ADD_BENEFICIARY_SCAN_ID_LABEL_JSON_EXPRESSION",
+                    "value": "$exists(attributes.docId) and $type(attributes.docId)='string' and attributes.docId!=''"
+                },
+                {
+                    "key": "ADD_BENEFICIARY_SCAN_ID_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                }
+            ]
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_PLACE_HOLDER",
+            "label": "SSS / Passport / UMID / Driver's License ",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_REQUIRED_MESSAGE",
+            "label": "Please upload an ID.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_INVALID_MESSAGE",
+            "label": "Please upload a valid ID.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_ALREADY_HAVE_ID",
+            "label": "We already have the ID.",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_SCAN_ID_UPDATE",
+            "label": "Update ID",
+            "type": "label"
+        },
+        {
+            "key": "ADD_BENEFICIARY_LEGACY_GENDER_OPTIONS",
+            "label": "  |PL;Laki-Laki|MALE;Perempuan|FEMALE;Lainnya|OTHER",
+            "type": "label"
+          }, 
+	      {
+            "key": "ADD_BENEFICIARY_LEGACY_RELATION_OPTIONS",
+            "label": " - Pilih hubungan dengan penerima manfaat - |PL;Suami/Istri|Spouse;Anak|Child;Ayah|Father;Ibu|Mother;Saudara Kandung|Sibling;Kakek/Nenek|GrandParent;Lainnya|Other",
+            "type": "label"
+        },
+        {
+          "key": "ENABLE_OTP_VALIDATION_FOR_UPDATE",
+          "label": false,
+          "type": "label"
+        }
+    ]
+}

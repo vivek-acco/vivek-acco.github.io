@@ -1,0 +1,402 @@
+{
+  "image": "",
+  "label": "",
+  "key": "VideoSales",
+  "elements": [
+    {
+      "type": "label",
+      "key": "water_mark_text",
+      "label": "Hanya untuk Prudential Kamboja"
+    },
+    {
+      "type": "label",
+      "key": "initiate_video_call",
+      "label": "Mulai Panggilan Video"
+    },
+    {
+      "type": "label",
+      "key": "successfully_downloaded",
+      "label": "Sukses mengunduh"
+    },
+    {
+      "type": "label",
+      "key": "download_failed",
+      "label": "Mengunduh gagal"
+    },
+    {
+      "type": "label",
+      "key": "exit_chat",
+      "label": "Apakah Kamu ingin keluar dari menu percakapan?"
+    },
+    {
+      "type": "label",
+      "key": "exit_yes",
+      "label": "Ya"
+    },
+    {
+      "type": "label",
+      "key": "exit_no",
+      "label": "Tidak"
+    },
+    {
+      "type": "label",
+      "key": "need_access_to",
+      "label": "Membutuhkan akses untuk"
+    },
+    {
+      "type": "label",
+      "key": "camera_permission",
+      "label": "Kamera"
+    },
+    {
+      "type": "label",
+      "key": "microphone_permission",
+      "label": "Mikropon"
+    },
+    {
+      "type": "label",
+      "key": "all_permission",
+      "label": "Silahkan berikan akses melalui menu pengaturan"
+    },
+    {
+      "type": "label",
+      "key": "all_permission_ok",
+      "label": "ok"
+    },
+    {
+      "type": "label",
+      "key": "all_permission_cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "incorrect_email",
+      "label": "Format email tidak benar"
+    },
+    {
+      "type": "label",
+      "key": "customer_email_id",
+      "label": "Email nasabah"
+    },
+    {
+      "type": "label",
+      "key": "search_button",
+      "label": "Cari"
+    },
+    {
+      "type": "label",
+      "key": "click_to_dissmiss",
+      "label": "Klik untuk membatalkan"
+    },
+    {
+      "type": "label",
+      "key": "video_sales_email",
+      "label": " Email:"
+    },
+    {
+      "type": "label",
+      "key": "video_sales_name",
+      "label": " Nama:"
+    },
+    {
+      "type": "label",
+      "key": "video_sales_dob",
+      "label": "Tanggal lahir:"
+    },
+    {
+      "type": "label",
+      "key": "video_sales_phone",
+      "label": "Nomor telepon:"
+    },
+    {
+      "type": "label",
+      "key": "book_consultation",
+      "label": "Reservasi untuk konsultasi asuransi virtual"
+    },
+    {
+      "type": "label",
+      "key": "speak_to_agent",
+      "label": "Bicara dengan agen hari ini dari rumah Kamu"
+    },
+    {
+      "type": "label",
+      "key": "book_button",
+      "label": "Reservasi"
+    },
+    {
+      "type": "label",
+      "key": "previous_chat_agent",
+      "label": "Lihat percakapan sebelumnya dengan agen Prudential"
+    },
+    {
+      "type": "label",
+      "key": "open_button",
+      "label": "Buka"
+    },
+    {
+      "type": "label",
+      "key": "explore_all_option",
+      "label": "Jelajahi pilihan yang tersedia untuk Kamu"
+    },
+    {
+      "type": "label",
+      "key": "view_insurance",
+      "label": "Lihat katalog asuransi"
+    },
+    {
+      "type": "label",
+      "key": "multi_crisis_care",
+      "label": "Total Multi Crisis Care"
+    },
+    {
+      "type": "label",
+      "key": "grant_access",
+      "label": "Berikan akses"
+    },
+    {
+      "type": "label",
+      "key": "granted",
+      "label": "- Akses diberikan"
+    },
+    {
+      "type": "label",
+      "key": "not_granted",
+      "label": "- Akses tidak diberikan"
+    },
+    {
+      "type": "label",
+      "key": "minimize_video_call",
+      "label": "Apakah Kamu ingin minimize panggilan video Kamu?"
+    },
+    {
+      "type": "label",
+      "key": "tech_glitch",
+      "label": "Kami mengalami kendala teknis, mohon putuskan koneksi dan memulai kembali."
+    },
+    {
+      "type": "label",
+      "key": "no_participants",
+      "label": "Tidak ada partisipan yang terkoneksi"
+    },
+    {
+      "type": "label",
+      "key": "video_connecting",
+      "label": "Melakukan koneksi ... "
+    },
+    {
+      "type": "label",
+      "key": "upload_pdf_image",
+      "label": "Silahkan upload pdf/gambar"
+    },
+    {
+      "type": "label",
+      "key": "document_type",
+      "label": "Dokumen (PDF/JPG/PNG)"
+    },
+    {
+      "type": "label",
+      "key": "initiate_conference",
+      "label": "Memulai konferensi"
+    },
+    {
+      "type": "label",
+      "key": "chat",
+      "label": "Percakapan"
+    },
+    {
+      "type": "label",
+      "key": "select_client",
+      "label": "Pilih klien"
+    },
+    {
+      "type": "label",
+      "key": "call_logs",
+      "label": "Informasi panggilan"
+    },
+    {
+      "type": "label",
+      "key": "chat_history",
+      "label": "Catatan percakapan"
+    },
+    {
+      "type": "label",
+      "key": "duration",
+      "label": "Durasi:"
+    },
+    {
+      "type": "label",
+      "key": "sec",
+      "label": "detik"
+    },
+    {
+      "type": "label",
+      "key": "and",
+      "label": "dan"
+    },
+    {
+      "type": "label",
+      "key": "doc_pdf",
+      "label": "Dokumen (PDF)"
+    },
+    {
+      "type": "label",
+      "key": "open_camera",
+      "label": "Buka kamera"
+    },
+    {
+      "type": "label",
+      "key": "image_doc",
+      "label": "Gambar (JPG/PNG)"
+    },
+    {
+      "type": "label",
+      "key": "upload_for",
+      "label": "Upload dokumen untuk"
+    },
+    {
+      "type": "label",
+      "key": "prod_name",
+      "label": "(Nama Produk)"
+    },
+    {
+      "type": "label",
+      "key": "select_prod",
+      "label": "Pilih Produk"
+    },
+    {
+      "type": "label",
+      "key": "delete_msg",
+      "label": "Apakah Kamu mau menghapus pesan ini?"
+    },
+    {
+      "type": "label",
+      "key": "groupVideoCall",
+      "label": "Kontak"
+    },
+    {
+      "type": "label",
+      "key": "startCall",
+      "label": "Mulai Panggilan"
+    },
+    {
+      "type": "label",
+      "key": "startChat",
+      "label": "Memulai obrolan"
+    },
+    {
+      "type": "label",
+      "key": "now",
+      "label": "Sekarang"
+    },
+    {
+      "type": "label",
+      "key": "yesterday",
+      "label": "Kemarin"
+    },
+    {
+      "type": "label",
+      "key": "more",
+      "label": "lebih"
+    },
+    {
+      "type": "label",
+      "key": "inviteMsgTitle",
+      "label": "Undangan Pulse"
+    },
+    {
+      "type": "label",
+      "key": "inviteMsgDescription",
+      "label": "Saya menjadi lebih bugar dengan Pulse. Bergabunglah bersama saya dengan mengunduh Aplikasi Pulse. Untuk menginstal Pulse, kunjungi"
+    },
+    {
+      "type": "label",
+      "key": "searchPlaceholder",
+      "label": "ID Email / Nomor Ponsel"
+    },
+    {
+      "type": "label",
+      "key": "conversationEmpty",
+      "label": "Kamu belum melakukan percakapan"
+    },
+    {
+      "type": "label",
+      "key": "callLogsEmpty",
+      "label": "Kamu belum memiliki log panggilan"
+    },
+    {
+      "type": "label",
+      "key": "groupName",
+      "label": "Nama Grup"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "create",
+      "label": "Buat"
+    },
+    {
+      "type": "label",
+      "key": "customerConnectTitle",
+      "label": "Hubungan Pelanggan"
+    },
+    {
+      "type": "label",
+      "key": "contactSyncTitle",
+      "label": "Hubungkan Kontak"
+    },
+    {
+      "type": "label",
+      "key": "contactSyncDescription",
+      "label": "Kontakmu akan terus terhubung dan kamu dapat melihat siapa saja temanmu yang menggunakan Pulse."
+    },
+    {
+      "type": "label",
+      "key": "contactSyncPosText",
+      "label": "Hubungkan Sekarang"
+    },
+    {
+      "type": "label",
+      "key": "contactSyncNegText",
+      "label": "Nanti saja"
+    },
+    {
+      "type": "label",
+      "key": "newContactsTitle",
+      "label": "Kontak"
+    },
+    {
+      "type": "label",
+      "key": "conversations",
+      "label": "Percakapan"
+    },
+    {
+      "type": "label",
+      "key": "pulseConnect",
+      "label": "Pulse Connect"
+    },
+    {
+      "type": "label",
+      "key": "invite",
+      "label": "Undang"
+    },
+    {
+      "type": "label",
+      "key": "inviteDesc",
+      "label": "Buat olahraga jadi lebih semangat dan seru, ajak teman-teman gabung dalam perjalanan sehatmu"
+    },
+    {
+      "type": "label",
+      "key": "videoSaleConsent",
+      "label": "Note: Calls may be recorded for training and quality purposes"
+    },
+    {
+      "type": "label",
+      "key": "callingtoownerror",
+      "label": "Kamu tidak dapat menelepon diri sendiri"
+    }
+  ]
+}

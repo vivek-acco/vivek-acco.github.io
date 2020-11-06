@@ -1,0 +1,88 @@
+{
+    "label": "",
+    "image": "",
+    "key": "pruPaymentPage",
+    "elements": [
+        {
+            "label": "Transaksi",
+            "type": "label",
+            "key": "pruPaymentProductHeading"
+          },
+          {
+            "label": "Metode Pembayaran",
+            "type": "label",
+            "key": "pruPaymentPaymentHeading"
+          },
+          {
+            "label": "Bicara dengan Dokter",
+            "type": "label",
+            "key": "pruPaymentProductName"
+          },
+          {
+            "label": "Terima kasih telah menggunakan fasilitas Bicara Dengan Dokter, biaya sudah mencakup konsultasi melalui video. Dana Anda akan berkurang setelah konsultasi video dilakukan.",
+            "type": "label",
+            "key": "pruPaymentProductDesc"
+          },
+          {
+            "label": "Voucher bebas biaya Bicara Dengan Dokter terpakai",
+            "type": "label",
+            "key": "pruPaymentVoucherApplied"
+          },
+  
+          {
+            "label": "Transaksi Kamu",
+            "type": "label",
+            "key": "yourProducts"
+          },
+          {
+            "label": "Bicara dengan Dokter",
+            "type": "label",
+            "key": "paymentTeleconsultation"
+          },
+          {
+            "label": "Menggunakan",
+            "type": "label",
+            "key": "paymentApply"
+          },
+          {
+            "label": "Penawaran tersedia",
+            "type": "label",
+            "key": "paymentCouponOffers"
+          },
+          {
+            "label": "Pengiriman dilakukan ke:",
+            "type": "label",
+            "key": "paymentDeliveringTo"
+          },
+          {
+            "label": "Rincian",
+            "type": "label",
+            "key": "paymentDetails"
+          },
+          {
+            "label": "Rincian Pembayaran",
+            "type": "label",
+            "key": "paymentDetailsHeader"
+          },
+          {
+            "label": "Total nilai",
+            "type": "label",
+            "key": "paymentTotalAmount"
+          },
+          {
+            "label": "Lanjut",
+            "type": "label",
+            "key": "paymentContinue"
+          },
+          {
+            "label": "Pembayaran",
+            "type": "label",
+            "key": "paymentTitle"
+          },
+          {
+            "label": "10",
+            "type": "label",
+            "key": "paymentDefaultPrice"
+          }
+    ]
+}

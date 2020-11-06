@@ -1,0 +1,195 @@
+{
+  "label": "",
+  "image": "",
+  "key": "HomeStickerMenu",
+  "elements": [
+    {
+      "type": "label",
+      "key": "menuIcons",
+      "label": [
+        {
+          "id": "myHealth",
+          "firstKey": "myHealth1",
+          "secondKey": "myHealth2",
+          "img": "assessHealth",
+          "img_uri": "/menu-stickers/access_health.png",
+          "colors": [
+            "#f97ec0",
+            "#a14e7a"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "PulseHealth",
+          "imageStyle": {
+            "width": 22.6,
+            "height": 19.1
+          },
+          "eventName": "launchMyHealth",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchHealthArticles",
+              "tags": [
+                "launchHealthArticles"
+              ],
+              "attributes": {
+                "action": "launchHealthArticles",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_healthArticles"
+          }
+        },
+        {
+          "id": "myCommunities",
+          "firstKey": "myCommunities1",
+          "secondKey": "myCommunities2",
+          "img": "myCommunities",
+          "img_uri": "/menu-stickers/myCommunities.png",
+          "colors": [
+            "#e5b5e5",
+            "#7e5a7e"
+          ],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "SocialHomePage",
+          "imageStyle": {
+            "width": 19.4,
+            "height": 21.4
+          },
+          "eventName": "launchMyCommunities",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchMyCommunities",
+              "tags": [
+                "launchMyCommunities"
+              ],
+              "attributes": {
+                "action": "launchMyCommunities",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_myCommunities"
+          }
+        },
+        {
+          "id": "myContent",
+          "firstKey": "myContent1",
+          "secondKey": "myContent2",
+          "img": "healthArticle",
+          "img_uri": "/menu-stickers/healthArticle.png",
+          "colors": [
+            "#ffbbc1",
+            "#fe727e"
+          ],
+          "type": "GO_TO_SCREEN",
+          "context": "PulseHealth",
+          "navigateTo": "HealthChannel",
+          "imageStyle": {
+            "width": 15.1,
+            "height": 19.7
+          },
+          "params": {
+            "params": {
+              "channelName": "Global Events",
+              "channelId": "globalEvents",
+              "channels": [
+                "globalEvents",
+                "healthAwareness",
+                "newsAndCommunications",
+                "covid19"
+              ]
+            }
+          },
+          "eventName": "launchMyContent",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchMyContent",
+              "tags": [
+                "launchMyContent"
+              ],
+              "attributes": {
+                "action": "launchMyContent",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_myContent"
+          }
+        },
+        {
+          "id": "myPolicy",
+          "firstKey": "MyPolicy1",
+          "secondKey": "MyPolicy2",
+          "img": "myPolicy",
+          "img_uri": "/menu-stickers/myPolicy.png",
+          "colors": [
+            "#adadee",
+            "#4d4d70"
+          ],
+          "type": "LOAD_MY_POLICY_MAIN",
+          "context": "MyPolicyMain",
+          "imageStyle": {
+            "width": 19.4,
+            "height": 21.4
+          },
+          "eventName": "launchMyContent",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchMyContent",
+              "tags": [
+                "launchMyContent"
+              ],
+              "attributes": {
+                "action": "launchMyContent",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_myContent"
+          }
+        },
+        {
+          "id": "pruShop",
+          "firstKey": "PruShop1",
+          "secondKey": "PruShop2",
+          "img": "pruShop",
+          "img_uri": "/menu-stickers/pruShop.png",
+          "colors": [
+            "#7ef9d3",
+            "#4b9e84"
+          ],
+          "navigateTo": "WebView",
+          "type": "GO_TO_SCREEN",
+          "imageStyle": {
+            "width": 21.6,
+            "height": 17.7
+          },
+          "params": {
+            "params": {
+              "uri": "https://prushoppe.prulifeuk.com.ph/chat-pulse.html",
+              "groupId": "",
+              "imageUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/c72ae8113fa54b33b6a051dea25a51ac?namespace=PH",
+              "desc": "",
+              "title": ""
+            }
+          },
+          "eventName": "launchPruShop",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.home.launchPruShop",
+              "tags": [
+                "launchPruShop"
+              ],
+              "attributes": {
+                "action": "launchPruShop",
+                "screen": "HomePageScreen"
+              }
+            },
+            "firebase": "home_page_screen_launch_pruShop"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+	"key": "AdminScreen",
+	"image": "",
+	"elements": [{
+		"label": "Create New Channel",
+		"type": "label",
+		"key": "createChannel"
+	}, {
+		"label": "Update/Modify Channel",
+		"type": "label",
+		"key": "UpdateChannel"
+	}, {
+		"label": "Create New Post",
+		"type": "label",
+		"key": "AddChannelPost"
+	}, {
+		"label": "Update/Modify Post",
+		"type": "label",
+		"key": "UpdateChannelPost"
+	}, {
+		"label": "Create New Community",
+		"type": "label",
+		"key": "CreateCommunity"
+	}, {
+		"label": "Update/Modify Community",
+		"type": "label",
+		"key": "UpdateCommunity"
+	}, {
+		"label": "Review Community Post",
+		"type": "label",
+		"key": "ReviewCommunityPost"
+	}, {
+		"label": "Review Comments",
+		"type": "label",
+		"key": "ReviewComments"
+	}, {
+		"label": "Whitelist Homepage Feature",
+		"type": "label",
+		"key": "WhitelistHomepageTiles"
+	}, {
+		"label": "Create Voucher",
+		"type": "label",
+		"key": "CreateVoucher"
+	}, {
+		"label": "Create Challenge",
+		"type": "label",
+		"key": "CreateChallenge"
+	}, {
+		"label": "Update Challenge",
+		"type": "label",
+		"key": "UpdateChallenge"
+	}, {
+		"label": "Preview Release Content",
+		"type": "label",
+		"key": "PreviewReleaseContent"
+	}]
+}

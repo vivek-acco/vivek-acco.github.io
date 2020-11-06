@@ -1,0 +1,162 @@
+{
+  "image": "",
+  "label": "",
+  "key": "VaccinationCalendar",
+  "elements": [
+    {
+      "type": "label",
+      "key": "vaccineTitle",
+      "label": "Vaccine Calendar"
+    },
+    {
+      "type": "label",
+      "key": "vaccineDescription",
+      "label": "Never miss a vaccination date. \nHave you set up a vaccination calendar for your family?"
+    },
+    {
+      "type": "label",
+      "key": "vaccineButton",
+      "label": "Continue"
+    },
+    {
+      "type": "label",
+      "key": "addMore",
+      "label": "Add more"
+    },  
+    {
+      "type": "label",
+      "key": "addInformation",
+      "label": "Add information"
+    },
+    {
+      "type": "label",
+      "key": "relation",
+      "label": "Relation"
+    },
+    {
+        "type": "label",
+        "key": "name",
+        "label": "Name"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "save",
+      "label": "Save"
+    },
+    {
+      "type": "label",
+      "key": "dob",
+      "label": "DOB"
+    },
+    {
+      "type": "label",
+      "key": "dateOfBirth",
+      "label": "Date of Birth"
+    },
+    {
+      "type": "label",
+      "key": "selectRelation",
+      "label": "Select Relation"
+    },
+    {
+      "type": "label",
+      "key": "vaccine",
+      "label": "Vaccine"
+    },
+    {
+        "type": "label",
+        "key": "done",
+        "label": "Done" 
+    },
+    {
+      "type": "label",
+      "key": "dose",
+      "label": "dose"
+    },
+    {
+      "type": "label",
+      "key": "doses",
+      "label": "doses"
+    },
+    {
+        "type": "label",
+        "key": "nextVaccineDueOn",
+        "label": "Next vaccine due on"
+    },
+    {
+      "type": "label",
+      "key": "downloadChart",
+      "label": "Download Chart"
+    },
+    {
+      "type": "label",
+      "key": "vaccineSchedule",
+      "label": "Vaccine Schedule"
+    },
+    {
+      "type": "label",
+      "key": "continue",
+      "label": "Continue"
+    },
+    {
+        "type": "label",
+        "key": "checkAndTrackVaccination",
+        "label": "Check and track Vaccination schedules for your loved ones"
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "OK"
+    },
+    {
+        "type": "label",
+        "key": "pleaseSelectRelation",
+        "label": "Please Select Relation" 
+    },
+    {
+      "type": "label",
+      "key": "pleaseEnterName",
+      "label": "Please Enter Name"
+    },
+    {
+      "type": "label",
+      "key": "child",
+      "label": "Child"
+    },
+    {
+      "type": "label",
+      "key": "setMultipleReminder",
+      "label": "Set Multiple Reminder"
+    },
+    {
+      "type": "label",
+      "key": "yes",
+      "label": "YES"
+    },
+    {
+        "type": "label",
+        "key": "no",
+        "label": "NO" 
+    },
+    {
+      "type": "label",
+      "key": "enterValidName",
+      "label": "Please Enter Valid Name"
+    },
+    {
+      "type": "label",
+      "key": "selectChild",
+      "label": "Select Child :"
+    },
+    {
+      "type": "label",
+      "key": "reminderResetAlert",
+      "label": "Are you sure to change reminder?"
+    }
+  ]
+}

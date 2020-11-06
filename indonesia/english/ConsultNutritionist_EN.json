@@ -1,0 +1,573 @@
+{
+  "image": "",
+  "label": "",
+  "key": "ConsultNutritionist",
+  "elements": [
+    {
+      "type": "label",
+      "key": "tileTitle",
+      "label": "My Personal Dietician"
+    },
+    {
+      "type": "label",
+      "key": "tileDesc",
+      "label": "Get advice on healthy eating from our certified Dieticians."
+    },
+    {
+      "type": "label",
+      "key": "chatHeader",
+      "label": "Chat with Dietician"
+    },
+    {
+      "type": "label",
+      "key": "chatDesc",
+      "label": "Chat with our dietician for personalized meal plans and get guidance on your fitness journey"
+    },
+    {
+      "type": "label",
+      "key": "chatBtnText",
+      "label": "Start Chat"
+    },
+    {
+      "type": "label",
+      "key": "videoHeader",
+      "label": "Video Call Consultation"
+    },
+    {
+      "type": "label",
+      "key": "videoDesc",
+      "label": "Connect with our dietician over a video call and get advised on healthy eating"
+    },
+    {
+      "type": "label",
+      "key": "videoBtnText",
+      "label": "Consult Now"
+    },
+    {
+      "type": "label",
+      "key": "videoMyAppBtnText",
+      "label": "Book Appointment"
+    },
+    {
+      "type": "label",
+      "key": "chatBtnText1",
+      "label": "Continue Chat"
+    },
+    {
+      "type": "label",
+      "key": "chatBtnText2",
+      "label": "Request Sent"
+    },
+    {
+      "type": "label",
+      "key": "viewChatHistory",
+      "label": "Chat History"
+    },
+    {
+      "type": "label",
+      "key": "viewCallHistory",
+      "label": "Call Logs"
+    },
+    {
+      "type": "label",
+      "key": "viewHistory",
+      "label": "View history"
+    },
+    {
+      "type": "label",
+      "key": "yourAppointment",
+      "label": "Your Appointments"
+    },
+    {
+      "type": "label",
+      "key": "downloadpdfjournal",
+      "label": "Download Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "showPDFJournallink",
+      "label": "disabled"
+    },
+
+    {
+      "type": "label",
+      "key": "viewAll",
+      "label": "View All"
+    },
+    {
+      "type": "label",
+      "key": "noAppointments",
+      "label": "No Appointments"
+    },
+    {
+      "type": "label",
+      "key": "tomorrow",
+      "label": "Tomorrow"
+    },
+    {
+      "type": "label",
+      "key": "conversationHistory",
+      "label": "Conversation History"
+    },
+    {
+      "type": "label",
+      "key": "conversationDesc",
+      "label": "Check your video and chat conversations here"
+    },
+    {
+      "type": "label",
+      "key": "availDesc",
+      "label": "Set your availability and leaves here"
+    },
+    {
+      "type": "label",
+      "key": "upcoming",
+      "label": "Upcoming"
+    },
+    {
+      "type": "label",
+      "key": "foodJournal",
+      "label": "Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "foodJournalTileDesc",
+      "label": "View Users Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "myAvailabilityBannerImgUrl",
+      "label": "/nutritionist/myAvailability.png?namespace="
+    },
+    {
+      "type": "label",
+      "key": "conversationsBannerImgUrl",
+      "label": "/nutritionist/consultHistory.png?namespace="
+    },
+    {
+      "type": "label",
+      "key": "userFoodJournalBannerImgUrl",
+      "label": "/nutritionist/userJournal.png?namespace="
+    },
+    {
+      "type": "label",
+      "key": "heightAndWeightDesc",
+      "label": "Please let us Know a bit more about yourself. It will help dietician to create better plan."
+    },
+    {
+      "type": "label",
+      "key": "enterYourHeight",
+      "label": "Enter your height"
+    },
+    {
+      "type": "label",
+      "key": "ft",
+      "label": "ft"
+    },
+    {
+      "type": "label",
+      "key": "inch",
+      "label": "in"
+    },
+    {
+      "type": "label",
+      "key": "cm",
+      "label": "cm"
+    },
+    {
+      "type": "label",
+      "key": "Cm",
+      "label": "Cm"
+    },
+    {
+      "type": "label",
+      "key": "enterYourWeight",
+      "label": "Enter your weight"
+    },
+    {
+      "type": "label",
+      "key": "lbs",
+      "label": "lbs"
+    },
+    {
+      "type": "label",
+      "key": "kg",
+      "label": "kg"
+    },
+    {
+      "type": "label",
+      "key": "continue",
+      "label": "Continue"
+    },
+    {
+      "type": "label",
+      "key": "allergyDesc",
+      "label": "We need to know your allergy so that your dietician can be informed and provide the meal plan accordingly."
+    },
+    {
+      "type": "label",
+      "key": "doYouHaveAnyFoodAllergy",
+      "label": "Do you have any food allergy?"
+    },
+    {
+      "type": "label",
+      "key": "enterYourAllergy",
+      "label": "Enter your allergy"
+    },
+    {
+      "type": "label",
+      "key": "commonAllergies",
+      "label": "Common Allergies"
+    },
+    {
+      "type": "label",
+      "key": "allergyList",
+      "label": "[{\"id\":7,\"name\":\"N\/A\",\"desc\":\"N\/A\",\"imageUrl\":\"\",\"checked\":false,\"selected\":true},{\"id\":0,\"name\":\"Eggs\",\"desc\":\"\",\"imageUrl\":\"egg.png\",\"checked\":false,\"selected\":true},{\"id\":1,\"name\":\"Wheat\",\"desc\":\"\",\"imageUrl\":\"wheat.png\",\"checked\":false,\"selected\":true},{\"id\":2,\"name\":\"Cow Milk\",\"desc\":\"\",\"imageUrl\":\"cow_milk.png\",\"checked\":false,\"selected\":true},{\"id\":3,\"name\":\"Tree Nuts\",\"desc\":\"\",\"imageUrl\":\"tree_nuts.png\",\"checked\":false,\"selected\":true},{\"id\":4,\"name\":\"Peanuts\",\"desc\":\"\",\"imageUrl\":\"peanuts.png\",\"checked\":false,\"selected\":true},{\"id\":5,\"name\":\"Sesame\",\"desc\":\"\",\"imageUrl\":\"sesame.png\",\"checked\":false,\"selected\":true},{\"id\":6,\"name\":\"Shellfish\",\"desc\":\"\",\"imageUrl\":\"shellfish.png\",\"checked\":false,\"selected\":true},{\"id\":8,\"name\":\"Fish\",\"desc\":\"\",\"imageUrl\":\"fish.png\",\"checked\":false,\"selected\":true},{\"id\":9,\"name\":\"Soy\",\"desc\":\"\",\"imageUrl\":\"soy.png\",\"checked\":false,\"selected\":true},{\"id\":10,\"name\":\"Fruit\",\"desc\":\"\",\"imageUrl\":\"fruit.png\",\"checked\":false,\"selected\":true},{\"id\":11,\"name\":\"Hot Pepper\",\"desc\":\"\",\"imageUrl\":\"hot_pepper.png\",\"checked\":false,\"selected\":true},{\"id\":12,\"name\":\"Garlic\",\"desc\":\"\",\"imageUrl\":\"garlic.png\",\"checked\":false,\"selected\":true}]"
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeaderDesc",
+      "label": "We need to know your meal preference, so that we can curate a meal plan that fits all your needs."
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeader",
+      "label": "What’s your Dietary Preference?"
+    },
+    {
+      "type": "label",
+      "key": "genderSelectHeaderDesc",
+      "label": "We need your gender to provide appropriate meal recommendations and provide you complete diet plan."
+    },
+    {
+      "type": "label",
+      "key": "genderSelectHeader",
+      "label": "What is your Gender?"
+    },
+    {
+      "type": "label",
+      "key": "male",
+      "label": "Male"
+    },
+    {
+      "type": "label",
+      "key": "female",
+      "label": "Female"
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesList",
+      "label": "[{\"images\":[\"egg.png\",\"peanut.png\",\"milk.png\",\"treenuts.png\",\"wheat.png\"],\"name\":\"Standard\",\"description\":\"Red Meat, Fish, Poultry, eggs, milk, milk products and plant food.\"},{\"images\":[\"egg.png\",\"milk.png\",\"treenuts.png\",\"wheat.png\"],\"name\":\"Pesceterian\",\"description\":\"Fish, eggs, milk, milk products and plan foods.\"},{\"images\":[\"egg.png\",\"milk.png\",\"wheat.png\"],\"name\":\"Vegetarian\",\"description\":\"Eggs, milk, milk products and plant based foods.\"},{\"images\":[\"egg.png\",\"peanut.png\",\"milk.png\",\"treenuts.png\",\"wheat.png\"],\"name\":\"Lacto-vegetarian\",\"description\":\"Milk, milk products and plant foods.\"},{\"images\":[\"egg.png\",\"peanut.png\",\"milk.png\",\"treenuts.png\",\"wheat.png\"],\"name\":\"Halal Diet\",\"description\":\"Red Meat, Fish, Poultry, eggs, milk, milk products and plant food.\"},{\"images\":[\"egg.png\",\"wheat.png\"],\"name\":\"Ovo-Vegetarian\",\"description\":\"Eggs and plants foods.\"},{\"images\":[\"wheat.png\"],\"name\":\"Vegan\",\"description\":\"Only plant based foods.\"}]"
+    },
+    {
+      "type": "label",
+      "key": "errTryAgain",
+      "label": "There was an error please try again"
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "Ok"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "BMIHeader",
+      "label": "Please let us know a bit more about yourself. It will help dietician to create better plan."
+    },
+    {
+      "type": "label",
+      "key": "BMIDescription",
+      "label": "Click a Selfie and get BMI"
+    },
+    {
+      "type": "label",
+      "key": "yourBMIText",
+      "label": "Your BMI is"
+    },
+    {
+      "type": "label",
+      "key": "yourAgeText",
+      "label": "Your Age is"
+    },
+    {
+      "type": "label",
+      "key": "yearsText",
+      "label": "years"
+    },
+    {
+      "type": "label",
+      "key": "getBMIText",
+      "label": "Get your BMI"
+    },
+    {
+      "type": "label",
+      "key": "checkAgainText",
+      "label": "Check Again"
+    },
+    {
+      "type": "label",
+      "key": "userJourneyTnCPDF",
+      "label": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/TeleConsultation_multi_concent_EN?namespace=VN"
+    },
+    {
+      "type": "label",
+      "key": "ftPlaceholder",
+      "label": "----ft"
+    },
+    {
+      "type": "label",
+      "key": "inchPlaceholder",
+      "label": "---in"
+    },
+    {
+      "type": "label",
+      "key": "cmPlaceholder",
+      "label": "----cm"
+    },
+    {
+      "type": "label",
+      "key": "lbsPlaceholder",
+      "label": "----lbs"
+    },
+    {
+      "type": "label",
+      "key": "kgPlaceholder",
+      "label": "----kg"
+    },
+    {
+      "type": "label",
+      "key": "save",
+      "label": "Save"
+    },
+    {
+      "type": "label",
+      "key": "age",
+      "label": "Age"
+    },
+    {
+      "type": "label",
+      "key": "savingErrorMsg",
+      "label": "Error occured while saving data. Please try again!"
+    },
+    {
+      "type": "label",
+      "key": "plusSymbol",
+      "label": "+"
+    },
+    {
+      "type": "label",
+      "key": "closeSymbol",
+      "label": "X"
+    },
+    {
+      "type": "label",
+      "key": "showMore",
+      "label": "show more"
+    },
+    {
+      "type": "label",
+      "key": "showLess",
+      "label": "show less"
+    },
+    {
+      "type": "label",
+      "key": "selectDietician",
+      "label": "Select Dietician"
+    },
+    {
+      "type": "label",
+      "key": "recentConsultationColon",
+      "label": "Recent Consultation: "
+    },
+    {
+      "type": "label",
+      "key": "Today",
+      "label": "Today"
+    },
+    {
+      "type": "label",
+      "key": "consultViaChat",
+      "label": "Consult Via Chat"
+    },
+    {
+      "type": "label",
+      "key": "consultViaVideo",
+      "label": "Consult Via Video"
+    },
+    {
+      "type": "label",
+      "key": "selectTimeSlot",
+      "label": "Select Time Slot"
+    },
+    {
+      "type": "label",
+      "key": "TodayComma",
+      "label": "Today, "
+    },
+    {
+      "type": "label",
+      "key": "gender",
+      "label": "Gender"
+    },
+    {
+      "type": "label",
+      "key": "height",
+      "label": "Height"
+    },
+    {
+      "type": "label",
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "type": "label",
+      "key": "foodAllergy",
+      "label": "Food Allergy"
+    },
+    {
+      "type": "label",
+      "key": "dietPreference",
+      "label": "Diet Preference"
+    },
+    {
+      "type": "label",
+      "key": "bmi",
+      "label": "BMI"
+    },
+    {
+      "type": "label",
+      "key": "na",
+      "label": "N/A"
+    },
+    {
+      "type": "label",
+      "key": "consultNow",
+      "label": "Consult Now"
+    },
+    {
+      "type": "label",
+      "key": "BMIErrorModalHeader",
+      "label": "Please Retake Picture"
+    }, 
+    {
+      "type": "label",
+      "key": "BMIErrorModalDesc",
+      "label": "We were unable to process your BMI from the image. Please take the selfie again."
+    },
+    {
+      "type": "label",
+      "key": "BMIErrorModalSkipText",
+      "label": "Skip For Now"
+    },
+    {
+      "type": "label",
+      "key": "BMIErrorModalOkText",
+      "label": "Got It"
+    },
+    {
+      "type": "label",
+      "key": "unavilable",
+      "label": "Unavailable"
+    },
+    {
+      "type": "label",
+      "key": "partiallyFilles",
+      "label": "Partially Filled"
+    },
+    {
+      "type": "label",
+      "key": "available",
+      "label": "Available"
+    },
+    {
+      "type": "label",
+      "key": "medicationDescText",
+      "label": "Please let us know a bit more about yourself. It will help nutritionist to create better plan."
+    },
+    {
+      "type": "label",
+      "key": "medicationText",
+      "label": "Are you under any medications?"
+    },
+    {
+      "type": "label",
+      "key": "nameIfAny",
+      "label": "Name if any"
+    },
+    {
+      "type": "label",
+      "key": "medicationPeriod",
+      "label": "For how long do you have these?"
+    },
+    {
+      "type": "label",
+      "key": "days",
+      "label": "days"
+    },
+    {
+      "type": "label",
+      "key": "specialitiesList",
+      "label": "[{\"name\":\"General Physician\",\"imageurl\":\"generalPhysican.png\"},{\"name\":\"Ear Nose Throat\",\"imageurl\":\"earNoseThroat.png\"},{\"name\":\"Gynaecologist\",\"imageurl\":\"gynaecologist.png\"},{\"name\":\"Psychologist\",\"imageurl\":\"psychologist.png\"},{\"name\":\"Orthopedician\",\"imageurl\":\"orthopedician.png\"},{\"name\":\"Paediatrician\",\"imageurl\":\"paediatrician.png\"},{\"name\":\"Cardiologist\",\"imageurl\":\"cardiologist.png\"},{\"name\":\"Pulmonologist\",\"imageurl\":\"pulmonologist.png\"}]"
+    },
+    {
+      "type": "label",
+      "key": "nrcNumberHeader",
+      "label": "What is your NRC Number"
+    },
+    {
+      "type": "label",
+      "key": "nrcNumberInitialDesc",
+      "label": "**Please provide us with your NRC Number."
+    },
+    {
+      "type": "label",
+      "key": "nrcInputPlaceHolder",
+      "label": "enter NRC Number"
+    },
+    {
+      "type": "label",
+      "key": "commonSymptoms",
+      "label": "Common Symptoms"
+    },
+    {
+      "type": "label",
+      "key": "enterYourSymptoms",
+      "label": "Enter your symptoms"
+    },
+    {
+      "type": "label",
+      "key": "whatAreYourSymptoms",
+      "label": "What are the symptoms?"
+    },
+    {
+      "type": "label",
+      "key": "symptomsDesc",
+      "label": "We need to know your allergy so that your doctor can be informed and provide you the treatment accordingly."
+    },
+    {
+      "type": "label",
+      "key": "symptomsList",
+      "label": "[{\"id\":0,\"name\":\"Headace\",\"desc\":\"\",\"imageUrl\":\"headace.png\",\"checked\":false,\"selected\":true},{\"id\":1,\"name\":\"Fever\",\"desc\":\"\",\"imageUrl\":\"fever.png\",\"checked\":false,\"selected\":true},{\"id\":2,\"name\":\"Diarrhea\",\"desc\":\"\",\"imageUrl\":\"diarrhea.png\",\"checked\":false,\"selected\":true},{\"id\":3,\"name\":\"Fatigue\",\"desc\":\"\",\"imageUrl\":\"fatigue.png\",\"checked\":false,\"selected\":true},{\"id\":4,\"name\":\"Muscle Aches\",\"desc\":\"\",\"imageUrl\":\"muscleache.png\",\"checked\":false,\"selected\":true},{\"id\":5,\"name\":\"Cough\",\"desc\":\"\",\"imageUrl\":\"cough.png\",\"checked\":false,\"selected\":true},{\"id\":6,\"name\":\"Stomach Pain\",\"desc\":\"\",\"imageUrl\":\"stomachpain.png\",\"checked\":false,\"selected\":true},{\"id\":8,\"name\":\"Cold\",\"desc\":\"\",\"imageUrl\":\"cold.png\",\"checked\":false,\"selected\":true}]"
+    },
+    {
+      "type": "label",
+      "key": "defaultSymptomLength",
+      "label": "5"
+    },
+    {
+      "type": "label",
+      "key": "chatConsultation",
+      "label": "Chat Consultation"
+    },
+    {
+      "type": "label",
+      "key": "dietCount",
+      "label": "6"
+    }
+  ]
+}

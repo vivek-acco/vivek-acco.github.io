@@ -1,0 +1,767 @@
+{
+  "image": "",
+  "label": "Meal Plan",
+  "key": "mealPlan",
+  "elements": [
+    {
+      "key": "mealPlanner",
+      "type": "object",
+      "data": {
+        "foodPreferenceList": [
+          "None",
+          "Ketogenic",
+          "Vegetarian",
+          "Lacto-Vegetarian",
+          "Ovo-Vegetarian",
+          "Vegan",
+          "Pescetarian",
+          "Paleo",
+          "Primal",
+          "Whole30"
+        ],
+        "foodPreferenceListNew": [
+          {
+            "name": "Standard",
+            "key": "None",
+            "allergyListKey": "allergyListNew",
+            "desc": "",
+            "images": ["egg.png","fish.png","cow_milk.png","plant.png","meat.png"],
+            "description": "Red Meat, Fish, Poultry, eggs, milk, milk products and plant food."
+          },
+          {
+            "name": "Vegetarian",
+            "key": "Vegetarian",
+            "allergyListKey": "allergyListVeg",
+            "desc": "",
+            "images": ["egg.png","cow_milk.png","plant.png"],
+            "description": "Eggs, milk, milk products and plant based foods."
+          },
+          {
+            "name": "Vegan",
+            "key": "Vegan",
+            "allergyListKey": "allergyListVegan",
+            "desc": "",
+            "images": ["plant.png"],
+            "description": "Only plant based foods."
+          },
+          {
+            "name": "Halal",
+            "key": "Halal",
+            "allergyListKey": "allergyListHalal",
+            "desc": "",
+            "images": ["egg.png","fish.png", "cow_milk.png","plant.png", "meat.png"],
+            "description": "Red Meat, Fish, Poultry, eggs, milk, milk products and plant food."
+          }
+        ], 
+        "headerTiles": [
+          "Please share few details about you.",
+          "Are you allergic to any of these foods?",
+          "Tell us your food preferences."
+        ],
+        "headerDesc": [
+          "This will help us create a diet plan for you",
+          "This will help us create a diet plan for you",
+          "You are all set for a diet plan"
+        ],
+        "progressText": [
+          "Few Simple Questions: 1 of 2",
+          "Few Simple Questions: 2 of 2",
+          "Few Simple Questions: 3 of 3"
+        ],
+        "foodList": [
+          {
+            "id": 0,
+            "name": "None",
+            "desc": "None",
+            "imageUrl": "none.png",
+            "checked": true
+          },
+          {
+            "id": 1,
+            "name": "African",
+            "desc": "All famous dishes",
+            "imageUrl": "african.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "American",
+            "desc": "All famous dishes",
+            "imageUrl": "american.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "British",
+            "desc": "All famous dishes",
+            "imageUrl": "british.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Chinese",
+            "desc": "All famous dishes",
+            "imageUrl": "chinese.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "European",
+            "desc": "All famous dishes",
+            "imageUrl": "european.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "French",
+            "desc": "All famous dishes",
+            "imageUrl": "french.png",
+            "checked": false
+          },
+          {
+            "id": 7,
+            "name": "Greek",
+            "desc": "All famous dishes",
+            "imageUrl": "greek.png",
+            "checked": false
+          },
+          {
+            "id": 8,
+            "name": "Indian",
+            "desc": "All famous dishes",
+            "imageUrl": "indian.png",
+            "checked": false
+          },
+          {
+            "id": 9,
+            "name": "Italian",
+            "desc": "All famous dishes",
+            "imageUrl": "italian.png",
+            "checked": false
+          },
+          {
+            "id": 10,
+            "name": "Japanes",
+            "desc": "All famous dishes",
+            "imageUrl": "japanese.png",
+            "checked": false
+          },
+          {
+            "id": 11,
+            "name": "Thai",
+            "desc": "All famous dishes",
+            "imageUrl": "thai.png",
+            "checked": false
+          },
+          {
+            "id": 12,
+            "name": "Spanish",
+            "desc": "All famous dishes",
+            "imageUrl": "spanish.png",
+            "checked": false
+          }
+        ],
+        "allergyList": [
+          {
+            "id": 0,
+            "name": "None",
+            "desc": "None",
+            "imageUrl": "none.png",
+            "checked": true
+          },
+          {
+            "id": 1,
+            "name": "Diary",
+            "desc": "Milk, Penner, Butter etc.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Egg",
+            "desc": "Poultry, ducks etc.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Grains",
+            "desc": "barley, corn, oats, rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Peanut",
+            "desc": "Peanut chunks, milk etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Seafood",
+            "desc": "See Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 7,
+            "name": "Shellfish",
+            "desc": "Shrimp, clams, scallops etc",
+            "imageUrl": "shellfish.png",
+            "checked": false
+          },
+          {
+            "id": 8,
+            "name": "Soy",
+            "desc": "Soybean, Soya chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          },
+          {
+            "id": 9,
+            "name": "Wheat",
+            "desc": "Bread, wheat biscuits etc.",
+            "imageUrl": "wheat.png",
+            "checked": false
+          },
+          {
+            "id": 10,
+            "name": "Corn",
+            "desc": "Corn flakes, Corn kernels etc.",
+            "imageUrl": "corn.png",
+            "checked": false
+          }
+        ],
+        "allergyListNew": [
+          {
+            "id": 0,
+            "name": "Dairy",
+            "desc": "Milk, Paneer, Butter etc.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "Eggs",
+            "desc": "Poultry, Ducks etc.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ],
+        "allergyListHalal": [
+          {
+            "id": 2,
+            "name": "Eggs",
+            "desc": "Poultry, Ducks etc.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          }
+        ],
+        "allergyListVeg": [
+          {
+            "id": 0,
+            "name": "Dairy",
+            "desc": "Milk, Paneer, Butter etc.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ],
+        "allergyListVegan": [
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "type": "label"
+    },
+    {
+      "key": "agePlaceholder",
+      "label": "Your age",
+      "type": "label"
+    },
+    {
+      "key": "noMealPlan",
+      "label": "Meal Plan is not available",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferences",
+      "label": "Food Preferences",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferencesPlaceholder",
+      "label": "Select",
+      "type": "label"
+    },
+    {
+      "key": "next",
+      "label": "Next",
+      "type": "label"
+    },
+    {
+      "key": "skip",
+      "label": "Skip",
+      "type": "label"
+    },
+    {
+      "key": "back",
+      "label": "Back",
+      "type": "label"
+    },
+    {
+      "key": "done",
+      "label": "Done",
+      "type": "label"
+    },
+    {
+      "key": "busyWorkWeek",
+      "label": "Busy Work Week",
+      "type": "label"
+    },
+    {
+      "key": "preparedForYou",
+      "label": "Prepared for you",
+      "type": "label"
+    },
+    {
+      "key": "PROTEIN",
+      "label": " Protein",
+      "type": "label"
+    },
+    {
+      "key": "FAT",
+      "label": " Fat",
+      "type": "label"
+    },
+    {
+      "key": "CARBS",
+      "label": " Carbs",
+      "type": "label"
+    },
+    {
+      "key": "myMealPlan",
+      "label": "My Meal Planner",
+      "type": "label"
+    },
+    {
+      "key": "myPreference",
+      "label": "My Preference",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferences",
+      "label": "Food Preferences",
+      "type": "label"
+    },
+    {
+      "key": "medicalHistory",
+      "label": "Medical History",
+      "type": "label"
+    },
+    {
+      "key": "edit",
+      "label": "Edit",
+      "type": "label"
+    },
+    {
+      "key": "intoleranceAllergies",
+      "label": "Intolerance (Allergies)",
+      "type": "label"
+    },
+    {
+      "key": "nothing",
+      "label": "Nothing",
+      "type": "label"
+    },
+    {
+      "key": "vegetarian",
+      "label": "Vegetarian",
+      "type": "label"
+    },
+    {
+      "key": "foodDetails",
+      "label": "Food Details",
+      "type": "label"
+    },
+    {
+      "key": "dutchBeans",
+      "label": "Dutch beans",
+      "type": "label"
+    },
+    {
+      "key": "lunchMenu",
+      "label": "Menu",
+      "type": "label"
+    },
+    {
+      "key": "49",
+      "label": "49",
+      "type": "label"
+    },
+    {
+      "key": "KCAL100g",
+      "label": "Calories",
+      "type": "label"
+    },
+    {
+      "key": "1.2g",
+      "label": "1.2g",
+      "type": "label"
+    },
+    {
+      "key": "protien",
+      "label": "Protien",
+      "type": "label"
+    },
+    {
+      "key": "recipe",
+      "label": "Recipe",
+      "type": "label"
+    },
+    {
+      "key": "ingredientsList",
+      "label": "Ingredients",
+      "type": "label"
+    },
+    {
+      "key": "popularMealPlans",
+      "label": "Popular Meal Plans",
+      "type": "label"
+    },
+    {
+      "key": "startFromScratch",
+      "label": "Start from scratch",
+      "type": "label"
+    },
+    {
+      "key": "customiseText",
+      "label": "Based on your preferences, it is all customisable",
+      "type": "label"
+    },
+    {
+      "key": "start",
+      "label": "Start",
+      "type": "label"
+    },
+    {
+      "key": "create",
+      "label": "Create Now",
+      "type": "label"
+    },
+    {
+      "key": "lunch425KCAL",
+      "label": "Lunch 425 KCAL",
+      "type": "label"
+    },
+    {
+      "key": "changeUpdateRecipe",
+      "label": "Change Meal",
+      "type": "label"
+    },
+    {
+      "key": "changeUpdateRecipeDesc",
+      "label": "You may search or enter recipe name",
+      "type": "label"
+    },
+    {
+      "key": "cancel",
+      "label": "Cancel",
+      "type": "label"
+    },
+    {
+      "key": "addRecipe",
+      "label": "Add Recipe",
+      "type": "label"
+    },
+    {
+      "key": "changeRecipe",
+      "label": "Change Options",
+      "type": "label"
+    },
+    {
+      "key": "save",
+      "label": "Save",
+      "type": "label"
+    },
+    {
+      "key": "lunchTime",
+      "label": "12 PM - 1:30 PM",
+      "type": "label"
+    },
+    {
+      "key": "chooseDesc",
+      "label": "You may choose according to your needs",
+      "type": "label"
+    },
+    {
+      "key": "1230KCAL",
+      "label": "Calories",
+      "type": "label"
+    },
+    {
+      "key": "alertFailure",
+      "label": "Something went wrong, please try again.",
+      "type": "label"
+    },
+    {
+      "key": "okay",
+      "label": "Okay",
+      "type": "label"
+    },
+    {
+      "key": "loadingText",
+      "label": "We are creating your personalized meal plan",
+      "type": "label"
+    },
+    {
+      "key": "createText",
+      "label": "OR",
+      "type": "label"
+    },
+    {
+      "key": "createPlanText",
+      "label": "No plan created yet!",
+      "type": "label"
+    },
+    {
+      "key": "replicateText",
+      "label": "Repeat Previous Week Plan",
+      "type": "label"
+    },
+    {
+      "key": "noPlanText",
+      "label": "No meal plan found",
+      "type": "label"
+    },
+    {
+      "key": "Protein",
+      "label": "Protein",
+      "type": "label"
+    },
+    {
+      "key": "Carbohydrates",
+      "label": "Carbohydrates",
+      "type": "label"
+    },
+    {
+      "key": "Fat",
+      "label": "Fat",
+      "type": "label"
+    },
+    {
+      "key": "mealLoadingText",
+      "label": "We are getting your meal plan",
+      "type": "label"
+    },
+    {
+      "key": "maxNumRecipeMessage",
+      "label": "Reached maximum limit",
+      "type": "label"
+    },
+    {
+      "key": "breakfastTime",
+      "label": "7 AM - 10 AM",
+      "type": "label"
+    },
+    {
+      "key": "dinnerTime",
+      "label": "7 PM - 8:30 PM",
+      "type": "label"
+    },
+    {
+      "key": "goToWall",
+      "label": "Go to Wall",
+      "type": "label"
+    },
+    {
+      "key": "shareNow",
+      "label": "Share Now",
+      "type": "label"
+    },
+    {
+      "key": "myCommunity",
+      "label": "My Communities",
+      "type": "label"
+    },
+    {
+      "key": "createPost",
+      "label": "Create Post",
+      "type": "label"
+    },
+    {
+      "key": "post",
+      "label": "Post",
+      "type": "label"
+    },
+    {
+      "key": "enterTitle",
+      "label": "Enter title",
+      "type": "label"
+    },
+    {
+      "key": "titleMandatory",
+      "label": "Title & description are Mandatory*",
+      "type": "label"
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeaderDesc",
+      "label": "We need to know your meal preference, so that we can curate a meal plan that fits all your needs."
+    },
+    {
+      "type": "label",
+      "key": "headerText",
+      "label": " "
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeader",
+      "label": "What’s your Dietary Preference?"
+    },
+    {
+      "type": "label",
+      "key": "doYouHaveAnyFoodAllergy",
+      "label": "Do you have any food allergy?"
+    },
+    {
+      "type": "label",
+      "key": "commonAllergies",
+      "label": "Common Allergies"
+    },
+    {
+      "type": "label",
+      "key": "allergyDesc",
+      "label": "We need to know your allergy so that your dietician can be informed and provide the meal plan accordingly."
+    },
+    {
+      "key": "getStarted",
+      "label": "Get Started",
+      "type": "label"
+    },
+    {
+      "key": "joinCommunityText",
+      "label": "You have not joined any of the Community. Please join and share posts.",
+      "type": "label"
+    },
+    {
+      "key": "joinCommunity",
+      "label": "Join Community",
+      "type": "label"
+    }
+  ]
+}

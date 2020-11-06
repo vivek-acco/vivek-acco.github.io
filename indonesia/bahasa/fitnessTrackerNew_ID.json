@@ -1,0 +1,226 @@
+{
+  "key": "fitnessTrackers",
+  "image": "",
+  "elements": [
+    {
+      "type": "label",
+      "key": "steps",
+      "label": "STEPS"
+    },
+    {
+      "type": "label",
+      "key": "distance",
+      "label": "DISTANCE"
+    },
+    {
+      "type": "label",
+      "key": "calories",
+      "label": "CALORIES"
+    },
+    {
+      "type": "label",
+      "key": "myFitnessLeague",
+      "label": "My Fitness League"
+    },
+    {
+      "type": "label",
+      "key": "todayfitness",
+      "label": "Today , "
+    },
+    {
+      "type": "label",
+      "key": "myHistory",
+      "label": "My History"
+    },
+    {
+      "type": "label",
+      "key": "allChallenges",
+      "label": "All Challenges"
+    },
+    {
+      "type": "label",
+      "key": "fitnessTracker",
+      "label": "Perangkat Wearable Saya"
+    },
+    {
+      "type": "label",
+      "key": "available",
+      "label": "Tersedia"
+    },
+    {
+      "type": "label",
+      "key": "connect",
+      "label": "Menghubungkan"
+    },
+    {
+      "type": "label",
+      "key": "disConnect",
+      "label": "Putuskan sambungan"
+    },
+    {
+      "type": "label",
+      "key": "notConnected",
+      "label": "Tidak terhubung ke pelacak apa pun"
+    },
+    {
+      "type": "label",
+      "key": "connected",
+      "label": "Terhubung"
+    },
+    {
+      "label": "Hari ini",
+      "type": "label",
+      "key": "hari ini"
+    },
+    {
+      "type": "label",
+      "key": "connectedTo",
+      "label": "Terhubung ke"
+    },
+    {
+      "type": "label",
+      "key": "tapReload",
+      "label": "Ketuk untuk memuat ulang"
+    },
+    {
+      "type": "label",
+      "key": "loadingFailed",
+      "label": "Aktivitas Memuat gagal"
+    },
+    {
+      "type": "label",
+      "key": "supportAppleHealth",
+      "label": "Terhubung lewat Apple Health"
+    },
+    {
+      "type": "label",
+      "key": "disconnectConfirmation",
+      "label": "Semua kemajuan Kamu akan hilang!"
+    },
+    {
+      "type": "label",
+      "key": "connectYourFitness",
+      "label": "Hubungkan dengan Perangkat Wearable"
+    },
+    {
+      "type": "label",
+      "key": "trackSteps",
+      "label": "Yuk mulai pantau langkah harian, jumlah kalori dan info detail lainnya melalui perangkat wearable."
+    },
+    {
+      "type": "label",
+      "key": "fitnessheader",
+      "label": "Aktivitas Pelacak Kebugaran"
+    },
+    {
+      "type": "label",
+      "key": "yourActivity",
+      "label": "Aktivitasmu"
+    },
+    {
+      "type": "label",
+      "key": "pressIcon",
+      "label": "Klik ikon pengaturan untuk menghubungkan perangkat wearable"
+    },
+    {
+      "type": "label",
+      "key": "wearables",
+      "label": "Perangkat Wearable"
+    },
+    {
+      "type": "label",
+      "key": "googlefit",
+      "label": "Google Fit"
+    },
+    {
+      "type": "label",
+      "key": "fitbit",
+      "label": "Fit Bit"
+    },
+    {
+      "type": "label",
+      "key": "garmin",
+      "label": "Garmin"
+    },
+    {
+      "type": "label",
+      "key": "applehealth",
+      "label": "Apple Health"
+    },
+    {
+      "type": "label",
+      "key": "activity",
+      "label": "Aktivitas"
+    },
+    {
+      "type": "label",
+      "key": "todaysActivity",
+      "label": "Hari ini"
+    },
+    {
+      "type": "label",
+      "key": "weeksActivity",
+      "label": "Minggu Lalu"
+    },
+    {
+      "type": "label",
+      "key": "lastFifteenDaysActivity",
+      "label": "15 Hari Terakhir"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Batalkan"
+    },
+    {
+      "type": "label",
+      "key": "googleFitPermissionError",
+      "label": "Please ensure location permission is provided. Click OK to go to settings and enable the location permission."
+    },
+    {
+      "type": "label",
+      "key": "gFitPermsErrorTitle",
+      "label": "Insufficient Permissions"
+    },
+    {
+      "type": "label",
+      "key": "gFitGoogleAuthErrorTitle",
+      "label": "Google Account Required"
+    },
+    {
+      "type": "label",
+      "key": "gFitPermsErrorMsg",
+      "label": "Your latest fitness data from google fit will not be available on the Pulse app until the Location and Activity permissions are granted. Click on OK button to go to app permission settings and grant."
+    },
+    {
+      "type": "label",
+      "key": "gFitGoogleAuthErrorMsg",
+      "label": "Your latest fitness data from google fit will not be available on the Pulse app until a google account is selected."
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "OK"
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermissionErrorTitle",
+      "label": "Location Permission Required"
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermissionErrorMessage",
+      "label": "Pulse needs your location permission to access your Google Fit fitness data. This is required for you to participate in challenges using Google Fit."
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermMsgAtLogin",
+      "label": "Your pulse account is connected to Google Fit, hence Pulse needs your location permission to access your fitness data. This is required for you to participate in challenges using Google Fit."
+    },
+    {
+      "type": "label",
+      "key": "disconnectDesc",
+      "label": "Yakin ingin mengatur dan memutuskan perangkat wearable?"
+    }
+  ]
+}

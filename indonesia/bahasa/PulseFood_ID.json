@@ -1,0 +1,1359 @@
+{
+  "image": "",
+  "label": "",
+  "key": "pulseFood",
+  "elements": [
+    {
+      "type": "label",
+      "key": "aboutYou",
+      "label": "Tentangmu"
+    },
+    {
+      "type": "label",
+      "key": "aboutYouInfo",
+      "label": "Mohon dapat memberikan informasi di bawah dengan benar untuk pelacakan yang akurat dan saran kesehatan."
+    },
+    {
+      "type": "label",
+      "key": "yourDiet",
+      "label": "Diet Kamu"
+    },
+    {
+      "type": "label",
+      "key": "yourDietInfo",
+      "label": "Beritahukan kepada kami tentang diet apa pun yang sedang Kamu jalani saat ini untuk memastikan bahwa dietnya termasuk dalam tujuan."
+    },
+    {
+      "type": "label",
+      "key": "continue",
+      "label": "Lanjutkan"
+    },
+    {
+      "type": "label",
+      "key": "nutritionist",
+      "label": "Ahli Ilmu Gizi"
+    },
+    {
+      "type": "label",
+      "key": "nutritionistInfo",
+      "label": "Ahli Gizi kami dapat memberikanmu rencana diet khusus sesuai kebutuhanmu. Apakah Kamu ingin mengirimkan data makanan harianmu ke Ahli Gizi kami?"
+    },
+    {
+      "type": "label",
+      "key": "yesDefinitely",
+      "label": "Iya, tentu saja"
+    },
+    {
+      "type": "label",
+      "key": "noLater",
+      "label": "Tidak, Mungkin Nanti"
+    },
+    {
+      "type": "label",
+      "key": "sex",
+      "label": "Jenis Kelamin"
+    },
+    {
+      "type": "label",
+      "key": "male",
+      "label": "Pria"
+    },
+    {
+      "type": "label",
+      "key": "Perempuan",
+      "label": "wanita"
+    },
+    {
+      "type": "label",
+      "key": "dob",
+      "label": "Tanggal Lahir"
+    },
+    {
+      "type": "label",
+      "key": "yourBmi",
+      "label": "BMI Kamu"
+    },
+    {
+      "type": "label",
+      "key": "inft",
+      "label": "` cm`"
+    },
+    {
+      "type": "label",
+      "key": "weight",
+      "label": "` Berat Badan`"
+    },
+    {
+      "type": "label",
+      "key": "height",
+      "label": "Tinggi Badan"
+    },
+    {
+      "type": "label",
+      "key": "kg",
+      "label": "` kg`"
+    },
+    {
+      "type": "label",
+      "key": "kcal",
+      "label": "cal"
+    },
+    {
+      "type": "label",
+      "key": "cal",
+      "label": "cal"
+    },
+    {
+      "type": "label",
+      "key": "remove",
+      "label": "Menghapus"
+    },
+    {
+      "type": "label",
+      "key": "edit",
+      "label": "Ubah"
+    },
+    {
+      "type": "label",
+      "key": "foodDiary",
+      "label": "Jurnal makanan saya"
+    },
+    {
+      "type": "label",
+      "key": "consultnowBannerText",
+      "label": "Buatlah rencana makan yang lebih menyehatkan dengan berkonsultasi dengan ahli gizi."
+    },
+    {
+      "type": "label",
+      "key": "consultNow",
+      "label": "Konsultasi Sekarang"
+    },
+    {
+      "type": "label",
+      "key": "food",
+      "label": "Makanan Saya"
+    },
+    {
+      "type": "label",
+      "key": "breakfast",
+      "label": "Sarapan"
+    },
+    {
+      "type": "label",
+      "key": "lunch",
+      "label": "Makan siang"
+    },
+    {
+      "type": "label",
+      "key": "snacks",
+      "label": "Snacks"
+    },
+    {
+      "type": "label",
+      "key": "eveSnack",
+      "label": "Snack untuk malam"
+    },
+    {
+      "type": "label",
+      "key": "dinner",
+      "label": "Makan malam"
+    },
+    {
+      "type": "label",
+      "key": "add",
+      "label": "Menambahkan"
+    },
+    {
+      "type": "label",
+      "key": "notRecognize",
+      "label": "Masukkan detail makanan"
+    },
+    {
+      "type": "label",
+      "key": "apologies",
+      "label": "Mohon maaf! Mohon dapat menambahkan detail makananmu berikut ini:"
+    },
+    {
+      "type": "label",
+      "key": "analyseImage",
+      "label": "Menganalisis gambar Kamu"
+    },
+    {
+      "type": "label",
+      "key": "scan",
+      "label": "Scan"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "recognizeText",
+      "label": "Kamu dapat menambahkan gambar tanpa memasukkan kalori pada makananmu atau coba lagi"
+    },
+    {
+      "type": "label",
+      "key": "tryAgain",
+      "label": "Coba Lagi"
+    },
+    {
+      "type": "label",
+      "key": "selectQuantity",
+      "label": "Pilih jumlah"
+    },
+    {
+      "type": "label",
+      "key": "addQuantity",
+      "label": "Menambahkan jumlah"
+    },
+    {
+      "type": "label",
+      "key": "servingsHdr",
+      "label": "Porsi"
+    },
+    {
+      "type": "label",
+      "key": "servings",
+      "label": "Porsi"
+    },
+    {
+      "type": "label",
+      "key": "calories",
+      "label": "Nilai Kalori (Perkiraan)"
+    },
+    {
+      "type": "label",
+      "key": "sucess",
+      "label": "Hi, Saya PRUDENCE! Ahli gizi AI Kamu."
+    },
+    {
+      "type": "label",
+      "key": "select",
+      "label": "Select"
+    },
+    {
+      "type": "label",
+      "key": "helpMeal",
+      "label": "Dapatkah Kamu membantu saya mengidentifikasi apa yang telah Kamu makan?"
+    },
+    {
+      "type": "label",
+      "key": "share",
+      "label": "Bagikan"
+    },
+    {
+      "type": "label",
+      "key": "objIdentified",
+      "label": "Objek telah diidentifikasi sebagai "
+    },
+    {
+      "type": "label",
+      "key": "avacado",
+      "label": " Alpukat"
+    },
+    {
+      "type": "label",
+      "key": "having",
+      "label": " memiliki"
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "Ok"
+    },
+    {
+      "type": "label",
+      "key": "errTryAgain",
+      "label": "Terjadi kesalahan, mohon dapat mencoba lagi"
+    },
+    {
+      "type": "label",
+      "key": "errDetails",
+      "label": "Mohon dapat memasukkan semua detailnya"
+    },
+    {
+      "type": "label",
+      "key": "errCrctDetails",
+      "label": "Mohon dapat memasukkan detail yang benar"
+    },
+    {
+      "type": "label",
+      "key": "dietTypes",
+      "value": [
+        "No Specific Diet",
+        "Keto (Veg)",
+        "Keto (Non - Veg)",
+        "Vegetarian",
+        "Vegetarian with Egg",
+        "Vegan"
+      ]
+    },
+    {
+      "type": "label",
+      "key": "selectDiet",
+      "label": "Pilih salah satu diet"
+    },
+    {
+      "type": "label",
+      "key": "areYouSure",
+      "label": "Apakah Kamu yakin ingin menghapus item ini?"
+    },
+    {
+      "type": "label",
+      "key": "selectGender",
+      "label": "Pilih jenis kelamin"
+    },
+    {
+      "type": "label",
+      "key": "whatGender",
+      "label": "Apa jenis kelaminmu?"
+    },
+    {
+      "type": "label",
+      "key": "whenBirtday",
+      "label": "Kapan Ulang Tahunmu?"
+    },
+    {
+      "type": "label",
+      "key": "checkBmi",
+      "label": "Periksa BMI Kamu"
+    },
+    {
+      "type": "label",
+      "key": "skip",
+      "label": "LEWATI"
+    },
+    {
+      "type": "label",
+      "key": "healthSugg",
+      "label": "Mohon dapat memberikan informasi di bawah untuk pelacakan yang akurat dan saran kesehatan"
+    },
+    {
+      "type": "label",
+      "key": "underweight",
+      "label": "Berat badan kurang"
+    },
+    {
+      "type": "label",
+      "key": "normal",
+      "label": "Normal"
+    },
+    {
+      "type": "label",
+      "key": "overweight",
+      "label": "Kelebihan berat badan"
+    },
+    {
+      "type": "label",
+      "key": "obese",
+      "label": "Obesitas"
+    },
+    {
+      "type": "label",
+      "key": "name",
+      "label": "Nama"
+    },
+    {
+      "type": "label",
+      "key": "quantity",
+      "label": "Jumlah"
+    },
+    {
+      "type": "label",
+      "key": "itemName",
+      "label": "Nama Makanan (sandwich, roti dll)"
+    },
+    {
+      "type": "label",
+      "key": "wgtPlaceholder",
+      "label": "Berat (2 cangkir, 250 gram dll)"
+    },
+    {
+      "type": "label",
+      "key": "calIntake",
+      "label": "Asupan Kalori Harian Saya"
+    },
+    {
+      "type": "label",
+      "key": "errorPost",
+      "label": "Terjadi kesalahan saat membagikan postinganmu. Silakan coba lagi!"
+    },
+    {
+      "type": "label",
+      "key": "sucessPost",
+      "label": "Postingmu telah berhasil dibagikan"
+    },
+    {
+      "type": "label",
+      "key": "servngSize",
+      "label": "Ukuran Porsi (2 cangkir, 150 ml, 250 gr dll)"
+    },
+    {
+      "type": "label",
+      "key": "noMatch",
+      "label": "Kami tidak dapat menemukan makanan yang sama dengan makananmu."
+    },
+    {
+      "type": "label",
+      "key": "perfectMatch",
+      "label": "Kami telah menemukan makanan yang sama dengan makananmu"
+    },
+    {
+      "type": "label",
+      "key": "moreMatch",
+      "label": "Saya menemukan lebih dari satu kecocokan dengan makananmu. Dapatkah Kamu membantu saya mengidentifikasi apa yang Kamu makan?"
+    },
+    {
+      "type": "label",
+      "key": "scanAgain",
+      "label": "Kamu dapat mencoba memindai lagi atau menambahkan data secara manual"
+    },
+    {
+      "type": "label",
+      "key": "addManually",
+      "label": "Menambahkan secara Manual"
+    },
+    {
+      "type": "label",
+      "key": "maxItemDisplay",
+      "label": "2"
+    },
+    {
+      "type": "label",
+      "key": "unableToFind",
+      "label": "Saya Tidak Dapat Menemukan Makanan Saya Di Sini"
+    },
+    {
+      "type": "label",
+      "key": "mealNameTitle",
+      "label": "Nama Makanan"
+    },
+    {
+      "type": "label",
+      "key": "mealCaloriesTitle",
+      "label": "Kalori"
+    },
+    {
+      "type": "label",
+      "key": "mealWeightTitle",
+      "label": "Berat (mis. 100 gram, 1 potong)"
+    },
+    {
+      "type": "label",
+      "key": "scanAgainBtnText",
+      "label": "Scan Again"
+    },
+    {
+      "type": "label",
+      "key": "consultNutritionistText",
+      "label": "Consult dietician"
+    },
+    {
+      "type": "label",
+      "key": "myDiaryTitle",
+      "label": "My Diary"
+    },
+    {
+      "type": "label",
+      "key": "jadeSubInactiveTitle",
+      "label": "Subscribe Pulse Elite - Jade Green"
+    },
+    {
+      "type": "label",
+      "key": "jadeSubInactiveContent",
+      "label": "Subscribe to our Pulse elite - Jade Green to get Privilege of consulting our Dietician and other Exclusive premium features."
+    },
+    {
+      "type": "label",
+      "key": "jadeSubExpireTitle",
+      "label": "Your Subscription is Expired"
+    },
+    {
+      "type": "label",
+      "key": "jadeSubExpireContent1",
+      "label": "You have been automatically logged out due to Your subscription is Expired."
+    },
+    {
+      "type": "label",
+      "key": "jadeSubExpireContent2",
+      "label": "Please Subscribe again to Continue."
+    },
+    {
+      "type": "label",
+      "key": "subcribeNowText",
+      "label": "Subscribe Now"
+    },
+    {
+      "type": "label",
+      "key": "imageConfig",
+      "label": "{\r\n   \"width\": 480,\r\n   \"height\": 200,\r\n   \"compressImageMaxWidth\": 480,\r\n   \"compressImageMaxHeight\": 200,\r\n   \"includeBase64\": true,\r\n   \"useFrontCamera\": true,\r\n   \"compressImageQuality\": 0.8,\r\n   \"photo\": \"photo\"\r\n}"
+    },
+    {
+      "type": "label",
+      "key": "checkJadeProductSubConfig",
+      "label": "[\r\n   \"S00115\",\r\n   \"S00122\"\r\n]"
+    },
+    {
+      "type": "label",
+      "key": "nutritionistTitle",
+      "label": "Dietician"
+    },
+    {
+      "type": "label",
+      "key": "requestForChatText",
+      "label": "Request for Chat"
+    },
+    {
+      "type": "label",
+      "key": "requestForChatTitle",
+      "label": "Request for Chat"
+    },
+    {
+      "type": "label",
+      "key": "requestForChatContent",
+      "label": "For better experience we will connect to a group of specialist."
+    },
+    {
+      "type": "label",
+      "key": "requestForChatBtnLater",
+      "label": "Later"
+    },
+    {
+      "type": "label",
+      "key": "requestForChatBtnConfrim",
+      "label": "Request Now"
+    },
+    {
+      "type": "label",
+      "key": "ratingText",
+      "label": "Rating:"
+    },
+    {
+      "type": "label",
+      "key": "expText",
+      "label": "Experience:"
+    },
+    {
+      "type": "label",
+      "key": "yrsText",
+      "label": "yrs"
+    },
+    {
+      "type": "label",
+      "key": "reqSentSuccessText",
+      "label": "Request Sent Successful"
+    },
+    {
+      "type": "label",
+      "key": "reqSentSuccessContent",
+      "label": "We will notify you upon approval"
+    },
+    {
+      "type": "label",
+      "key": "reqSentSuccessOK",
+      "label": " Got it"
+    },
+    {
+      "type": "label",
+      "key": "rescan",
+      "label": "Rescan"
+    },
+    {
+      "type": "label",
+      "key": "done",
+      "label": "Done"
+    },
+    {
+      "type": "label",
+      "key": "chatHistoryText",
+      "label": "Chat History"
+    },
+    {
+      "type": "label",
+      "key": "chatHistoryBtnLabel",
+      "label": "Chat History"
+    },
+    {
+      "type": "label",
+      "key": "showConsultOption",
+      "label": "disabled"
+    },
+    {
+      "type": "label",
+      "key": " noNutritionistErrorText",
+      "label": " Currently, no dietician are available at the moment. Please come back later!"
+    },
+    {
+      "type": "label",
+      "key": "myAvailablityMenuText",
+      "label": "My availability"
+    },
+    {
+      "type": "label",
+      "key": "chatRequestMenuText",
+      "label": "Chat Request"
+    },
+    {
+      "type": "label",
+      "key": "confirmBtnText",
+      "label": "Confirm"
+    },
+    {
+      "type": "label",
+      "key": "noSlotsMsgText",
+      "label": "Thank you for request, we’re sorry this dietician is currently not available. Kindly select another one."
+    },
+    {
+      "type": "label",
+      "key": "defaultErrorMsg",
+      "label": "Sorry! Something went wrong."
+    },
+    {
+      "type": "label",
+      "key": "appBookSuccess",
+      "label": "Appointment successfully booked."
+    },
+    {
+      "type": "label",
+      "key": "enableJadeSubcription",
+      "label": "disabled"
+    },
+    {
+      "type": "label",
+      "key": " nxtAvail",
+      "label": "Next Available"
+    },
+    {
+      "type": "label",
+      "key": "selectTimeSlot",
+      "label": "Please select time slot"
+    },
+    {
+      "type": "label",
+      "key": "confirm",
+      "label": "Confirm"
+    },
+    {
+      "type": "label",
+      "key": "slectNutriotionist",
+      "label": "Select a dietician"
+    },
+    {
+      "type": "label",
+      "key": "sort",
+      "label": "Sort"
+    },
+    {
+      "type": "label",
+      "key": "availToday",
+      "label": "Available Today"
+    },
+    {
+      "type": "label",
+      "key": "exp",
+      "label": "Exp"
+    },
+    {
+      "type": "label",
+      "key": "grams",
+      "label": "grams"
+    },
+    {
+      "type": "label",
+      "key": "large",
+      "label": "Large"
+    },
+    {
+      "type": "label",
+      "key": "medium",
+      "label": "Medium"
+    },
+    {
+      "type": "label",
+      "key": "small",
+      "label": "Small"
+    },
+    {
+      "type": "label",
+      "key": "extraLarge",
+      "label": "Extra Large"
+    },
+    {
+      "type": "label",
+      "key": "sliced",
+      "label": "Sliced"
+    },
+    {
+      "type": "label",
+      "key": "mashed",
+      "label": "Mashed"
+    },
+    {
+      "type": "label",
+      "key": "nlea",
+      "label": "Nlea"
+    },
+    {
+      "type": "label",
+      "key": "oz",
+      "label": "oz"
+    },
+    {
+      "type": "label",
+      "key": "foodModalDesc",
+      "label": "Hi, I am prudence, your AI dietician. I found more than one match for your meal. Can you help me identify what you had for your meal?"
+    },
+    {
+      "type": "label",
+      "key": "serving",
+      "label": "Serving"
+    },
+    {
+      "type": "label",
+      "key": "addMeal",
+      "label": "Add Meal"
+    },
+    {
+      "type": "label",
+      "key": "upComingConsultations",
+      "label": "Upcoming Consultation"
+    },
+    {
+      "type": "label",
+      "key": "upcomingConsDesc",
+      "label": "You have an upcoming dietician consultation in the next "
+    },
+    {
+      "type": "label",
+      "key": "minutes",
+      "label": "minutes"
+    },
+    {
+      "type": "label",
+      "key": "okay",
+      "label": "Okay"
+    },
+    {
+      "type": "label",
+      "key": "consultReq",
+      "label": "Consultation Request"
+    },
+    {
+      "type": "label",
+      "key": "consultReqDesc",
+      "label": "This will send a dietician request. Our agent will get in touch with you to set the timings. Proceed?"
+    },
+    {
+      "type": "label",
+      "key": "noNotnow",
+      "label": "No, Not Now"
+    },
+    {
+      "type": "label",
+      "key": "yesProceed",
+      "label": "Yes Proceed"
+    },
+    {
+      "type": "label",
+      "key": "consConf",
+      "label": "Consultation Confirmation"
+    },
+    {
+      "type": "label",
+      "key": "consConfDes1",
+      "label": "Your consultation has been set for,"
+    },
+    {
+      "type": "label",
+      "key": "consConfDes2",
+      "label": "You will be notified 10 minutes before the consultation"
+    },
+    {
+      "type": "label",
+      "key": "today",
+      "label": "today"
+    },
+    {
+      "type": "label",
+      "key": "mo",
+      "label": "Mo"
+    },
+    {
+      "type": "label",
+      "key": "tu",
+      "label": "Tu"
+    },
+    {
+      "type": "label",
+      "key": "we",
+      "label": "We"
+    },
+    {
+      "type": "label",
+      "key": "th",
+      "label": " Got it"
+    },
+    {
+      "type": "label",
+      "key": "fr",
+      "label": "FR"
+    },
+    {
+      "type": "label",
+      "key": "sa",
+      "label": "SA"
+    },
+    {
+      "type": "label",
+      "key": "su",
+      "label": "SU"
+    },
+    {
+      "type": "label",
+      "key": "pm",
+      "label": "pm"
+    },
+    {
+      "type": "label",
+      "key": "cmgSoon",
+      "label": "Coming Soon"
+    },
+    {
+      "type": "label",
+      "key": "recordMeal",
+      "label": "Record Meal"
+    },
+    {
+      "type": "label",
+      "key": "consultNutDes",
+      "label": "Consult our dietician to get information and customised meal plans"
+    },
+    {
+      "type": "label",
+      "key": "bookAppointment",
+      "label": "Book Appointment"
+    },
+    {
+      "type": "label",
+      "key": "subscribeMeal",
+      "label": "Subscribe to our meal plan or create one for yourself"
+    },
+    {
+      "type": "label",
+      "key": "subscribe",
+      "label": "Subscribe"
+    },
+    {
+      "type": "label",
+      "key": "joined",
+      "label": "Joined"
+    },
+    {
+      "type": "label",
+      "key": "hello",
+      "label": "Hello"
+    },
+    {
+      "type": "label",
+      "key": "hereDialyReport",
+      "label": "Here is your daily report"
+    },
+    {
+      "type": "label",
+      "key": "community",
+      "label": "Community"
+    },
+    {
+      "type": "label",
+      "key": "todaysRciepe",
+      "label": "Todays Recipe"
+    },
+    {
+      "type": "label",
+      "key": "reciepies",
+      "label": "Recipes"
+    },
+    {
+      "type": "label",
+      "key": "waterIntake",
+      "label": "Water Intake"
+    },
+    {
+      "type": "label",
+      "key": "recordWater",
+      "label": "Record Water"
+    },
+    {
+      "type": "label",
+      "key": "todaysChallenge",
+      "label": "Todays Challenge"
+    },
+    {
+      "type": "label",
+      "key": "challenge",
+      "label": "Challenges"
+    },
+    {
+      "type": "label",
+      "key": "chckUsingSelfie",
+      "label": "Check Using Selfie"
+    },
+    {
+      "type": "label",
+      "key": "chckManually",
+      "label": "Check Manually"
+    },
+    {
+      "type": "label",
+      "key": "yourBmiIs",
+      "label": "Your BMI is"
+    },
+    {
+      "type": "label",
+      "key": "plzSlctGender",
+      "label": "please select a gender"
+    },
+    {
+      "type": "label",
+      "key": " recheck",
+      "label": "Recheck"
+    },
+    {
+      "type": "label",
+      "key": "capsServings",
+      "label": "Servings"
+    },
+    {
+      "type": "label",
+      "key": "mealPlan",
+      "label": "Meal Plan"
+    },
+    {
+      "type": "label",
+      "key": "proceed",
+      "label": "Proceed"
+    },
+    {
+      "type": "label",
+      "key": "chatReqSentText",
+      "label": " Chat request sent"
+    },
+    {
+      "type": "label",
+      "key": "chatReqSentDescText",
+      "label": "Thanks for your request, Dietician will get back to you."
+    },
+    {
+      "type": "label",
+      "key": "videotReqSentText",
+      "label": "Video Consultation Request Sent"
+    },
+    {
+      "type": "label",
+      "key": "videoReqSentDescText",
+      "label": "Thanks for your request, Dietician will get back to you."
+    },
+    {
+      "type": "label",
+      "key": "pendingRequests",
+      "label": "Pending Requests"
+    },
+    {
+      "type": "label",
+      "key": "checkJadeProductKeyPath",
+      "label": "productOptions,0,product,code"
+    },
+    {
+      "type": "label",
+      "key": "checkJadeProductValue",
+      "label": "S00119"
+    },
+    {
+      "type": "label",
+      "key": "reqSentMsg",
+      "label": "Request sent"
+    },
+    {
+      "type": "label",
+      "key": "chatTitle",
+      "label": "Dietician"
+    },
+    {
+      "type": "label",
+      "key": "VideoChatTitle",
+      "label": "Video Call"
+    },
+    {
+      "type": "label",
+      "key": "appointments",
+      "label": "Appointments"
+    },
+    {
+      "type": "label",
+      "key": "videoConsultationModalTitle",
+      "label": "You can save 40% on video consultation"
+    },
+    {
+      "type": "label",
+      "key": "videoConsultationSubscribeDesc",
+      "label": "Subscribe to our Pulse Gold membership to get video consultation at a premium price."
+    },
+    {
+      "type": "label",
+      "key": "noThanksButtonText",
+      "label": "No Thanks,\nI dont want discount"
+    },
+    {
+      "type": "label",
+      "key": "expiredSubscriptionTitle",
+      "label": "Your Subscription is Expired"
+    },
+    {
+      "type": "label",
+      "key": "expiredSubscriptionDesc",
+      "label": "You have been automatically logged out due to Your subscription is Expired."
+    },
+    {
+      "type": "label",
+      "key": "onGoingConsultation",
+      "label": "Ongoing Consulation"
+    },
+    {
+      "type": "label",
+      "key": "upComingConsultation",
+      "label": "Upcoming Consulation"
+    },
+    {
+      "type": "label",
+      "key": "viewAll",
+      "label": "View all"
+    },
+    {
+      "type": "label",
+      "key": "today2",
+      "label": "Today, "
+    },
+    {
+      "type": "label",
+      "key": "newConsultation",
+      "label": "New Consultation"
+    },
+    {
+      "type": "label",
+      "key": "chatRequests",
+      "label": "Chat Requests"
+    },
+    {
+      "type": "label",
+      "key": "videoRequests",
+      "label": "Video Requests"
+    },
+    {
+      "type": "label",
+      "key": "usersFoodJournal",
+      "label": "Users Food Journal"
+    },
+    {
+      "type": "label",
+      "key": "startChatConsultation",
+      "label": "Start Chat Consultation"
+    },
+    {
+      "type": "label",
+      "key": "startVideoConsultation",
+      "label": "Start Video Consultation"
+    },
+    {
+      "type": "label",
+      "key": "videotReqSentText",
+      "label": "Video Consultation Request Sent"
+    },
+    {
+      "type": "label",
+      "key": "videoReqSentDescText",
+      "label": "Thanks for your request, Dietician will get back to you."
+    },
+    {
+      "type": "label",
+      "key": "note1",
+      "label": "Note 1"
+    },
+    {
+      "type": "label",
+      "key": "note2",
+      "label": "Note 2"
+    },
+    {
+      "type": "label",
+      "key": "note1Desc",
+      "label": ": Duration of the consultation will be 20 mins"
+    },
+    {
+      "type": "label",
+      "key": "note2Desc",
+      "label": ": For Personalized plans and better service Dietician will have access to your food journal"
+    },
+    {
+      "type": "label",
+      "key": "tomorrow",
+      "label": "Tomorrow"
+    },
+    {
+      "type": "label",
+      "key": "todayText",
+      "label": "Today"
+    },
+    {
+      "type": "label",
+      "key": "noSlotsAvailable",
+      "label": "No Slots Available"
+    },
+    {
+      "type": "label",
+      "key": "slotsCountToDisplay",
+      "label": "5"
+    },
+    {
+      "type": "label",
+      "key": "enableConsultNutrition",
+      "label": "disabled"
+    },
+    {
+      "type": "label",
+      "key": "checkGoldProductValue",
+      "label": "S00120"
+    },
+    {
+      "type": "label",
+      "key": "specialistApprove",
+      "label": "Your Diet Specialist ${0} will approve your request shortly."
+    },
+    {
+      "type": "label",
+      "key": "chatApproveNote",
+      "label": "Thank you for your chat request, for better experience we shall connect to our group of specialist."
+    },
+    {
+      "type": "label",
+      "key": "notified",
+      "label": "You will be Notified once he approves."
+    },
+    {
+      "type": "label",
+      "key": "specialistApprove_call",
+      "label": "You will be Notified once Your Diet Specialist ${0} approves your request."
+    },
+    {
+      "type": "label",
+      "key": "notified_call",
+      "label": "You will be Notified once he approves."
+    },
+    {
+      "type": "label",
+      "key": "chatConsultation",
+      "label": "Chat Consultation"
+    },
+    {
+      "type": "label",
+      "key": "videoConsultation",
+      "label": "Video Consultation"
+    },
+    {
+      "type": "label",
+      "key": "expColon",
+      "label": "Exp :"
+    },
+    {
+      "type": "label",
+      "key": "selectNutritionist",
+      "label": "Select Dietician"
+    },
+    {
+      "type": "label",
+      "key": "userJourneyTnCPDF",
+      "label": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/TeleConsultation_multi_concent_EN?namespace=VN"
+    },    
+    {
+      "type": "label",
+      "key": "close",
+      "label": "Close"
+    },    
+    {
+      "type": "label",
+      "key": "requested",
+      "label": "Requested"
+    },    
+    {
+      "type": "label",
+      "key": "uwtermsConditions",
+      "label": " Terms and Conditions"
+    },    
+    {
+      "type": "label",
+      "key": "uwtermsConditionsDesc",
+      "label": "By clicking on Continue, you are agreeing to Pulse"
+    },    
+    {
+      "type": "label",
+      "key": "dinnerTime",
+      "label": "7 PM - 8:30 PM"
+    },    
+    {
+      "type": "label",
+      "key": "lunchTime",
+      "label": "12 PM - 1:30 PM"
+    },    
+    {
+      "type": "label",
+      "key": "breakfastTime",
+      "label": "7 AM - 10 AM"
+    },    
+    {
+      "type": "label",
+      "key": "suggested",
+      "label": "Suggested"
+    },    
+    {
+      "type": "label",
+      "key": "viewMore",
+      "label": "View More"
+    },    
+    {
+      "type": "label",
+      "key": "viewLess",
+      "label": "View Less"
+    },        
+    {
+      "type": "label",
+      "key": "reSchedule",
+      "label": "Re-Schedule"
+    },    
+    {
+      "type": "label",
+      "key": "rescheduleAppointment",
+      "label": "Re-Schedule Appointment"
+    },    
+    {
+      "type": "label",
+      "key": "rescheduleAppointmentAlertMsg",
+      "label": "Are you sure you want to Re-Schedule this Appointment"
+    },        
+    {
+      "type": "label",
+      "key": "fromColon",
+      "label": "From:"
+    },    
+    {
+      "type": "label",
+      "key": "toColon",
+      "label": "To:"
+    },    
+    {
+      "type": "label",
+      "key": "at",
+      "label": "at"
+    },    
+    {
+      "type": "label",
+      "key": "yesText",
+      "label": "Yes"
+    },    
+    {
+      "type": "label",
+      "key": "noText",
+      "label": "No"
+    },    
+    {
+      "type": "label",
+      "key": "videoCallRequest",
+      "label": "Video Call Request"
+    },    
+    {
+      "type": "label",
+      "key": "viewProfile",
+      "label": "View Profile"
+    },    
+    {
+      "type": "label",
+      "key": "nextAvailableColon",
+      "label": "Next Available:"
+    },    
+    {
+      "type": "label",
+      "key": "myAppointmentColon",
+      "label": "My Appointment :"
+    },    
+    {
+      "type": "label",
+      "key": "cancelAppointment",
+      "label": "Cancel Appointment"
+    },    
+    {
+      "type": "label",
+      "key": "aboutDoctor",
+      "label": "About Doctor"
+    },    
+    {
+      "type": "label",
+      "key": "bio",
+      "label": "Bio"
+    },    
+    {
+      "type": "label",
+      "key": "qualificationColon",
+      "label": "Qualification:"
+    },    
+    {
+      "type": "label",
+      "key": "currentPositionColon",
+      "label": "Current Position:"
+    },    
+    {
+      "type": "label",
+      "key": "specialistColon",
+      "label": "Specialist:"
+    },    
+    {
+      "type": "label",
+      "key": "languageColon",
+      "label": "Language:"
+    },    
+    {
+      "type": "label",
+      "key": "videoTabText",
+      "label": "Video"
+    },    
+    {
+      "type": "label",
+      "key": "chatsTabText",
+      "label": "Chats"
+    },    
+    {
+      "type": "label",
+      "key": "convHistory",
+      "label": "Conversation History"
+    },    
+    {
+      "type": "label",
+      "key": "calUnit",
+      "label": "cal"
+    },    
+    {
+      "type": "label",
+      "key": "personalisedMealPlan",
+      "label": "Personalised Meal Plan"
+    },    
+    {
+      "type": "label",
+      "key": "choosePlan",
+      "label": "Choose Plan"
+    },    
+    {
+      "type": "label",
+      "key": "maxSlotsCountToDisplay",
+      "label": "10"
+    }  
+  ]
+}

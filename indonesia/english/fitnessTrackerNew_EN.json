@@ -1,0 +1,226 @@
+{
+    "key": "fitnessTrackers",
+    "image": "",
+    "elements": [
+      {
+        "type": "label",
+        "key": "steps",
+        "label": "STEPS"
+      },
+      {
+        "type": "label",
+        "key": "distance",
+        "label": "DISTANCE"
+      },
+      {
+        "type": "label",
+        "key": "calories",
+        "label": "CALORIES"
+      },
+      {
+        "type": "label",
+        "key": "myFitnessLeague",
+        "label": "My Fitness League"
+      },
+      {
+        "type": "label",
+        "key": "todayfitness",
+        "label": "Today , "
+      },
+      {
+        "type": "label",
+        "key": "myHistory",
+        "label": "My History"
+      },
+      {
+        "type": "label",
+        "key": "allChallenges",
+        "label": "All Challenges"
+      },
+      {
+        "type": "label",
+        "key": "fitnessTracker",
+        "label": "My Wearable"
+      },
+      {
+        "type": "label",
+        "key": "available",
+        "label": "Available"
+      },
+      {
+        "type": "label",
+        "key": "connect",
+        "label": "Connect"
+      },
+      {
+        "type": "label",
+        "key": "disConnect",
+        "label": "Disconnect"
+      },
+      {
+        "type": "label",
+        "key": "notConnected",
+        "label": "Not connected to any trackers"
+      },
+      {
+        "type": "label",
+        "key": "connected",
+        "label": "Connected"
+      },
+      {
+        "label": "Today",
+        "type": "label",
+        "key": "today"
+      },
+      {
+        "type": "label",
+        "key": "connectedTo",
+        "label": "Connected to"
+      },
+      {
+        "type": "label",
+        "key": "tapReload",
+        "label": "Tap to reload"
+      },
+      {
+        "type": "label",
+        "key": "loadingFailed",
+        "label": "Loading Activities failed"
+      },
+      {
+        "type": "label",
+        "key": "supportAppleHealth",
+        "label": "Supported through Apple Health"
+      },
+      {
+      "type": "label",
+      "key": "disconnectConfirmation",
+      "label": "All your progress will be lost!"
+     },
+     {
+      "type": "label",
+      "key": "connectYourFitness",
+      "label": "Connect Your Fitness Devices"
+    },
+    {
+      "type": "label",
+      "key": "trackSteps",
+      "label": "Lets Go! Start Tracking your Daily steps, Calories And much more details via these Devices."
+    },
+    {
+      "type": "label",
+      "key": "fitnessheader",
+      "label": "Fitness Tracker Activity"
+    },
+    {
+      "type": "label",
+      "key": "yourActivity",
+      "label": "Your Activity"
+    },
+    {
+      "type": "label",
+      "key": "pressIcon",
+      "label": "Please connect to the tracker by pressing the settings icon"
+    },
+    {
+      "type": "label",
+      "key": "wearables",
+      "label": "Wearables"
+    },
+    {
+      "type": "label",
+      "key": "googlefit",
+      "label": "Google Fit"
+    },
+    {
+      "type": "label",
+      "key": "fitbit",
+      "label": "Fit Bit"
+    },
+    {
+      "type": "label",
+      "key": "garmin",
+      "label": "Garmin"
+    },
+    {
+      "type": "label",
+      "key": "applehealth",
+      "label": "Apple Health"
+    },
+    {
+      "type": "label",
+      "key": "activity",
+      "label": "Activity"
+    },
+    {
+      "type": "label",
+      "key": "todaysActivity",
+      "label": "Today's"
+    },
+    {
+      "type": "label",
+      "key": "weeksActivity",
+      "label": "Last Week's"
+    },
+    {
+      "type": "label",
+      "key": "lastFifteenDaysActivity",
+      "label": "Last 15 Day's"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "googleFitPermissionError",
+      "label": "Please ensure location permission is provided. Click OK to go to settings and enable the location permission."
+    },
+    {
+      "type": "label",
+      "key": "gFitPermsErrorTitle",
+      "label": "Insufficient Permissions"
+    },
+    {
+      "type": "label",
+      "key": "gFitGoogleAuthErrorTitle",
+      "label": "Google Account Required"
+    },
+    {
+      "type": "label",
+      "key": "gFitPermsErrorMsg",
+      "label": "Your latest fitness data from google fit will not be available on the Pulse app until the Location and Activity permissions are granted. Click on OK button to go to app permission settings and grant."
+    },
+    {
+      "type": "label",
+      "key": "gFitGoogleAuthErrorMsg",
+      "label": "Your latest fitness data from google fit will not be available on the Pulse app until a google account is selected."
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "OK"
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermissionErrorTitle",
+      "label": "Location Permission Required"
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermissionErrorMessage",
+      "label": "Pulse needs your location permission to access your Google Fit fitness data. This is required for you to participate in challenges using Google Fit."
+    },
+    {
+      "type": "label",
+      "key": "googleFitLocationPermMsgAtLogin",
+      "label": "Your pulse account is connected to Google Fit, hence Pulse needs your location permission to access your fitness data. This is required for you to participate in challenges using Google Fit."
+    },
+    {
+      "type": "label",
+      "key": "disconnectDesc",
+      "label": "Are you sure you want to continue and disconnect the wearable?"
+    }
+    ]
+  }

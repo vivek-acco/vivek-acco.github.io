@@ -1,0 +1,23 @@
+{
+  "image": "",
+  "label": "Terms & Conditions",
+  "key": "abouttermsandcondition",
+  "elements": [
+    {
+      "key": "prutopia",
+      "label": "Pulse"
+    },
+    {
+      "key": "docservice",
+      "label": "DoctorOnCall"
+    },
+    {
+      "key": "babylon",
+      "label": "Babylon"
+    },
+    {
+      "key": "HaloDocTnC",
+      "label": "Halodoc"
+    }
+  ]
+}

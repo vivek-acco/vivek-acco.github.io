@@ -1,0 +1,67 @@
+{
+  "label": "",
+  "image": "",
+  "key": "NotificationModal",
+  "elements": [
+    {
+      "key": "hiPulsemate",
+      "label": "HI Pulsemate!",
+      "type": "label"
+    },
+    {
+      "key": "earnedReward",
+      "label": "Wow, you just earned a reward.",
+      "type": "label"
+    },
+    {
+      "key": "freeConsultation",
+      "label": "Great to know that you take your health seriously. Here is your discount voucher for cover against Cancer, and also free teleconsulation with Doctor! Enjoy Pulse.",
+      "type": "label"
+    },
+    {
+      "key": "close",
+      "label": "Close",
+      "type": "label"
+    },
+    {
+      "key": "continue",
+      "label": "Continue",
+      "type": "label"
+    },
+    {
+      "key": "exclusiveOffer",
+      "label": "Exclusive Offer!",
+      "type": "label"
+    },
+    {
+      "key": "stillMissingFreeTeleconsulatation",
+      "label": "Still missing out on your FREE Teleconsultation Voucher?",
+      "type": "label"
+    },
+    {
+      "key": "PlayStoreURL",
+      "label": "https://play.google.com/store/apps/details?id=com.prudential.pulse.my&hl=en&gl=US",
+      "type": "label"
+    },
+    {
+      "key": "AppStoreURL",
+      "label": "https://apps.apple.com/sg/app/pulse-by-prudential/id1507904780",
+      "type": "label"
+    },
+    {
+      "key": "forceUpdateTitle",
+      "label": "Hi Pulsemate!",
+      "type": "label"
+    },
+    {
+      "key": "forceUpdateDesc",
+      "label": "There is a new app version available, please update to enjoy new features!",
+      "type": "label"
+    },
+    {
+      "key": "forceUpdateButton",
+      "label": "Update",
+      "type": "label"
+    }
+  ]
+}

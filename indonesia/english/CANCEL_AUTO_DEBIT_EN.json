@@ -1,0 +1,31 @@
+{
+    "label": "Cancel Auto Debit",
+    "image": "",
+    "key": "CANCEL_AUTO_DEBIT",
+    "elements": [
+        {   "key": "CANCEL_AUTO_DEBIT_LABEL",
+            "label": "Cancel Auto Debit",
+            "type": "label"
+        },
+        {   "key": "CANCEL_AUTO_DEBIT_CANCEL_BUTTON",
+            "label": "Cancel",
+            "type": "label"
+        },
+        {   "key": "CANCEL_AUTO_DEBIT_CONTINUE_BUTTON",
+            "label": "Continue",
+            "type": "label"
+        },
+        {   "key": "CANCEL_AUTO_DEBIT_CONFIRMATION_LABEL",
+            "label": "Are you sure, you want to cancel auto-debit for this policy?",
+            "type": "label"
+        },
+        {   "key": "CANCEL_AUTO_DEBIT_SUCCESS_MESSAGE",
+            "label": "Auto debit cancelled successfully.",
+            "type": "label"
+        },
+        {   "key": "CANCEL_AUTO_DEBIT_FAILURE_MESSAGE",
+            "label": "Something went wrong.",
+            "type": "label"
+        }
+    ]
+}

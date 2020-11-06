@@ -1,0 +1,32 @@
+{
+    "label": "My Policies",
+    "image": "",
+    "key": "policyTabScreen",
+    "elements": [
+        {
+            "label": "Coming Soon!",
+            "key": "policyTabComingSoon",
+            "type": "label"
+        },
+        {
+            "label": "Pulse Products",
+            "key": "policyTabPulseProducts",
+            "type": "label"
+        },
+        {
+            "label": "Pru Personal Accident Policy",
+            "key": "personalAccidentPolicyTitle",
+            "type": "label"
+        },
+        {
+            "label": "It provides cash in case of injury or death due to accident.",
+            "key": "personalAccidentPolicyDesc",
+            "type": "label"
+        },
+        {
+            "label": "Get Now",
+            "key": "getNowButton",
+            "type": "label"
+        }
+    ]
+}

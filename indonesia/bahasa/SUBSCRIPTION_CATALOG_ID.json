@@ -1,0 +1,292 @@
+{
+  "label": "Subscription Catalog",
+  "image": "",
+  "key": "SUBSCRIPTION_CATALOG",
+  "elements": [
+    {
+      "key": "SUBSCRIPTION_CATALOG_SHOW_TNC_MODAL",
+      "label": false,
+      "type": "flag"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_SHOW_FOOTER_LOGO",
+      "label": false,
+      "type": "flag"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_SHOW_FOOTER_LINKS",
+      "label": false,
+      "type": "flag"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC_HEADER",
+      "label": "Dengan melanjutkan aplikasi",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC_PROCEED_BUTTON_LABEL",
+      "label": "Lanjutkan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC_CANCEL_BUTTON_LABEL",
+      "label": "Batal",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_PRE_TEXT",
+      "label": "Saya menyatakan bahwa saya telah membaca, memahami, dan menyetujui",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK_LABEL",
+      "label": "Pernyataan privasi data",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK_HEADER",
+      "label": "Ketentuan Privasi",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/acdfb02e-bbb5-4f0f-9298-cc6a69bca26f?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_POST_TEXT",
+      "label": " dan ",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK2_LABEL",
+      "label": "Syarat Penggunaan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK2_HEADER",
+      "label": "Syarat Penggunaan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_LINK2",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/d8a612e9-0c05-4631-b518-5be3f40843ee?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC1_POST_TEXT2",
+      "label": ".",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC2_PRE_TEXT",
+      "label": "Saya setuju untuk memproses informasi pribadi saya termasuk informasi sensitif untuk aplikasi ini dan administrasi kebijakan saya.",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC2_LINK_LABEL",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC2_LINK_HEADER",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC2_LINK",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC2_POST_TEXT",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC3_PRE_TEXT",
+      "label": "Saya menyetujui pemrosesan otomatis informasi pribadi saya, yang akan menjadi satu-satunya dasar untuk aplikasi saya.",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC3_LINK_LABEL",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC3_LINK_HEADER",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC3_LINK",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_TNC3_POST_TEXT",
+      "label": "",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER1_TEXT",
+      "label": "Pertanyaan yang sering ditanyakan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER1_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/3a02ff98-ca4e-46c3-9890-77403f0cc14f?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER2_TEXT",
+      "label": "Ketentuan Penggunaan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER2_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/aff577c8-2a46-42ae-abd7-2ebb69d38a4c?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER3_TEXT",
+      "label": "Kebijakan Privasi",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER3_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/fe56ad5f-1896-4429-a27d-d59d228ce0e0?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER4_TEXT",
+      "label": "Hubungi Kami",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER4_LINK",
+      "label": "https://samples.leanpub.com/thereactnativebook-sample.pdf",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER5_TEXT",
+      "label": "Hak Pelanggan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER5_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0f9868ec-33e9-46c3-ab52-ee4701d40678?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER6_TEXT",
+      "label": "Penanganan Keluhan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_FOOTER6_LINK",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/904b55a7-002c-4321-a49f-7f4c03718c44?namespace=PH",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_PRUSHOP_VERSION",
+      "label": "v1",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_PRUSHOP_PRIVACY_VERSION",
+      "label": "v1",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_BACKGROUND_HEADER_IMAGE",
+      "label": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/6785edbb-5dff-4c2a-8dd0-ab7c34b53267?namespace=MY",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_HEADER_TROPHY_IMAGE",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/7e191739-5670-4857-9e6e-d1b9ec558c9b?namespace=ID",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM",
+      "label": "/bulan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_PRODUCT_S00100_NAME",
+      "label": "Paket Langganan Jade Green",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_PRODUCT_S00101_NAME",
+      "label": "Paket Langganan Blue",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_PRODUCT_S00116_NAME",
+      "label": "Paket Bugar",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_PRODUCT_S00123_NAME",
+      "label": "Pulse Plus",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_D_1",
+      "label": "/hari",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_D_7",
+      "label": "/minggu",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_M_1",
+      "label": "/bulan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_M_3",
+      "label": "/3 bulan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_M_6",
+      "label": "/6 bulan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_M_12",
+      "label": "/tahun",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_RECUR_TERM_Y_1",
+      "label": "/tahun",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_HEADER_LOGO",
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/113f7b6e-369f-425b-8ff9-27b9f7ea3195?namespace=ID",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_HEADER_TITLE",
+      "label": "Paket Berlangganan Saya",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_CANCEL_SUBSCRIPTION_BUTTON_TEXT",
+      "label": "Batalkan Berlangganan",
+      "type": "label"
+    },
+    {
+      "key": "SUBSCRIPTION_CATALOG_EXPIRES_TEXT",
+      "label": "Berakhir pada",
+      "type": "label"
+    }
+  ]
+}

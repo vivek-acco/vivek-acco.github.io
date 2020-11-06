@@ -1,0 +1,36 @@
+{
+  "image": "",
+  "key": "leftmenusettingsscreen",
+  "elements": [
+    {
+      "type": "labelHeader",
+      "key": "leftmenusettingsheader",
+      "label": "Pengaturan"
+    },
+    {
+      "type": "label",
+      "key": "leftmenusettingsaccount",
+      "label": "Akun"
+    },
+    {
+      "type": "label",
+      "key": "leftmenusettingslanguage",
+      "label": "Bahasa"
+    },
+    {
+      "type": "label",
+      "key": "leftmenusettingsgooglefit",
+      "label": "Monitor Olahraga"
+    },
+    {
+      "type": "label",
+      "key": "leftmenusettingsfingerprint",
+      "label": "Sidik jari"
+    },
+    {
+      "type": "label",
+      "key": "leftmenusettingsaboutus",
+      "label": "Tentang kami"
+    }
+  ]
+}

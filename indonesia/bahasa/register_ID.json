@@ -1,0 +1,181 @@
+{
+  "image": "",
+  "key": "register",
+  "elements": [
+    {
+      "errorMessages": [
+        {
+          "message": "Email harus diisi",
+          "key": "required"
+        },
+        {
+          "message": "Email tidak valid",
+          "key": "not_valid"
+        },
+        {
+          "message": "Email already exists",
+          "key": "already_exists"
+        }
+      ],
+      "label": "Email",
+      "type": "input",
+      "required": "yes",
+      "key": "email"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Kata Sandi harus diisi",
+          "key": "required"
+        },
+        {
+          "message": "Password does not match password policy",
+          "key": "match_criteria"
+        }
+      ],
+      "security": [
+        {
+          "key": "policy",
+          "policy": {
+            "message": "More than 8 characters with at least 1 number, 1 upper case and 1 special character",
+            "key": "password_policy"
+          }
+        }
+      ],
+      "label": "Kata Sandi",
+      "type": "password",
+      "required": "yes",
+      "key": "password"
+    },
+    {
+      "type": "label",
+      "key": "loginlabel",
+      "label": "MASUK"
+    },
+    {
+      "type": "label",
+      "key": "already_have_an_account",
+      "label": "Sudah punya akun?"
+    },
+    {
+      "type": "label",
+      "key": "separatorConventionalAndSocialRegister",
+      "label": "atau"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Data kamu sudah terregistrasi",
+          "key": "2070",
+          "label": "USER_EXIST"
+        },
+        {
+          "message": "Data pengguna dan / atau kata sandi tidak valid",
+          "key": "2020",
+          "label": "WRONG_CREDENTIAL"
+        },
+        {
+          "message": "Token verification failed",
+          "key": "2080",
+          "label": "INVALID_OTP"
+        },
+        {
+          "message": "Customer update Failed",
+          "key": "3050",
+          "label": "UPDATE_ERROR"
+        },
+        {
+          "message": "Customer registration failed",
+          "key": "2110",
+          "label": "ERROR"
+        },
+        {
+          "message": "Data kamu belum terregistrasi",
+          "key": "2000",
+          "label": "REGISTER_ERROR"
+        },
+        {
+          "message": "Data kamu sudah terregistrasi",
+          "key": "USER_ALREADY_VERIFIED"
+        },
+        {
+          "message": "Customer profile create failed",
+          "key": "CUSTOMER_PROFILE_CREATE_FAILED"
+        },
+        {
+          "message": "Social Search Failed",
+          "key": "2040",
+          "label": "SOCIALID_NOT_MATCHING"
+        },
+        {
+          "message": "Token creation failed",
+          "key": "TOKEN_CREATION_FAILED"
+        },
+        {
+          "message": "Customer login failed",
+          "key": "2060",
+          "label": "LOGIN_ERROR"
+        },
+        {
+          "message": "Social login failed",
+          "key": "SOCIAL_LOGIN_FAILED"
+        },
+        {
+          "message": "Customer profile not found",
+          "key": "CUSTOMER_PROFILE_NOT_FOUND"
+        },
+        {
+          "message": "Customer profile update failed",
+          "key": "CUSTOMER_PROFILE_UPDATE_FAILED"
+        },
+        {
+          "message": "Atleast one Social id is required",
+          "key": "2030",
+          "label": "NO_SOCIALID"
+        },
+        {
+          "message": "Social id is not matching",
+          "key": "2040",
+          "label": "SOCIALID_NOT_MATCHING"
+        },
+        {
+          "message": "User not registered with given social Id",
+          "key": "2150",
+          "label": "SOCIAL_RESGISTER_ERROR"
+        },
+        {
+          "message": "User is not active",
+          "key": "2010",
+          "label": "NOT_ACTIVE"
+        }
+      ],
+      "label": "Daftar",
+      "type": "button",
+      "key": "registerbutton"
+    },
+    {
+      "type": "textInParts",
+      "key": "registerterm",
+      "partElements": [
+        {
+          "type": "label",
+          "label": "By registering, you agree to our"
+        },
+        {
+          "type": "link",
+          "action": "#openTermsAndConditions",
+          "label": "Terms and Conditions"
+        },
+        {
+          "type": "label",
+          "label": "and"
+        },
+        {
+          "type": "link",
+          "action": "#openPrivacyPolicy",
+          "label": "Pemberitahuan Privasi"
+        }
+      ]
+    }
+  ]
+}

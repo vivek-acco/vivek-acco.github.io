@@ -1,0 +1,1221 @@
+{
+	"image": "",
+	"label": "",
+	"key": "HaloDocService",
+	"elements": [
+		{
+			"label": "Dokter telah mengirimi Anda pesan baru",
+			"type": "label",
+			"key": "text"
+		},
+		{
+			"label": "Dokter telah bergabung dengan Panggilan",
+			"type": "label",
+			"key": "application/hd.consultation.call_start"
+		},
+		{
+			"label": "Dokter telah mengakhiri panggilan",
+			"type": "label",
+			"key": "application/hd.consultation.call_end"
+		},
+		{
+			"label": "Dokter telah mengirimi Anda lampiran",
+			"type": "label",
+			"key": "file_attachment"
+		},
+		{
+			"label": "Dokter telah mengakhiri Konsultasi",
+			"type": "label",
+			"key": "consultation_completed"
+		},
+		{
+			"label": "Dokter telah mengakhiri Konsultasi",
+			"type": "label",
+			"key": "application/hd.consulation.complete"
+		},
+		{
+			"label": "Dokter telah menyetujui permintaan Konsultasi Anda",
+			"type": "label",
+			"key": "consultation_approved"
+		},
+		{
+			"label": "Dokter telah menolak permintaan Konsultasi Anda",
+			"type": "label",
+			"key": "consultation_rejected"
+		},
+		{
+			"label": "Dokter melewatkan Konsultasi Anda",
+			"type": "label",
+			"key": "consultation_missed"
+		},
+		{
+			"label": "Dokter telah mengirimi Anda tindak lanjut",
+			"type": "label",
+			"key": "application/hd.consultation.doctor.followup"
+		},
+		{
+			"label": "Dokter telah mengirimi Anda rujukan",
+			"type": "label",
+			"key": "application/hd.consultation.doctor.referral"
+		},
+		{
+			"label": "Dokter telah mengirimkan resep elektronik kepada Anda",
+			"type": "label",
+			"key": "application/hd.consultation.epres"
+		},
+		{
+			"label": "Dokter telah mengirimi Anda Catatan Dokter",
+			"type": "label",
+			"key": "application/hd.consultation.dn"
+		},
+		{
+			"label": "Saya setuju",
+			"type": "label",
+			"key": "IAgree"
+		},
+		{
+			"label": "Syarat & Ketentuan",
+			"type": "label",
+			"key": "TermsConditions"
+		},
+		{
+			"label": "Harap ingat ini bukan diagnosis medis atau pengganti untuk mengunjungi dokter. Ini hanya untuk tujuan kesejahteraan umum. Informasi terkait kesehatan apa pun yang diberikan tidak boleh diperlakukan sebagai nasihat medis. Silakan berkonsultasi dengan dokter untuk saran medis yang diperlukan.",
+			"type": "label",
+			"key": "PleaseRemember"
+		},
+		{
+			"label": "Ups! Ada yang salah. Silakan coba lagi!",
+			"type": "label",
+			"key": "halo_doc_generic_error"
+		},
+		{
+			"label": "Ada yang salah. Silakan coba lagi!",
+			"type": "label",
+			"key": "halo_doc_api_error"
+		},
+		{
+			"label": "OTP tidak Terverifikasi",
+			"type": "label",
+			"key": "halo_doc_otp_unverified"
+		},
+		{
+			"label": "Gagal mengambil detail konsultasi lengkap",
+			"type": "label",
+			"key": "failed_consultation_details"
+		},
+		{
+			"label": "Gagal mengambil detail kamar",
+			"type": "label",
+			"key": "failed_room_details"
+		},
+		{
+			"label": "Berikut ini menunjukkan kemungkinan penyebab dan tindakan yang harus dilakukan terkait dengan gejala ini. Ini dimaksudkan untuk digunakan hanya untuk tujuan kesejahteraan umum dan tidak dimaksudkan untuk digunakan untuk tujuan medis apa pun (seperti deteksi, diagnosis, atau perawatan kondisi atau penyakit medis apa pun). Informasi terkait kesehatan apa pun yang diberikan tidak boleh diperlakukan sebagai nasihat medis. Silakan berkonsultasi dengan dokter untuk saran medis yang diperlukan.",
+			"type": "label",
+			"key": "FollowingShow"
+		},
+		{
+			"label": "Harap dicatat, Healthcheck adalah aplikasi gaya hidup yang dimaksudkan untuk digunakan hanya untuk tujuan kesejahteraan umum. Profil risiko didasarkan pada kelompok populasi, bukan risiko individu. Hasil hanya untuk tujuan informasi, bukan merupakan diagnosis dan tidak dimaksudkan untuk digunakan untuk tujuan medis apa pun (seperti deteksi, diagnosis, pemantauan, manajemen, atau perawatan kondisi atau penyakit medis). Informasi terkait kesehatan apa pun yang diberikan tidak boleh diperlakukan sebagai nasihat medis. Silakan berkonsultasi dengan dokter untuk saran medis yang diperlukan.",
+			"type": "label",
+			"key": "PleaseNote"
+		},
+
+		{
+			"label": "URL Pembayaran tidak valid",
+			"type": "label",
+			"key": "invalidPaymentUrl"
+		},
+		{
+			"label": "Kami perlu mengakses perangkat Anda",
+			"type": "label",
+			"key": "deviceAccess"
+		},
+		{
+			"label": "Kamera",
+			"type": "label",
+			"key": "camera"
+		},
+		{
+			"label": "Galeri",
+			"type": "label",
+			"key": "Gallery"
+		},
+		{
+			"label": "dan",
+			"type": "label",
+			"key": "and"
+		},
+		{
+			"label": "mikropon",
+			"type": "label",
+			"key": "microphonePermission"
+		},
+		{
+			"label": "sebelum Anda dapat melanjutkan",
+			"type": "label",
+			"key": "proceed"
+		},
+		{
+			"label": "Membatalkan",
+			"type": "label",
+			"key": "Cancel"
+		},
+		{
+			"label": "Dokter sudah bergabung dengan panggilan, silakan bergabung menggunakan opsi 'Gabung panggilan'",
+			"type": "label",
+			"key": "DocJoined"
+		},
+		{
+			"label": "AKSES GRANT",
+			"type": "label",
+			"key": "grantAccess"
+		},
+		{
+			"label": "Diperlukan izin",
+			"type": "label",
+			"key": "permissionRequired"
+		},
+		{
+			"label": "Untuk menggunakan fitur ini, izin Kamera dan Mikrofon diperlukan. Klik OK untuk membawa Anda ke halaman pengaturan di mana Anda dapat memberikan izin.",
+			"type": "label",
+			"key": "permissionDescription"
+		},
+		{
+			"label": "Izin diberikan",
+			"type": "label",
+			"key": "permissionGranted"
+		},
+		{
+			"label": "Izin tidak diberikan",
+			"type": "label",
+			"key": "permissionNotGranted"
+		},
+		{
+			"label": "Beralih ke panggilan video.",
+			"type": "label",
+			"key": "switchingVideo"
+		},
+		{
+			"label": "Pilih foto dari",
+			"type": "label",
+			"key": "selectPhoto"
+		},
+		{
+			"label": "verifikasi sekarang",
+			"type": "label",
+			"key": "verifyNowText"
+		},
+		{
+			"label": "Tanggal lahir",
+			"type": "label",
+			"key": "dob"
+		},
+		{
+			"label": "telepon",
+			"type": "label",
+			"key": "phone"
+		},
+		{
+			"label": "Maaf, kami tidak dapat menerima konfirmasi untuk konsultasi. Silakan coba lagi.",
+			"type": "label",
+			"key": "couldntConfirm"
+		},
+		{
+			"label": "Kartu Kredit / Debit",
+			"type": "label",
+			"key": "creditOrDebit"
+		},
+		{
+			"label": "Bayar melalui kartu dan dapatkan diskon hingga",
+			"type": "label",
+			"key": "disclaimerText"
+		},
+		{
+			"label": "Tidak dapat bergabung dengan panggilan ",
+			"type": "label",
+			"key": "notAble"
+		},
+
+		{
+			"label": "muncul, Anda menerima layanan dari Halodoc.",
+			"type": "label",
+			"key": "appearsoncall"
+		},
+		{
+			"label": "Dengan mengonfirmasi, Anda setuju bahwa informasi Anda diatas dapat dimasukkan dalam profil PULSE Anda dan tunduk pada",
+			"type": "label",
+			"key": "ConfirmPrivacy"
+		},
+		{
+			"label": " Kebijakan Privasi Halodoc ",
+			"type": "label",
+			"key": "PrivacyNotice"
+		},
+		{
+			"label": "Konfirmasi",
+			"type": "label",
+			"key": "Confirm"
+		},
+		{
+			"label": "Memeriksa",
+			"type": "label",
+			"key": "Verify"
+		},
+		{
+			"type": "label",
+			"key": "docRegisterPageOtp",
+			"label": "Masukkan OTP"
+		},
+		{
+			"type": "label",
+			"key": "resendotp",
+			"label": "Kirim ulang OTP"
+		},
+		{
+			"type": "label",
+			"key": "sessionFee",
+			"label": "Biaya sesi untuk dokter"
+		},
+		{
+			"type": "label",
+			"key": "totalSavings",
+			"label": "Total Penghematan"
+		},
+		{
+			"type": "label",
+			"key": "autoAppliedDiscount",
+			"label": "Diskon secara otomatis"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCodeErrorMsg",
+			"label": "Kode kupon tidak valid"
+		},
+		{
+			"type": "label",
+			"key": "removePromoCodeErrorMsg",
+			"label": "Gagal menghapus diskon kupon"
+		},
+		{
+			"type": "label",
+			"key": "emptyPromoCodeErrorMsg",
+			"label": "Silakan masukkan kode kupon"
+		},
+		{
+			"type": "label",
+			"key": "removePromoCode",
+			"label": "Menghapus"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCodePlaceholder",
+			"label": "Terapkan Kode Promo"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCode",
+			"label": "Terapkan"
+		},
+		{
+			"type": "label",
+			"key": "paymentSummary",
+			"label": "Ringkasan pembayaran"
+		},
+		{
+			"type": "label",
+			"key": "couponDiscount",
+			"label": "Diskon Kupon"
+		},
+		{
+			"type": "label",
+			"key": "autoAppliedDiscount",
+			"label": "Diskon secara otomatis"
+		},
+		{
+			"type": "label",
+			"key": "totalAmount",
+			"label": "Jumlah total"
+		},
+		{
+			"type": "label",
+			"key": "paymentMethodTitle",
+			"label": "Cara Pembayaran"
+		},
+		{
+			"type": "label",
+			"key": "cardDiscountDisclaimer",
+			"label": "Bayar melalui kartu dan dapatkan diskon"
+		},
+		{
+			"type": "label",
+			"key": "paidConsultationProceedButton",
+			"label": "Bayar dan Konfirmasikan"
+		},
+		{
+			"type": "label",
+			"key": "freeConsultationProceedButton",
+			"label": "Lanjutkan untuk Konsultasi"
+		},
+		{
+			"header": "PRIVACY POLICY",
+			"type": "label",
+			"key": "HaloDocPrivacy",
+			"label": "<div><p><p><HALODOC</baru</p><p> <strong> KEBIJAKAN PRIVASI </strong> </p> <p> <strong> <em> (Terakhir Diperbarui pada 27 Mei 2019) </em> </strong> </p> <p> Kebijakan Privasi ini (&ldquo;<strong>Kebijakan Privasi</strong>&rdquo;) menetapkan bagaimana PT Media Dokter Investama dan anak perusahaan dan afiliasinya (&ldquo;<strong>Kami</strong>&rdquo;), meningkatkan, mengumpulkan, menggunakan, menampilkan, mengumumkan, mengungkap, memproses, membuka akses, menyimpan, memberi, menetapkan, memperlakukan, mengelola, menghancurkan, dan melindungi informasi dan Data Pribadi (bersama-sama, &ldquo;<strong>Gunakan</strong>&rdquo;) disediakan oleh Anda sebagai pengguna (&ldquo;<strong>Anda</strong>&rdquo;) dari Aplikasi Halodoc (&ldquo;<strong>Aplikasi</strong>&rdquo;) atau Aplikasi Web Halodoc (&ldquo;<strong>Aplikasi Web</strong>&rdquo;) seperti yang diminta atau ketika menggunakan fitur dalam Aplikasi (&ldquo;<strong>Data Pribadi</strong>&rdquo;). Harap perhatikan bahwa Data Pribadi tidak termasuk Data Pribadi yang tersedia di domain publik. </p> <p> Kebijakan Privasi ini adalah bagian dari Syarat dan Ketentuan Penggunaan kami (&ldquo;<strong>Ketentuan Penggunaan</strong>&rdquo;). Penggunaan Platform dan setiap fitur dan / atau layanan yang tersedia di Platform (&ldquo;<strong>Layanan</strong>&rdquo;) menunjukkan bentuk penerimaan Anda terhadap Ketentuan Penggunaan dan Kebijakan Privasi. Karena itu, Anda perlu membaca Kebijakan Privasi ini secara menyeluruh untuk memastikan pemahaman penuh Anda sebelum mendaftar, mengakses dan / atau menggunakan Aplikasi, Aplikasi Web, dan Layanan Kami. </p><p> <strong> A. Lingkup Kebijakan Privasi </strong> </p> <p> 1. Khusus untuk Fitur Beli Obat dikelola oleh <strong> PT MENSA MEDIKA INVESTAMA </strong> (&ldquo;<strong>PT MMI</strong>&rdquo;) dan terhubung dengan fitur GO-MED yang dikelola oleh <strong> PT APLIKASI KARYA ANAK BANGSA </strong> (&ldquo;<strong>GO-JEK</strong>&rdquo;) dalam Aplikasi GO-JEK sebagai pihak ketiga yang mengirimkan pesanan obat, vitamin, atau peralatan medis. </p> <p> 2. Kebijakan Privasi ini mengatur Penggunaan Data Pribadi. </p> <p> 3. Dengan menggunakan Platform, Anda akan dianggap telah membaca Kebijakan Privasi ini dan menyetujui prosedur sehubungan dengan Penggunaan Data Pribadi Anda yang tercantum dalam Kebijakan Privasi ini. </p> <p> 4. Jika Kami meminta Anda untuk memberikan informasi saat menggunakan Platform, informasi tersebut hanya akan digunakan untuk tujuan memberikan layanan sesuai dengan Kebijakan Privasi ini. </p> <p> 5. Kami berhak setiap saat untuk memodifikasi, menghapus, dan menerapkan ketentuan baru Kebijakan Privasi. Anda diharapkan untuk memeriksa halaman Kebijakan Privasi ini secara teratur untuk mengetahui setiap perubahan. Dengan menggunakan Platform setelah perubahan tersebut, Anda akan dianggap telah mengakui dan menyetujui perubahan pada Kebijakan Privasi. </p> <p> <strong> B. Pendaftaran </strong> </p> <p> 1. Anda diharuskan melakukan registrasi di Platform untuk dapat menggunakan fitur-fitur pada Platform. </p> <p> 2. Untuk mendaftar di Platform, Anda harus memberikan informasi yang diperlukan oleh kami sebagaimana dinyatakan dalam poin C (Data Pribadi) di bawah ini. </p> <p> <strong> C. Data Pribadi </strong> </p> <p> 1. Anda mengakui dan setuju bahwa Kami mengumpulkan informasi pribadi yang diberikan oleh Anda saat membuat akun dan profil atau ketika menggunakan fitur-fitur di Platform. </p> <p> 2. Informasi tentang identitas pribadi yang harus dilengkapi ketika membuat akun di Platform termasuk: </p> <p> (i) Nama Lengkap seperti yang dicetak dalam kartu ID yang valid (ID CARD atau Paspor) </p> <p> (ii) Nomor ponsel. </p> <p> 3. Anda mengakui dan setuju bahwa Kami juga memiliki hak untuk mengumpulkan informasi ketika Anda menggunakan Platform, termasuk tetapi tidak terbatas pada: Lokasi / koordinat GPS (jika Anda mengaktifkan fitur ini), alamat Protokol Internet (IP) (jika menggunakan browser), sistem operasi, jenis browser, alamat Platform yang merujuk dan aktivitas Anda di Platform. Anda dapat mengaktifkan atau menonaktifkan layanan lokasi saat menggunakan menggunakan Platform. </p> <p> 4. Anda mengakui dan setuju bahwa Kami memiliki hak untuk memverifikasi langsung kepada Anda atau pihak lain dari informasi tentang data pribadi yang diberikan oleh Anda melalui Platform. </p> <p> 5. Dengan menggunakan Platform, Anda menyatakan bahwa informasi yang diberikan adalah benar dan akurat. </p> <p> 6. Jika informasi yang diberikan salah atau salah, Kami tidak bertanggung jawab atas semua konsekuensi sehubungan dengan penyediaan dan penggunaan informasi palsu. </p> <p> <strong> D. Data Obrolan, Video dan Panggilan Suara dalam Obrolan dengan Fitur Dokter (Obrolan dengan Dokter) </strong></p> <p> Untuk kenyamanan Anda dalam interaksi dengan dokter, layanan obrolan (Anda juga dapat mengirim gambar ke dokter yang berkaitan dengan kondisi medis), video dan panggilan suara di Platform tersedia. Anda mengakui dan menyetujui bahwa untuk tujuan peninjauan, Layanan Panggilan Video dan Suara akan direkam secara otomatis dan riwayat obrolan juga akan disimpan. </p><p> <strong> E. Tanggung jawab untuk Penggunaan fitur Obrolan, Video dan Panggilan Suara </strong> </p> <p> Dalam menggunakan fitur Obrolan, Video dan Panggilan Suara di Platform, Anda memahami bahwa Platform hanyalah alat untuk memudahkan pencarian Layanan, untuk memberikan kemudahan dan kemudahan dalam interaksi dengan dokter, setiap konten dan / atau representasi dalam percakapan oleh Anda dan dokter menggunakan fitur tersebut, ini adalah percakapan pribadi antara Anda dan dokter dan jelas di luar kendali kami, semua perselisihan yang berkaitan dengan konten dan / atau representasi dari percakapan antara Anda dan dokter dalam fitur, akan menjadi tanggung jawab penuh Anda dan Anda setuju untuk membebaskan kami dan membebaskan kami dari dan terhadap setiap dan semua klaim, tuntutan hukum, dan konsekuensi hukum. </p><p> <strong> F. Tanggung jawab untuk Penyimpanan Rekam Medis Pemeriksaan Laboratorium dalam Fitur Uji Lab (Dapatkan Tes Lab) </strong> </p> <p> 1. Anda mengakui dan setuju bahwa Anda memberikan hak penuh kepada kami untuk memperlakukan dan data serta informasi yang diberikan pada saat pendaftaran dan / atau memesan lab termasuk riwayat dan hal-hal lain yang relevan. </p> <p> 2. Anda mengakui dan menyetujui bahwa untuk kenyamanan Anda, hasil pemeriksaan laboratorium akan diberikan dalam format digital dan diunggah ke akun Anda untuk dilihat (&ldquo;<strong>Hasil Pemeriksaan Lab</strong>&rdquo;). Hasil pemeriksaan laboratorium akan dirahasiakan oleh sistem keamanan yang mematuhi standar yang ditetapkan dalam undang-undang yang berlaku di Indonesia. </p> <p> 3. Anda mengakui dan setuju bahwa Anda harus meminta penerimaan dari orang lain yang memesan untuk Mendapatkan Tes Laboratorium (Get a Lab Test) oleh Anda dan bertanggung jawab atas kerahasiaan hasil rekam medis orang lain dalam akun Halodoc Anda. Kami akan dibebaskan dan tidak berbahaya dari dan terhadap setiap dan semua klaim dan tuntutan oleh orang lain yang berkaitan dengan catatan medis orang lain yang diunggah dan disimpan di akun Halodoc Anda. </p> <p> <strong> G. Data Pengunjung </strong></p> <p> Anda mengakui dan setuju bahwa Platform akan mengumpulkan informasi tentang penggunaan, seperti (tetapi tidak terbatas pada) jumlah kunjungan, sumber pengunjung, dan aktivitas. Data ini akan digunakan oleh kami untuk tujuan meningkatkan kepuasan Anda dan kualitas layanan kami. </p><p> <strong> H. Penggunaan Data Pribadi </strong> </p> <p> 1. Anda dengan ini sepenuhnya setuju dengan kami dan Penyedia Layanan untuk Menggunakan Data Pribadi Anda untuk bisnis, operasi, dan tujuan lain sesuai dengan maksud penyediaan Data Pribadi, termasuk namun tidak terbatas pada: </p> <p> (i) Memberikan informasi untuk Anda dan Penyedia Layanan atas permintaan Anda untuk Layanan Kami. Kami dapat membagikan informasi kesehatan Anda dengan dokter atau penyedia kesehatan lain untuk memberi Anda Layanan melalui kami. </p> <p> (ii) Memberikan resep dan / atau obat sesuai permintaan Anda yang berkaitan dengan layanan kami dengan fitur Beli Obat. Kami dapat membagikan informasi tersebut dengan apotek atau pihak lain untuk memberi Anda layanan melalui kami. </p> <p> (iii) Gunakan dan ungkapkan informasi kesehatan dan resep Anda untuk tujuan operasional Platform. Kami dapat menggunakan dan mendistribusikan informasi ini untuk tujuan peninjauan dan peningkatan kualitas layanan yang kami berikan, atau kompetensi dan kualifikasi staf profesional Platform. </p> <p> (iv) Jawab pertanyaan, komentar, dan umpan balik. </ p> <p> (v) Proses partisipasi Anda dalam setiap kontes, permainan, promosi, polling, atau survei. </p> <p> (vi) Memahami dan menganalisis penggunaan dan penjualan Produk dan layanan untuk kebutuhan dan preferensi. </p> <p> (vii) Kembangkan, perbaiki, dan sediakan Produk dan layanan untuk memenuhi kebutuhan Anda. </p> <p> (viii) Berikan informasi / kirim email dan / atau SMS yang ditawarkan dan / atau promosi Produk baru secara berkala, jika ada penawaran dan / atau promosi produk baru, penawaran khusus, atau informasi lain yang perlu Anda ketahui menurut kami. </p> <p> (ix) Memberitahu Anda setiap perubahan dalam Platform, layanan dan Produk kami. </p> <p> (x) Gunakan informasi untuk menghubungi Anda. </p> <p> (xi) Menggunakan dan mengungkapkan informasi ini jika perlu untuk tinjauan medis, layanan hukum dan audit, termasuk penipuan dan deteksi penyalahgunaan dan program penyesuaian, termasuk perencanaan dan manajemen bisnis. </p> <p> (xii) ) Catatan atau dokumentasi internal kami disimpan di server kami, di dalam dan di luar Republik Indonesia. </p> <p> (xiii) Berikan Data Pribadi Anda ke PT MMI, GO-JEK, dan Penyedia Layanan untuk tujuan Layanan berdasarkan Peron. </p> <p> (xiv) Tujuan lain sejauh diizinkan oleh hukum. </p> <p> 2. Kami akan menggunakan data yang dikumpulkan untuk keperluan pemrosesan data statistik yang akan digunakan untuk berbagai Platform medis atau komersial. Pemrosesan data statistik tidak akan mengungkapkan data individual, namun ada kemungkinan untuk pengungkapan data individual dalam pencarian hasil pemrosesan statistik. Dengan menggunakan Platform, Anda akan dianggap telah memahami dan menyetujui penggunaan data. </p> <p> 3. Kami menyatakan bahwa data dan informasi yang diberikan oleh Anda bersifat rahasia dan tidak akan diungkapkan kecuali seperti yang diungkapkan dan disetujui oleh Anda dalam Kebijakan Privasi ini. Untuk mencegah akses tidak sah, Kami mengambil tindakan keamanan fisik, elektronik, dan prosedur manajerial untuk melindungi informasi Anda. </p> <p> 4. Informasi medis Anda hanya akan digunakan sehubungan dengan layanan Platform dan hal-hal yang dinyatakan dan disepakati oleh Anda dalam Kebijakan Privasi ini dan Kami hanya akan mengumpulkan informasi yang diperlukan untuk mengoperasikan Layanan Platform. </p> (x) Pihak lain sejauh diizinkan oleh hukum yang berlaku. </p> <p> <strong> I. Koneksi Anda ke Platform Lain </strong></p> <p> Platform ini dapat berisi tautan ke platform pihak ketiga (& # 34; Platform Pihak Ketiga & # 34;) dan konten pihak ketiga (& # 34; Konten Pihak Ketiga & # 34;). Penggunaan Anda terhadap tautan ke Platform Pihak Ketiga dan / atau Konten Pihak Ketiga didasarkan pada kebijaksanaan Anda sendiri. Saat Anda menggunakan tautan ke Platform Pihak Ketiga dan / atau Konten Pihak Ketiga, kami tidak bertanggung jawab untuk melindungi privasi dan informasi apa pun yang Anda berikan saat mengunjungi Platform Pihak Ketiga dan / atau Konten Pihak Ketiga. Kami juga tidak bertanggung jawab atas segala informasi yang terkandung dalam Platform Pihak Ketiga dan / atau Konten Pihak Ketiga, termasuk efek dari mengakses Platform Pihak Ketiga dan / atau Konten Pihak Ketiga. Anda harus mempelajari dan membaca dengan cermat kebijakan penanganan informasi pribadi yang berlaku untuk Platform Pihak Ketiga dan / atau Konten Pihak Ketiga. </p> <p> Kami menyediakan tautan ke Platform Pihak Ketiga dan / atau Konten Pihak Ketiga hanya untuk kenyamanan Anda dan ini tidak dapat diartikan sebagai dukungan, adopsi, sponsorship, afiliasi antara Kami dan Platform Pihak Ketiga dan / atau Konten Pihak Ketiga. </p> <p> <strong> J. Hukum yang Berlaku </strong> </p> <p> Kebijakan Privasi ini akan diatur oleh dan ditafsirkan sesuai dengan hukum Republik Indonesia. </p> <p> <strong> K. Tindakan Keamanan </strong></p> <p> 1. Kami berkomitmen untuk memastikan bahwa informasi yang diberikan kepada kami aman dan tidak dapat digunakan oleh pihak yang tidak berwenang. Dengan menggunakan Platform, Anda mengizinkan kami untuk mengambil tindakan apa pun yang dianggap perlu untuk melindungi informasi Anda yang dikumpulkan secara online untuk mencegah akses yang tidak sah. Namun, Harap dicatat bahwa Kami tidak dapat sepenuhnya mewakili keamanan dan tidak bertanggung jawab atas kerugian, termasuk namun tidak terbatas pada hilangnya data yang disebabkan oleh insiden di luar kendali kami. Karena itu, Kami menyarankan Anda secara teratur memperbarui Platform dan perangkat lunak Anda dan tidak mengungkapkan kata sandi Anda kepada siapa pun. </p> <p> 2. Anda dengan ini setuju dan menerima bahwa Kami dapat mengirim, menyimpan, menggunakan, dan memperlakukan Data Pribadi Anda di server yang terletak di pusat yang disetujui oleh kami. Pusat data tersebut dikelola oleh pihak ketiga. Namun, penggunaan informasi dan Data Pribadi sehubungan dengan penggunaan Platform akan diatur oleh Kebijakan Privasi ini sesuai dengan peraturan perundang-undangan yang berlaku. Kami akan menyimpan informasi pribadi Anda dan Data Pribadi setidaknya sampai permintaan khusus dibuat untuk menghapus akun Anda atau hingga periode masa berlakunya dalam undang-undang yang berlaku. </p> <p> <strong> L. Pertanyaan, keluhan, dan kontak </strong> </p> <p> Jika Anda memiliki pertanyaan lebih lanjut tentang kebijakan privasi ini, aturan kami, hak-hak Anda dan hubungan dengan Platform, silakan kirim email ke help@halodoc.com atau kami call center di 0855-746-77-403 atau 021-3110-6999. </p> </div>"
+		},
+		{
+			"header": "TERMS AND CONDITIONS OF USE",
+			"type": "label",
+			"key": "haloDocTerms",
+			"label": "<div><p><strong>HALODOC</strong></p><p><strong>SYARAT DAN KETENTUAN PENGGUNAAN </strong> </p> <p> <strong> <em> (Terakhir diperbarui: 26 November 2019) </em> </strong> </p> <p> PENTING: Sebagai pengguna Platform (sebagaimana didefinisikan di bawah), Anda harus membaca syarat dan ketentuan Penggunaan ini (&ldquo;<strong>Ketentuan Penggunaan</strong>&rdquo;) dan Kebijakan Privasi dengan cermat dan teliti sebelum mengunduh atau menggunakan fitur dan / atau layanan yang tersedia di Platform. </p> <p> Dengan mengunduh dan / atau menginstal dan / atau menggunakan Platform dan / atau menikmati Layanan kami, Anda setuju bahwa Anda telah membaca, memahami, mengakui, menyetujui dan menerima semua informasi, syarat, dan ketentuan penggunaan Platform dalam Ketentuan Penggunaan ini. Ketentuan Penggunaan ini merupakan perjanjian yang sah mengenai prosedur dan persyaratan untuk penggunaan Platform antara Anda dan administrator Platform, PT Media Dokter Investama (&ldquo;<strong>Kami</strong>&rdquo;).</p><p>Harap dicatat bahwa Ketentuan Penggunaan dan Kebijakan Privasi dapat diperbarui atau diperbarui dari waktu ke waktu. Harap hapus Aplikasi di perangkat elektronik Anda dan / atau minta penghapusan akun dan / atau jangan mengakses Platform dan / atau jangan gunakan Layanan kami jika Anda tidak setuju dengan Ketentuan Penggunaan ini (sebagaimana diperbarui dari waktu ke waktu). </p> <p> Kami berhak setiap saat untuk memodifikasi, menghapus, dan / atau menerapkan syarat dan ketentuan baru dari Ketentuan Penggunaan. Terus menggunakan Platform Anda akan dianggap sebagai penerimaan untuk mematuhi amandemen pada syarat dan ketentuan dari Ketentuan Penggunaan ini. </p> <p> <strong> 1. KETENTUAN UMUM </strong> </p> <p> a. Platform adalah aplikasi (Android atau iOS), aplikasi web (aplikasi yang dapat diakses melalui situs web), situs web yang dikelola oleh Kami sebagaimana diperbarui dari waktu ke waktu. </p> <p> b. Koneksi internet diperlukan untuk menggunakan Layanan. Semua biaya yang dikeluarkan dari koneksi perangkat elektronik Anda dengan jaringan internet sepenuhnya menjadi tanggung jawab Anda.</p> <p> c. Platform memfasilitasi Anda dengan pihak ketiga yang menyediakan layanan atau menjual barang kepada Anda seperti (tetapi tidak terbatas pada) dokter, farmasi, laboratorium, dan / atau layanan pengiriman (&ldquo;<strong>Penyedia Layanan</strong>&rdquo;).</p><p> d. Jenis layanan yang akan digunakan melalui Platform meliputi: </p> <p> (i) Mengobrol dengan Dokter (Bicara dengan Dokter); </p> <p> (ii) Beli Obat (Beli Obat); </p> <p> (iii) Dapatkan Tes Lab (Pemeriksaan Lab); </p> <p> (iv) Kunjungi Rumah Sakit); </p> <p> (v) Layanan Halodoc Go; </p> <p> (vi) Direktori Rumah Sakit; </p> <p> (vii) Layanan lain yang akan ditambahkan oleh kami dari waktu ke waktu </p> <p> (&ldquo;<strong>Layanan</strong>&rdquo;). </p> <p> e. Aplikasi web adalah fitur yang memfasilitasi pengguna untuk mengakses Layanan kami tanpa mengunduh Aplikasi (&ldquo;<strong>Aplikasi Web</strong>&rdquo;). Saat ini, Aplikasi Web hanya dapat digunakan untuk Beli Obat. </p> <p> f. Untuk menghindari keraguan, Kami bukan penyedia layanan untuk kesehatan, farmasi, fasilitas praktik medis, atau layanan pengiriman. Kami tidak mempekerjakan Penyedia Layanan dan Kami tidak bertanggung jawab atas tindakan dan / atau kelalaian oleh Penyedia Layanan. Platform ini hanya alat untuk memudahkan pencarian Layanan. </p> <p> g. Kami dapat menggunakan layanan pihak ketiga untuk layanan pembayaran. Karenanya, semua kegagalan sistem yang disebabkan oleh peristiwa atau masalah di luar kendali kami yang wajar terkait dengan layanan pembayaran yang disediakan oleh pihak ketiga bukan tanggung jawab kami. Namun, Kami akan mengerahkan upaya terbaik kami untuk membantu menyelesaikan semua masalah yang muncul. Penyedia layanan perbankan / layanan pembayaran yang dipilih oleh Anda dapat membebankan biaya tambahan kepada Anda untuk layanan yang diberikan. </p> <p> h. Kami tidak dalam posisi untuk memberikan saran kepada Anda ketika memilih dokter, farmasi, atau laboratorium yang dapat diakses melalui Platform. </p> <p> i. &ldquo; Beli Obat &rdquo; fitur dikelola oleh PT Mensa Medika Investama (&ldquo;<strong>PT MMI</strong>&rdquo;) dan terhubung dengan fitur GO-MED yang dikelola oleh PT Aplikasi Karya Anak Bangsa (&ldquo;<strong>GO-JEK</strong>&rdquo;) dalam Aplikasi GO-JEK sebagai pihak ketiga yang mengirimkan pesanan obat, peralatan medis, atau pasokan kesehatan rumah tangga kepada Anda. </p> <p> j. Platform memungkinkan Anda untuk mengirim permintaan Layanan ke Penyedia Layanan. Penyedia Layanan memiliki kebijakannya sendiri dan otoritas penuh untuk menerima atau menolak permintaan Anda untuk Layanan, yang berada di luar kendali kami dan bukan tanggung jawab kami. Jika Penyedia Layanan menerima permintaan Anda, Platform akan memberi tahu Anda dan memberikan informasi tentang Penyedia Layanan, termasuk nama Penyedia Layanan, nomor pemesanan dan kemampuan untuk menghubungi Penyedia Layanan melalui telepon. </p> <p> k. Kami berhak setiap saat mengubah, menghapus, menghapus, menambah dan / atau memperbarui fitur atau fasilitas di Platform. Terus menggunakan Platform Anda akan dianggap sebagai penerimaan terhadap amandemen, penghapusan, penghapusan, penambahan dan / atau pembaruan fitur atau fasilitas Platform. </p> <p> l. Anda dapat memberikan informasi tentang Data Pribadi dan riwayat medis, dan Kami akan menyimpan dan menampilkannya di akun Anda. Kerahasiaan data Anda dijamin dan akan digunakan oleh kami dan / atau Penyedia Layanan untuk tujuan interaksi dengan Dokter dan memesan obat-obatan termasuk layanan lain yang dilakukan dalam Platform dan / atau tujuan lain atas perjanjian Anda sesuai dengan peraturan perundang-undangan yang berlaku dan Kebijakan Privasi. </p> <p> m. Anda memahami dan setuju bahwa percakapan Anda dengan dokter di Platform akan secara otomatis disimpan dan diajukan untuk tujuan hukum dan peningkatan kualitas Layanan kami. Dengan menggunakan Platform, Anda mengakui dan menyetujui bahwa percakapan melalui panggilan video fitur, panggilan suara atau obrolan akan direkam. Kerahasiaan percakapan Anda terjamin dan tidak ada informasi yang akan diungkapkan. </p> <p> n. Anda memahami dan menyetujui bahwa percakapan Anda dengan layanan pelanggan Kami akan secara otomatis disimpan dan diajukan untuk tujuan hukum dan peningkatan kualitas Layanan kami. Kerahasiaan percakapan Anda terjamin dan tidak ada informasi yang akan diungkapkan. </p> <p> o. Anda memahami dan menyetujui bahwa percakapan Anda dengan layanan penyedia layanan kesehatan yang Anda hubungkan melalui nomor telepon di situs web kami akan secara otomatis disimpan dan diajukan untuk tujuan hukum dan peningkatan kualitas Layanan kami. Kerahasiaan percakapan Anda terjamin dan tidak ada informasi yang akan diungkapkan. </p> <p> p. Kami berhak untuk tidak memproses pendaftaran, membatasi atau menghentikan penggunaan Platform Anda jika Kami memiliki alasan untuk mencurigai bahwa Anda telah melanggar Ketentuan Penggunaan ini atau hukum yang berlaku. </p> <p> <strong> 2. SYARAT PENGGUNAAN PLATFORM </strong> </p> <p> a. Anda menyatakan bahwa Anda adalah individu yang diizinkan untuk menandatangani perjanjian yang mengikat berdasarkan hukum Republik Indonesia dan bahwa Anda berusia minimal 21 (dua puluh satu) tahun atau sudah menikah dan tidak ditempatkan di bawah perwalian atau tahanan. Kami berhak untuk menutup atau membatalkan akun Anda jika informasi tersebut tidak benar. Anda selanjutnya menyatakan dan menjamin bahwa Anda memiliki hak, wewenang dan kapasitas untuk menggunakan Layanan dan setiap saat akan mematuhi Ketentuan Penggunaan. Jika Anda mendaftar atas nama badan usaha, Anda juga menyatakan bahwa Anda berwenang bertindak untuk dan atas nama badan hukum tersebut dan untuk masuk ke dalam dan mengikat badan / badan hukum tersebut dengan Ketentuan Penggunaan Platform. </p> <p> b. Anda dapat menggunakan Platform dengan awalnya mendaftar dan memberikan informasi tentang Data Pribadi Anda seperti yang diminta dalam Platform (&ldquo;<strong>Data Pribadi</strong>&rdquo;). Informasi yang berkaitan dengan Data Pribadi hanya akan digunakan oleh kami dan / atau Penyedia Layanan untuk memberikan layanan dalam Platform dan untuk tujuan lain berdasarkan perjanjian Anda sesuai dengan hukum yang berlaku. Kebijakan Privasi terlampir (sebagaimana diperbarui dari waktu ke waktu) akan menjadi bagian yang tidak terpisahkan dari Ketentuan Penggunaan ini. Anda harus memberikan informasi yang lengkap dan akurat, memperbarui informasi, dan setuju untuk memberikan kepada kami setiap identitas bukti sebagaimana diminta secara wajar. Dalam hal terjadi perubahan pada Data Pribadi yang diberikan kepada kami, seperti, jika Anda mengubah nomor telepon Anda, Anda harus memperbarui rincian informasi Anda dengan mengirimkan permintaan Anda kepada kami. </p> <p> c. Setelah mendaftar di Platform, Anda akan menerima akun pribadi yang dapat diakses dengan One Time Password (OTP) yang akan dikirim ke nomor ponsel Anda. Anda berjanji untuk tidak menetapkan, mentransfer, atau memberi otorisasi kepada orang lain untuk menggunakan identitas Anda atau menggunakan akun Anda. Anda harus menjaga kerahasiaan kata sandi akun Anda dan setiap identifikasi yang diberikan kepada Anda untuk akun atau Data Pribadi Anda. Dalam hal pengungkapan kata sandi Anda bukan karena kesalahan kami, dengan cara apa pun yang menyebabkan penggunaan tidak sah dari Anda, transaksi atau pesanan layanan yang dilakukan melalui Platform akan tetap dianggap transaksi atau pesanan yang sah kecuali jika Anda telah memberi tahu kami masalah tersebut sebelum Layanan Penyedia membuat Layanan yang diminta. </p> <p> d. Anda harus melaporkan kepada kami jika Anda, untuk alasan apa pun, tidak memiliki kendali atas akun Anda. Anda bertanggung jawab atas penggunaan dan penyalahgunaan akun Anda di Platform oleh orang lain. </p> <p> e. Anda tidak diizinkan membahayakan, menyalahgunakan, mengubah, atau memodifikasi Platform dengan cara apa pun. Kami berhak untuk menutup atau membatalkan akun Anda dan melarang Anda untuk lebih lanjut menggunakan Platform jika Anda menggunakan Platform tanpa mematuhi Ketentuan Penggunaan ini. </p> <p> f. Anda memahami dan menyetujui bahwa penggunaan Platform oleh Anda juga tunduk pada Kebijakan Privasi Kami sebagaimana telah diubah dari waktu ke waktu. Dengan menggunakan Platform, Anda juga memberikan penerimaan yang diperlukan oleh Kebijakan Privasi kami. </p> <p> g. Anda berjanji bahwa Anda akan menggunakan Platform hanya untuk tujuan menerima Layanan. Anda tidak boleh menyalahgunakan atau menggunakan Platform untuk kegiatan ilegal, termasuk namun tidak terbatas pada pencucian uang, pencurian, penipuan, terorisme, atau tindakan curang lainnya. Anda juga berjanji bahwa Anda tidak akan menimbulkan ketidaknyamanan kepada orang lain atau membuat pesanan palsu melalui Platform. </p> <p> h. Dengan memberikan informasi kepada kami, Anda menyatakan bahwa Anda memiliki hak untuk memberikan kepada kami informasi apa pun untuk digunakan oleh kami dan Penyedia Layanan. </p> <p> i. Anda mengakui dan menyetujui bahwa setiap informasi dalam bentuk apa pun, termasuk namun tidak terbatas pada video, audio, gambar atau teks dalam Platform memiliki hak kekayaan intelektual sendiri (termasuk namun tidak terbatas pada merek dagang dan hak cipta). Anda tidak boleh menggunakan, memodifikasi, mengungkapkan distribusi, dan / atau membongkar hak kekayaan intelektual tanpa izin dari pemilik hak kekayaan intelektual seperti yang ditentukan oleh undang-undang yang berlaku. </p> <p> j. Saat mengakses dan menggunakan Platform termasuk setiap fitur dan layanan, Anda tidak diizinkan untuk: </p> <p> (i) menetapkan akun Anda di Platform ke pihak lain tanpa persetujuan kami sebelumnya. </p> <p> ( ii) mendistribusikan virus, spam atau teknologi serupa lainnya yang dapat merusak dan / atau membahayakan Platform dan pengguna lain. </p> <p> (iii) menyisipkan atau mentransfer fitur dalam Platform tanpa izin kami. </p> <p> (iv) memposting informasi atau aplikasi lain yang melanggar hak kekayaan intelektual pihak lain dalam Platform. </p> <p> (v) mengambil atau mengumpulkan Data Pribadi dari pengguna lain, termasuk tetapi tidak terbatas pada alamat email, tanpa persetujuan dari pengguna tersebut. </p> <p> (vi) menggunakan Platform untuk hal-hal yang dilarang oleh hukum dan hukum yang berlaku. </p> <p> (vii) menggunakan Platform untuk mendistribusikan iklan atau konten lainnya. </p> <p> k. Anda mengakui dan menyetujui bahwa tarif Layanan yang tercantum dalam Platform dapat berubah sewaktu-waktu. </p> <p> l. Anda memahami bahwa semua artikel tentang kesehatan dan gizi yang ditampilkan oleh kami adalah informasi umum dan hanya digunakan untuk mendidik konsumen. Setiap bagian dari artikel yang ditampilkan tidak dapat dianggap dan digunakan sebagai pengganti saran, diagnosis atau perawatan medis. Meskipun upaya untuk menampilkan data dan / atau informasi dibuat seakurat mungkin, Kami tidak bertanggung jawab atas semua kesalahan dan keterlambatan memperbarui data. atau informasi, atau semua kerugian yang ditimbulkan oleh tindakan apa pun yang berkaitan dengan penggunaan artikel, data / informasi, dan waktu yang disajikan dalam Platform. </p> <p> m. Anda memahami bahwa semua informasi obat yang kami tampilkan bersifat umum dan hanya untuk tujuan informatif. Kami tidak bertanggung jawab atas semua kesalahan dan keterlambatan memperbarui data atau informasi, atau semua kerugian yang ditimbulkan oleh tindakan apa pun yang berkaitan dengan penggunaan artikel, data / informasi, dan waktu yang disajikan dalam Platform. </p> <p> n. Platform memiliki tautan ke situs lain yang dioperasikan oleh pihak ketiga. Tautan ini tersedia untuk kenyamanan Anda dan hanya akan digunakan untuk memberikan akses ke situs pihak ketiga dan bukan untuk tujuan lain. Kami tidak menjamin kualitas, konten atau informasi tentang Produk atau layanan yang ditawarkan oleh situs lain yang dioperasikan oleh pihak ketiga. </p> <p> <strong> 3. LAYANAN </strong> </p> <p> <strong> A. Mengobrol dengan Fitur Dokter (Mengobrol dengan Dokter) </strong> </p> <p> (i) Fitur ini memfasilitasi dokter mitra kami sebagai Penyedia Layanan dalam interaksi dengan Anda melalui panggilan video, panggilan suara atau obrolan yang dapat diakses melalui Aplikasi dan Situs Web. </p> <p> (ii) Anda mengakui dan setuju bahwa fitur ini tidak menggantikan pemeriksaan dan perawatan dengan dokter secara umum atau kunjungan tatap muka. </p> <p> (iii) Kami akan melakukan apa saja yang mungkin sehingga mitra dokter yang mendaftar di Aplikasi dan / atau Situs Web dapat menanggapi pertanyaan Anda sesegera mungkin. Namun, Anda mengakui dan menyetujui bahwa platform ini tidak dimaksudkan untuk kondisi medis darurat. Kami tidak menyarankan Anda untuk menggunakan Aplikasi dalam kondisi medis darurat. </p> <p> (iv) Layanan kami tidak memaksa atau mengikat. Keputusan untuk menggunakan Layanan sepenuhnya berada di tangan Anda. Anda bebas memilih untuk menggunakan Penyedia Layanan lainnya. Platform hanyalah fasilitator untuk interaksi antara dokter yang terdaftar dengan kami sebagai Penyedia Layanan. </p> <p> (v) Anda mengerti bahwa Anda harus memberikan informasi dan menjelaskan gejala atau masalah fisik yang Anda miliki dengan jelas dan akurat ketika memiliki chanet dengan dokter mitra kami melalui Obrolan dengan fitur Dokter. </p> <p> <strong> B. Fitur Beli Obat </strong> </p> <p> (i) Fitur ini terhubung dengan fitur GO-MED di Aplikasi GO-JEK sebagai pihak ketiga yang mengirimkan pesanan obat tanpa resep (titik hijau), terbatas pada batas obat-counter (titik biru), obat resep (titik merah), vitamin non-obat dan peralatan medis, makanan dan minuman non-obat (&ldquo;<strong>Produk</strong>&rdquo;) untuk Anda. </p> <p> (ii) Fitur ini memfasilitasi layanan pengiriman Produk untuk Anda. </p> <p> (iii) Fitur ini tidak dapat digunakan untuk pengiriman psikotropika dan narkotika yang dikenal sebagai obat daftar O (kategori opiat / opium), pendahulu obat-obatan dan obat-obatan aborsi kehamilan. </p> <p> (iv) Anda dapat menikmati fitur ini melalui layanan Web App tanpa mengunduh Aplikasi tempat dokter yang meresepkan dan layanan pelanggan kami akan memesan obat yang diresepkan setelah Anda menerimanya. </p> <p> <strong> C. Fitur Layanan Pengiriman Obat Halodoc Go </strong> </p> <p> Fitur Beli Obat dapat dihubungkan dengan layanan pengiriman obat tempat Kami menyediakan sistem yang menghubungkan mitra pengiriman logistik kami dengan unit instalasi farmasi rumah sakit tempat Anda memiliki Pemeriksaan medis dan / atau perawatan Anda yang merupakan mitra kami untuk mengantarkan obat yang diresepkan oleh dokter kepada Anda (&ldquo;<strong>Layanan Pengiriman Obat Halodoc Go</strong>&rdquo;). </p> <p> <strong> D. Fitur Direktori Rumah Sakit </strong></p> <p> (i) Fitur ini dapat membantu menemukan rumah sakit yang sesuai dengan kebutuhan Anda. </p> <p> (ii) Informasi tentang rumah sakit dan dokter yang berlatih di rumah sakit dikumpulkan dari sumber yang ada. Kami tidak mewakili keakuratan informasi tentang rumah sakit dan dokter yang berpraktik di rumah sakit di Platform kami. </p> <p> <strong> E. Dapatkan Fitur Tes Laboratorium (Dapatkan Tes Lab) </strong> </p> <p> (i) Fitur ini memfasilitasi pemeriksaan laboratorium jika Anda tidak dapat langsung mengunjungi laboratorium tempat proses mengeluarkan darah (pengumpul spesimen darah pasien) bekerja di laboratorium. </p> <p> (ii) Anda dapat memilih jenis pemeriksaan laboratorium berdasarkan paket yang tersedia di fitur Dapatkan Tes Laboratorium (Dapatkan Tes Lab) dengan bantuan dari dokter. Dalam hal demikian, Anda tidak dapat mengubah konten dari paket. </p> <p> (iii) Ketersediaan jenis paket dan jadwal jadwal pemeriksaan laboratorium yang dipilih oleh Anda akan disesuaikan dengan jadwal mitra laboratorium kami. </p> <p> <strong> F. Kunjungi Fitur Rumah Sakit </strong> </p> <p> Melalui fitur ini, Anda dapat membuat pengaturan pertemuan dengan dokter di sistem kami. Meskipun Kami akan melakukan yang terbaik setiap saat untuk memastikan bahwa Anda akan menerima konfirmasi rapat, Kami tidak dapat memastikan bahwa Anda akan selalu menerima konfirmasi tersebut. Lebih lanjut, Kami tidak bertanggung jawab jika janji pertemuan seperti itu dibatalkan oleh rumah sakit atau dokter karena alasan apa pun. </p> <p> <strong> 4. TRANSAKSI ANDA </strong> </p> <p> (a) Untuk bertransaksi di Platform, Anda dapat menggunakan metode pembayaran apa pun yang tersedia di Platform. Khusus untuk transaksi melalui Aplikasi Web, saat ini Anda dapat mentransfer ke rekening bank Kami. </p> <p> (b) Saldo Anda dalam Aplikasi dapat digunakan untuk Obrolan dengan fitur Dokter (Obrolan dengan Dokter) dan Beli Obat fitur. </p> <p> (c) Saldo Anda <strong> tidak dapat </strong> <strong> ditugaskan </strong> atau dicairkan dalam bentuk apa pun. </p> <p> (d) Anda dapat isi saldo Anda hingga Rp2.000.000,00 (dua juta Rupiah). </p> <p> (e) Jika Anda mencurigai adanya kegiatan tidak adil dan / atau perselisihan sehubungan dengan akun Anda, Anda dapat segera menghubungi kami untuk tindakan cepat sesuai kebutuhan . </p> <p> (f) Jika Kami harus mengembalikan saldo Anda dikurangi dengan kesalahan pada bagian kami, Kami hanya akan mengembalikan dalam bentuk saldo ke akun Anda. Kami juga dapat menunda semua transaksi dari akun Anda dan menunda transaksi jika Kami mengidentifikasi masalah pada akun Anda atau transaksi tertentu. </p> <p> (g) Anda memahami dan menyetujui bahwa periode keluhan pada transaksi akan maksimal. 7 (tujuh) hari kalender setelah transaksi selesai. </p> <p> (h) Anda memahami dan menyetujui bahwa keluhan yang diajukan lebih dari 7 (tujuh) hari kalender setelah transaksi selesai bukan merupakan tanggung jawab kami. </P> <p> <strong> 5. PROSEDUR TRANSAKSI </strong></p><p> <strong> A. Mengobrol dengan Fitur Dokter (Mengobrol dengan Dokter) </strong> </p> <p> (i) Anda akan dikenai tarif yang ditentukan oleh dokter yang bersangkutan. Anda hanya harus membayar tarif per sesi, termasuk obrolan, panggilan video atau panggilan suara. Tidak setiap sesi obrolan tersedia bagi Anda untuk melakukan panggilan video dan panggilan suara, ini akan tergantung pada ketersediaan masing-masing dokter pada saat kontak. </p> <p> ii) Kami akan mengurangi saldo Anda dalam Aplikasi yang dihitung setelah layar obrolan ditampilkan di layar ponsel Anda. Ketika Anda terhubung dengan dokter, dokter dapat memanggil dan / atau melakukan panggilan video dari Aplikasi dokter kepada Anda. Satu Obrolan dengan sesi Dokter (Obrolan dengan Dokter) dihitung dari 30 (tiga puluh) menit hingga 1 (satu) jam dari awal sesi atau sampai Anda atau dokter melakukan sesi akhir. </p> <p> (iii) Pada saat kontak dokter melalui obrolan, Anda dapat mengirim gambar ke dokter terkait dengan kondisi medis Anda dengan format png, jpg, dan bitmap. </p> <p> (iv) Setelah Obrolan dengan sesi Dokter (Obrolan dengan Dokter) selesai, dokter dapat memberikan Catatan Dokter dan Rekomendasi Obat. Catatan Dokter adalah catatan dari sesi Obrolan dengan Dokter (Obrolan dengan Dokter) dan saran yang berkaitan dengan kondisi medis Anda. Rekomendasi Pengobatan adalah rekomendasi yang berisi saran obat atau perawatan medis untuk Anda. Rekomendasi Obat adalah hanya rekomendasi dan <strong> BUKAN </strong> resep obat. </p> <p> (v) Setelah Obrolan dengan sesi Dokter (Obrolan dengan Dokter) selesai, dokter dapat mengambil tindakan Tindak Lanjut untuk memeriksa kondisi kesehatan Anda setelah Obrolan dengan sesi Dokter (Obrolan dengan Dokter). </p> <p> (vi) Tidak akan ada pengembalian uang atau permintaan pembatalan transaksi setelah Obrolan dengan sesi Dokter (Obrolan dengan Dokter) kedaluwarsa atau selesai. </p> <p> (vii) Kami berhak memblokir atau membatalkan akun Anda jika terjadi penyalahgunaan Obrolan dengan fitur Dokter (Obrolan dengan Dokter) melalui akun Anda. </p> <p> ( viii) Untuk penyakit yang memerlukan kontak langsung atau pemeriksaan langsung dari dokter spesialis, dokter dapat menyediakan dokter rujukan sebagai rujukan Anda. Kami tidak bertanggung jawab atas keakuratan nama, lokasi praktik, pengalaman, spesialisasi atau hasil konsultasi dengan dokter yang direkomendasikan oleh dokter kami melalui dokter rujukan. </p> <p> <strong> B. Fitur Beli Obat </strong> </p> <p> (i) Melalui fitur ini, Anda dapat memesan Produk yang akan dibeli dan dikirim melalui fitur Beli Obat di Aplikasi. </p> <p> (ii) Obat yang akan dibeli oleh Anda termasuk obat bebas (titik hijau), obat bebas terbatas (titik biru), obat resep dokter (titik merah), vitamin non-obat dan peralatan medis, makanan dan minuman non-obat-obatan. </p> <p> (iii) Anda akan dikenakan harga barang dan tarif pengiriman sebagaimana tercantum dalam Platform dalam pemberitahuan &ldquo; Konfirmasi Pesanan &rdquo ;. </p> <p> (iv) Waktu pengiriman dan ketersediaan obat bervariasi berdasarkan stok obat yang dimiliki oleh mitra farmasi kami. </p> <p> (v) Jika pesanan telah diambil oleh mitra apotek kami dan / atau dikirim oleh mitra kurir kami, Anda tidak dapat membatalkan pesanan yang dibuat. </p> <p> (vi) Nilai transaksi Anda melalui fitur Beli Obat untuk satu transaksi tidak kurang dari Rp. 10.000, - (sepuluh ribu Rupiah) dan tidak lebih dari Rp. 2.000.000, - (dua juta Rupiah). </p> <p> (vii) Harga belum termasuk Pajak Pertambahan Nilai (PPN). </p> <p> (viii) Kami tidak menjamin ketersediaan pesanan Anda (baik pesanan Anda sendiri atau yang dipesan oleh dokter pemberi resep atau layanan pelanggan kami melalui Web App), ini bergantung pada pembaruan informasi tentang ketersediaan stok oleh mitra Farmasi kami. </p> <p> (ix) Semua pesanan Produk dapat dilakukan kapan saja. </p> <p> (x) Khusus untuk obat dengan resep dokter, Anda harus melampirkan dokumen dalam bentuk pemindaian / foto resep dokter yang diunggah melalui Upload fitur Resep (Unggahan Resep) di Platform untuk memverifikasi pesanan ke mitra farmasi kami. </p> <p> (xi) Resep yang dibuat oleh dokter hanya dapat digunakan 1 (satu) kali dan Anda dilarang mengunggah foto resep lebih dari 1 (satu) kali atau mengklaim kembali resep ke apotek lain jika resep tersebut diklaim melalui Aplikasi. Kami tidak bertanggung jawab atas kerugian dan risiko yang timbul atau timbul dari obat yang dibeli melalui penerimaan resep. Kami memiliki hak untuk membatalkan secara sepihak jika pesanan Produk dengan resep dokter tidak mematuhi undang-undang yang berlaku. </p> <p> (xii) Anda harus menyerahkan resep asli, yang digunakan sebagai dasar untuk pembelian obat-obatan, untuk kami akan diteruskan ke mitra apotek yang memproses pesanan Anda. </p><p> <strong> C. Fitur Layanan Pengiriman Obat Halodoc </strong> </p> <p> (i) Setelah Anda menjalani pemeriksaan medis di mitra rumah sakit kami, Anda dapat memilih apakah obat yang diresepkan untuk Anda dikirimkan ke lokasi Anda dengan menggunakan Halodoc Go Layanan Pengiriman Obat. </p> <p> (ii) Dengan menggunakan layanan ini, Anda setuju untuk mengisi formulir layanan pengiriman. </p> <p> (iii) Anda setuju dan mengakui bahwa data Anda akan dimasukkan ke dalam sistem oleh personel kami di lokasi mitra rumah sakit kami untuk memesan mitra kurir kami. </p> <p> (iv) Sesuai dengan prosedur operasi standar kami, dalam situasi normal, layanan pengiriman obat Halodoc Go hanya membutuhkan waktu 1 (satu) jam setelah pengambilan obat oleh mitra kurir kami dari lokasi mitra rumah sakit kami ke lokasi Anda. Namun, dalam hal peristiwa atau keadaan di luar kendali kami yang wajar (termasuk namun tidak terbatas pada cuaca buruk, masalah kendaraan kurir, demonstrasi demonstrasi, perutean ulang dan lain-lain), Anda memahami bahwa layanan pengiriman obat Halodoc Go mungkin memerlukan lebih dari 1 (satu) jam. </p> <p> <strong> D. Dapatkan fitur Uji Lab (Dapatkan Tes Lab) </strong></p> <p> (i) Anda harus secara akurat melengkapi data untuk mendapatkan pesanan Tes Lab (Dapatkan Tes Lab). Jika Kami dan / atau mitra laboratorium menemukan ketidakkonsistenan dalam detail Anda, Kami berhak membatalkan pesanan Anda. </p> <p> (ii) Selain memesan sendiri, Anda dapat memesan Get a Lab Test (Get a Lab Uji) melalui orang lain (&ldquo;<strong>Pesanan Pihak Ketiga</strong>&rdquo;). Anda menyatakan bahwa Anda telah menerima penerimaan yang diperlukan dari memesan pihak ketiga sehubungan dengan layanan termasuk Ketentuan Penggunaan dan Kebijakan Privasi ini. </p> <p> (iii) Dapatkan Tes Lab (Get a Lab Test) akan dilakukan sesuai dengan prosedur umum dari mitra laboratorium kami. </p> <p> (iv) Harga yang tercantum dalam Platform pada saat pemesanan termasuk semua biaya (termasuk Dapatkan Biaya Tes Laboratorium dan transportasi flebotomi dari lokasi laboratorium ke lokasi Anda). </p> <p> (v) Pembayaran untuk Tes Laboratorium (Get a Lab Test) dapat dilakukan secara tunai pada saat pengiriman, baik tunai, kartu debit, atau kartu kredit langsung ke proses mengeluarkan darah setelah pemeriksaan kesehatan selesai. </p> <p> (vi) Hasil pemeriksaan laboratorium akan diberikan oleh laboratorium mitra kami kepada Anda dalam periode yang ditetapkan dalam prosedur standar mitra laboratorium kami. </p> <p> (vii) Anda mengakui dan setuju bahwa untuk kenyamanan Anda, hasil pemeriksaan laboratorium akan diberikan dalam format digital dan diunggah ke akun Anda untuk dilihat oleh Anda (&ldquo;<strong>Hasil Pemeriksaan Lab</strong>&rdquo;). </p> <p> (viii) Dengan menggunakan Get a Lab Test (Get a Lab Test), Anda mengakui dan setuju bahwa Hasil Pemeriksaan Lab akan disimpan ke dalam sistem kami untuk dokumentasi dengan kerahasiaan terjamin menggunakan sistem keamanan standar yang ditetapkan oleh yang berlaku peraturan perundang-undangan di Indonesia. Dalam hal Pesanan Pihak Ketiga, Hasil Pemeriksaan Lab dari pemesanan pihak ketiga akan diunggah ke akun Anda. Anda mengakui dan menyetujui bahwa jika perlu, Kami dapat menerima akses ke konten yang berkaitan dengan Hasil Pemeriksaan Lab dan Kami dapat menggunakan abstrak atau metadata dalam Hasil Pemeriksaan Lab untuk tujuan mengembangkan Platform. </p> <p> (ix) Anda dapat juga meminta hardcopy dari mitra laboratorium kami. Biaya yang dikeluarkan untuk permintaan tersebut harus dibayar oleh Anda. </p> <p> (x) Semua konten dari Hasil Pemeriksaan Lab akan menjadi tanggung jawab penuh dari mitra laboratorium kami. </p> <p> <strong> E. Kupon Promo </strong> </p> <p> (i) Pada waktu tertentu, Kami dapat menyediakan program promosi kepada Anda dalam bentuk kupon diskon untuk setiap pembelian dengan jumlah nominal tertentu. Jika dalam kondisi tertentu, kupon diskon tidak dapat digunakan karena tidak tersedianya Produk yang dipesan, baik sebagian atau keseluruhan, Kami akan memberikan kupon pengganti untuk digunakan dalam transaksi berikutnya. </p> <p> (ii) Kami berhak, tanpa pemberitahuan sebelumnya, membatalkan kupon dalam kasus dugaan penipuan atau pelanggaran oleh Anda atas Ketentuan. Penggunaan dan hukum yang berlaku di Republik Indonesia. Dalam kasus pembatalan tersebut, Kami tidak akan memberikan kompensasi dalam bentuk apa pun. </p> <p> </p> <p> <strong> 6. PEMBATASAN TANGGUNG JAWAB </strong></p> <p> (a) Kami tidak bertanggung jawab atas default, kematian, kerusakan atau kerugian, langsung atau tidak langsung, material atau immaterial yang disebabkan oleh interaksi antara Penyedia Layanan dengan Anda melalui Platform. Kami tidak bertanggung jawab atas kesalahan atau tindakan apa pun yang dilakukan oleh Penyedia Layanan selama Layanan. Penyedia Layanan hanya mitra kami, BUKAN karyawan, agen, atau perwakilan kami. </p> <p> (b) Keakuratan dokter dalam memberikan Rekomendasi Pengobatan akan tergantung pada informasi yang Anda berikan. Kami tidak bertanggung jawab atas konten dan / atau representasi dalam percakapan yang dilakukan oleh Anda dan dokter menggunakan panggilan video, panggilan suara, fitur obrolan, Catatan Dokter, Rekomendasi Kedokteran, di Platform, fitur-fitur tersebut adalah percakapan pribadi dan interaksi antara Anda dan dokter dan jelas di luar kendali kami, semua perselisihan tentang konten dan / atau representasi dari percakapan dan interaksi antara Anda dan dokter dalam fitur tersebut, akan menjadi tanggung jawab Anda dan Anda setuju untuk membela dan membuat kami tidak berbahaya dari dan terhadap segala dan semua klaim, tuntutan hukum, dan konsekuensi hukum. </p> <p> (c) Dengan menggunakan Platform, Anda setuju bahwa Kami tidak bertanggung jawab kepada Anda atau pihak lain atas semua kerugian yang disebabkan oleh tindakan yang diambil oleh Anda atau pihak lain berdasarkan pada obat-obatan, vitamin, peralatan medis dan perintah Get a Lab Test (Get a Lab Test) melalui Platform. Ketentuan di atas akan tetap berlaku bahkan jika Anda telah berhenti menggunakan Platform. </p> <p> (d) Dengan menggunakan Platform, Anda setuju bahwa Kami tidak bertanggung jawab atas bahan dan / atau efek obat dan / atau peralatan medis yang dipesan. </p> <p> (e) Dengan menggunakan fitur Aplikasi Beli Obat, Anda setuju bahwa Kami tidak bertanggung jawab atas kerusakan atau kehilangan pesanan Anda dalam pengiriman melalui mitra kurir kami dan Kami tidak bertanggung jawab atas kualitas Produk, prosedur administrasi Produk dan / atau kesalahan dalam terjemahan resep oleh mitra Farmasi kami. </p> <p> (f) Dengan menggunakan Layanan Pengiriman Obat Halodoc, Anda setuju bahwa Kami tidak bertanggung jawab atas diagnosis dokter dari mitra rumah sakit kami, kualitas Produk, prosedur administrasi Produk dan / atau kesalahan dalam terjemahan resep oleh unit farmasi mitra rumah sakit kami. </p> <p> (g) Dengan menggunakan Layanan Pengiriman Obat Halodoc Go, Anda setuju bahwa Kami tidak bertanggung jawab atas kesalahan lokasi atau penerima Produk yang dikirim disebabkan oleh ketidaklengkapan dan / atau kesalahan dalam data yang diberikan kepada personel kami di mitra rumah sakit kami. </p> <p> (h) Dengan menggunakan fitur Direktori Rumah Sakit, Anda memahami bahwa Anda memiliki hak penuh untuk memilih rumah sakit mana saja yang ada sesuai dengan kebutuhan dan preferensi Anda. </p> <p> (i) Dengan menggunakan fitur Aplikasi Uji Lab (Get a Lab Test), Anda setuju dan memahami bahwa Kami BUKAN laboratorium kesehatan atau Penyedia Layanan atau sejenisnya dan BUKAN pengecer atau agen atau sejenisnya (termasuk waralaba) dari laboratorium kesehatan tertentu, dan oleh karena itu setiap masalah yang berkaitan dengan, hasil pemeriksaan laboratorium, termasuk Dapatkan Tes Lab oleh mitra laboratorium kami, atau kasus terkait lainnya TIDAK akan menjadi tanggung jawab kami. </p> <p> (j) Anda harus meminta penerimaan dari memesan pihak ketiga memesan Uji Lab (Get a Lab Test) oleh Anda dan bertanggung jawab atas kerahasiaan rekam medis pihak ketiga yang memesan dalam akun Halodoc Anda. Kami akan dibebaskan dan dinyatakan tidak berbahaya dari dan terhadap klaim, tuntutan, dan tuntutan dari memesan pihak ketiga yang muncul dari catatan medis pihak ketiga yang dipesan sebagaimana diunggah dan disimpan di akun Halodoc Anda. </p> <p> (k) Dengan menggunakan Fitur Rekomendasi Obat, Anda mengakui dan menyetujui bahwa Rekomendasi Obat berasal dari pemeriksaan oleh dokter kepada Anda. Kami tidak bertanggung jawab dan Kami akan dibebaskan dan dinyatakan tidak berbahaya dari dan terhadap setiap dan semua klaim, tuntutan, dan tuntutan untuk bahan-bahan dan / atau penggunaan dan / atau efek obat yang diberikan oleh dokter melalui Rekomendasi Pengobatan. </p> <p> (l) Mitra apotek kami atau apotek fisik memiliki kebijakannya sendiri dalam menggunakan Rekomendasi Obat. Oleh karena itu, Kami tidak bertanggung jawab atas penolakan Rekomendasi Obat oleh mitra farmasi kami atau farmasi fisik. </p> <p> (m) Dengan menggunakan fitur Kunjungi Rumah Sakit, Anda setuju dan memahami bahwa Kami tidak bertanggung jawab atas pembatalan memenuhi janji temu atau perubahan dalam jadwal janji temu atau perubahan dalam biaya konsultasi yang dibebankan oleh rumah sakit atau tentang dokter. </p> <p> <strong> 7. HAK KEKAYAAN INTELEKTUAL </strong> </p> <p> (a) Kami adalah satu-satunya pemilik nama, ikon, dan logo Halodoc termasuk Obrolan dengan fitur Dokter (Obrolan dengan Dokter) dan Dapatkan Tes Laboratorium (Dapatkan Tes Laboratorium) Uji Lab) dalam Aplikasi, yang merupakan hak cipta dan merek dagang yang dilindungi oleh undang-undang Republik Indonesia. Dilarang keras menggunakan, mengubah atau menempatkan nama, ikon, logo, atau tanda tanpa izin tertulis dari kami. </p> <p> (b) PT MMI adalah pemilik tunggal nama, ikon, dan logo &ldquo; Beli Obat &rdquo; dan pemegang sah kekayaan intelektual atas nama, ikon, dan logo &ldquo; Beli Obat &rdquo; dalam Aplikasi, yang merupakan hak cipta dan tanda yang dilindungi oleh hukum. Menggunakan, memodifikasi atau menempatkan nama, ikon, logo, atau tanda tanpa izin tertulis sangat dilarang oleh PT MMI. </p> <p> (c) GO-JEK adalah pemilik tunggal dari nama, ikon, dan logo &ldquo ; Go-Med.com &rdquo;, &ldquo; Go-Med &rdquo;, dan pemegang sah kekayaan intelektual nama, ikon dan logo &ldquo; Go-Med.com &rdquo;, &ldquo; Go-Med &rdquo;, adalah hak cipta dan tanda dilindungi oleh hukum. Menggunakan, memodifikasi atau menempatkan nama, ikon, logo, atau tanda tanpa izin tertulis sangat dilarang oleh GO-JEK. </p> <p> (d) Semua hak kekayaan intelektual dalam Platform berdasarkan hukum Republik Indonesia, termasuk kepemilikan hak kekayaan intelektual dari semua kode sumber Platform dan hak kekayaan intelektual yang terkait dengan Platform. Anda dilarang melakukan pelanggaran hak kekayaan intelektual di Platform, termasuk membuat modifikasi, karya turunan, adaptasi, duplikat, menyalin, menjual, mereproduksi, meretas, dan / atau mengeksploitasi Platform termasuk penggunaan Platform dari akses yang tidak sah, peluncuran otomatis program atau skrip, atau program apa pun yang dapat menghambat operasi dan / atau kinerja Platform, atau dengan cara apa pun mereproduksi atau menghindari struktur navigasi atau presentasi dari Platform atau kontennya. </p> <p> ( e) Anda hanya diizinkan menggunakan Platform semata-mata untuk kepentingan pribadi, non-komersial, non-eksklusif yang tidak dapat ditetapkan, ditransfer, atau disublisensikan. </p> <p> (f) Kami memiliki hak penuh untuk mengambil tindakan hukum apa pun terhadap pelanggaran oleh Anda terkait dengan hak kekayaan intelektual di Platform. </p> <p> <strong> 8. ADVERTISEMENT </strong> </p> <p> Platform dapat berisi iklan tentang produk dan / atau layanan yang disediakan oleh pihak ketiga (&ldquo;<strong>Iklan</strong>&rdquo;). Semua informasi tentang Iklan disediakan oleh pengiklan. Kami tidak memberikan dukungan untuk Iklan apa pun. Kami tidak bertanggung jawab atas Iklan atau informasi apa pun yang terkandung dalam Iklan. Komunikasi atau kesepakatan antara Anda dan pengiklan dan setiap persyaratan, ketentuan, jaminan atau pernyataan yang berkaitan dengan transaksi semata-mata hubungan antara Anda dengan pengiklan. </p> <p> </p> <p> </p> <p> <strong> 9. PEMBERITAHUAN </strong> </p> <p> (a) Semua pemberitahuan atau permintaan informasi kepada kami akan diproses lebih lanjut jika dibuat secara tertulis dan dikirimkan ke alamat kami di: <strong> Gedung Mensa 2 Lt. 4, Jl. H.R. Rasuna Said Kav B-34, Jakarta Selatan </strong> atau alamat email kami di: help@halodoc.com atau call center kami di 0855-746-77-403 atau 021-3110-6999. </p> <p> (b) Semua pemberitahuan dan / atau permintaan akan diproses jika diberikan secara pribadi, dikirim melalui kurir, surat terdaftar, atau alamat email yang Anda berikan kepada kami melalui posting pemberitahuan atau permintaan di Platform yang dapat diakses oleh publik tanpa biaya tambahan. Pemberitahuan kepada Anda akan dianggap diterima dengan benar jika: </p> <p> 1) Kami dapat menunjukkan bahwa pemberitahuan tersebut, baik dalam bentuk fisik atau elektronik, telah dikirimkan kepada Anda; atau </p> <p> 2) Kami telah memposting pemberitahuan tersebut di Platform yang dapat diakses oleh publik tanpa biaya, </p> <p> <strong> 10. KEAMANAN PLATFORM </strong> </p> <p> Kami akan setiap saat mengerahkan upaya wajar kami untuk menjaga Platform berfungsi dan berjalan dengan lancar. Namun, Kami tidak bertanggung jawab dan tidak akan bertanggung jawab atas tidak tersedianya Platform dan / atau layanan fitur dengan alasan apa pun, termasuk namun tidak terbatas pada pemeliharaan atau masalah teknis. Namun, Anda mengakui dan menyetujui bahwa transmisi atau akses internet tidak dapat terus-menerus membuat transaksi pembayaran yang aman dan pribadi dan oleh karena itu setiap pesan atau informasi yang dikirim atau digunakan oleh Anda di Platform dapat dibajak atau diambil oleh pihak ketiga yang tidak sah. </p> <p> <strong> 111. TANPA GARANSI </strong></p> <p> Platform ini tersedia di &ldquo; seperti halnya &rdquo; dasar dalam arti bahwa Anda mengakui dan menyetujui bahwa semua risiko yang timbul dari penggunaan fitur Platform oleh Anda akan sepenuhnya menjadi tanggung jawab Anda dan Anda tidak memiliki hak untuk meminta kompensasi apa pun dari kami. Kami tidak membuat atau memberikan representasi atau garansi berikut: </p> <p> (a) Bahwa Platform bebas dari kesalahan dan / atau cacat atau ketika dioperasikan dalam kombinasi dengan perangkat keras, perangkat lunak, sistem atau data lainnya termasuk yang kesalahan dan / atau cacat pada Platform akan diperbaiki. </p> <p> (b) ketersediaan dan keandalan Platform atau server yang mendukung Platform, bebas dari virus dan komponen berbahaya lainnya. </p> <p> ( c) keamanan, ketepatan waktu, kualitas, kompatibilitas, ketersediaan, keakuratan, dan kelengkapan fitur Platform. </p> <p> (d) Fitur dalam Platform akan sesuai dengan harapan dan kebutuhan Anda. </p> <p> (e) Kualitas Produk, fitur, dan informasi yang tersedia akan memenuhi harapan dan kebutuhan Anda. </p> <p> <strong> 12. TUTUP </strong> </p> <p> (a) Hubungan kami dengan Anda adalah hubungan independen dan tidak ada agen, kemitraan, usaha patungan, karyawan-majikan atau pemilik franchisee-franchisor yang akan dibuat dari Ketentuan Penggunaan ini. </p> <p> (b) Judul yang dimasukkan dalam Ketentuan Penggunaan ini akan dibuat untuk referensi saja dan tidak akan membentuk, membatasi, menjelaskan atau menjelaskan konten artikel. </p> <p> (c) Kami memesan hak untuk menyelidiki dan mengklaim hak kami terhadap setiap pelanggaran terhadap ketentuan penggunaan ini sejauh diizinkan oleh hukum. Anda dengan ini mengakui bahwa Kami memiliki hak untuk memantau akses ke situs dan Platform untuk memastikan kepatuhan dengan ketentuan penggunaan ini, atau untuk mematuhi peraturan atau perintah pengadilan, badan administratif atau badan pemerintah lainnya. </p> <p> (d) Pengguna tidak boleh terlibat dalam pencucian uang dan / atau menggunakan dana dari sumber terlarang. Kami memiliki hak untuk melaporkan transaksi yang diduga atau diduga sebagai pencucian uang kepada otoritas terkait. </p> <p> (e) Kami berhak, tanpa pemberitahuan sebelumnya, untuk mengambil tindakan apa pun yang diperlukan dalam kasus manipulasi / penipuan, seperti menutup membatalkan akun, menarik subsidi, menarik cashback, membatalkan transaksi, menyimpan dana, termasuk dalam kasus dugaan penipuan, pencucian uang atau pelanggaran yang dibuat oleh Anda tentang ketentuan penggunaan dan hukum Republik Indonesia. </p> <p> (f) Ketentuan penggunaan ini akan diatur oleh dan ditafsirkan sesuai dengan hukum Republik Indonesia dan Anda sepenuhnya setuju bahwa ketentuan pasal 1266 KUH Perdata dan undang-undang lainnya aturan yang mensyaratkan persetujuan atau otorisasi pengadilan untuk mengakhiri Ketentuan Penggunaan tidak berlaku untuk Ketentuan Penggunaan ini. </p> <p> (g) Semua perselisihan terkait dengan Ketentuan Penggunaan ini akan diselesaikan secara damai atau dirujuk ke Badan Arbitrase Nasional Indonesia (BANI), sesuai ketentuan ce dengan aturan atau prosedur saat ini di BANI. Jika kedua pihak gagal menyelesaikan perselisihan melalui BANI, perselisihan tersebut akan diserahkan ke yurisdiksi Pengadilan Negeri Jakarta Selatan.</p><div>"
+		},
+		{
+			"type": "label",
+			"key": "appointment_confirmed",
+			"label": "Penunjukan Dikonfirmasi"
+		},
+		{
+			"type": "label",
+			"key": "appointment_accept",
+			"label": "Permintaan janji temu ini diterima oleh Dokter"
+		},
+		{
+			"type": "label",
+			"key": "dear",
+			"label": "terhormat,"
+		},
+		{
+			"type": "label",
+			"key": "start_consultation",
+			"label": "Mulai Konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_request",
+			"label": "Permintaan"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_make_request",
+			"label": "Apakah Anda ingin mengajukan Permintaan"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_proceed",
+			"label": "Mengonfirmasi"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_doctor_joined_chat",
+			"label": "Dokter bergabung dalam obrolan"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_joincall",
+			"label": "Gabung panggilan"
+		},
+		{
+			"type": "label",
+			"key": "emptyChatErrorMsg",
+			"label": "Tidak ada percakapan dengan dokter"
+		},
+		{
+			"type": "label",
+			"key": "not_available",
+			"label": "Tidak tersedia"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_consultation_history",
+			"label": "Riwayat Konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_doctor_chat",
+			"label": "Lihat konsultasi dengan dokter"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_attachments",
+			"label": "Lampiran"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_video",
+			"label": "Video"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_audio",
+			"label": "Suara"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_home",
+			"label": "rumah"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_speciality",
+			"label": "Spesialis"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_drName",
+			"label": "Name : Dr."
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_years",
+			"label": "tahun"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_year",
+			"label": "tahun"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_active",
+			"label": "aktif"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_Dr",
+			"label": "Dr."
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_Rp",
+			"label": "Rp."
+		},
+		{
+			"type": "label",
+			"key": "requested",
+			"label": "diminta"
+		},
+		{
+			"type": "label",
+			"key": "likes",
+			"label": "Suka"
+		},
+		{
+			"type": "label",
+			"key": "Experience",
+			"label": "Pengalaman"
+		},
+		{
+			"type": "label",
+			"key": "GraduatedFrom",
+			"label": "Lulusan"
+		},
+		{
+			"type": "label",
+			"key": "PlacesOfPractice",
+			"label": "Tempat Praktek"
+		},
+		{
+			"type": "label",
+			"key": "payment",
+			"label": "Pembayaran"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationFee",
+			"label": "Biaya konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "Recent",
+			"label": "Baru"
+		},
+		{
+			"type": "label",
+			"key": "CategoriesWith",
+			"label": "Kategori dengan"
+		},
+		{
+			"type": "label",
+			"key": "DoctorsWithName",
+			"label": "Dokter dengan nama"
+		},
+		{
+			"type": "label",
+			"key": "SorryMsg",
+			"label": "Maaf! Tidak ada hasil"
+		},
+		{
+			"type": "label",
+			"key": "SearchForResults",
+			"label": "Cari hasilnya"
+		},
+		{
+			"type": "label",
+			"key": "MinimumCharReq",
+			"label": "Minimal 3 karakter diperlukan untuk mencari"
+		},
+		{
+			"type": "label",
+			"key": "SearchBySpeciality",
+			"label": "Cari berdasarkan Nama, Spesialisasi"
+		},
+		{
+			"type": "label",
+			"key": "search",
+			"label": "Cari"
+		},
+		{
+			"type": "label",
+			"key": "Connecting",
+			"label": "Menghubungkan..."
+		},
+		{
+			"type": "label",
+			"key": "callConnected",
+			"label": "panggilan tersambung"
+		},
+		{
+			"type": "label",
+			"key": "UnableToConnect",
+			"label": "Tidak dapat menghubungkan panggilan, Silakan coba lagi"
+		},
+		{
+			"type": "label",
+			"key": "tryAgain",
+			"label": "Coba lagi"
+		},
+		{
+			"type": "label",
+			"key": "Cancel",
+			"label": "Membatalkan"
+		},
+		{
+			"type": "label",
+			"key": "success",
+			"label": "keberhasilan"
+		},
+		{
+			"type": "label",
+			"key": "AUDIO",
+			"label": "AUDIO"
+		},
+		{
+			"type": "label",
+			"key": "init_madura",
+			"label": "init_madura"
+		},
+		{
+			"type": "label",
+			"key": "setup_call_service",
+			"label": "setup_call_service"
+		},
+		{
+			"type": "label",
+			"key": "setup_call",
+			"label": "setup_call"
+		},
+		{
+			"type": "label",
+			"key": "join_call",
+			"label": "join_call"
+		},
+		{
+			"type": "label",
+			"key": "called",
+			"label": "dipanggil"
+		},
+		{
+			"type": "label",
+			"key": "audio",
+			"label": "audio"
+		},
+		{
+			"type": "label",
+			"key": "WaitingForDoc",
+			"label": "Menunggu dokter"
+		},
+		{
+			"type": "label",
+			"key": "Confirmation",
+			"label": "Konfirmasi"
+		},
+		{
+			"type": "label",
+			"key": "WhenDr",
+			"label": "Ketika Dr."
+		},
+		{
+			"type": "label",
+			"key": "docAcceptedReq",
+			"label": "Ketika Dr. $ {0} telah menerima permintaan Anda, kami akan memberi tahu Anda"
+		},
+		{
+			"type": "label",
+			"key": "sec",
+			"label": "detik"
+		},
+		{
+			"type": "label",
+			"key": "GoToADVD",
+			"label": "Buka Suara dan Video"
+		},
+		{
+			"type": "label",
+			"key": "VoiceCall",
+			"label": "Panggilan suara"
+		},
+		{
+			"type": "label",
+			"key": "notConnected",
+			"label": "Tidak dapat terhubung dengan Dr"
+		},
+		{
+			"type": "label",
+			"key": "bookAppointment",
+			"label": "Menjadwalkan pertemuan"
+		},
+		{
+			"type": "label",
+			"key": "CancellationReason",
+			"label": "Alasan pembatalan"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationNotNeeded",
+			"label": "Saya tidak lagi membutuhkan konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "WaitedTooLong",
+			"label": "Saya sudah menunggu terlalu lama"
+		},
+		{
+			"type": "label",
+			"key": "WrongDocSelected",
+			"label": "Saya salah memilih Dokter"
+		},
+		{
+			"type": "label",
+			"key": "Caution",
+			"label": "Peringatan!"
+		},
+		{
+			"type": "label",
+			"key": "CancelMessage",
+			"label": "Jika Anda membatalkan permintaan konsultasi. Harap diperhatikan bahwa pembayaran yang Anda lakukan sebelum layar ini tidak akan dikembalikan"
+		},
+		{
+			"type": "label",
+			"key": "justCancel",
+			"label": "Saya mengerti, tolong batalkan"
+		},
+		{
+			"type": "label",
+			"key": "KeepWaiting",
+			"label": "Terus menunggu"
+		},
+		{
+			"type": "label",
+			"key": "ConfirmProfile",
+			"label": "Harap konfirmasikan profil Anda"
+		},
+		{
+			"type": "label",
+			"key": "ConfirmProfileMessage",
+			"label": "Pada layar berikutnya, kami akan meminta Anda untuk mengkonfirmasi informasi Anda untuk menggunakan fitur ini."
+		},
+		{
+			"type": "label",
+			"key": "TalkToDoc",
+			"label": "untuk menggunakan layanan dari Halodoc."
+		},
+		{
+			"type": "label",
+			"key": "ByClickingBelowHalodoc",
+			"label": "Dengan mengklik \"Saya Setuju\", saya menyetujui "
+		},
+		{
+			"type": "label",
+			"key": "ByClickingBelowHalodocPart",
+			"label": ", dan pengumpulan profil dan data pribadi saya sesuai dengan Halodoc "
+		},
+		{
+			"type": "label",
+			"key": "ACCEPT",
+			"label": "MENERIMA"
+		},
+		{
+			"type": "label",
+			"key": "DOC",
+			"label": "DOKTER"
+		},
+		{
+			"type": "label",
+			"key": "OTPSent",
+			"label": "`Kami mengirim OTP ke +62 XXXX XX"
+		},
+		{
+			"type": "label",
+			"key": "XX",
+			"label": "XX"
+		},
+		{
+			"type": "label",
+			"key": "VerifyIdentity",
+			"label": "Gunakan itu untuk memverifikasi identitas Anda"
+		},
+		{
+			"type": "label",
+			"key": "codeReceivedOrNot",
+			"label": "Tidak menerima kode?"
+		},
+		{
+			"type": "label",
+			"key": "ResendCode",
+			"label": "Kirim ulang"
+		},
+		{
+			"type": "label",
+			"key": "transparent",
+			"label": "transparan"
+		},
+		{
+			"type": "label",
+			"key": "MALE",
+			"label": "PRIA"
+		},
+		{
+			"type": "label",
+			"key": "FEMALE",
+			"label": "WANITA"
+		},
+		{
+			"type": "label",
+			"key": "gender",
+			"label": "Jenis Kelamin"
+		},
+		{
+			"type": "label",
+			"key": "GenderRequired",
+			"label": "Diperlukan gender"
+		},
+		{
+			"type": "label",
+			"key": "verifyPhone",
+			"label": "Harap verifikasi nomor telepon"
+		},
+		{
+			"type": "label",
+			"key": "EMAIL",
+			"label": "SUREL"
+		},
+		{
+			"type": "label",
+			"key": "surName",
+			"label": "Nama Keluarga"
+		},
+		{
+			"type": "label",
+			"key": "lastName",
+			"label": "Nama Keluarga"
+		},
+		{
+			"type": "label",
+			"key": "NameRequired",
+			"label": "Nama"
+		},
+		{
+			"type": "label",
+			"key": "Unverified",
+			"label": "Tidak diverifikasi"
+		},
+		{
+			"type": "label",
+			"key": "Verified",
+			"label": "Diverifikasi"
+		},
+		{
+			"type": "label",
+			"key": "errorOccured",
+			"label": "kesalahan"
+		},
+		{
+			"type": "label",
+			"key": "isRequired",
+			"label": "diperlukan"
+		},
+		{
+			"type": "label",
+			"key": "firstName",
+			"label": "Nama Depan"
+		},
+		{
+			"type": "label",
+			"key": "AlphabetValid",
+			"label": "Alfabet berlaku untuk"
+		},
+		{
+			"type": "label",
+			"key": "PhoneNumber",
+			"label": "Nomor telepon"
+		},
+		{
+			"type": "label",
+			"key": "Done",
+			"label": "Selesai"
+		},
+		{
+			"type": "label",
+			"key": "consultationConfirmed",
+			"label": "Penunjukan Dikonfirmasi. Dokter telah menerima permintaan konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultationRejected",
+			"label": "Penunjukan Ditolak. Dokter telah menolak permintaan konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultationMissed",
+			"label": "Janji temu terlewatkan. Dokter telah melewatkan permintaan konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultationClosed",
+			"label": "Pengangkatan Tertutup. Dokter telah menutup konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultationJoined",
+			"label": "Pengangkatan Bergabung. Dokter telah Bergabung dengan panggilan itu."
+		},
+		{
+			"type": "label",
+			"key": "consultationEnded",
+			"label": "Dokter telah mengakhiri panggilan Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultationCompleted",
+			"label": "Konsultasi selesai. Dokter telah menyelesaikan sesi konsultasi."
+		},
+		{
+			"type": "label",
+			"key": "consultationNotes",
+			"label": "Catatan diterima."
+		},
+		{
+			"type": "label",
+			"key": "consultationPrescription",
+			"label": "Resep diterima."
+		},
+		{
+			"type": "label",
+			"key": "doctorAppointment",
+			"label": "Janji Dokter."
+		},
+		{
+			"type": "label",
+			"key": "paymentStatus",
+			"label": "Status pembayaran."
+		},
+		{
+			"type": "label",
+			"key": "consultationEpisode",
+			"label": "Anda telah ditambahkan ke percakapan: Episode"
+		},
+		{
+			"type": "label",
+			"key": "consultationDoctor_msg",
+			"label": "Dokter Anda memiliki pesan untuk Anda !!"
+		},
+		{
+			"type": "label",
+			"key": "consultationIgnore_msg",
+			"label": "Mengabaikan"
+		},
+		{
+			"type": "label",
+			"key": "consultationCancel",
+			"label": "membatalkan"
+		},
+		{
+			"type": "label",
+			"key": "consultationSee",
+			"label": "baik"
+		},
+		{
+			"type": "label",
+			"key": "consultationText",
+			"label": "teks"
+		},
+		{
+			"type": "label",
+			"key": "doctorJoinedChat",
+			"label": "Dokter bergabung dalam obrolan"
+		},
+		{
+			"type": "label",
+			"key": "joinCall",
+			"label": "Bergabunglah dengan Call"
+		},
+		{
+			"type": "label",
+			"key": "haloDocDoctor",
+			"label": "dokter"
+		},
+		{
+			"type": "label",
+			"key": "haloDocAgent",
+			"label": "agen"
+		},
+		{
+			"type": "label",
+			"key": "haloDocModalCLosed",
+			"label": "Modal telah ditutup."
+		},
+		{
+			"type": "label",
+			"key": "haloDocIOS",
+			"label": "ios"
+		},
+		{
+			"type": "label",
+			"key": "PruSansNormal",
+			"label": "PruSansNormal"
+		},
+		{
+			"type": "label",
+			"key": "pruRegular",
+			"label": "sebelum biasa"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToJoinCall",
+			"label": "Tidak dapat bergabung dengan panggilan"
+		},
+		{
+			"type": "label",
+			"key": "patientJoinedCall",
+			"label": "Pasien bergabung dengan panggilan itu"
+		},
+		{
+			"type": "label",
+			"key": "patientEndedCall",
+			"label": "Pasien mengakhiri panggilan"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToLeaveCall",
+			"label": "Tidak dapat meninggalkan panggilan"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToSetupCall",
+			"label": "Tidak dapat mengatur panggilan"
+		},
+		{
+			"type": "label",
+			"key": "doctorChat",
+			"label": "Lihat konsultasi dengan dokter"
+		},
+		{
+			"type": "label",
+			"key": "attachments",
+			"label": "Lampiran"
+		},
+		{
+			"type": "label",
+			"key": "new",
+			"label": "Baru"
+		},
+		{
+			"type": "label",
+			"key": "makeRequest",
+			"label": "Apakah Anda ingin mengajukan Permintaan"
+		},
+		{
+			"type": "label",
+			"key": "request",
+			"label": "Permintaan"
+		},
+		{
+			"type": "label",
+			"key": "Proceed",
+			"label": "Mengonfirmasi"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationHistory",
+			"label": "Riwayat Konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "loadmore",
+			"label": "Muat lebih banyak"
+		},
+		{
+			"type": "label",
+			"key": "Consultation_date",
+			"label": "Tanggal Konsultasi:"
+		},
+		{
+			"type": "label",
+			"key": "Patient_note",
+			"label": "Catatan Pasien:"
+		},
+		{
+			"type": "label",
+			"key": "Diagnosis",
+			"label": "Diagnosa"
+		},
+		{
+			"type": "label",
+			"key": "HaloDocHeight",
+			"label": "Tinggi"
+		},
+		{
+			"type": "label",
+			"key": "HaloDocWeight",
+			"label": "Berat Badan"
+		},
+		{
+			"type": "label",
+			"key": "UserCancelTitle",
+			"label": "Batalkan Janji Temu?"
+		},
+		{
+			"type": "label",
+			"key": "all_my_files",
+			"label": "Semua File Saya"
+		},
+		{
+			"type": "label",
+			"key": "UserCancelDesc",
+			"label": "Anda akan membatalkan permintaan janji temu. Jika uang Anda dipotong, uang itu akan segera dikembalikan oleh Halodoc"
+		},
+		{
+			"type": "label",
+			"key": "consultation_approved",
+			"label": "Penunjukan Dikonfirmasi. Dokter telah menerima permintaan konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultation_rejected",
+			"label": "Penunjukan Ditolak. Dokter telah menolak permintaan konsultasi Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultation_missed",
+			"label": "Dokter telah melewatkan permintaan konsultasi Anda. Jika uang Anda dipotong, uang itu akan segera dikembalikan oleh Halodoc."
+		},
+		{
+			"type": "label",
+			"key": "consultation_closed",
+			"label": "Konsultasi ditutup. Dokter telah menutup konsultasi."
+		},
+		{
+			"type": "label",
+			"key": "consultation_joined",
+			"label": "Pengangkatan Bergabung. Dokter telah Bergabung dengan panggilan itu."
+		},
+		{
+			"type": "label",
+			"key": "consultation_ended",
+			"label": "Dokter telah mengakhiri panggilan Anda."
+		},
+		{
+			"type": "label",
+			"key": "consultation_completed",
+			"label": "Konsultasi berakhir. Dokter telah mengakhiri konsultasi."
+		},
+		{
+			"type": "label",
+			"key": "doctor_notes",
+			"label": "Dokter telah mengirim catatan."
+		},
+		{
+			"type": "label",
+			"key": "doctor_prescription",
+			"label": "Dokter telah mengirim resep."
+		},
+		{
+			"type": "label",
+			"key": "doctor_follow_up",
+			"label": "Dokter telah meminta tindak lanjut."
+		},
+		{
+			"type": "label",
+			"key": "doctor_referral_notes",
+			"label": "Dokter telah mengirim catatan rujukan."
+		},
+		{
+			"type": "label",
+			"key": "doctor_sent_notes",
+			"label": "Dokter telah mengirim lampiran."
+		},
+		{
+			"type": "label",
+			"key": "consultation_payment_success",
+			"label": "Pembayaran Anda selesai dengan sukses."
+		},
+		{
+			"type": "label",
+			"key": "consultation_payment_failure",
+			"label": "Pembayaran Anda gagal."
+		},
+		{
+			"type": "label",
+			"key": "consultation_refund_initiated",
+			"label": "Pengembalian dana Anda telah dimulai dari Halodoc."
+		},
+		{
+			"type": "label",
+			"key": "doctors_cat",
+			"label": "Dokter"
+		},
+		{
+			"type": "label",
+			"key": "speciality_cat",
+			"label": "Spesialis"
+		},
+		{
+			"label": "mulai",
+			"type": "label",
+			"key": "started"
+		},
+		{
+			"label": "tutup",
+			"type": "label",
+			"key": "closed"
+		},
+		{
+			"label": "lengkap",
+			"type": "label",
+			"key": "completed"
+		},
+		{
+			"label": "diminta",
+			"type": "label",
+			"key": "requested"
+		},
+		{
+			"label": "Kapanpun",
+			"type": "label",
+			"key": "Whenever"
+		},
+		{
+			"label": "Terus",
+			"type": "label",
+			"key": "halodoc_continue"
+		},
+		{
+			"label": "Apakah Anda ingin menggunakan voucher ini",
+			"type": "label",
+			"key": "halodoc_voucher"
+		},
+		{
+			"label": "PULSESUBSCD239X730",
+			"type": "label",
+			"key": "halodoc_voucher_code"
+		}
+	]
+}

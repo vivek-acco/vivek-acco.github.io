@@ -1,0 +1,118 @@
+{
+  "label": "Update Details",
+  "image": "",
+  "key": "pruWizardBabylon",
+  "elements": [
+    {
+      "label": "No thanks, i don't like free",
+      "type": "label",
+      "key": "noMayBeLater"
+    },
+    {
+      "label": "START FREE ASSESSMENT",
+      "type": "label",
+      "key": "activateFreeHealthCheckup"
+    },
+    {
+      "label": "By clicking on the button below, I consent to the Babylon",
+      "type": "label",
+      "key": "babylonConsent1"
+    },
+    {
+      "label": " Terms & Conditions ",
+      "type": "label",
+      "key": "babylonConsent2"
+    },
+    {
+      "label": "and Babylon's collection, use and disclosure of my personal data in accordance with the Babylon",
+      "type": "label",
+      "key": "babylonConsent3"
+    },
+    {
+      "label": " Privacy Policy",
+      "type": "label",
+      "key": "babylonConsent4"
+    },
+    {
+      "label": "Your Details",
+      "type": "label",
+      "key": "yourDetails"
+    },
+    {
+      "label": "Congrats",
+      "type": "label",
+      "key": "congrats"
+    },
+    {
+      "label": "You Are Eligible For a 100% Free Health Assessment",
+      "type": "label",
+      "key": "congrats1"
+    },
+    {
+      "label": "Put your Health in your hands. Get health insights to stay healthy ",
+      "type": "label",
+      "key": "congrats2"
+    },
+    {
+      "label": "Full analysis of your body & Picture of your current health",
+      "type": "label",
+      "key": "congrats3"
+    },
+    {
+      "label": "Practical insights to make positive life style changes",
+      "type": "label",
+      "key": "congrats4"
+    },
+    {
+      "label": "KTP",
+      "type": "label",
+      "key": "idNum"
+    },
+    {
+      "label": "First name",
+      "type": "label",
+      "key": "firstName"
+    },
+    {
+      "label": "Last Name",
+      "type": "label",
+      "key": "lastName"
+    },
+    {
+      "label": "Date Of birth",
+      "type": "label",
+      "key": "dob"
+    },
+    {
+      "label": "Gender",
+      "type": "label",
+      "key": "gender"
+    },
+    {
+      "label": "Email",
+      "type": "label",
+      "key": "email"
+    },
+    {
+      "label": "Address",
+      "type": "label",
+      "key": "address"
+    },
+    {
+      "label": "Phone Number",
+      "type": "label",
+      "key": "phone"
+    },
+    {
+      "label": "Male",
+      "type": "label",
+      "key": "male"
+    },
+    {
+      "label": "Female",
+      "type": "label",
+      "key": "female"
+    }
+
+  ]
+}

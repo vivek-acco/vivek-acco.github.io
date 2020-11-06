@@ -1,0 +1,19 @@
+{
+  "image": "",
+  "label": "",
+  "key": "chatreportdetail",
+  "elements": [
+    {
+      "key": "commontreatment",
+      "label": "Perawatan Secara Umum"
+    },
+    {
+      "key": "potentialcause",
+      "label": "Mengapa kondisi iniberpotensi menjadi penyebab gejala?"
+    },
+    {
+      "key": "thisconditioncouldbethecause",
+      "label": "Beberapa jawaban Kamu mengindikasikan bahwa kondisi ini menjadi penyebab gejala:"
+    }
+  ]
+}

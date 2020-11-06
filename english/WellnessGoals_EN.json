@@ -1,0 +1,420 @@
+{
+  "image": "",
+  "label": "",
+  "key": "wellnessGoals",
+  "elements": [
+    {
+      "type": "label",
+      "key": "welcome",
+      "label": "WELCOME TO WELLNESS GOALS"
+    },
+    {
+      "type": "label",
+      "key": "welcomeDesc",
+      "label": "Congrats on taking first step towards your betterment. Our health experts have designed simple goals and habits. You follow them daily, check it off, and repeat for 7 times to move onto the next one"
+    },
+    {
+      "type": "label",
+      "key": "youneed",
+      "label": "You'll be rewarded"
+    },
+    {
+      "type": "label",
+      "key": "badges",
+      "label": "Badges"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlock",
+      "label": "on completion of the goal"
+    },
+    {
+      "type": "label",
+      "key": "completegoalon",
+      "label": "You have completed the Goal on"
+    },
+    {
+      "type": "label",
+      "key": "confirmhabitchange",
+      "label": "Confirm Habit Change?"
+    },
+    {
+      "type": "label",
+      "key": "changehabitmodaldesc",
+      "label": "All your progress in your current habit will be lost, are you sure you want to proceed?"
+    },
+    {
+      "type": "label",
+      "key": "confirmunlock",
+      "label": "Confirm Unlock"
+    },
+    {
+      "type": "label",
+      "key": "youhave",
+      "label": "You Have"
+    },
+    {
+      "type": "label",
+      "key": "donthavebadges",
+      "label": "You don't have enough badges to unlock this"
+    },
+    {
+      "type": "label",
+      "key": "habit",
+      "label": "Habit"
+    },
+    {
+      "type": "label",
+      "key": "goal",
+      "label": "Goal"
+    },
+    {
+      "type": "label",
+      "key": "doyouwantunlock",
+      "label": "badges. Do you want to unlock?"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlockthis",
+      "label": "Badges to unlock this"
+    },
+    {
+      "type": "label",
+      "key": "howtoredeem",
+      "label": "How To Redeem"
+    },
+    {
+      "type": "label",
+      "key": "congratulations",
+      "label": "Congratulations"
+    },
+    {
+      "type": "label",
+      "key": "redeem",
+      "label": "Redeem"
+    },
+    {
+      "type": "label",
+      "key": "outof",
+      "label": "out of"
+    },
+    {
+      "type": "label",
+      "key": "congratulationsrewarddesc",
+      "label": "You have completed the habit and are one step towards a better lifestyle. Here is your reward"
+    },
+    {
+      "type": "label",
+      "key": "collectreward",
+      "label": "Collect Reward"
+    },
+    {
+      "type": "label",
+      "key": "learnmore",
+      "label": "Learn more"
+    },
+    {
+      "type": "label",
+      "key": " badgesuponcompletion",
+      "label": "Badges upon completion"
+    },
+    {
+      "type": "label",
+      "key": "get",
+      "label": "Get"
+    },
+    {
+      "type": "label",
+      "key": "days",
+      "label": "Days"
+    },
+    {
+      "type": "label",
+      "key": "details",
+      "label": "Details"
+    },
+    {
+      "type": "label",
+      "key": "unlock",
+      "label": "Unlock"
+    },
+    {
+      "type": "label",
+      "key": "completed",
+      "label": "Completed"
+    },
+    {
+      "type": "label",
+      "key": "uponcompletion",
+      "label": "upon completion"
+    },
+    {
+      "type": "label",
+      "key": "continue",
+      "label": "Continue"
+    },
+    {
+      "type": "label",
+      "key": "join",
+      "label": "Join"
+    },
+    {
+      "type": "label",
+      "key": "inprogress",
+      "label": "In Progress"
+    },
+    {
+      "type": "label",
+      "key": "moreinfo",
+      "label": "More Info"
+    },
+    {
+      "type": "label",
+      "key": "habitsinprogress",
+      "label": "Habits In Progress"
+    },
+    {
+      "type": "label",
+      "key": "badgesoncompletion",
+      "label": "+30 Badges on completion"
+    },
+    {
+      "type": "label",
+      "key": "oncompletion",
+      "label": "on completion"
+    },
+    {
+      "type": "label",
+      "key": "close",
+      "label": "Close"
+    },
+    {
+      "type": "label",
+      "key": "markcomplete",
+      "label": "Mark Complete"
+    },
+    {
+      "type": "label",
+      "key": "tounlockhabit",
+      "label": "You don't have enough badges to unlock this Habit"
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "Ok"
+    },
+    {
+      "type": "label",
+      "key": "yesunlock",
+      "label": "Yes, Unlock"
+    },
+    {
+      "type": "label",
+      "key": "no",
+      "label": "Skip"
+    },
+    {
+      "type": "label",
+      "key": "yeschange",
+      "label": "Continue"
+    },
+    {
+      "type": "label",
+      "key": "add",
+      "label": "Add"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "availablehabits",
+      "label": "Challenge yourself with New Habits"
+    },
+    {
+      "type": "label",
+      "key": "taptoadd",
+      "label": "Tap on a habit to get started"
+    },
+    {
+      "type": "label",
+      "key": "currenthabits",
+      "label": "Current Habits"
+    },
+    {
+      "type": "label",
+      "key": "changehabit",
+      "label": "Change Habit"
+    },
+    {
+      "type": "label",
+      "key": "addhabit",
+      "label": "Add Habit"
+    },
+    {
+      "type": "label",
+      "key": "donthavebadgesgoal",
+      "label": "You don't have enough badges to unlock this Goal"
+    },
+    {
+      "type": "label",
+      "key": "wellnessgoals",
+      "label": "Wellness Goals"
+    },
+    {
+      "type": "label",
+      "key": "habits",
+      "label": "Habits"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlockthisgoal",
+      "label": "badges to unlock this goal?"
+    },
+    {
+      "type": "label",
+      "key": "duration",
+      "label": "Duration"
+    },
+    {
+      "type": "label",
+      "key": "completehealthassess",
+      "label": "- Complete your Health Assessment"
+    },
+    {
+      "type": "label",
+      "key": "15x",
+      "label": "15x"
+    },
+    {
+      "type": "label",
+      "key": "completecurrenthabits",
+      "label": "- Complete your current habits"
+    },
+    {
+      "type": "label",
+      "key": "10x",
+      "label": "10x"
+    },
+    {
+      "type": "label",
+      "key": "referfivefriends",
+      "label": "- Refer 5 Friends"
+    },
+    {
+      "type": "label",
+      "key": "oops",
+      "label": "Oops..."
+    },
+    {
+      "type": "label",
+      "key": "youneedfourbadges",
+      "label": "You need"
+    },
+    {
+      "type": "label",
+      "key": "okay",
+      "label": "Okay"
+    },
+    {
+      "type": "label",
+      "key": "complete",
+      "label": "Complete"
+    },
+    {
+      "type": "label",
+      "key": "morebadgestounlock",
+      "label": "more badges to unlock this"
+    },
+    {
+      "type": "label",
+      "key": "cheatsheet",
+      "label": "Here is a cheat sheet to earn more badges"
+    },
+    {
+      "type": "label",
+      "key": "rewards",
+      "label": "Rewards"
+    },
+    {
+      "type": "label",
+      "key": "badgesuponsmall",
+      "label": "upon completion"
+    },
+    {
+      "type": "label",
+      "key": "failed",
+      "label": "Failed"
+    },
+    {
+      "type": "label",
+      "key": "maxhabits",
+      "label": "You have already selected maximum no of Habits, please complete them to add more"
+    },
+    {
+      "type": "label",
+      "key": "masterhabits",
+      "label": "You have already mastered this habit."
+    },
+    {
+      "type": "label",
+      "key": "checkofhabits",
+      "label": "Great to see your perseverance! You can check off a habit only once in a day. We would love to see you come back and complete it tomorrow"
+    },
+    {
+      "type": "label",
+      "key": "alreadycompletedhabits",
+      "label": "You have already completed this habit. Why don’t you select a habit from the available list and get going?"
+    },
+    {
+      "type": "label",
+      "key": "feelproud",
+      "label": "Feel Proud about your Completed Habits"
+    },
+    {
+      "type": "label",
+      "key": "awesome",
+      "label": "Awesome!"
+    },
+    {
+      "type": "label",
+      "key": "consentBody",
+      "label": "Congratulation you have unlocked a premium affinity group. Get health tips from expert members and motivate others by sharing progress."
+    },
+    {
+      "type": "label",
+      "key": "goForIt",
+      "label": "Go, For it"
+    },
+    {
+      "type": "label",
+      "key": "mayBeLater",
+      "label": "Not Now, may be later"
+    },
+    {
+      "type": "label",
+      "key": "reminderHeading",
+      "label": "Set Reminder"
+    },
+    {
+      "type": "label",
+      "key": "selectReminder",
+      "label": "Select Reminder Times"
+    },
+    {
+      "type": "label",
+      "key": "reminderError",
+      "label": "Please select at least one slot as you have 'enabled' reminders"
+    },
+    {
+      "type": "label",
+      "key": "reminderValues",
+      "reminders": [
+        { "time": "8 am", "timeZone": "Morning", "value": "8:00" },
+        { "time": "7 pm", "timeZone": "Afternoon", "value": "19:00" }
+      ]
+    }
+  ]
+}

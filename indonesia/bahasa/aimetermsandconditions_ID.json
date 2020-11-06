@@ -1,0 +1,45 @@
+{
+  "key": "aimetermsandconditions",
+  "elements": [
+    {
+      "type": "label",
+      "key": "agree",
+      "label": "Saya setuju dengan"
+    },
+    {
+      "type": "label",
+      "key": "termsconditions",
+      "label": "Syarat dan Ketentuan"
+    },
+    {
+      "type": "label",
+      "key": "aime",
+      "label": "dari AIME"
+    },
+    {
+      "type": "label",
+      "key": "aimenotification",
+      "label": "Aplikasi ini akan memberi tahu jika area tempatmu saat ini atau akan bepergian berisiko mengalami wabah"
+    },
+    {
+      "type": "label",
+      "key": "proceed",
+      "label": "MEMPROSES"
+    },
+    {
+      "type": "label",
+      "key": "stayalert",
+      "label": "Tetap Waspada"
+    },
+    {
+      "type": "label",
+      "key": "whenever",
+      "label": "Apabila  "
+    },
+    {
+      "type": "label",
+      "key": "aimeServiceDesc",
+      "label": "Jika xxx muncul, Kamu sedang menerima pelayanan dari AIME."
+    }
+  ]
+}

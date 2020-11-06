@@ -1,0 +1,26 @@
+{
+  "key": "babylonchatbot",
+  "image": "",
+  "elements": [
+    {
+      "label": "Sekitar",
+      "type": "label",
+      "key": "About"
+    },
+    {
+      "label": "mnt",
+      "type": "label",
+      "key": "Min"
+    },
+    {
+      "label": "Halo! Saya bisa membantumu untuk mendeteksi gejala yang kamu rasakan, atau kamu juga bisa klik tombol di bawah untuk melihat riwayat percakapan kita.",
+      "type": "label",
+      "key": "symptominfo"
+    },
+    {
+      "label": "Lihat Riwayat Percakapan",
+      "type": "label",
+      "key": "viewchathistory"
+    }
+  ]
+}

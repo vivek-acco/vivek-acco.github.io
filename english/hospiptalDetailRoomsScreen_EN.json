@@ -1,0 +1,1 @@
+{"image": "", "label": "Rooms", "key": "hospiptalDetailRoomsScreen", "elements": [{"type": "tab", "key": "roomTypeTitle", "label": "Type"}, {"type": "tab", "key": "roomCostTitle", "label": "Cost (RM)"}, {"type": "placeholder", "key": "emptyRoomsPlaceholder", "label": "No Rooms"}]}

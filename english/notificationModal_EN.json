@@ -1,0 +1,32 @@
+{
+    "label": "",
+    "image": "",
+    "key": "NotificationModal",
+    "elements": [
+        {
+            "key": "hiPulsemate",
+            "label": "HI Pulsemate!",
+            "type": "label"
+        },
+        {
+            "key": "earnedReward",
+            "label": "Wow, you just earned a reward.",
+            "type": "label"
+        },
+        {
+            "key": "freeConsultation",
+            "label": "Great to know that you take your health seriously. Here is your discount voucher for cover against Cancer, and also free teleconsulation with Doctor! Enjoy Pulse.",
+            "type": "label"
+        },
+        {
+            "key": "close",
+            "label": "Close",
+            "type": "label"
+        },
+        {
+            "key": "continue",
+            "label": "Continue",
+            "type": "label"
+        }
+    ]
+}

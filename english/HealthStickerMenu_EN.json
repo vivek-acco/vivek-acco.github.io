@@ -1,0 +1,121 @@
+{
+  "label": "",
+  "image": "",
+  "key": "HealthStickerMenu",
+  "elements": [
+    {
+      "type": "label",
+      "key": "menuIcons",
+      "label": [
+        {
+          "id": "health",
+          "firstKey": "Health",
+          "secondKey": "Assessment",
+          "img": "assessHealth",
+          "img_uri": "/menu-stickers/assess_health.png",
+          "colors": ["#f97ec0", "#a14e7a"],
+          "type": "BABYLON_GOTO_HEALTHASSESSMENT",
+          "context": "PulseHealth",
+          "imageStyle": { "width": 22.6, "height": 19.1 },
+          "eventName": "launchHealthAssessment",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchHealthAssessment",
+              "tags": ["launchHealthAssessment"],
+              "attributes": {
+                "action": "launchHealthAssessment",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_healthAssessment"
+          }
+        },
+        {
+          "id": "checkSymptoms",
+          "firstKey": "Check",
+          "secondKey": "Symptoms",
+          "img": "checkSymptoms",
+          "img_uri": "/menu-stickers/check_symptoms.png",
+          "colors": ["#e5b5e5", "#7e5a7e"],
+          "type": "BABYLON_GOTO_SYMPTOMPCHECKER",
+          "context": "PulseHealth",
+          "imageStyle": { "width": 16.1, "height": 19.2 },
+          "eventName": "launchCheckSymptoms",
+          "eventDetails":{
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchCheckSymptoms",
+              "tags": ["launchCheckSymptoms"],
+              "attributes": {
+                "action": "launchCheckSymptoms",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_checkSymptoms"
+          }
+        },
+        {
+          "id": "wellnessGoals",
+          "firstKey": "Wellness",
+          "secondKey": "Goals",
+          "img": "wellnessGoals",
+          "img_uri": "/menu-stickers/wellness_goals.png",
+          "colors": ["#7ef9d3", "#4b9e84"],
+          "type": "GO_TO_SCREEN",
+          "navigateTo": "ActionPlans",
+          "imageStyle": { "width": 19.1, "height": 19.1 },
+          "eventName": "launchWellnessGoals"
+        },
+        {
+          "id": "findHospital",
+          "firstKey": "Find",
+          "secondKey": "Hospital",
+          "img": "findHospital",
+          "img_uri": "/menu-stickers/hospital.png",
+          "colors": ["#ff818c", "#ff4757"],
+          "context": "PulseHealth",
+          "type": "GO_TO_NAVIGATOR",
+          "imageStyle": { "width": 20.5, "height": 19.2 },
+          "eventName": "launchFindHospital",
+          "eventDetails": {
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchFindHospital",
+              "tags": ["launchFindHospital"],
+              "attributes": {
+                "action": "launchFindHospital",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_findHospitalt"
+          }
+        },
+        {
+          "id": "checkBMI",
+          "firstKey": "Check",
+          "secondKey": "Bmi",
+          "img": "checkBmi",
+          "colors": ["#adadee", "#4d4d70"],
+          "img_uri": "/menu-stickers/bmi.png",
+          "context": "PulseHealth",
+          "type": "PULSE_GOTO_BMI",
+          "imageStyle": { "width": 18.4, "height": 18.4 },
+          "eventName": "launchCheckSymptoms",
+          "eventDetails":{
+            "platform": {
+              "type": "ClickEvent",
+              "name": "pulse.health.launchCheckSymptoms",
+              "tags": ["launchCheckSymptoms"],
+              "attributes": {
+                "action": "launchCheckSymptoms",
+                "screen": "HealthPageScreen"
+              }
+            },
+            "firebase": "health_page_screen_launch_checkSymptoms"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "key": "WrinkleIndexResults",
+  "image": "",
+  "elements": [
+    {
+      "type": "label",
+      "key": "wrinkleIdxResultsShare",
+      "label": "Bagikan"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleIdxResultsViewMore",
+      "label": "Lihat tips tambahan"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleIdxResultsWrinkleStatus",
+      "label": "ini adalah status kerutan dalam wajah Kamu"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleIdxResultsGoodSign",
+      "label": "Ini tanda yang baik. Kamu dapat menggunakan mentimun setiap hari"
+    },
+    {
+      "type": "label",
+      "key": "zeroToNine",
+      "label": "0-9"
+    },
+    {
+      "type": "label",
+      "key": "tenToTwentyNine",
+      "label": "10-29"
+    },
+    {
+      "type": "label",
+      "key": "thirtyToFortyNine",
+      "label": "30-49"
+    },
+    {
+      "type": "label",
+      "key": "fiftyToSixtyNine",
+      "label": "50-69"
+    },
+    {
+      "type": "label",
+      "key": "seventyToEightyNine",
+      "label": "70-89"
+    },
+    {
+      "type": "label",
+      "key": "nintyToHundred",
+      "label": "90-100"
+    },
+    {
+      "type": "label",
+      "key": "noVisiblyWrinkle",
+      "label": "Tidak ada kerutan yang terlihat"
+    },
+    {
+      "type": "label",
+      "key": "shallowWrinkle",
+      "label": "Dangkal, garis kerutan sedikit terlihat"
+    },
+    {
+      "type": "label",
+      "key": "moderateWrinkle",
+      "label": "Kerutan menengah dengan tepian terlihat jelas"
+    },
+    {
+      "type": "label",
+      "key": "deepWrinkle",
+      "label": "Kerutan dalam dan sangat terlihat"
+    },
+    {
+      "type": "label",
+      "key": "severeWrinkle",
+      "label": "Berat, kerutan terlihat sangat jelas"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleIndex",
+      "label": "Indeks Kerutan"
+    },
+    {
+      "type": "label",
+      "key": "classification",
+      "label": "Klasifikasi"
+    },
+    {
+      "type": "label",
+      "key": "age",
+      "label": "Umur"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleValueGuide",
+      "label": "Panduan nilai kerutan"
+    },
+    {
+      "type": "label",
+      "key": "valueInPercentage",
+      "label": "Nilai(%)"
+    },
+    {
+      "type": "label",
+      "key": "description",
+      "label": "Deskripsi"
+    },
+    {
+      "type": "label",
+      "key": "someWrinkle",
+      "label": "Garis terlihat jelas dengan beberapa kerutan"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleIndexYourIs",
+      "label": "Indeks kerutan kamu adalah"
+    },
+    {
+      "type": "label",
+      "key": "wrinkleClassification",
+      "label": "Klasifikasi kerutan"
+    }
+  ]
+}

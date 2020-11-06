@@ -1,0 +1,41 @@
+{
+  "image": "",
+  "key": "DocumentSignature",
+  "elements": [
+    {
+      "type": "label",
+      "key": "signature_capture_title",
+      "label": "(signature_type) Please sign here"
+    },
+    {
+      "type": "label",
+      "key": "no_signature_added",
+      "label": "Please enter your signature before saving"
+    },
+    {
+      "type": "label",
+      "key": "no_signature_ok",
+      "label": "Ok"
+    },
+    {
+      "type": "label",
+      "key": "signature_stroke_width",
+      "label": 9
+    },
+    {
+      "type": "label",
+      "key": "signature_stroke_color",
+      "label": "#0000FF"
+    },
+    {
+      "type": "label",
+      "key": "signature_stroke_width",
+      "label": 9
+    },
+    {
+      "type": "label",
+      "key": "signature_stroke_color",
+      "label": "#0000FF"
+    }
+  ]
+}

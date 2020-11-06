@@ -1,0 +1,33 @@
+{
+	"key": "ReviewComments",
+	"image": "",
+	"elements": [{
+		"label": "Review Comments",
+		"type": "label",
+		"key": "reviewComments"
+	}, {
+		"label": "No search results, Please filter to refine it.",
+		"type": "label",
+		"key": "noSearchResult"
+	}, {
+		"label": "No search results for selected post.",
+		"type": "label",
+		"key": "noPostFound"
+	}, {
+		"label": "Comment has been disabled",
+		"type": "label",
+		"key": "commentDisabled"
+	}, {
+		"label": "Comment has been enabled",
+		"type": "label",
+		"key": "commentEnabled"
+	}, {
+		"label": "Comment enable has failed.",
+		"type": "label",
+		"key": "commentEnableFailed"
+	}, {
+		"label": "Comment disable has failed.",
+		"type": "label",
+		"key": "commentDisableFailed"
+	}]
+}

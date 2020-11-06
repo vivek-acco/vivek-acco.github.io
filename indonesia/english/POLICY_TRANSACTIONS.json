@@ -1,0 +1,27 @@
+{
+    "label": "Policy Transactions",
+    "image": "",
+    "key": "POLICY_TRANSACTIONS",
+    "elements": [
+        {
+            "key": "POLICY_TRANSACTIONS_PAGE_TRANSACTIONS",
+            "label": "Transactions",
+            "type": "label"
+        },
+        {
+            "key": "POLICY_TRANSACTIONS_PAGE_STEPS_LABEL",
+            "label": "Steps",
+            "type": "label"
+        },
+        {
+            "key": "POLICY_TRANSACTIONS_PAGE_REFERRED_BY_LABEL",
+            "label": "Friend Referred",
+            "type": "label"
+        },
+        {
+            "key": "POLICY_TRANSACTIONS_PAGE_TRANSACTIONS_UNAVAILABLE",
+            "label": "No Transactions available",
+            "type": "label"
+        }
+    ]
+}

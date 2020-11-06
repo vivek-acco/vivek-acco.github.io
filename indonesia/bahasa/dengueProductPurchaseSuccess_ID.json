@@ -1,0 +1,37 @@
+{
+  "image": "",
+  "label": "",
+  "key": "dengueProductPurchaseSuccess",
+  "elements": [
+    {
+      "type": "label",
+      "value": "Purchase Successful",
+      "key": "purchaseSuccessful"
+    },
+    {
+      "type": "label",
+      "value": "Selemat! Polis Anda sudah Terbit Nomor polis anda adalah ",
+      "key": "successmessage"
+    },
+    {
+      "type": "label",
+      "value": "kamu sudah terbit per tanggal",
+      "key": "policyIssued"
+    },
+    {
+      "type": "label",
+      "value": "Polis PRUTect Syariah DBD-",
+      "key": "your"
+    },
+    {
+      "type": "label",
+      "value": "Lihat rincian polis kamu di PRUServices atau di email yang terverifikasi",
+      "key": "checkYourPolicy"
+    },
+    {
+      "type": "label",
+      "value": "Selesai",
+      "key": "continueText"
+    }
+  ]
+}

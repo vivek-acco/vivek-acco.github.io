@@ -1,0 +1,772 @@
+{
+  "image": "",
+  "label": "Rencana Makan",
+  "key": "mealPlan",
+  "elements": [
+    {
+      "key": "mealPlanner",
+      "type": "object",
+      "data": {
+        "foodPreferenceList": [
+          "Tidak ada",
+          "Ketogenik",
+          "Vegetarian",
+          "Lacto-Vegetarian",
+          "Ovo-Vegetarian",
+          "Vegan",
+          "Pescetarian",
+          "Paleo",
+          "Primal",
+          "Whole30"
+        ],
+        "foodPreferenceListNew": [
+          {
+            "name": "Standard",
+            "key": "None",
+            "allergyListKey": "allergyListNew",
+            "desc": "",
+            "images": ["egg.png","fish.png","cow_milk.png","plant.png","meat.png"],
+            "description": "Red Meat, Fish, Poultry, eggs, milk, milk products and plant food."
+          },
+          {
+            "name": "Vegetarian",
+            "key": "Vegetarian",
+            "allergyListKey": "allergyListVeg",
+            "desc": "",
+            "images": ["egg.png","cow_milk.png","plant.png"],
+            "description": "Eggs, milk, milk products and plant based foods."
+          },
+          {
+            "name": "Vegan",
+            "key": "Vegan",
+            "allergyListKey": "allergyListVegan",
+            "desc": "",
+            "images": ["plant.png"],
+            "description": "Only plant based foods."
+          },
+          {
+            "name": "Halal",
+            "key": "Halal",
+            "allergyListKey": "allergyListHalal",
+            "desc": "",
+            "images": ["egg.png","fish.png", "cow_milk.png","plant.png", "meat.png"],
+            "description": "Red Meat, Fish, Poultry, eggs, milk, milk products and plant food."
+          }
+        ], 
+        "headerTiles": [
+          "Mohon informasikan mengenai diri Kamu.",
+          "Apakah Kamu memiliki alergi terhadap pilihan makanan berikut ini?",
+          "Beritahu kami makanan kesukaan Kamu."
+        ],
+        "headerDesc": [
+          "Pilihan ini akan membantu Kami dalam menciptakan diet plan untuk Kamu",
+          "Pilihan ini akan membantu Kami dalam menciptakan diet plan untuk Kamu",
+          "Kamu telah mengatur rencana diet kamu"
+        ],
+        "progressText": [
+          "Beberapa Pertanyaan Sederhana: 1 dari 2",
+          "Beberapa Pertanyaan Sederhana: 2 dari 2",
+          "Beberapa Pertanyaan Sederhana: 3 dari 3"
+        ],
+        "foodList": [
+          {
+            "id": 0,
+            "name": "Tidak ada",
+            "desc": "Tidak ada",
+            "imageUrl": "none.png",
+            "checked": true
+          },
+          {
+            "id": 1,
+            "name": "Afrika",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "african.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "Amerika",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "american.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Inggris",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "british.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Cina",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "chinese.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Eropa",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "european.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Perancis",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "french.png",
+            "checked": false
+          },
+          {
+            "id": 7,
+            "name": "Yunani",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "greek.png",
+            "checked": false
+          },
+          {
+            "id": 8,
+            "name": "Indian",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "indian.png",
+            "checked": false
+          },
+          {
+            "id": 9,
+            "name": "Italia",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "italian.png",
+            "checked": false
+          },
+          {
+            "id": 10,
+            "name": "Jepang",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "japanese.png",
+            "checked": false
+          },
+          {
+            "id": 11,
+            "name": "Thai",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "thai.png",
+            "checked": false
+          },
+          {
+            "id": 12,
+            "name": "Spanyol",
+            "desc": "Semua hidangan khas",
+            "imageUrl": "spanish.png",
+            "checked": false
+          }
+        ],
+        "allergyList": [
+          {
+            "id": 0,
+            "name": "Tidak Ada",
+            "desc": "Tidak Ada",
+            "imageUrl": "none.png",
+            "checked": true
+          },
+          {
+            "id": 1,
+            "name": "Produk Susu",
+            "desc": "Susu, Penner, Mentega dll.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "Gluten",
+            "desc": "Gandum, Biji gandum, Rye dll.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Telur",
+            "desc": "Unggas, Bebek dll.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Biji-bijian",
+            "desc": "Barley, Jagung, Oat, Beras dll.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Kacang",
+            "desc": "Potongan kacang, susu dll.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Makanan laut",
+            "desc": "Ikan laut, udang, lobster dll.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 7,
+            "name": "Kerang",
+            "desc": "Udang, kerang, scallops dll.",
+            "imageUrl": "shellfish.png",
+            "checked": false
+          },
+          {
+            "id": 8,
+            "name": "Kedelai",
+            "desc": "Kedelai, Potongan Kedelai dll.",
+            "imageUrl": "soy.png",
+            "checked": false
+          },
+          {
+            "id": 9,
+            "name": "Gandum",
+            "desc": "Roti, biskuit gandum, dll.",
+            "imageUrl": "wheat.png",
+            "checked": false
+          },
+          {
+            "id": 10,
+            "name": "Jagung",
+            "desc": "Serpihan jagung, biji jagung dll.",
+            "imageUrl": "corn.png",
+            "checked": false
+          }
+        ],
+        "allergyListNew": [
+          {
+            "id": 0,
+            "name": "Dairy",
+            "desc": "Milk, Paneer, Butter etc.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 2,
+            "name": "Eggs",
+            "desc": "Poultry, Ducks etc.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ],
+        "allergyListHalal": [
+          {
+            "id": 2,
+            "name": "Eggs",
+            "desc": "Poultry, Ducks etc.",
+            "imageUrl": "egg.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          }
+        ],
+        "allergyListVeg": [
+          {
+            "id": 0,
+            "name": "Dairy",
+            "desc": "Milk, Paneer, Butter etc.",
+            "imageUrl": "diary.png",
+            "checked": false
+          },
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ],
+        "allergyListVegan": [
+          {
+            "id": 1,
+            "name": "Gluten",
+            "desc": "Wheat, Wheat germ, Rye etc.",
+            "imageUrl": "gluten.png",
+            "checked": false
+          },
+          {
+            "id": 3,
+            "name": "Grains",
+            "desc": "Barley, Corn, Oats, Rice etc.",
+            "imageUrl": "grains.png",
+            "checked": false
+          },
+          {
+            "id": 4,
+            "name": "Peanut",
+            "desc": "Peanut Chunks etc.",
+            "imageUrl": "peanut.png",
+            "checked": false
+          },
+          {
+            "id": 5,
+            "name": "Seafood",
+            "desc": "Sea Fish, Prawn, Lobster etc.",
+            "imageUrl": "seafood.png",
+            "checked": false
+          },
+          {
+            "id": 6,
+            "name": "Soya",
+            "desc": "Soybean, Soya Chunks etc.",
+            "imageUrl": "soy.png",
+            "checked": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "age",
+      "label": "Umur",
+      "type": "label"
+    },
+    {
+      "key": "agePlaceholder",
+      "label": "Umurmu",
+      "type": "label"
+    },
+    {
+      "key": "noMealPlan",
+      "label": "Rencana Makan tidak tersedia",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferences",
+      "label": "Preferensi Makanan",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferencesPlaceholder",
+      "label": "Pilih",
+      "type": "label"
+    },
+    {
+      "key": "next",
+      "label": "Selanjutnya",
+      "type": "label"
+    },
+    {
+      "key": "skip",
+      "label": "Lewati",
+      "type": "label"
+    },
+    {
+      "key": "back",
+      "label": "Kembali",
+      "type": "label"
+    },
+    {
+      "key": "done",
+      "label": "Selesai",
+      "type": "label"
+    },
+    {
+      "key": "busyWorkWeek",
+      "label": "Minggu Kerja yang Sibuk",
+      "type": "label"
+    },
+    {
+      "key": "preparedForYou",
+      "label": "Dipersiapkan untukmu",
+      "type": "label"
+    },
+    {
+      "key": "PROTEIN",
+      "label": " Protein",
+      "type": "label"
+    },
+    {
+      "key": "FAT",
+      "label": "Lemak",
+      "type": "label"
+    },
+    {
+      "key": "CARBS",
+      "label": "Karbohidrat",
+      "type": "label"
+    },
+    {
+      "key": "myMealPlan",
+      "label": "Perencanaan Makan Saya",
+      "type": "label"
+    },
+    {
+      "key": "myPreference",
+      "label": "Preferensi saya",
+      "type": "label"
+    },
+    {
+      "key": "foodPreferences",
+      "label": "Preferensi Makanan",
+      "type": "label"
+    },
+    {
+      "key": "medicalHistory",
+      "label": "Riwayat Kesehatan",
+      "type": "label"
+    },
+    {
+      "key": "edit",
+      "label": "Ubah",
+      "type": "label"
+    },
+    {
+      "key": "intoleranceAllergies",
+      "label": "Intoleransi (Alergi)",
+      "type": "label"
+    },
+    {
+      "key": "nothing",
+      "label": "Tidak ada",
+      "type": "label"
+    },
+    {
+      "key": "vegetarian",
+      "label": "Vegetarian",
+      "type": "label"
+    },
+    {
+      "key": "foodDetails",
+      "label": "Detail Makanan",
+      "type": "label"
+    },
+    {
+      "key": "dutchBeans",
+      "label": "Kacang Belanda",
+      "type": "label"
+    },
+    {
+      "key": "lunchMenu",
+      "label": "Menu",
+      "type": "label"
+    },
+    {
+      "key": "49",
+      "label": "49",
+      "type": "label"
+    },
+    {
+      "key": "KCAL100g",
+      "label": "Kalori",
+      "type": "label"
+    },
+    {
+      "key": "1.2g",
+      "label": "1.2g",
+      "type": "label"
+    },
+    {
+      "key": "protien",
+      "label": "Protein",
+      "type": "label"
+    },
+    {
+      "key": "recipe",
+      "label": "Resep",
+      "type": "label"
+    },
+    {
+      "key": "ingredientsList",
+      "label": "Ingredients",
+      "type": "label"
+    },
+    {
+      "key": "popularMealPlans",
+      "label": "Rencana Makanan yang favorit",
+      "type": "label"
+    },
+    {
+      "key": "startFromScratch",
+      "label": "Mulai dari awal",
+      "type": "label"
+    },
+    {
+      "key": "customiseText",
+      "label": "Berdasarkan preferensimu, semuanya dapat disesuaikan",
+      "type": "label"
+    },
+    {
+      "key": "start",
+      "label": "Mulai",
+      "type": "label"
+    },
+    {
+      "key": "create",
+      "label": "Buat Sekarang",
+      "type": "label"
+    },
+    {
+      "key": "lunch425KCAL",
+      "label": "Makan Siang sebanyak 425 KCAL",
+      "type": "label"
+    },
+    {
+      "key": "changeUpdateRecipe",
+      "label": "Ubah/Perbarui Makanan",
+      "type": "label"
+    },
+    {
+      "key": "changeUpdateRecipeDesc",
+      "label": "Kamu dapat mencari atau memasukkan nama resep",
+      "type": "label"
+    },
+    {
+      "key": "cancel",
+      "label": "Batal",
+      "type": "label"
+    },
+    {
+      "key": "addRecipe",
+      "label": "Tambahkan Resep",
+      "type": "label"
+    },
+    {
+      "key": "changeRecipe",
+      "label": "Change Options",
+      "type": "label"
+    },
+    {
+      "key": "save",
+      "label": "Simpan",
+      "type": "label"
+    },
+    {
+      "key": "lunchTime",
+      "label": "12.00 - 13.30",
+      "type": "label"
+    },
+    {
+      "key": "chooseDesc",
+      "label": "Kamu dapat memilih sesuai dengan kebutuhanmu",
+      "type": "label"
+    },
+    {
+      "key": "1230KCAL",
+      "label": "Kalori",
+      "type": "label"
+    },
+    {
+      "key": "alertFailure",
+      "label": "Ada yang salah, mohon ulangi kembali",
+      "type": "label"
+    },
+    {
+      "key": "okay",
+      "label": "Oke",
+      "type": "label"
+    },
+    {
+      "key": "loadingText",
+      "label": "Kami sedang membuat rencana makan pribadimu",
+      "type": "label"
+    },
+    {
+      "key": "or",
+      "label": "ATAU",
+      "type": "label"
+    },
+    {
+      "key": "createText",
+      "label": "ATAU",
+      "type": "label"
+    },
+    {
+      "key": "createPlanText",
+      "label": "Belum ada program yang dibuat",
+      "type": "label"
+    },
+    {
+      "key": "replicateText",
+      "label": "Ulangi Program Minggu Sebelumnya",
+      "type": "label"
+    },
+    {
+      "key": "noPlanText",
+      "label": "Tidak ada program makan yang ditemukan",
+      "type": "label"
+    },
+    {
+      "key": "Protein",
+      "label": "Protein",
+      "type": "label"
+    },
+    {
+      "key": "Carbohydrates",
+      "label": "Carbohydrates",
+      "type": "label"
+    },
+    {
+      "key": "Fat",
+      "label": "Lemak",
+      "type": "label"
+    },
+    {
+      "key": "mealLoadingText",
+      "label": "Kami sedang menyiapkan program makan untukmu",
+      "type": "label"
+    },
+    {
+      "key": "maxNumRecipeMessage",
+      "label": "Sudah mencapai batas maksimum",
+      "type": "label"
+    },
+    {
+      "key": "breakfastTime",
+      "label": "07.00 - 10.00",
+      "type": "label"
+    },
+    {
+      "key": "dinnerTime",
+      "label": "19.00 - 20.30",
+      "type": "label"
+    },
+    {
+      "key": "goToWall",
+      "label": "Go to Wall",
+      "type": "label"
+    },
+    {
+      "key": "shareNow",
+      "label": "Share Now",
+      "type": "label"
+    },
+    {
+      "key": "myCommunity",
+      "label": "My Communities",
+      "type": "label"
+    },
+    {
+      "key": "createPost",
+      "label": "Create Post",
+      "type": "label"
+    },
+    {
+      "key": "post",
+      "label": "Post",
+      "type": "label"
+    },
+    {
+      "key": "enterTitle",
+      "label": "Enter title",
+      "type": "label"
+    },
+    {
+      "key": "titleMandatory",
+      "label": "Title & description are Mandatory*",
+      "type": "label"
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeaderDesc",
+      "label": "We need to know your meal preference, so that we can curate a meal plan that fits all your needs."
+    },
+    {
+      "type": "label",
+      "key": "headerText",
+      "label": " "
+    },
+    {
+      "type": "label",
+      "key": "dietPreferencesHeader",
+      "label": "What’s your Dietary Preference?"
+    },
+    {
+      "type": "label",
+      "key": "doYouHaveAnyFoodAllergy",
+      "label": "Do you have any food allergy?"
+    },
+    {
+      "type": "label",
+      "key": "commonAllergies",
+      "label": "Common Allergies"
+    },
+    {
+      "type": "label",
+      "key": "allergyDesc",
+      "label": "We need to know your allergy so that your dietician can be informed and provide the meal plan accordingly."
+    },
+    {
+      "key": "getStarted",
+      "label": "Get Started",
+      "type": "label"
+    },
+    {
+      "key": "joinCommunityText",
+      "label": "You have not joined any of the Community. Please join and share posts.",
+      "type": "label"
+    },
+    {
+      "key": "joinCommunity",
+      "label": "Join Community",
+      "type": "label"
+    }
+  ]
+}

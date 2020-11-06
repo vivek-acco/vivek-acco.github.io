@@ -1,0 +1,19 @@
+{
+  "image": "",
+  "label": "Pemberitahuan Privasi",
+  "key": "aboutprivacypolicy",
+  "elements": [
+    {
+      "key": "prutopia",
+      "label": "Pulse"
+    },
+    {
+      "key": "docservice",
+      "label": "DoctorOnCall"
+    },
+    {
+      "key": "babylon",
+      "label": "Babylon"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+    "image": "",
+    "label": "",
+    "key": "navigatorMap",
+    "elements": [
+        {
+        "type": "label",
+        "key": "timings",
+        "label": " Waktu:"
+        },
+        {
+        "type": "label",
+        "key": "distance",
+        "label": " Jarak:"
+        },
+        {
+        "type": "label",
+        "key": "apprx",
+        "label": "perkiraan."
+        },
+        {
+        "type": "label",
+        "key": "seeDetails",
+        "label": "Lihat Detail"
+        },
+        {
+        "type": "label",
+        "key": "gymsNearMe",
+        "label": "gym terdekat"
+        },
+        {
+        "type": "label",
+        "key": "markets",
+        "label": "pasar"
+        },
+        {
+        "type": "label",
+        "key": "gasStationsNearMe",
+        "label": "pompa bensin terdekat"
+        },
+        {
+        "type": "label",
+        "key": "groceries",
+        "label": "Bahan makanan"
+        },
+        {
+        "type": "label",
+        "key": "searchHere",
+        "label": "Cari di sini"
+        },
+        {
+        "type": "label",
+        "key": "hospitals",
+        "label": "Rumah Sakit"
+        },
+        {
+        "type": "label",
+        "key": "clinics",
+        "label": "Klinik"
+        },
+        {
+        "type": "label",
+        "key": "recentSearch",
+        "label": "Pencarian terbaru"
+        },
+        {
+        "type": "label",
+        "key": "pulseSearch",
+        "label": "Pulse Search"
+        }
+    ]
+}

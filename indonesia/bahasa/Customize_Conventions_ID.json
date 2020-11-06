@@ -1,0 +1,96 @@
+{
+  "key": "Customize_Conventions",
+  "image": "",
+  "elements": [
+    {
+      "label": "Prayer Time Conventions",
+      "type": "label",
+      "key": "PrayerTimeConventions"
+    },
+    {
+      "label": "JAKIM, Malaysia",
+      "type": "label",
+      "key": "JAKIM_Malaysia"
+    },
+    {
+      "label": "Provinsi",
+      "type": "label",
+      "key": "State"
+    },
+    {
+      "label": "Kuala Lumpur",
+      "type": "label",
+      "key": "KualaLumpur"
+    },
+    {
+      "label": "Daerah",
+      "type": "label",
+      "key": "Zone"
+    },
+    {
+      "label": "Otoritas Umum Mesir",
+      "type": "label",
+      "key": "EgyptGeneralAuthority"
+    },
+    {
+      "label": "Africa, Syria, Lebanon, Malaysia",
+      "type": "label",
+      "key": "AfricaSyriaLebanonMalaysia"
+    },
+    {
+      "label": "North America (ISNA)",
+      "type": "label",
+      "key": "NorthAmerica_ISNA"
+    },
+    {
+      "label": "North America (US and Canada)",
+      "type": "label",
+      "key": "NorthAmerica_US"
+    },
+    {
+      "label": "Muslim World League (MWL)",
+      "type": "label",
+      "key": "MuslimWorldLeague"
+    },
+    {
+      "label": "Europe, Far East, part of US",
+      "type": "label",
+      "key": "EuropeFarEastpartofUS"
+    },
+    {
+      "label": "Umm Al-Qura, Mekah",
+      "type": "label",
+      "key": "UmmAlQuraMakkah"
+    },
+    {
+      "label": "Arabian Peninsula",
+      "type": "label",
+      "key": "ArabianPeninsula"
+    },
+    {
+      "label": "Islamic University, Karachi",
+      "type": "label",
+      "key": "IslamicUniversityKarachi"
+    },
+    {
+      "label": "Pakistan, Afghanistan, Bangladesh, India",
+      "type": "label",
+      "key": "PakistanAfghanistanBangladeshIndia"
+    },
+    {
+      "label": "Pilih negara bagian",
+      "type": "label",
+      "key": "SelectState"
+    },
+    {
+      "label": "Pilih Zona",
+      "type": "label",
+      "key": "SelectZone"
+    },
+    {
+      "label": "Konfirmasi",
+      "type": "label",
+      "key": "Confirmed"
+    }
+  ]
+}

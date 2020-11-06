@@ -1,0 +1,203 @@
+{
+  "label": "Kegiatan Pemeriksaan Kesehatan Pasca Registrasi",
+  "image": "",
+  "key": "pruWizard",
+  "elements": [
+    {
+      "label": true,
+      "type": "label",
+      "key": "useWizardRegistration"
+    },
+    {
+      "label": "Selamat Datang di Pulse!",
+      "type": "label",
+      "key": "welcomeMsg"
+    },
+    {
+      "label": "LEWATI",
+      "type": "label",
+      "key": "skip"
+    },
+    {
+      "label": "Lengkapi profilmu untuk menerima",
+      "type": "label",
+      "key": "completeProfile"
+    },
+    {
+      "label": " Pemeriksaan Kesehatan BEBAS BIAYA 100%. " ,
+      "type": "label",
+      "key": "free"
+    },
+    {
+      "label": "Yuk cari tahu bagaimana kondisi kesehatanmu dan dapatkan rekomendasi untuk membuatmu lebih sehat." ,
+      "type": "label",
+      "key": "freeHA"
+    },
+    {
+      "label": "Lanjut" ,
+      "type": "label",
+      "key": "continueBtnText"
+    },
+    {
+      "label": "Berapa nomor ponselmu?",
+      "type": "label",
+      "key": "yourNumber"
+    },
+    {
+      "label": "Kapan ulang tahunmu?",
+      "type": "label",
+      "key": "yourBirthday"
+    },
+    {
+      "label": "Tanggal Lahir",
+      "type": "label",
+      "key": "dob"
+    },
+    {
+      "label": "Selesai",
+      "type": "label",
+      "key": "done"
+    },
+    {
+      "label": "Kami perlu informasi usia untuk dapat memberikan rekomendasi kesehatan yang sesuai dan memastikan kamu dapat menerima pemeriksaan kesehatan bebas biaya 100%.",
+      "type": "label",
+      "key": "qualifyProtection"
+    },
+    {
+      "label": "Apa jenis kelaminmu?",
+      "type": "label",
+      "key": "whatIsYourGender"
+    },
+    {
+      "label": "Di mana kamu tinggal?",
+      "type": "label",
+      "key": "whereDoYouLive"
+    },
+    {
+      "label": "Kami membutuhkan alamatmu untuk melihat apakah kamu memenuhi syarat untuk Pemeriksaan Kesehatan bebas biaya ini.",
+      "type": "label",
+      "key": "needYourAddress"
+    },
+    {
+      "label": "Kami perlu informasi jenis kelaminmu untuk dapat memberikan rekomendasi kesehatan yang sesuai dan memastikan kamu dapat menerima pemeriksaan kesehatan bebas biaya 100%.",
+      "type": "label",
+      "key": "needYourGender"
+    },
+    {
+      "label": "Aktifkan Asuransi COVID-19 dan Perlindungan Kecelakaan Bebas Biaya dengan mengisi nomor KTP di bawah ini ",
+      "type": "label",
+      "key": "activateCovidInsurance"
+    },
+    {
+      "label": "Saya dengan ini mengkonfirmasi bahwa data yang dimasukkan sudah benar dan saya telah membaca, memahami, dan menyetujui penerapan asuransi PRUTech Syarah DBD.",
+      "type": "label",
+      "key": "acknowledgement"
+    },
+    {
+      "label": "Berapa nomor KTP-mu?",
+      "type": "label",
+      "key": "whatsYourNationalId"
+    },
+    {
+      "label":"Kami perlu mengetahui KTP-mu untuk mengetahui apakah kamu memenuhi syarat untuk Pemeriksaan Kesehatan ini.",
+      "type": "label",
+      "key": "needDetails"
+    },
+    {
+      "label": "No KTP/Paspor/SIM",
+      "type":"label",
+      "key":"nationalId"
+    },
+    {
+      "label":"No KTP",
+      "type":"label",
+      "key":"nationalIdTitle"
+    },
+    {
+      "label":"Silakan masukkan nomor ID",
+      "type":"label",
+      "key":"idRequired"
+    },
+    { 
+      "errorMessages": [
+      {
+        "key": "required",
+        "message": "pesan: Silakan masukkan alamatmu"
+      }
+    ],
+      "label": "Masukkan alamat",
+      "type": "label",
+      "key": "enterAddress"
+    },
+    {
+      "label": "silakan pilih jenis kelaminmu",
+      "type": "label",
+      "key": "selectGender"
+    },
+    {
+      "label": "Berapa nomor teleponmu?",
+      "type": "label",
+      "key": "yourNumber"
+    },
+    {
+      "label": "Kode Negara",
+      "type": "label",
+      "key": "countryCode"
+    },
+    {
+      "label": "Nomor Telepon",
+      "type": "label",
+      "key": "phoneNumber"
+    },
+    {
+      "label": "Silakan mulai dengan memasukkan nomor ponselmu",
+      "type": "label",
+      "key": "needYourPhone"
+    },
+    {
+      "label": "Pria",
+      "type": "label",
+      "key": "male"
+    },
+    {
+      "label": "Wanita",
+      "type": "label",
+      "key": "female"
+    },
+    {
+      "label": "Lainnya",
+      "type": "label",
+      "key": "others"
+    },
+    {
+      "label": "Nomor Rumah/Apt",
+      "type": "label",
+      "key": "aptSuite"
+    },
+    {
+      "label": "Masukkan Detail Nomor Rumah/Apt",
+      "type": "label",
+      "key": "enterAptSuiteNo"
+    },
+    {
+      "label": "Siapa namamu?",
+      "type": "label",
+      "key": "yourName"
+    },
+    {
+      "label": "Kami membutuhkan namamu untuk melihat apakah kamu memenuhi syarat untuk perlindungan bebas biaya.",
+      "type": "label",
+      "key": "needYourName"
+    },
+    {
+      "label": "Nama Depan",
+      "type": "label",
+      "key": "firstName"
+    },
+    {
+      "label": "Nama Belakang",
+      "type": "label",
+      "key": "lastName"
+    }
+  ]
+}

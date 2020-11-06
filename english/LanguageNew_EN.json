@@ -1,0 +1,26 @@
+{
+    "key": "LanguageNew",
+    "image": "",
+    "elements": [
+        {
+            "label": "Select Language",
+            "type": "label",
+            "key": "Language"
+        },
+        {
+            "label": "English (UK)",
+            "type": "label",
+            "key": "English"
+        },
+        {
+            "label": "Khmer",
+            "type": "label",
+            "key": "Khmer"
+        },
+        {
+            "label": "English (UK)",
+            "type": "label",
+            "key": "EN"
+        }
+    ]
+}

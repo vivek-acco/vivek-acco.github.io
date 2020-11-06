@@ -1,0 +1,98 @@
+{
+  "image": "",
+  "label": "",
+  "key": "navigatormainscreen",
+  "elements": [
+    {
+      "type": "image",
+      "image": "",
+      "key": "navigatormainscreenfilter"
+    },
+    {
+      "type": "label",
+      "key": "navigatormainscreendisclaimer",
+      "label": "*data tidak lengkap"
+    },
+    {
+      "image": "",
+      "errorMessages": [
+        {
+          "message": "Oops!!",
+          "key": "hospital_list_empty_title"
+        },
+        {
+          "message": "No hospitals found",
+          "key": "hospital_list_empty"
+        }
+      ],
+      "label": "Rumah Sakit",
+      "type": "tab",
+      "key": "activenavigationmainhospitals"
+    },
+    {
+      "image": "",
+      "errorMessages": [
+        {
+          "message": "Oops!!",
+          "key": "clinic_list_empty_title"
+        },
+        {
+          "message": "No clinics found",
+          "key": "clinic_list_empty"
+        }
+      ],
+      "label": "Klinik",
+      "type": "tab",
+      "key": "activenavigationmainclinics"
+    },
+    {
+      "image": "",
+      "label": "Spesialisasi",
+      "type": "tab",
+      "key": "activenavigationmainspecialization"
+    },
+    {
+      "image": "",
+      "label": "Rumah Sakit",
+      "type": "tab",
+      "key": "inactivenavigationmainhospitals"
+    },
+    {
+      "image": "",
+      "label": "Klinik",
+      "type": "tab",
+      "key": "inactivenavigationmainclinics"
+    },
+    {
+      "image": "",
+      "label": "Spesialisasi",
+      "type": "tab",
+      "key": "inactivenavigationmainspecialization"
+    },
+    {
+      "type": "label",
+      "key": "navigationmainyourlocation",
+      "label": "Lokasimu"
+    },
+    {
+      "type": "label",
+      "key": "navigationmainlocationpermissiontitle",
+      "label": "Pulse ingin mengakses GPSmu"
+    },
+    {
+      "type": "label",
+      "key": "navigationmainlocationpermissiondescription",
+      "label": "Untuk menemukan rumah sakit atau klinik terdekat "
+    },
+    {
+      "type": "label",
+      "key": "navigationmainfilterby",
+      "label": "Filter dari"
+    },
+    {
+      "type": "label",
+      "key": "navigationmainclear",
+      "label": "Hapus"
+    }
+  ]
+}

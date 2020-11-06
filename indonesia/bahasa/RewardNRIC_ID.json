@@ -1,0 +1,116 @@
+{
+  "key": "RewardNRIC",
+  "image": "",
+  "elements": [
+    {
+      "label": "Konfirmasi identitas KamuConfirm your identity",
+      "type": "label",
+      "key": "Confirmyouridentity"
+    },
+    {
+      "label": "Masukan no. KTP atau pasport Kamu. Kami akan memastikan apakah Kamu bisa menikmati penawaran istimewa Kami seperti layanan tambahan dari fasilitas Bicara Dengan Dokter",
+      "type": "label",
+      "key": "RewardNRICdescription"
+    },
+    {
+      "label": "No. KTP atau Pasport",
+      "type": "label",
+      "key": "NRICorPassport"
+    },
+    {
+      "label": "Kirim Kode",
+      "type": "label",
+      "key": "SendCode"
+    },
+    {
+      "label": "Lanjut untuk saat ini/Saya bukan nasabah Prudential",
+      "type": "label",
+      "key": "SkipPrudentialcustomer"
+    },
+    {
+      "label": "Saya bukan nasabah Prudential",
+      "type": "label",
+      "key": "SkipPrudentialcustomer1"
+    },
+    {
+      "label": "Luar Biasa! Terima kasih telah menjadi Nasabah Kami.",
+      "type": "label",
+      "key": "Thankyou"
+    },
+    {
+      "label": "Voucher reward Kamu akan dikirimkan ke",
+      "type": "label",
+      "key": "Yourrewardvoucher"
+    },
+    {
+      "label": "Silahkan digunakan dimana saja di Malaysia",
+      "type": "label",
+      "key": "RedeemanywhereMalaysia"
+    },
+    {
+      "label": "Memiliki Kode Promo?",
+      "type": "label",
+      "key": "SpecialPromotions"
+    },
+    {
+      "label": "Luar Biasa",
+      "type": "label",
+      "key": "Awesome"
+    },
+    {
+      "label": "Referensikan ke Agen Kamu",
+      "type": "label",
+      "key": "Refertoyouragent"
+    },
+    {
+      "label": "Masukan kode promo Kamu dan dapatkan e-voucher Starbuck (penawaran terbatas).",
+      "type": "label",
+      "key": "Noworries"
+    },
+    {
+      "label": "Kode referensi Agen",
+      "type": "label",
+      "key": "AgentReferralCode"
+    },
+    {
+      "label": "Kode Promo",
+      "type": "label",
+      "key": "AgentBoostcode"
+    },
+    {
+      "label": "Kode Promo dibutuhkan",
+      "type": "label",
+      "key": "AgentBoostcoderequiredmsg"
+    },
+    {
+      "label": "Untuk Kode Promo dengan format '012111XXXX', hilangkan prefix pertama '0' saat Kamu menggunakan kode.",
+      "type": "label",
+      "key": "PromoCodeprompt"
+    },
+    {
+      "label": "Gunakan reward Saya",
+      "type": "label",
+      "key": "Redeemmyreward"
+    },
+    {
+      "label": "Terima Kasih! Selamat bereksplorasi! ",
+      "type": "label",
+      "key": "Takelookaround"
+    },
+    {
+      "label": "Bersiagalah untuk penawaran menarik lainnya.",
+      "type": "label",
+      "key": "Watchoutfor"
+    },
+    {
+      "label": "Akan Saya lakukan",
+      "type": "label",
+      "key": "Willdo"
+    },
+    {
+      "label": "Lanjut",
+      "type": "label",
+      "key": "Continue"
+    }
+  ]
+}

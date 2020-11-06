@@ -1,0 +1,17 @@
+{
+  "image": "",
+  "label": "Congratulations on taking the first steps to a healthier tomorrow! ",
+  "key": "healthcheckbuildyourprofile",
+  "elements": [
+    {
+      "type": "label",
+      "key": "healthcheckbuildyourprofiledescription",
+      "label": "Kamu akan memulai perjalanan dengan sistem pemeriksa kesehatan kami yang dirancang khusus untuk membantu memahami kondisi kesehatanmu dengan lebih baik\n \nJangan khawatir, kami akan selalu membantumu di setiap langkah. Kamu akan bertemu dengan Digital Twin-mu sebentar lagi. "
+    },
+    {
+      "type": "label",
+      "key": "healthcheckbuildyourprofilesubdescription",
+      "label": ""
+    }
+  ]
+}

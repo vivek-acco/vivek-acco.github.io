@@ -1,0 +1,206 @@
+{
+  "key": "ChatbotProfile",
+  "image": "",
+  "elements": [
+    {
+      "label": "Gejala Saya",
+      "type": "label",
+      "key": "MySymptoms"
+    },
+    {
+      "label": "Jenis panggilan",
+      "type": "label",
+      "key": "Calltype"
+    },
+    {
+      "label": "Jenis panggilan",
+      "type": "label",
+      "key": "CallType"
+    },
+    {
+      "label": "Dokter",
+      "type": "label",
+      "key": "Doctor"
+    },
+    {
+      "label": "Saran Dokter",
+      "type": "label",
+      "key": "DoctorFeedBack"
+    },
+    {
+      "label": "Video",
+      "type": "label",
+      "key": "Video"
+    },
+    {
+      "label": "Gejala",
+      "type": "label",
+      "key": "Symptoms"
+    },
+    {
+      "label": " Kunjungi apotek lokal terdekat, tunjukkan resep elektronik kamu dan ambil obat setelah melakukan pembayaran.",
+      "type": "label",
+      "key": "consulationdetailinfo"
+    },
+    {
+      "label": "Periksa Gejala",
+      "type": "label",
+      "key": "CheckSymptom"
+    },
+    {
+      "label": "Nama Depan",
+      "type": "label",
+      "key": "FirstName"
+    },
+    {
+      "label": "Nama Belakang",
+      "type": "label",
+      "key": "LastName"
+    },
+    {
+      "label": "Jenis Kelamin",
+      "type": "label",
+      "key": "Gender"
+    },
+    {
+      "label": "Tanggal Lahir",
+      "type": "label",
+      "key": "DateBirth"
+    },
+    {
+      "label": "Negara Tempat Tinggal",
+      "type": "label",
+      "key": "CountryResidence"
+    },
+    {
+      "label": "Konfirmasi",
+      "type": "label",
+      "key": "Confirm"
+    },
+    {
+      "label": "Silakan masukkan gejala kamu",
+      "type": "label",
+      "key": "Pleaseinputyoursymptoms"
+    },
+    {
+      "label": "Gejala",
+      "type": "label",
+      "key": "Symptoms"
+    },
+    {
+      "label": "Gejala apa yang kamu rasakan?",
+      "type": "label",
+      "key": "Whichsymptomisbotheringyou"
+    },
+    {
+      "label": "Cari gejala penyakit",
+      "type": "label",
+      "key": "Searchsymptom"
+    },
+    {
+      "label": "Lihat informasi mengenai kemungkinan penyebab gejala Kamu",
+      "type": "label",
+      "key": "Viewinformationsymptoms"
+    },
+    {
+      "label": "Lihat hasil",
+      "type": "label",
+      "key": "ViewResult"
+    },
+    {
+      "label": "Mulai percakapan baru",
+      "type": "label",
+      "key": "StartChat"
+    },
+    {
+      "label": "Riwayat percakapan",
+      "type": "label",
+      "key": "ChatHistory"
+    },
+    {
+      "label": "Bagaimana gejala Kamu hari ini?",
+      "type": "label",
+      "key": "Howareyoursymptomstoday"
+    },
+    {
+      "label": "Hapus",
+      "type": "label",
+      "key": "Delete"
+    },
+    {
+      "label": "Lihat Laporan",
+      "type": "label",
+      "key": "ViewReport"
+    },
+    {
+      "label": "Laporan",
+      "type": "label",
+      "key": "Report"
+    },
+    {
+      "label": "Kenapa saya sarankan yang diatas?",
+      "type": "label",
+      "key": "Whysuggestabove"
+    },
+    {
+      "label": "Kemungkinan Penyebab",
+      "type": "label",
+      "key": "possibleCauses"
+    },
+    {
+      "label": "Kami memerlukan informasi yang lebih lengkap tentang Kamu sebelum kita mulai",
+      "type": "label",
+      "key": "wegetstarted."
+    },
+    {
+      "label": "Mulai",
+      "type": "label",
+      "key": "Getstarted"
+    },
+    {
+      "label": "Lengkapi Kembaran Digital Kamu dengan melakukan penilaian penuh atau mulai sesi baru.",
+      "type": "label",
+      "key": "CompleteyourDigital"
+    },
+    {
+      "label": "Pilih Opsi lain:",
+      "type": "label",
+      "key": "Selectoption"
+    },
+    {
+      "label": "Pemeriksaan lengkap",
+      "type": "label",
+      "key": "Fullassessment"
+    },
+    {
+      "label": "Nutrisi",
+      "type": "label",
+      "key": "Nutrition"
+    },
+    {
+      "label": "Suasana hati",
+      "type": "label",
+      "key": "Mood"
+    },
+    {
+      "label": "Aktivitas",
+      "type": "label",
+      "key": "Activity"
+    },
+    {
+      "label": "Sesi telah Berakhir, apa yang ingin Kamu lakukan?",
+      "type": "label",
+      "key": "Nowfinishedsection"
+    },
+    {
+      "label": "Lihat Hasil saya",
+      "type": "label",
+      "key": "Seeresult"
+    },
+    {
+      "label": "Teruskan Membuat Profil Saya",
+      "type": "label",
+      "key": "Keepbuildingmyprofile"
+    }
+  ]
+}

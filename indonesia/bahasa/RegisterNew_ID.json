@@ -1,0 +1,181 @@
+{
+  "label": "Daftar",
+  "image": "",
+  "key": "RegisterNew",
+  "elements": [
+    {
+      "label": "Negara",
+      "type": "label",
+      "key": "new_register_country"
+    },
+    {
+      "label": "Bahasa",
+      "type": "label",
+      "key": "new_register_language"
+    },
+    {
+      "label": "Pengguna terdaftar?",
+      "type": "label",
+      "key": "existingusers"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Email dibutuhkan",
+          "key": "required"
+        },
+        {
+          "message": "Email tidak valid",
+          "key": "not_valid"
+        }
+      ],
+      "label": "Email",
+      "type": "input",
+      "required": "yes",
+      "key": "email"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Kata Sandi dibutuhkan",
+          "key": "required"
+        },
+        {
+          "message": "Kata Sandi tidak sesuai dengan ketentuan",
+          "key": "match_criteria"
+        },
+        {
+          "message": "Masukkan 8-16 karakter, terdiri dari min. 1 angka, 1 huruf besar, 1 huruf kecil dan 1 karakter unik (!@#$%^&+=)",
+          "key": "password_policy"
+        }
+      ],
+      "security": [
+        {
+          "message": "Masukkan 8-16 karakter, terdiri dari min. 1 angka, 1 huruf besar, 1 huruf kecil dan 1 karakter unik (!@#$%^&+=)",
+          "key": "passwordpolicy"
+        }
+      ],
+      "label": "Kata Sandi",
+      "type": "password",
+      "required": "yes",
+      "key": "password"
+    },
+    {
+      "label": "Kirim Kode",
+      "type": "label",
+      "key": "sendcode"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Nama Depan harus diisi",
+          "key": "required"
+        },
+        {
+          "message": "Nama Depan tidak valid",
+          "key": "not_valid"
+        }
+      ],
+      "label": "Nama Depan",
+      "type": "input",
+      "required": "yes",
+      "key": "firstname"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Nama Belakang harus diisi",
+          "key": "required"
+        },
+        {
+          "message": "Nama Belakang tidak valid",
+          "key": "not_valid"
+        }
+      ],
+      "label": "Nama Belakang",
+      "type": "input",
+      "required": "yes",
+      "key": "lastname"
+    },
+    {
+      "label": "Kode verifikasi yang dibutuhkan untuk langkah selanjutnya akan dikirimkan ke alamat email Kamu.",
+      "type": "label",
+      "key": "registerhint"
+    },
+    {
+      "label": "Dengan mengklik tombol berikut ini, Kamu mengkonfirmasi telah membaca dan menyetujui",
+      "type": "label",
+      "key": "registerhint1"
+    },
+    {
+      "label": "Dengan menekan tombol di bawah ini, kamu telah ",
+      "type": "label",
+      "key": "clickingContinueBelow"
+    },
+    {
+      "label": "membaca ",
+      "type": "label",
+      "key": "agreeToOur"
+    },
+    {
+      "label": "Syarat & Ketentuan",
+      "type": "label",
+      "key": "registerhint2"
+    },
+    {
+      "label": "dan",
+      "type": "label",
+      "key": "and"
+    },
+    {
+      "label": "Kebijakan Privasi",
+      "type": "label",
+      "key": "registerhint3"
+    },
+    {
+      "label": "untuk menggunakan layanan ini",
+      "type": "label",
+      "key": "registerhint4"
+    },
+    {
+      "label": "Pulse",
+      "type": "label",
+      "key": "PulsebyPrudential"
+    },
+    {
+      "label": "Tingkatkan kesehatan Anda sekarang. Gratis!",
+      "type": "label",
+      "key": "newregisterTitle"
+    },
+    {
+      "label": "Negara",
+      "type": "label",
+      "key": "country"
+    },
+    {
+      "label": "Bahasa",
+      "type": "label",
+      "key": "languages"
+    },
+    {
+      "label": "Dapatkan perlindungan asuransi bebas biaya untuk COVID-19 dan tingkatkan kesehatan & kebugaran Kamu hari ini",
+      "type": "label",
+      "key": "newImproveYourHealth"
+    },
+    {
+      "label": "LOGIN DENGAN EMAIL",
+      "type": "label",
+      "key": "newLoginWithEmail"
+    },
+    {
+      "label": "LOGIN DENGAN FACEBOOK",
+      "type": "label",
+      "key": "newLoginWithFacebook"
+    },
+    {
+      "label": "LOGIN DENGAN GOOGLE",
+      "type": "label",
+      "key": "newLoginWithGoogle"
+    }
+  ]
+}

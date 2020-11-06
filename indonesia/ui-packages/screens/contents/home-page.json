@@ -1,0 +1,42 @@
+{
+  "en": {
+    "videoSales": "video-sales.png",
+    "pruLeads": "pru-leads.png",
+    "revive": "revive.png",
+    "revived": "revived.png",
+    "prayertime2": "prayertime2.png",
+    "compass": "compass.png",
+    "cancerPolicy": "cancerpolicy.png",
+    "connectFitnessTracker": "connectfitnesstracker.png",
+    "connectedFitnessTracker": "connectedfitnesstracker.png",
+    "teleconsultation": "teleconsultation.png",
+    "teleconsultationGradient": "teleconsultationGradient.png",
+    "connectTracker": "connecttracker.png",
+    "trackerProgress": "trackerprogress.png",
+    "trackerProgressGradient": "trackerprogressgradient.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png",
+    "freeVouchersGradient": "freevouchersgradient.png",
+    "freeVouchers": "freevouchers.png",
+    "healthAssessment": "healthassessment.png"
+  },
+  "id": {
+    "videoSales": "video-sales.png",
+    "pruLeads": "pru-leads.png",
+    "revive": "revive.png",
+    "revived": "revived.png",
+    "prayertime2": "prayertime2.png",
+    "compass": "compass.png",
+    "cancerPolicy": "cancerpolicy.png",
+    "connectFitnessTracker": "connectfitnesstracker.png",
+    "connectedFitnessTracker": "connectedfitnesstracker.png",
+    "teleconsultation": "teleconsultation.png",
+    "teleconsultationGradient": "teleconsultationGradient.png",
+    "connectTracker": "connecttracker.png",
+    "trackerProgress": "trackerprogress.png",
+    "trackerProgressGradient": "trackerprogressgradient.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png",
+    "freeVouchersGradient": "freevouchersgradient.png",
+    "freeVouchers": "freevouchers.png",
+    "healthAssessment": "healthassessment.png"
+  }
+}

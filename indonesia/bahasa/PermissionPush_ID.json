@@ -1,0 +1,51 @@
+{
+  "key": "PermissionPush",
+  "image": "",
+  "elements": [
+    {
+      "label": "Lewati",
+      "type": "label",
+      "key": "Skip"
+    },
+    {
+      "label": "Izinkan Pulse menghubungi kamu",
+      "type": "label",
+      "key": "Letkeepintouch"
+    },
+    {
+      "label": "Penting bagi kami untuk memastikan kamu selalu update dengan jadwal dokter, info kebijakan baru yang menarik, rewards dan vouchers.",
+      "type": "label",
+      "key": "notify"
+    },
+    {
+      "label": "Tapi jangan khawatir terganggu, kami hanya akan memberikan informasi & update yang menarik dan tentunya berguna untukmu. Jangan sampai terlewat!",
+      "type": "label",
+      "key": "permission"
+    },
+    {
+      "label": "Izinkan",
+      "type": "label",
+      "key": "Allow"
+    },
+    {
+      "label": "Izin Pemberitahuan",
+      "type": "label",
+      "key": "permissionPushAlertTitle"
+    },
+    {
+      "label": "Untuk menikmati pengalaman sepenuhnya dan mendapat info terupdate dari Pulse, berikan akses pemberitahuan dari Pengaturan",
+      "type": "label",
+      "key": "permissionPushSettingDesc"
+    },
+    {
+      "label": "Sekarang, kamu dapat menikmati semua layanan dan menerima info terupdate dari Pulse",
+      "type": "label",
+      "key": "permissionPushGrantedDesc"
+    },
+    {
+      "label": "Oke",
+      "type": "label",
+      "key": "permissionPushOk"
+    }
+  ]
+}

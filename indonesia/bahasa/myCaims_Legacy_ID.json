@@ -1,0 +1,187 @@
+{
+  "label": "My Claims Legacy",
+  "image": "",
+  "key": "myClaims_Legacy",
+  "elements": [
+    {
+      "label": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e1609ee9-5e70-4f01-bd08-482c21504152?namespace=PH",
+      "key": "headerBackgroundUrl",
+      "type": "label"
+    },
+    {
+      "label": "Claim a Policy",
+      "key": "screenHeaderName",
+      "type": "label"
+    },
+    {
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/09ff4a9b-702e-4628-889f-03797b4dcf0a?namespace=PH",
+      "key": "screenLogUrl",
+      "type": "label"
+    },
+    {
+      "label": "by",
+      "key": "screenLogUrlPrefix",
+      "type": "label"
+    },
+    {
+      "label": "For the verification process, Prudential will send a code to the phone number registered at your policy.",
+      "key": "screenDescription",
+      "type": "label"
+    },
+    {
+      "label": "info-with-circle",
+      "key": "screenDescriptionIcon",
+      "type": "label"
+    },
+    {
+      "label": "Complete the information below",
+      "key": "formTitle",
+      "type": "label"
+    },
+    {
+      "label": "Confirm",
+      "key": "confirmButtonText",
+      "type": "label"
+    },
+    {
+      "label": "Done",
+      "key": "doneButtonText",
+      "type": "label"
+    },
+    {
+      "label": "Clear",
+      "key": "clearTextLabel",
+      "type": "label"
+    },
+    {
+      "label": "eCertificate",
+      "key": "eCertificateInputKey",
+      "type": "label"
+    },
+    {
+      "label": "Enter Certificate or Insurance number",
+      "key": "eCertificatePlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "e-Certificate Number",
+      "key": "eCertificateTitle",
+      "type": "label"
+    },
+    {
+      "label": "E-Certificate number must be filled",
+      "key": "eCertificateEmptyError",
+      "type": "label"
+    },
+    {
+      "label": "idNumber",
+      "key": "idNumberInputKey",
+      "type": "label"
+    },
+    {
+      "label": "ID Number of Life Assured/Participant",
+      "key": "IDNumberPlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "ID Number",
+      "key": "IdTitle",
+      "type": "label"
+    },
+    {
+      "label": 16,
+      "key": "IdMaxLength",
+      "type": "label"
+    },
+    {
+      "label": "IdNumber number must be filled",
+      "key": "idNumberEmptyError",
+      "type": "label"
+    },
+    {
+      "label": "Id has to be 16 characters",
+      "key": "idNumberLengthError",
+      "type": "label"
+    },
+    {
+      "label": "DD-MM-YYYY",
+      "key": "dobDateFormat",
+      "type": "label"
+    },
+    {
+      "label": "Enter DOB Life Assured/Participant",
+      "key": "dobPlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "dobInput",
+      "key": "dobInputKey",
+      "type": "label"
+    },
+    {
+      "label": "Date of Birth",
+      "key": "dobTitle",
+      "type": "label"
+    },
+    {
+      "label": "Date of Birth number must be filled",
+      "key": "dobEmptyError",
+      "type": "label"
+    },
+    {
+      "label": "phoneNumber",
+      "key": "phoneNumberInputKey",
+      "type": "label"
+    },
+    {
+      "label": "Enter registered phone number",
+      "key": "phoneNumberPlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "Phone Number",
+      "key": "phoneNumberTitle",
+      "type": "label"
+    },
+    {
+      "label": "Phone number must be filled",
+      "key": "phoneNumberEmptyError",
+      "type": "label"
+    },
+    {
+      "label": "Format Incompatible",
+      "key": "phoneNumberFormatError",
+      "type": "label"
+    },
+    {
+      "label": "/(^+62s?|^08|^62)d{8,}$/",
+      "key": "phoneNumberRegEx",
+      "type": "label"
+    },
+    {
+      "label": "Policy ID not found",
+      "key": "alertTitle",
+      "type": "label"
+    },
+    {
+      "label": "Please ensure you have entered correct policy ID",
+      "key": "alertDescription",
+      "type": "label"
+    },
+    {
+      "label": "OK",
+      "key": "alertButtonTitle",
+      "type": "label"
+    },
+    {
+      "label": "Oops, your information is Invalid!.",
+      "key": "alertTitleInvalidInput",
+      "type": "label"
+    },
+    {
+      "label": "Make sure you have filled in the correct information.",
+      "key": "alertDescriptionInvalidInput",
+      "type": "label"
+    }
+  ]
+}

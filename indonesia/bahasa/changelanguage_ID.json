@@ -1,0 +1,22 @@
+{
+  "image": "",
+  "label": "Pilih Bahasa",
+  "key": "changelanguage",
+  "elements": [
+    {
+      "type": "label",
+      "key": "en",
+      "label": "Inggris (Inggris)"
+    },
+    {
+      "label": "Bahasa Indonesia",
+      "type": "label",
+      "key": "Indonesia"
+    },
+    {
+      "type": "label",
+      "key": "ms",
+      "label": "Melayu"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "key": "RewardPhone",
+  "image": "",
+  "elements": [
+    {
+      "errorMessages": [
+        {
+          "message": "Harap pastikan nomor ponsel Anda terhubung ke OVO sebelum mengklaim hadiah Anda.",
+          "key": "7013"
+        },
+        {
+          "message": "Nomor telepon seluler telah digunakan untuk klaim hadiah.",
+          "key": "7043"
+        }
+      ],
+      "label": "OVO",
+      "type": "input",
+      "required": "yes",
+      "key": "ovoPhoneNumber"
+    },
+    {
+      "label": "Nomor handphone dibutuhkan",
+      "type": "label",
+      "key": "MNISREQUIRED"
+    },
+    {
+      "label": "Nomor handphone tidak valid",
+      "type": "label",
+      "key": "MNISINVALID"
+    },
+    {
+      "label": "Selamat datang di Pulse!",
+      "type": "label",
+      "key": "WelcometoPulse"
+    },
+    {
+      "label": "Tolong pastikan nomor telepon seluler anda terhubung dengan OVO sebelum klaim hadiah anda.",
+      "type": "label",
+      "key": "descriptionEnsure"
+    },
+    {
+      "label": "Dapatkan reward dengan menyelesaikan profil Kamu (selama promo berlaku). Pastikan keamanan akun Kamu dengan memdaftarkan nomor handphone Kamu.",
+      "type": "label",
+      "key": "description"
+    },
+    {
+      "label": "Penawaran Terbatas",
+      "type": "label",
+      "key": "offerLimited"
+    },
+    {
+      "label": "Kode verifikasi akan dikirimkan ke nomor handphone Kamu.",
+      "type": "label",
+      "key": "Wewillsendyou"
+    },
+    {
+      "label": "Kode Negara",
+      "type": "label",
+      "key": "CountryCode"
+    },
+    {
+      "label": "Nomor handphone",
+      "type": "label",
+      "key": "MobileNumber"
+    },
+    {
+      "label": "Kirim Kode",
+      "type": "label",
+      "key": "SendCode"
+    },
+    {
+      "label": "Masukan Kode untuk lanjut",
+      "type": "label",
+      "key": "Entercodetocontinue"
+    },
+    {
+      "label": "Kode verifikasi dikirimkan ke",
+      "type": "label",
+      "key": "verificationcode"
+    },
+    {
+      "label": "Kode",
+      "type": "label",
+      "key": "CodePlace"
+    },
+    {
+      "label": "Tidak menerima kode?",
+      "type": "label",
+      "key": "Didnreceivethecode"
+    },
+    {
+      "label": "Kirim ulang",
+      "type": "label",
+      "key": "Resend"
+    },
+    {
+      "label": "Terima Kasih telah mengkonfirmasi nomor handphone Kamu.",
+      "type": "label",
+      "key": "Thanksforconfirming"
+    },
+    {
+      "label": "Voucher reward Kamu akan dikirimkan ke",
+      "type": "label",
+      "key": "Yourrewardvoucherwillbesentto"
+    },
+    {
+      "label": "Gunakan dimanapun di Malaysia",
+      "type": "label",
+      "key": "RedeemanywhereMalaysia"
+    },
+    {
+      "label": "Luar Biasa",
+      "type": "label",
+      "key": "Awesome"
+    },
+    {
+      "label": "Untuk Syarat & Ketentuan",
+      "type": "label",
+      "key": "termsConditionsRewardsLabel"
+    },
+    {
+      "label": "untuk syarat & ketentuan OVO",
+      "type": "label",
+      "key": "OVOtermsConditionsRewardsLabel"
+    },
+    {
+      "label": "https://www.ovo.id/syarat-ketentuan",
+      "type": "label",
+      "key": "OVOTermConditionLink"
+    },
+    {
+      "label": "Klik",
+      "type": "label",
+      "key": "clickRewardsLabel"
+    },
+    {
+      "label": "Di sini",
+      "type": "label",
+      "key": "hereRewardsLabel"
+    },
+    {
+      "label": "OK",
+      "type": "label",
+      "key": "ok"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "key": "MeNew",
+  "image": "",
+  "elements": [
+    {
+      "label": "Edit profil",
+      "type": "label",
+      "key": "EditProfile"
+    },
+    {
+      "label": "Sesuaikan",
+      "type": "label",
+      "key": "Customise"
+    },
+    {
+      "label": "Keamanan",
+      "type": "label",
+      "key": "Security"
+    },
+    {
+      "label": "Bahasa",
+      "type": "label",
+      "key": "Language"
+    },
+    {
+      "label": "Saran Saya",
+      "type": "label",
+      "key": "ProvideFeedback"
+    },
+    {
+      "label": "Hukum & Privasi",
+      "type": "label",
+      "key": "AboutPulseApp"
+    },
+    {
+      "label": "Keluar",
+      "type": "label",
+      "key": "Signout"
+    },
+    {
+      "label": "Bagikan",
+      "type": "label",
+      "key": "Share"
+    },
+    {
+      "label": "Profil Saya",
+      "type": "label",
+      "key": "myprofile"
+    },
+    {
+      "label": "Pengaturan Saya",
+      "type": "label",
+      "key": "mysettings"
+    },
+    {
+      "label": "Polis Ku",
+      "type": "label",
+      "key": "mypolicies"
+    },
+    {
+        "label": "{\"fontSize\": 12, \"color\": \"#7e7e7e\", \"textAlign\": \"center\"}",
+        "type": "label",
+        "key": "accounts/thatsallStyle"
+    },
+    {
+        "label": "Selesai!",
+        "type": "label",
+        "key": "accounts/thatsallText"
+    },
+    {
+        "label": "aktifkan",
+        "type": "label",
+        "key": "accounts/thatsallConfig"
+    }
+  ]
+}

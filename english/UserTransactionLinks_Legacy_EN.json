@@ -1,0 +1,93 @@
+{
+    "image": "",
+    "key": "UserTransactionLinks_Legacy",
+    "elements": [
+        {
+            "label": "Ask! Pulse Assistance",
+            "type": "label",
+            "key": "PRUDENCE",
+            "action": {
+                "context": "ASK_PRUDENCE",
+                "type": "goToChat"
+            },
+            "overrideField": "enablePrudence",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/940ed6e3-f1c1-42fb-af74-986ffc03d0fe?namespace=PH"
+        },
+        {
+            "label": "Update Beneficiary",
+            "type": "label",
+            "key": "CHANGEBENEFICIARY",
+            "action": {
+                "context": "PRODUCT_JOURNEYS",
+                "type": "product-journeys/add-beneficiary-for-existing-policy"
+            },
+            "overrideField": "updateBeneficiaryRequired",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/e82553b8-d2b3-485d-95f0-4bdb0fb4bb18?namespace=PH"
+        },
+        {
+            "label": "Update Contact Details",
+            "type": "label",
+            "key": "CHANGECONTACTDETAILS",
+            "action": {
+                "context": "UPDATE_INFO_SCREEN",
+                "type": "myPolicy/getPolicyDetails"
+            },
+            "overrideField": "endorsementRequired",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/9b624d45-f9cb-4ac5-abd5-dfb712863300?namespace=PH"
+        },
+        {
+            "label": "View Transactions ",
+            "type": "label",
+            "key": "VIEWTRANSACTIONS",
+            "action": {
+                "context": "policyTransaction",
+                "type": "myPolicy/getPolicyDetails"
+            },
+            "overrideField": "enableTransactions",
+            "iconUrl": ""
+        },
+        {
+            "label": "Contact Us",
+            "type": "label",
+            "key": "",
+            "action": {},
+            "overrideField": "",
+            "iconUrl": ""
+        },
+        {
+            "label": "Register Claim",
+            "type": "label",
+            "key": "MINORCLAIMS",
+            "action": {
+                "context": "myClaims",
+                "type": "registerClaimfsm"
+            },
+            "overrideField": "enableClaimsJourney",
+            "iconUrl": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/0c717cfe-4ea2-40f0-b4e3-734afe7a03d8?namespace=PH"
+        },
+        {
+            "label": "Pru Cash",
+            "type": "label",
+            "key": "PRUCASH",
+            "action": {
+                "context": "PRU_CASH",
+                "type": "myPolicy/goToPruCash"
+            },
+            "overrideField": "enablePruCash",
+            "overrideFunction": "hasPruCash",
+            "iconUrl": ""
+        },
+        {
+            "label": "Download E-Card",
+            "type": "label",
+            "key": "DOWNLOADECARD",
+            "action": {
+                "context": "MEDICAL_E_CARD",
+                "type": "download_medical_card"
+            },
+            "overrideField": "enableDownloadECard",
+            "overrideFunction": "hasECard",
+            "iconUrl": ""
+        }
+    ]
+}

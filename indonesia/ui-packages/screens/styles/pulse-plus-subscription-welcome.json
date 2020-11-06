@@ -1,0 +1,104 @@
+{
+  "default": {
+    "flex1": {
+      "flex": 1
+    },
+    "image": {
+      "height": 230,
+      "width": "100%"
+    },
+    "buttonText": {
+      "alignSelf": "center",
+      "color": "white",
+      "fontFamily": "Avenir",
+      "fontSize": 18
+    },
+    "buttonView": {
+      "alignSelf": "center",
+      "backgroundColor": "#ec1b2d",
+      "borderRadius": 30,
+      "justifyContent": "center",
+      "marginBottom": 20,
+      "padding": 10,
+      "width": "80%"
+    },
+    "footer": {},
+    "header": {
+      "alignItems": "center",
+      "marginVertical": 24
+    },
+    "listBullet": {
+      "backgroundColor": "#ec1b2d",
+      "borderRadius": 4,
+      "height": 8,
+      "marginHorizontal": 10,
+      "margin": 5,
+      "width": 8
+    },
+    "scrollWrapper": {
+      "flex": 2.8
+    },
+    "scrollView": {
+      "backgroundColor": "#ffffff",
+      "borderTopLeftRadius": 18,
+      "borderTopRightRadius": 18,
+      "marginTop": -18
+    },
+    "textCenter": {
+      "color": "#ec1b2d",
+      "fontSize": 30,
+      "fontWeight": "500",
+      "fontFamily": "Avenir"
+    },
+    "subText": {
+      "color": "#475662",
+      "fontSize": 18,
+      "fontWeight": "500",
+      "fontFamily": "Avenir",
+      "paddingHorizontal": 20,
+      "textAlign": "center"
+    },
+    "featureDesc": {
+      "fontSize": 18,
+      "color": "#475662",
+      "textAlign": "center",
+      "width": "90%",
+      "marginHorizontal": "5%",
+      "lineHeight": 24,
+      "marginVertical": 5,
+      "fontFamily": "Avenir"
+    },
+    "listWrapperParent": {
+      "marginVertical": 24,
+      "marginLeft": "14%",
+      "marginRight": "12%"
+    },
+    "listWrap": {
+      "flexDirection": "row",
+      "marginVertical": 10
+    },
+    "listText": {
+      "flexShrink": 1,
+      "flexWrap": "wrap",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "color": "#5b6770",
+      "fontFamily": "Avenir"
+    },
+    "checkMark": {
+      "height": 22,
+      "width": 18,
+      "marginRight": 15
+    },
+    "backWrapper": {
+      "position": "absolute",
+      "top": 10,
+      "left": 0,
+      "right": 0
+    },
+    "backImage": {
+      "width": 25,
+      "height": 25
+    }
+  }
+}

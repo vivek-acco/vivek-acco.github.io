@@ -1,0 +1,41 @@
+{
+    "key": "BinahAI",
+    "image": "",
+    "elements": [
+        {
+            "label": 1800,
+            "type": "label",
+            "key": "intervalTime"
+        },
+        {
+            "label": "Oxygen Saturation",
+            "type": "label",
+            "key": "oxygenSaturation"
+        },
+        {
+            "label": "Detak Jantung",
+            "type": "label",
+            "key": "heartRate"
+        },
+        {
+            "label": "Tingkat Pernapasan",
+            "type": "label",
+            "key": "respiratoryRate"
+        },
+        {
+            "label": "Variasi Denyut Jantung",
+            "type": "label",
+            "key": "heartRateVariability"
+        },
+        {
+            "label": "Pulse Health",
+            "type": "label",
+            "key": "pulseHealth"
+        },
+        {
+            "label": "Tingkatan Stres",
+            "type": "label",
+            "key": "stressLevel"
+        }
+    ]
+}

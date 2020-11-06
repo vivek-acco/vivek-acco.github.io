@@ -1,0 +1,71 @@
+{
+	"key": "PrayerTimeConvention",
+	"image": "",
+	"elements": [
+		{
+			"label": "Egypt General Authority",
+			"type": "label",
+			"key": "InsaanEgyptGeneralAuthority"
+		},
+		{
+			"label": "North America (ISNA)",
+			"type": "label",
+			"key": "InsaanNorthAmerica_ISNA"
+		},
+		{
+			"label": "Muslim World League (MWL)",
+			"type": "label",
+			"key": "InsaanMuslimWorldLeague"
+		},
+		{
+			"label": "Umm Al-Qura, Mekah",
+			"type": "label",
+			"key": "InsaanUmmAlQuraMakkah"
+		},
+		{
+			"label": "Islamic University, Karachi",
+			"type": "label",
+			"key": "InsaanIslamicUniversityKarachi"
+		},
+		{
+			"label": "Indonesia",
+			"type": "label",
+			"key": "InsaanJakimMalaysia"
+		},
+		{
+			"label": "Africa, Syria, Lebanon, Malaysia, Indonesia",
+			"type": "label",
+			"key": "InsaanAfricaSyriaLebanonMalaysia"
+		},
+		{
+			"label": "North America (US and Canada)",
+			"type": "label",
+			"key": "InsaanNorthAmerica_US"
+		},
+		{
+			"label": "Europe, Far East, part of US",
+			"type": "label",
+			"key": "InsaanEuropeFarEastpartofUS"
+		},
+		{
+			"label": "Arabian Peninsula",
+			"type": "label",
+			"key": "InsaanArabianPeninsula"
+		},
+		{
+			"label": "Pakistan, Afghanistan, Bangladesh, India",
+			"type": "label",
+			"key": "InsaanPakistanAfghanistanBangladeshIndia"
+		},
+		{
+			"label": "Prayer Time Conventions",
+			"type": "label",
+			"key": "InsaanPrayerTimeConventions"
+		},
+		{ "label": "State", "type": "label", "key": "InsaanState" },
+		{ "label": "Zone", "type": "label", "key": "InsaanZone" },
+		{ "label": "Confirm", "type": "label", "key": "InsaanConfirm" },
+		{ "label": "Select State", "type": "label", "key": "InsaanSelectState" },
+		{ "label": "Select Zone", "type": "label", "key": "InsaanSelectZone" }
+	]
+}

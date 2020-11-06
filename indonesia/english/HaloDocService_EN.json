@@ -1,0 +1,1226 @@
+{
+	"image": "",
+	"label": "",
+	"key": "HaloDocService",
+	"elements": [
+		{
+			"label": "Doctor has send you a new message",
+			"type": "label",
+			"key": "text"
+		},
+		{
+			"label": "Doctor has joined the Call",
+			"type": "label",
+			"key": "application/hd.consultation.call_start"
+		},
+		{
+			"label": "Doctor has ended the Call",
+			"type": "label",
+			"key": "application/hd.consultation.call_end"
+		},
+		{
+			"label": "Doctor has send you an attachment",
+			"type": "label",
+			"key": "file_attachment"
+		},
+		{
+			"label": "Doctor has ended the Consultation",
+			"type": "label",
+			"key": "consultation_completed"
+		},
+		{
+			"label": "Doctor has ended the Consultation",
+			"type": "label",
+			"key": "application/hd.consulation.complete"
+		},
+		{
+			"label": "Doctor has approved your Consultation request",
+			"type": "label",
+			"key": "consultation_approved"
+		},
+		{
+			"label": "Doctor has rejected your Consultation request",
+			"type": "label",
+			"key": "consultation_rejected"
+		},
+		{
+			"label": "Doctor has missed your Consultation",
+			"type": "label",
+			"key": "consultation_missed"
+		},
+		{
+			"label": "Doctor has send you a follow up",
+			"type": "label",
+			"key": "application/hd.consultation.doctor.followup"
+		},
+		{
+			"label": "Doctor has send you a referral",
+			"type": "label",
+			"key": "application/hd.consultation.doctor.referral"
+		},
+		{
+			"label": "Doctor has send you an e-prescription",
+			"type": "label",
+			"key": "application/hd.consultation.epres"
+		},
+		{
+			"label": "Doctor has send you a Doctor Note",
+			"type": "label",
+			"key": "application/hd.consultation.dn"
+		},
+		{
+			"label": "I Agree",
+			"type": "label",
+			"key": "IAgree"
+		},
+		{
+			"label": "Terms & Conditions",
+			"type": "label",
+			"key": "TermsConditions"
+		},
+		{
+			"label": "Please remember this isn't a medical diagnosis or a replacement for seeing a doctor. It is only for general well-being purposes. Any health-related information provided should not be treated as medical advice. Please consult a physician for any medical advice required.",
+			"type": "label",
+			"key": "PleaseRemember"
+		},
+		{
+			"label": "Oops! Something went wrong. Please try again!",
+			"type": "label",
+			"key": "halo_doc_generic_error"
+		},
+		{
+			"label": "Something went wrong. Please try again!",
+			"type": "label",
+			"key": "halo_doc_api_error"
+		},
+		{
+			"label": "OTP not Verified",
+			"type": "label",
+			"key": "halo_doc_otp_unverified"
+		},
+		{
+			"label": "Failed to fetch full consultation details",
+			"type": "label",
+			"key": "failed_consultation_details"
+		},
+		{
+			"label": "Failed to fetch roon details",
+			"type": "label",
+			"key": "failed_room_details"
+		},
+		{
+			"label": "The following shows possible causes and actions to take relating to these symptoms. This is intended for use only for general wellbeing purpose and is not intended to be used for any medical purpose (such as the detection, diagnosis or treatment of any medical condition or disease). Any health-related information provided should not be treated as medical advice. Please consult a physician for any medical advice required.",
+			"type": "label",
+			"key": "FollowingShow"
+		},
+		{
+			"label": "Please note, Healthcheck is a lifestyle app intended for use only for general wellbeing purposes. Risk profiles are based on population group, not individual risks. Results are for information purposes only, do not constitute diagnosis and are not intended to be used for any medical purpose (such as the detection, diagnosis, monitoring, management or treatment of any medical condition or disease). Any health-related information provided should not be treated as medical advice. Please consult a physician for any medical advice required.",
+			"type": "label",
+			"key": "PleaseNote"
+		},
+
+		{
+			"label": "Invalid Payment URL",
+			"type": "label",
+			"key": "invalidPaymentUrl"
+		},
+		{
+			"label": "We need to access your device's",
+			"type": "label",
+			"key": "deviceAccess"
+		},
+		{
+			"label": "Camera",
+			"type": "label",
+			"key": "camera"
+		},
+		{
+			"label": "Gallery",
+			"type": "label",
+			"key": "Gallery"
+		},
+		{
+			"label": "and",
+			"type": "label",
+			"key": "and"
+		},
+		{
+			"label": "microphone",
+			"type": "label",
+			"key": "microphonePermission"
+		},
+		{
+			"label": "before you can proceed",
+			"type": "label",
+			"key": "proceed"
+		},
+		{
+			"label": "Cancel",
+			"type": "label",
+			"key": "Cancel"
+		},
+		{
+			"label": "Doctor has already joined the call, please join using 'Join call' option",
+			"type": "label",
+			"key": "DocJoined"
+		},
+		{
+			"label": "GRANT ACCESS",
+			"type": "label",
+			"key": "grantAccess"
+		},
+		{
+			"label": "Permissions required",
+			"type": "label",
+			"key": "permissionRequired"
+		},
+		{
+			"label": "To use this feature, both Camera and Microphone permissions are required. Click OK to take you to settings page where you can grant the permission.",
+			"type": "label",
+			"key": "permissionDescription"
+		},
+		{
+			"label": "Permission garnted",
+			"type": "label",
+			"key": "permissionGranted"
+		},
+		{
+			"label": "Permission not granted",
+			"type": "label",
+			"key": "permissionNotGranted"
+		},
+		{
+			"label": "Switching to video call.",
+			"type": "label",
+			"key": "switchingVideo"
+		},
+		{
+			"label": "Select photo from",
+			"type": "label",
+			"key": "selectPhoto"
+		},
+		{
+			"label": "Verify Now",
+			"type": "label",
+			"key": "verifyNowText"
+		},
+		{
+			"label": "Date of Birth",
+			"type": "label",
+			"key": "dob"
+		},
+		{
+			"label": "phone",
+			"type": "label",
+			"key": "phone"
+		},
+		{
+			"label": "Sorry, we couldn't receive the confirmation for consultation. Please try again.",
+			"type": "label",
+			"key": "couldntConfirm"
+		},
+		{
+			"label": "Credit/Debit Card",
+			"type": "label",
+			"key": "creditOrDebit"
+		},
+		{
+			"label": "Pay through card and get a discount upto",
+			"type": "label",
+			"key": "disclaimerText"
+		},
+		{
+			"label": "Not able to join the call ",
+			"type": "label",
+			"key": "notAble"
+		},
+
+		{
+			"label": "appears, you are receiving the services from Halodoc.",
+			"type": "label",
+			"key": "appearsoncall"
+		},
+		{
+			"label": "By confirming, you agree that your information above may be included in your PULSE profile and held subject to the PULSE",
+			"type": "label",
+			"key": "ConfirmPrivacy"
+		},
+		{
+			"label": " Privacy Notice ",
+			"type": "label",
+			"key": "PrivacyNotice"
+		},
+		{
+			"label": "Confirm",
+			"type": "label",
+			"key": "Confirm"
+		},
+		{
+			"label": "Verify",
+			"type": "label",
+			"key": "Verify"
+		},
+		{
+			"type": "label",
+			"key": "docRegisterPageOtp",
+			"label": "Enter OTP"
+		},
+		{
+			"type": "label",
+			"key": "resendotp",
+			"label": "Resend OTP"
+		},
+		{
+			"type": "label",
+			"key": "sessionFee",
+			"label": "Session fee for doctor"
+		},
+		{
+			"type": "label",
+			"key": "totalSavings",
+			"label": "Total Savings"
+		},
+		{
+			"type": "label",
+			"key": "autoAppliedDiscount",
+			"label": "Auto-applied Discount"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCodeErrorMsg",
+			"label": "Invalid coupon code"
+		},
+		{
+			"type": "label",
+			"key": "removePromoCodeErrorMsg",
+			"label": "Failed to remove the coupon discount"
+		},
+		{
+			"type": "label",
+			"key": "emptyPromoCodeErrorMsg",
+			"label": "Please enter a coupon code"
+		},
+		{
+			"type": "label",
+			"key": "removePromoCode",
+			"label": "Remove"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCodePlaceholder",
+			"label": "Apply Promo Code"
+		},
+		{
+			"type": "label",
+			"key": "applyPromoCode",
+			"label": "Apply"
+		},
+		{
+			"type": "label",
+			"key": "paymentSummary",
+			"label": "Payment Summary"
+		},
+		{
+			"type": "label",
+			"key": "couponDiscount",
+			"label": "Coupon Discount"
+		},
+		{
+			"type": "label",
+			"key": "autoAppliedDiscount",
+			"label": "Auto-applied Discount"
+		},
+		{
+			"type": "label",
+			"key": "totalAmount",
+			"label": "Total Amount"
+		},
+		{
+			"type": "label",
+			"key": "paymentMethodTitle",
+			"label": "Payment Method"
+		},
+		{
+			"type": "label",
+			"key": "cardDiscountDisclaimer",
+			"label": "Pay through card and get a discount upto ${0} ${1}"
+		},
+		{
+			"type": "label",
+			"key": "paidConsultationProceedButton",
+			"label": "Pay and Confirm"
+		},
+		{
+			"type": "label",
+			"key": "freeConsultationProceedButton",
+			"label": "Proceed for Consultation"
+		},
+		{
+			"header": "PRIVACY POLICY",
+			"type": "label",
+			"key": "HaloDocPrivacy",
+			"label": "<p></p><p> </p><div><p><strong>HALODOC</strong></p><p><strong>PRIVACY POLICY</strong></p><p><strong><em>(Last Updated on 27 May 2019)</em></strong></p><p>This Privacy Policy (&ldquo;<strong>Privacy Policy</strong>&rdquo;) sets out how PT Media Dokter Investama and its subsidiaries and affiliates (&ldquo;<strong>We</strong>&rdquo;), raise, collect, use, display, announce, disclose, process, open access, store, send, give, assign, treats, manage, destroy and protect the information and Personal Data (jointly, &ldquo;<strong>Use</strong>&rdquo;) supplied by You as user (&ldquo;<strong>You</strong>&rdquo;) of Halodoc Application (&ldquo;<strong>Application</strong>&rdquo;) or Halodoc Web Application(&ldquo;<strong>Web App</strong>&rdquo;) as requested or when using the features in the Application (&ldquo;<strong>Personal Data</strong>&rdquo;). Please note that Personal Data excludes Personal Data available in public domain. </p><p>This Privacy Policy is part of our Terms and conditions of Use (&ldquo;<strong>Terms of Use</strong>&rdquo;). Use of Platform and each feature and/or service available in the Platform (&ldquo;<strong>Service</strong>&rdquo;) indicates form of your acceptance for the Terms of Use and Privacy Policy. Therefore, it is necessary that You read this Privacy Policy thoroughly to ensure your full understanding before registering, accessing and/or using the Application, Web App and Our Service. </p><p><strong>A. Scope of Privacy Policy</strong></p><p>1. Particularly for Buy Medicine Feature is managed by <strong>PT MENSA MEDIKA INVESTAMA</strong> (&ldquo;<strong>PT MMI</strong>&rdquo;) and connected with GO-MED feature managed by <strong>PT APLIKASI KARYA ANAK BANGSA </strong>(&ldquo;<strong>GO-JEK</strong>&rdquo;) in GO-JEK Application as third party delivering the medicine, vitamin or medical equipment order.</p><p>2. This Privacy Policy governs the Use of Personal Data.</p><p>3. By using the Platform, You will be deemed to have read this Privacy Policy and agree the procedure with regard to the Use of your Personal Data set forth in this Privacy Policy.</p><p>4. If We request You to provide information when using the Platform, such information will only be used for the purpose of rendering the service in accordance with this Privacy Policy.</p><p>5. We shall have the right to at any time to modify, delete and apply new provisions of Privacy Policy. You are expected to check the page of this Privacy Policy regularly to be informed of any changes. By using the Platform after such change, You will be deemed to have acknowledged and agreed with the changes to the Privacy Policy.</p><p><strong>B. Registration</strong></p><p>1. You are required to make the registration in the Platform to may use of features on the Platform.</p><p>2. For registering in the Platform, You must provide the information required by us as stated in point C (Personal Data) below.</p><p><strong>C. Personal Data</strong></p><p>1. You acknowledge and agree that We collect personal information supplied by You when making the account and profile or when using the features in the Platform.</p><p>2. Information on personal identity to be completed when making the account in the Platform include:</p><p>(i) Full Name as printed in the valid ID card (ID CARD or Passport)</p><p>(ii) Mobile phone number.</p><p>3. You acknowledge and agree that We also have the right to collect information when You use the Platform, including but not limited to: GPS location/coordinate (if You activate this feature), Internet Protocol (IP) address (if using browser), operating system, type of browser, Platform address referring to and your activity in the Platform. You can activate or deactivate the locating service when using use the Platform. </p><p>4. You acknowledge and agree that We have the right to verify directly to You or other party of information on personal data supplied by You through the Platform.</p><p>5. By using Platform, You represent that the information supplied is correct and accurate. </p><p>6. If the information supplied is false or incorrect, We are not responsible for all consequences in connection with the supply and usage of false information.</p><p><strong>D. Chat, Video and Voice Call data in Chat with a Doctor Feature (Chat with a Doctor) </strong></p><p>For your convenience in the interaction with the doctor, chat service (You may also send the picture to doctor relating to medical condition), video and voice call in the Platform are available. You acknowledge and agree that for the purpose of review, Video and Voice Call Service will be automatically recorded and chat history also will be stored.</p><p><strong>E. Responsibility for the Use of Chat, Video and Voice Call features</strong></p><p>In using the Chat, Video and Voice Call features in the Platform, You understand that Platform is only a tool to ease the search of Service, to give convenience and ease in the interaction with the doctor, each content and/or representations in the conversation by You and the doctor using such features, this is a private conversation between You and the doctor and is clearly beyond our control, all disputes relating to the content and/or representations from conversation between You and the doctor in the features, shall be your full responsibility and You agree to release and hold us harmless from and against any and all claims, lawsuit and legal consequences. </p><p><strong>F. Responsibility for Storage of Laboratory Examination Medical Record in the Get a Lab Test Feature (Get a Lab Test)</strong></p><p>1. You acknowledge and agree that You provide full right to us to treat and the data and information supplied at the time of registration and/or ordering the lab including history and other relevant matters.</p><p>2. You acknowledge and agree that for your convenience, the result of laboratory examination will be provided in digital format and be uploaded to your account for viewing (&ldquo;<strong>Lab Examination Result</strong>&rdquo;). The result of laboratory examination will be kept confidential by the security system complying with the standard set in the applicable legislations of Indonesia.</p><p>3. You acknowledge and agree that You shall request acceptance from other persons ordering for Get a Lab Test (Get a Lab Test) by You and be held responsible for the confidentiality of the result of medical record of the other persons in your Halodoc account. We will be released and held harmless from and against any and all claims and suits by other persons relating to the medical record of other persons as uploaded and stored in your Halodoc account.</p><p><strong>G. Visitor Data </strong></p><p>You acknowledge and agree that the Platform will collect information on use, such as (but not limited to) number of visits, source of visitors and activity. These data will be used by us for the purpose of improving your satisfaction and our service quality. </p><p><strong>H. Use of Personal Data</strong></p><p>1. You hereby strictly agree with us and Service Provider to Use your Personal Data for the business, operations and other purposes according to the intention of supply of Personal Data, including however not limited to:</p><p>(i) Provide information to You and Service Provider at your request for Our Service. We can share your health information with other doctor or health provider to provide You with the Service through us.</p><p>(ii) Providing prescription and/or medicine at your request relating to our service with the Buy Medicine feature. We can share such information with the pharmacy or other party to provide You with the service through us.</p><p>(iii) Use and disclose your health information and prescription for the Platform operational purpose. We can use and distribute this information for the purpose of review and improvement of service quality We provide, or competence and qualifications of professional staff of the Platform.</p><p>(iv) Reply questions, comments and feedback.</p><p>(v) Process your participation in each contest, game, promotion, polling or survey.</p><p>(vi) Understand and analyze the use and sale of Product and service for the needs and preference.</p><p>(vii) Develop, improve and provide the Product and service to fulfill your needs.</p><p>(viii) Provide information/send e-mail and/or SMS on offer and/or promotion of new Product periodically, if there is an offer and/or promotion on new products, special offer, or other information that You need to know according to us. </p><p>(ix) Inform You each change in the Platform, service and our Product.</p><p>(x) Use information to contact You.</p><p>(xi) Use and disclose this information if necessary for medical review, legal service and audit, including fraud and misuse detection and adjustment programs, including business planning and management.</p><p>(xii) Our note or internal documentation stored in our server, within and outside the Republic of Indonesia.</p><p>(xiii) Provide your Personal Data to PT MMI, GO-JEK, and Service Provider for purpose of Service based on Platform. </p><p>(xiv) Other purposes to the extent permitted by law.</p><p>2. We will use the data collected for purpose of processing statistical data to be used for various medical or commercial Platform. Processing of statistical data will not disclose individual data, however there may be possibility for disclosure of individual data in the search of result of statistical processing. By using the Platform, You will be deemed to have understood and agreed with the use of data.</p><p>3. We represent that data and information supplied by You are confidential and will not be disclosed except as expressed and agreed by You in this Privacy Policy. To prevent unauthorized access, We take physical, electronic security measures and managerial procedure to protect your information.</p><p>4. Your medical information will only be used in connection with the Platform service and matters stated and agreed by You in this Privacy Policy and We will only collect information required to operate the Platform Service.</p><p>5. We keep your personal information as related to and for the purpose of our service to You. The confidentiality of your personal information will be deemed confidential and will not be distributed unless agreed by You subject to this Privacy Policy or permitted by applicable legislations.</p><p>6. By using Platform, You will be deemed to have agreed with third party to use your Personal Data to provide You information on goods and service needed. Third party includes but not limited to:</p><p>(i) Your insurance that will need proof of service rendered and/or medical report before payment to the Platform or if required by them for authorization of service or referral.</p><p>(ii) Third party Service Provider providing service to You or your doctor (for example x-ray or laboratory test) to receive the result of examination or for purpose of invoicing.</p><p>(iii) Our business partner, such as pharmacy partner or collection service administrators. We have an agreement with each business partner and Service Provider to protect the confidentiality and security of information forwarded to them.</p><p>(iv) Company research and marketing relating to promotion by us.</p><p>(v) Service provider company for information technology (IT) such as infrastructure service, cloud computing, software, analysis development of &ldquo;Big Data&rdquo; and &ldquo;Machine Learning&rdquo;, including &ldquo;Data Cleansing&rdquo;, &ldquo;Data Insight&rdquo;, &ldquo;Credit Scoring&rdquo; and others.</p><p>(vi) Service provider for payment including payment gateway, transfer fund, electronic wallet, and other payment system operator relating to the transaction in the Platform.</p><p>(vii) Other service provider or partners relating to features, Product and service offered in the Platform.</p><p>(viii) Professional advisor and external auditors, including legal advisor, financial advisor and other consultants.</p><p>(ix) Governmental authorities, both within and outside the jurisdiction of the Republic of Indonesia in accordance with applicable legislations.</p><p>(x) Other parties to the extent permitted by applicable law.</p><p><strong>I. Your Connection to Other Platform </strong></p><p>The platform can contain links to third party platforms ( &#34;Third Party Platforms &#34;) and third party content ( &#34;Third Party Content &#34;). Your use of links to Third Party Platforms and / or Third Party Content is based on your own discretion. When you use a link to a Third Party Platform and / or Third Party Content, we are not responsible for protecting the privacy and any information you provide when visiting Third Party Platforms and / or Third Party Content. We also are not responsible for any information contained in Third Party Platforms and / or Third Party Content, including the effects of accessing Third Party Platforms and / or Third Party Content. You must carefully study and read the personal information handling policies that apply to Third Party Platforms and / or Third Party Content.</p><p>We provide links to Third Party Platforms and / or Third Party Content only for your convenience and this cannot be interpreted as support, adoption, sponsorship, affiliation between Us and Third Party Platforms and / or Third Party Content.</p><p><strong>J. Governing Law</strong></p><p>This Privacy Policy shall be governed by and construed in accordance with the laws of the Republic of Indonesia.</p><p><strong>K. Security Measures </strong></p><p>1. We are committed to ensuring that the information supplied to us is safe and cannot be used by unauthorized parties. By using the Platform, You allow us to take any action deemed necessary to protect your information collected online to prevent unauthorized access. However, Please note that We cannot fully represent the security and are not responsible for the losses, including however not limited to loss of data caused by any incident beyond our control. Therefore, We suggest You regularly update your Platform and software and not to disclose your password to any person.</p><p>2. You hereby expressly agree and accept that We may send, store, use and treat your Personal Data in the server located at the center approved by us. The said data center is managed by third party. However, use of information and Personal Data in connection with use of Platform will be governed by this Privacy Policy in accordance with applicable legislations. We will keep your personal information and Personal Data at least until specific request is made to delete your account or up to the expiration of period in the applicable legislations.</p><p><strong>L. Question, complaint and contact</strong></p><p>If You have further question on this privacy policy, our rules, your rights and relationship with the Platform, please send e-mail to help@halodoc.com or our call center at 0855-746-77-403 or 021-3110-6999. </p></div>"
+		},
+		{
+			"header": "TERMS AND CONDITIONS OF USE",
+			"type": "label",
+			"key": "haloDocTerms",
+			"label": "<div><p><strong>HALODOC</strong></p><p><strong>TERMS AND CONDITIONS OF USE</strong></p><p><strong><em>(Last updated: 29 November 2019)</em></strong></p><p>IMPORTANT: As a user of Platform (as defined below), You must read these terms and conditions of Use (&ldquo;<strong>Terms of Use</strong>&rdquo;) and Privacy Policy carefully and thoroughly before downloading or using the features and/or services available in the Platform.</p><p>By downloading and/or installing and/or using Platform and/or enjoying Our Service, You agree that You have read, understood, acknowledged, agreed and accepted all information, terms, and conditions of use of Platform in these Terms of Use. These Terms of Use constitute valid agreement as to the procedure and requirements for the Platform usage between You and the administrator of the Platform, PT Media Dokter Investama (&ldquo;<strong>We</strong>&rdquo;).</p><p>Please note that Terms of Use and Privacy Policy may be updated or renewed from time to time. Please delete the Application in your electronic device and/or request for deletion of account and/or do not access the Platform and/or do not use our Service if You disagree with these Terms of Use (as updated from time to time).</p><p>We shall have the right to at any time to modify, delete, and/or apply new terms and conditions of the Terms of Use. Your continued use of Platform will be deemed as acceptance to comply with the amendment to the terms and conditions of these Terms of Use.</p><p><strong>1. GENERAL PROVISIONS</strong></p><p>a. Platform is application (Android or iOS), web application (an application that can be accessed via website), website that are administered by Us as updated from time to time.</p><p>b. Internet connection is required to use the Service. All costs incurred from the connection of your electronic device with the internet network shall fully be your responsibility.</p><p>c. Platform facilitates You with third party providing the service or selling goods to You such as (but not limited to) doctor, pharmacy, laboratory, and/or delivery service (&ldquo;<strong>Service Provider</strong>&rdquo;).</p><p>d. Type of service to be used through the Platform includes:</p><p> (i) Chat with Doctor (Bicara dengan Dokter);</p><p> (ii) Buy Medicine (Beli Obat);</p><p> (iii) Get a Lab Test (Pemeriksaan Lab); </p><p> (iv) Visit a Hospital (Kunjungi Rumah Sakit);</p><p> (v) Halodoc Go Service;</p><p> (vi) Hospital Directory;</p><p> (vii) Other services to be added by us from time to time</p><p> (&ldquo;<strong>Service</strong>&rdquo;).</p><p>e. Web application is a feature which facilitates the user to access our Service without downloading the Application (&ldquo;<strong>Web App</strong>&rdquo;). Currently, Web App can only be used for Buy Medicine.</p><p>f. For avoidance of doubt, We are not a service provider for health, pharmacy, medical practice facility, or delivery service. We do not employ Service Provider and We are not responsible for any action and/or omission by the Service Provider. This Platform is only a tool to ease the search of Service. </p><p>g. We may use the service of third party for the payment service. Therefore, all system failures caused by event or matter beyond our reasonable control relating to the payment service made available by the third party is not our responsibility. However, We will exert our best efforts to assist in resolving all issues arisen. The service provider of banking/payment services chosen by You may charge additional fee to You for the service rendered. </p><p>h. We are not in the position to give suggestion to You when choosing the doctor, pharmacy or laboratory accessible through the Platform.</p><p>i. &ldquo;Buy Medicine&rdquo; feature is managed by PT Mensa Medika Investama (&ldquo;<strong>PT MMI</strong>&rdquo;) and connected with GO-MED feature managed by PT Aplikasi Karya Anak Bangsa (&ldquo;<strong>GO-JEK</strong>&rdquo;) in the GO-JEK Application as third party delivering the medicine order, medical equipment or household health supplies to You.</p><p>j. The Platform allows You to send the requests for the Service to the Service Provider. Service Provider has its own discretion and full authority to accept or refuse your request for the Service, which is beyond our control and not our responsibility. If the Service Provider accepts your request, the Platform will inform You and provide information on Service Provider, including name of Service Provider, order number and ability to contact Service Provider through telephone. </p><p>k. We shall have the right at any time modify, delete, remove, add and/or update the feature or facility in the Platform. Your continued use of Platform will be deemed as acceptance to the amendment, deletion, removal, addition and/or renewal of feature or facility of the Platform.</p><p>l. You may provide information on Personal Data and medical history, and We will keep and display them in your account. The confidentiality of your data is assured and will be used by us and/or Service Provider for the purpose of interaction with the Doctor and ordering of medicine including other services performed in the Platform and/or other purposes upon your agreement in accordance with applicable legislations and Privacy Policy.</p><p>m. You understand and agree that your conversation with the doctor in the Platform will be automatically stored and filed for the legal purpose and improvement of quality of our Service. By using the Platform, You acknowledge and agree that conversation through feature video call, voice call or chat will be recorded. The confidentiality of your conversation is assured and no information will be disclosed.</p><p>n. You understand and agree that your conversation with Our customer service will be automatically stored and filed for the legal purpose and improvement of quality of our Service. The confidentiality of your conversation is assured and no information will be disclosed.</p><p>o. You understand and agree that your conversation with health care provider services that you connect through the telephone number on our website will be automatically stored and filed for the legal purpose and improvement of quality of our Service. The confidentiality of your conversation is assured and no information will be disclosed.</p><p>p. We shall have the right not to process the registration, limit or terminate the use of your Platform if We have reason to suspect that You have violated these Terms of Use or applicable laws.</p><p><strong>2. TERMS OF USE OF PLATFORM</strong></p><p>a. You represent that You are an individual authorized to enter into a binding agreement under the laws of the Republic of Indonesia and that You are at the age of 21 (twenty one) years old at minimum or married and not placed under guardianship or custody. We shall have the right to close or cancel your account if such information is incorrect. You further represent and warrant that You have the right, authority and capacity to use the Service and will at all times comply with the Terms of Use. If You register in the name of a business entity, You also represent that You are authorized to act for and on behalf of such legal entity and to enter into and bind the legal entity/entity with the Terms of Use of the Platform. </p><p>b. You may use the Platform by initially register and provide information on your Personal Data as requested in the Platform (&ldquo;<strong>Personal Data</strong>&rdquo;). Information relating to Personal Data will only be used by us and/or Service Provider to render the services in the Platform and for other purposes upon your agreement in accordance with applicable laws. Privacy Policy attached (as updated from time to time) shall form inseparable part of these Terms of Use. You must provide complete and accurate information, update information and agree to provide to us any proof identity as reasonably requested. In the case of change in Personal Data supplied to us, such as, if You change your telephone number, You shall update the details of your information by sending your request to us.</p><p>c. After registering in the Platform, You will receive a personal account accessible with One Time Password (OTP) that will be sent to your cellular phone number. You promise not to assign, transfer or authorize other persons to use your identity or use your account. You shall keep the confidentiality of the password of your account and each identification supplied to You for the account or your Personal Data. In the case of disclosure of your password not due to our fault, in any manner whatsoever causing unauthorized use of your, transaction or service order made through the Platform will still be deemed authorized transaction or order unless if You have informed us such matter before Service Provider renders the Service requested.</p><p>d. You must report to us if You, for any cause whatsoever, do not have control of your account. You are responsible for use and misuse of your account in the Platform by other persons.</p><p>e. You are not permitted to endanger, misuse, alter or modify Platform in any manner whatsoever. We shall have the right to close or cancel your account and prohibit You from further using the Platform if You use of Platform without complying with these Terms of Use. </p><p>f. You understand and agree that use of Platform by You is also subject to Our Privacy Policy as amended from time to time. By using Platform, You also provide acceptance required by our Privacy Policy.</p><p>g. You promise that You will use of Platform only for the purpose of receiving the Service. You shall not misuse or use of Platform for illegal activities, including however not limited to money laundering, theft, fraud, terrorism or other deceitful acts. You also promise that You will not cause inconvenience to other persons or making false order through the Platform.</p><p>h. By supplying information to us, You represent that You have the right to provide to us any information to be used by us and Service Provider.</p><p>i. You acknowledge and agree that each information in any form whatsoever, including however not limited to video, audio, picture or text in the Platform have own intellectual property rights (including however not limited to trademark and copyright). You shall not use, modify, disclose distribute and/or disassemble the intellectual property rights without the permission of the owner of intellectual property rights as prescribed by applicable legislations.</p><p>j. When accessing and using the Platform including each feature and service, You are not permitted to:</p><p>(i) assign your account in the Platform to other party without our prior consent.</p><p>(ii) distribute virus, spam or other similar technology which may damage and/or harm the Platform and other users.</p><p>(iii) insert or transfer the feature in the Platform without our permission.</p><p>(iv) post information or other application that violates intellectual property right other party in the Platform.</p><p>(v) take or collect Personal Data from other users, including but not limited to email address, without consent from such user.</p><p>(vi) use the Platform for matters prohibited by law and applicable laws.</p><p>(vii) use the Platform to distribute advertisement or other contents.</p><p>k. You acknowledge and agree that the Service rate stated in the Platform may be subject to change at any time. </p><p>l. You understand that all articles on health and nutrition displayed by us is general information and is used solely to educate the consumers. Any part of the article displayed cannot be deemed and be used as substitute to suggestion, diagnosis or medical treatment. Although efforts to display data and/or information are made as accurate as possible, We are not responsible for all errors and delay in updating data or information, or all losses incurred by any action relating to use article, data/information and time presented in the Platform.</p><p>m. You understand that all information of the medicine We display is of general nature and for informative purposes only. We are not responsible for all errors and delay in renewing data or information, or all losses incurred by any action relating to usage of article, data/information and time presented in the Platform.</p><p>n. The Platform have links to other sites operated by third party. These links are available for your convenience and will only be used to provide access to sites of third party and not for other purposes. We do not guarantee the quality, content or information on Product or service offered by other sites operated by third party.</p><p><strong>3. SERVICE</strong></p><p><strong>A. Chat with a Doctor Feature (Chat with a Doctor)</strong></p><p>(i) This feature facilitates Our partnered doctors as Service Provider in interaction with You through video call, voice call or chat which can be accessed through Application and Website.</p><p>(ii) You acknowledge and agree that this feature does not replace the examination and treatment with the doctor in general or face-to-face visit. </p><p>(iii) We will do everything possible so the doctor partners who enrolled in the Application and/or Website can respond to the question you as soon as possible. However, You acknowledge and agree that the platform is not intended for emergency medical condition. We do not suggest You to use the Application in emergency medical condition.</p><p>(iv) Our Service is not forcing or binding. The decision to use the Service fully rests on You. You are free to choose to use of other Service Provider. The Platform is only a facilitator for the interaction between the doctor registered with us as Service Provider.</p><p>(v) You understand that You shall give information and explain physical symptomps or problems that You have clearly and accurately when having a chanet with our partnered doctor through Chat with a Doctor feature.</p><p><strong>B. Buy Medicine Feature</strong></p><p>(i) This feature is connected with GO-MED feature in GO-JEK Application as third party delivering the over the counter medicine order (green dot), limited over-the-counter medicine (blue dot), the prescription drugs (red dot), non-medicine vitamin and medical equipment, non-medicine food and drink (&ldquo;<strong>Product</strong>&rdquo;) to You.</p><p>(ii) This feature facilitates Product delivery service for You.</p><p>(iii) This feature cannot be used for delivery of psychotropic and narcotics known as O list medicines (opiate/ Opium category), precursor medicine and pregnancy abortion medicines.</p><p>(iv) You may enjoy this feature through Web App service without downloading Application where prescribing doctor and Our customer service will order the medicine prescribed upon Your acceptance.</p><p><strong>C. Halodoc Go Medicine Delivery Service Feature</strong></p><p>Buy Medicine Feature may be connected with the medicine delivery service where We provide the system which connects our logistic delivery partner with the pharmacy installation unit of the hospital where You have Your medical check up and/or treatment which is our partner to deliver the medicine prescribed by doctor to You (&ldquo;<strong>Halodoc Go Medicine Delivery Service</strong>&rdquo;).</p><p><strong>D. Hospital Directory Feature </strong></p><p>(i) This feature may assist in finding the hospital to suit your needs. </p><p>(ii) Information on hospital and doctor practicing at the hospital is collected from the existing sources. We do not represent the accuracy of information on hospital and doctor practicing at the hospital in our Platform.</p><p><strong>E. Get a Lab Test Feature (Get a Lab Test)</strong></p><p>(i) This feature facilitates laboratory examination if You are unable to directly visit the laboratory where phlebotomy (patient blood specimen collector) working in the laboratory.</p><p>(ii) You may choose the type of laboratory examination based on package available in the Get a Lab Test feature (Get a Lab Test) with the assistance from the doctor. In such case, You cannot modify content from the package.</p><p>(iii) Availability of type of package and schedule laboratory examination schedule chosen by You will be adjusted to the schedule of our laboratory partner.</p><p><strong>F. Visit a Hospital Feature</strong></p><p>Through this feature, You can make meeting arrangement with the doctor in our system. Even though We will do our best at all times to ensure that You will receive meeting confirmation, We cannot ensure that You will always receive such confirmation. Further, We are not responsible if such meeting appointment is canceled by the hospital or doctor for any reason whatsoever.</p><p><strong>4. YOUR TRANSACTION</strong></p><p>(a) To transact in the Platform, You can use any payment method available in the Platform. Especially for transaction through Web App, at present You can transfer to Our bank account.</p><p>(b) Your balance in the Application may be used for Chat with a Doctor feature (Chat with a Doctor) and Buy Medicine feature.</p><p>(c) Your balance <strong>cannot</strong> <strong>be</strong> assigned or cashed in any form whatsoever.</p><p>(d) You may top up your balance up to IDR2,000,000.00 (two million Rupiah).</p><p>(e) If You suspect unfair activity and/or disputes in connection with your account, You can immediately contact us for prompt action as required. </p><p>(f) If We must refund your balance deducted by errors on our part, We will only refund in the form of balance into your account. We may also defer all transactions from your account and defer the transaction if We identify issues on your account or certain transaction.</p><p>(g) You understand and agree that the complaint period on transaction shall be up to maximum of 7 (seven) calendar days after the transaction is complete.</p><p>(h) You understand and agree that complaint raised more than 7 (seven) calendar days after the transaction is complete is not our responsibility.</p><p><strong>5. TRANSACTION PROCEDURE </strong></p><p><strong>A. Chat with a Doctor Feature (Chat with a Doctor)</strong></p><p>(i) You will be charged the rate determined by the concerning doctor. You should only pay the rate per session, including chat, video call or voice call. Not every chat session is available for You to do video call and voice call, this will depend on the availability of each doctor at the time of contact.</p><p>ii) We will deduct your balance in the Application counted after the chat screen is displayed on your mobile phone screen. When You are connected with the doctor, the doctor may call and/or make video call from the Application of the doctor to You. One Chat with a Doctor session (Chat with a Doctor) is calculated from 30 (thirty) minutes to 1 (one) hour from the start of session or until You or doctor carries out end session. </p><p>(iii) At the time of doctor contact through chat, You can send the picture to the doctor relating to your medical condition with png, jpg, and bitmap format. </p><p>(iv) After Chat with a Doctor session (Chat with a Doctor) is completed, the doctor may provide Doctor Notes and Medicine Recommendation. Doctor Notes is the note from the Chat with a Doctor session (Chat with a Doctor) and suggestions relating to your medical condition. Medicine Recommendation is a recommendation containing suggestion of medicine or medical treatment for You. Medicine Recommendation is recommendation only and <strong>NOT</strong> medicine prescription. </p><p>(v) After Chat with a Doctor session (Chat with a Doctor) is completed, doctor may take Follow Up action to check your health condition after Chat with a Doctor session (Chat with a Doctor).</p><p>(vi) There shall not be refund or requests for cancellation of transaction after Chat with a Doctor session (Chat with a Doctor) is expired or completed. </p><p>(vii) We shall have the right to block or cancel your account in the case of misuse of Chat with a Doctor feature (Chat with a Doctor) through your account.</p><p>(viii) For diseases which requires direct face-to-face contact or examination from specialist doctor, doctor may provide referral doctor as your reference. We are not responsible for the detailed accuracy of name, practicing location, experience, specialization or results of consultation with the doctor recommended by our doctor through referral doctor.</p><p><strong>B. Buy Medicine Feature</strong></p><p>(i) Through this feature, You may order the Product to be purchased and delivered through Buy Medicine feature in the Application.</p><p>(ii) The medicine to be purchased by You includes over-the-counter medicines (green dot), limited over-the-counter medicine (blue dot), doctor prescription drugs (red dot), non-medicine vitamin and medical equipment, non-medicine food and drink.</p><p>(iii) You will be charged the price of goods and delivery rate as stated in the Platform in the notification of &ldquo;Confirmation Order&rdquo;.</p><p>(iv) Delivery time and medicine availability varies by stock of medicine owned by our pharmacy partner. </p><p>(v) If order has been taken by our pharmacy partner and/or being delivered by our courier partner, You cannot cancel the order made. </p><p>(vi) The value of your transaction through Buy Medicine feature for one transaction is not less than IDR. 10.000,- (ten thousand Rupiah) and not more than IDR. 2.000.000,- (two million Rupiah).</p><p>(vii) The price is inclusive of Value Added Tax (PPN). </p><p>(viii) We do not guarantee the availability of your order (whether your own order or ordered by the prescripting doctor or our customer service through Web App), this relies on the information update on the availability of stock by our Pharmacy partner.</p><p>(ix) All Product order may be made at any time.</p><p>(x) Especially for medicine with doctor prescription, You must enclose the document in form of scan/photo of doctor prescription uploaded through Upload a Prescription feature (Prescription Upload) in the Platform to verify the order to our pharmacy partner.</p><p>(xi) The Prescription made by doctor may only be used 1 (one) time and You are prohibited from uploading the prescription photo more than 1 (one) time or reclaim the prescription to other pharmacy if the prescription has claimed through the Application. We are not responsible for the losses and risks incurred or arising out of the medicine purchased through reclaim of prescription. We have the right to cancel unilaterally if the order of Product with doctor prescription does not comply with the applicable legislations.</p><p>(xii) You shall handover the original prescription, used as the basis for purchase of medicines, to us to be forwarded to the pharmacy partner who processed Your order. </p><p><strong>C. Halodoc Go Medicine Delivery Service Feature</strong></p><p>(i) After You undergo medical check up at our hospital partner, You can choose if the medicine prescribed for You be delivered to the your location by using Halodoc Go Medicine Delivery Service.</p><p>(ii) By using this service, You agree to complete the delivery service form.</p><p>(iii) You agree and acknowledge that your data will be inserted into the system by our personnel at the location of our hospital partner to order our courier partner.</p><p>(iv) In accordance with our standard operating procedure, in normal situation the Halodoc Go medicine delivery service will take only 1 (one) hour after medicine pickup by our courier partner from the location of our hospital partner to your location. However, in the case of event or circumstance beyond our reasonable control (including however not limited to inclement weather, courier vehicle problem, demonstration rally, re-routing and et cetera), You understand that Halodoc Go medicine delivery service may require more than 1 (one) hour.</p><p><strong>D. Get a Lab Test feature (Get a Lab Test) </strong></p><p>(i) You must accurately complete the data for Get a Lab Test order (Get a Lab Test). If We and/or laboratory partner discover inconsistencies in your details, We reserve the right to cancel your order.</p><p>(ii) In addition to self order, You can order the Get a Lab Test (Get a Lab Test) through other persons (&ldquo;<strong>Third Party Order</strong>&rdquo;). You represent that You have receive acceptance required from ordering third party in connection with the service including Terms of Use and this Privacy Policy. </p><p>(iii) Get a Lab Test (Get a Lab Test) will be carried out in compliance with the general procedure from our laboratory partner.</p><p>(iv) The price stated in the Platform at the time of order includes all fees (including Get a Lab Test fee and transportation of phlebotomy from the location of laboratory to your location).</p><p>(v) Payment for Get a Lab Test (Get a Lab Test) may be made in cash on delivery, whether in cash, debit card, or credit card directly to phlebotomy after medical check up is completed. </p><p>(vi) The result of laboratory examination will be given by our partner laboratory to You within the period set out in the standard procedure of our laboratory partner.</p><p>(vii) You acknowledge and agree that for your convenience, the result of laboratory examination will be provided in digital format and uploaded to your account to be viewed by You (&ldquo;<strong>Lab Examination Result</strong>&rdquo;). </p><p>(viii) By using Get a Lab Test (Get a Lab Test), You acknowledge and agree that Lab Examination Result will be stored into our system for documentation with confidentiality assured using the standard security system set by applicable legislations in Indonesia. In the case of Third Party Order, Lab Examination Result of ordering third party will be uploaded to your account. You acknowledge and agree that if necessary, We can receive access to content relating to Lab Examination Result and We may use the abstract or metadata in Lab Examination Result for the purpose of developing the Platform.</p><p>(ix) You may also request the hardcopy from our laboratory partner. The costs incurred for such requests shall be paid by You.</p><p>(x) All contents from Lab Examination Result shall be the full responsibility of our laboratory partner.</p><p><strong>E. Promo Coupon</strong></p><p>(i) At particular time, We can provide promotion program to You in form of discount coupon to each purchase with certain nominal amount. If under such particular condition, the discount coupon cannot be used due to unavailability of Product ordered, whether in part or in whole, We will provide substitute coupon to be used in the next transaction.</p><p>(ii) We shall have the right, without prior notice, cancel the coupon in the case of alleged fraud or violation by You of the Terms of Use and applicable laws of the Republic of Indonesia. In the case of such cancellation, We will not provide compensation in any form whatsoever.</p><p></p><p><strong>6. LIMITATION OF LIABILITIES </strong></p><p>(a) We are not responsible for default, death, damage or loss, direct or indirect, material or immaterial caused by interaction between the Service Provider with You through the Platform. We are not responsible for the errors or action whatsoever made by the Service Provider during the course of Service. Service Provider is only our partner, NOT our employee, agent or representative.</p><p>(b) The accuracy of the doctor in giving Medicine Recommendation will depend on the information that You give. We are not responsible for the content and/or representations in the conversation made by You and the doctor using the video call, voice call, chat features, Doctor Notes, Medicine Recommendation, in the Platform, those features are private conversation and interaction between You and the doctor and is clearly beyond our control, all disputes as to the content and/or representations from conversation and interaction between You and the doctor in such features, shall be your responsibility and You agree to defend and hold us harmless from and against any and all claims, lawsuits and legal consequences.</p><p>(c) By using the Platform, You agree that We are not responsible to You or to other party for all losses caused by action taken by You or other party based on medicine, vitamin, medical equipment and Get a Lab Test (Get a Lab Test) order through the Platform. The foregoing provisions shall remain in effect even if You have ceased to use the Platform.</p><p>(d) By using the Platform, You agree that We are not responsible for the ingredients and/or effect of the medicine and/or medical equipment ordered. </p><p>(e) By using Buy Medicine Application feature, You agree that We are not responsible for the damage or loss of your order in the delivery through our courier partner and We are not responsible for the quality of Product, administration procedure of Product and/or errors in the translation of the prescription by our Pharmacy partner.</p><p>(f) By using Halodoc Go Medicine Delivery Service, You agree that We are not responsible for the doctor diagnosis of our hospital partner, quality of Product, administration procedure of Product and/or error in the translation of prescription by pharmacy unit of our hospital partner.</p><p>(g) By using Halodoc Go Medicine Delivery Service, You agree that We are not responsible for errors of location or recipient of Product delivered caused by incompleteness and/or errors in the data supplied to our personnel at our hospital partner.</p><p>(h) By using Hospital Directory feature, you understand that You have full right to choose any hospital that is suitable to Your need and preference.</p><p>(i) By using Get a Lab Test Application feature (Get a Lab Test), You agree and understand that We are NOT health laboratory or Service Provider or the like and NOT reseller or agent or the like (including franchise) of certain health laboratory, and therefore each matter relating to, the result of laboratory examination, including Get a Lab Test by our laboratory partner, or other related case shall NOT be our responsibility.</p><p>(j) You shall request acceptance from ordering third party ordering the Get a Lab Test (Get a Lab Test) by You and be responsible for the confidentiality of the medical record of the ordering third party in your Halodoc account. We will be released and held harmless from and against claims, suits and demands from ordering third party arising out of medical record of the ordering third party as uploaded and stored in your Halodoc account.</p><p>(k) By using feature Medicine Recommendation, You acknowledge and agree that Medicine Recommendation is originated from the examination by doctor to You. We are not responsible and We will be released and held harmless from and against any and all claims, suits and demands for the ingredients and/or use and/or effect of the medicine given by the doctor by Medicine Recommendation.</p><p>(l) Our pharmacy partner or physical pharmacy has its own discretion in the use of Medicine Recommendation. Therefore, We are not responsible for the refusal of Medicine Recommendation by our pharmacy partner or physical pharmacy.</p><p>(m) By using Visit a Hospital feature, You agree and understand that We are not responsible for the cancellation of meeting appointment or change in meeting appointment schedule or the change in consulting fee charged by the hospital or concerning doctor.</p><p><strong>7. INTELLECTUAL PROPERTY RIGHTS</strong></p><p>(a) We are the sole owner of the name, icon, and Halodoc logo including Chat with a Doctor feature (Chat with a Doctor) and Get a Lab Test (Get a Lab Test) in the Application, which is copyright and trade mark protected by laws of the Republic of Indonesia. Using, modifying or placing name, icon, logo, or mark without our written permission is strictly prohibited. </p><p>(b) PT MMI is the sole owner of the name, icon, and logo of &ldquo;Buy Medicine&rdquo; and the legitimate holder of intellectual property right of the name, icon and logo of &ldquo;Buy Medicine&rdquo; in the Application, which is copyright and mark protected by law. Using, modifying or placing name, icon, logo, or mark without the written permission is strictly prohibited by PT MMI.</p><p>(c) GO-JEK is the sole owner of the name, icon, and logo &ldquo;Go-Med.com&rdquo;, &ldquo;Go-Med&rdquo;, and the legitimate holder of intellectual property right of the name, icon and logo &ldquo;Go-Med.com&rdquo;, &ldquo;Go-Med&rdquo;, is copyright and mark protected by law. Using, modifying or placing name, icon, logo, or mark without written permission is strictly prohibited by GO-JEK.</p><p>(d) All intellectual property rights in the Platform under the laws of the Republic of Indonesia, including the ownership of intellectual property right of all source code of the Platform and intellectual property right related to the Platform. You are prohibited from committing infringing the intellectual property right in the Platform, including making modification, derivative works, adaptation, duplicates, copying, selling, reproducing, hacking, and/or exploiting the Platform including use of the Platform from unauthorized access, automatic launch of program or script, or any program whatsoever which may hinder the operations and/or performance of the Platform, or in any manner whatsoever reproduce or avoid the navigation structure or presentation from the Platform or its content.</p><p>(e) You are only permitted to use the Platform solely for private, non-commercial, non-exclusive interest which cannot be assigned, transferred or sublicensed.</p><p>(f) We have full right to take any legal actions against violation by You relating to intellectual property right in the Platform.</p><p><strong>8. ADVERTISEMENT</strong></p><p>The platform may contain advertisement on products and / or a service provided by third parties (&ldquo;<strong>Advertisement</strong>&rdquo;).All the information about Advertisement is provided by advertisers. We do not give an endorsement for any Advertisement. We are not responsible for Advertisement or any information contained in the Advertisement. Communication or deals between You and advertisers and each terms, conditions, warrantry or a statement relating to the transaction is solely a relationship between You with the advertisers.</p><p></p><p></p><p><strong>9. NOTICE</strong></p><p>(a) All notices or requests for information to us will be further processed if made in writing and delivered to our address at: <strong>Gedung Mensa 2 Lt. 4, Jl. H.R. Rasuna Said Kav B-34, Jakarta Selatan</strong> or our e-mail address at:help@halodoc.com or our call center at 0855-746-77-403 or 021-3110-6999. </p><p>(b) All notices and/or requests will be processed if personally given, delivered through courier, registered letter, or e-mail address given by You to us through notice posting or requests in the Platform which is accessible by the public without charge of fee. Notice to You will be deemed properly received if: </p><p>1) We can show that such notice, either in physical or electronic form, has been sent to You; or</p><p>2) We have posted such notice in the Platform which accessible by the public without charge of fee.</p><p><strong>10. PLATFORM SECURITY</strong></p><p>We will at all times exert our reasonable efforts to the keep Platform functioning and running smoothly. However, We are not responsible and will not be held liable for the unavailability of Platform and/or feature service for any reason, including however not limited to maintenance or technical issues. However, You acknowledge and agree that the transmission or internet access cannot continuously create safe and private payment transaction and therefore each message or information sent or used by You in the Platform may be hijacked or taken by unauthorized third party.</p><p><strong>111. NO WARRANTY </strong></p><p>This Platform is made available on an &ldquo;as is&rdquo; basis in the sense that You acknowledge and agree that all risks arising from the use of Platform features by You will fully rest on You and You have no right to request compensation whatsoever from us. We do not make or give the following representation or warranty:</p><p>(a) That the Platform is free from error and/or defect or when being operated in combination with hardware, software, system or other data including that errors and/or defect in the Platform will be repaired.</p><p>(b) availability and reliability of the Platform or servers supporting the Platform, free from virus and other malicious components.</p><p>(c) security, timeliness, quality, compatibility, availability, accuracy and completeness of the Platform features.</p><p>(d) The feature in the Platform will suit your expectation and needs. </p><p>(e) The quality of Product, feature and information available will fulfill your expectation and needs.</p><p><strong>12. CLOSING</strong></p><p>(a) Our relationship with You is an independent relationship and no agency, partnership, joint venture, employee-employer or owner of franchisee-franchisor will be created from these Terms of Use.</p><p>(b) The headings inserted in these Terms of Use shall be made for reference only and shall in no way establish, limit, explain or describe the content of the articles.</p><p>(c) We reserve the right to investigate and claim our right against each violation of these terms of use to the extent permitted by law. You hereby acknowledge that We have the right to monitor the access to sites and Platform to ensure the compliance with these terms of use, or to comply with the regulations or court order, administrative body or other governmental bodies.</p><p>(d) User shall not engage in money laundering and/or use fund from illicit sources. We shall have the right to report transaction alleged or suspected as money laundering to the relevant authority.</p><p>(e) We shall have the right, without prior notice, to take any actions required in the case of manipulation/fraud, such as to close cancel the account, withdraw the subsidy, withdraw the cashback, cancel the transaction, retain the fund, including in the case of alleged fraud, money laundering or violation made by You of the terms of use and the laws of the Republic of Indonesia.</p><p>(f) These terms of use shall be governed by and construed in accordance with the laws of the Republic of Indonesia and You strictly agree that the provisions of article 1266 Civil Code and other statutory rules requiring approval or authorization of the court to terminate the Terms of Use shall not apply to these Terms of Use.</p><p>(g) All disputes relating to these Terms of Use shall be settled amicably or be referred to the Indonesian National Board of Arbitration (BANI), in accordance with the current rules or procedures at BANI. If both parties fail to settle the disputes through BANI, such disputes will submitted to the jurisdiction of South Jakarta District Court.</p><div>"
+		},
+		{
+			"type": "label",
+			"key": "appointment_confirmed",
+			"label": "Appointment Confirmed"
+		},
+		{
+			"type": "label",
+			"key": "appointment_accept",
+			"label": "This appointment request is accepted by Doctor."
+		},
+		{
+			"type": "label",
+			"key": "dear",
+			"label": "Dear,"
+		},
+		{
+			"type": "label",
+			"key": "start_consultation",
+			"label": "Start Consultation"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_request",
+			"label": "Request"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_make_request",
+			"label": "Do you want to make a Request"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_proceed",
+			"label": "Proceed"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_doctor_joined_chat",
+			"label": "Doctor joined the chat"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_joincall",
+			"label": "Join call"
+		},
+		{
+			"type": "label",
+			"key": "emptyChatErrorMsg",
+			"label": "No conversation done with the doctor"
+		},
+		{
+			"type": "label",
+			"key": "not_available",
+			"label": "Not available"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_consultation_history",
+			"label": "Consultation History"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_doctor_chat",
+			"label": "Doctor's Chat"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_attachments",
+			"label": "Attachments"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_video",
+			"label": "Video"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_audio",
+			"label": "Voice"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_home",
+			"label": "home"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_speciality",
+			"label": "Speciality"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_drName",
+			"label": "Name : Dr."
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_years",
+			"label": "years"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_year",
+			"label": "year"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_active",
+			"label": "active"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_Dr",
+			"label": "Dr."
+		},
+		{
+			"type": "label",
+			"key": "haloDoc_Rp",
+			"label": "Rp."
+		},
+		{
+			"type": "label",
+			"key": "requested",
+			"label": "requested"
+		},
+		{
+			"type": "label",
+			"key": "likes",
+			"label": "Likes"
+		},
+		{
+			"type": "label",
+			"key": "Experience",
+			"label": "Experience"
+		},
+		{
+			"type": "label",
+			"key": "GraduatedFrom",
+			"label": "Graduated from"
+		},
+		{
+			"type": "label",
+			"key": "PlacesOfPractice",
+			"label": "Places of practice"
+		},
+		{
+			"type": "label",
+			"key": "payment",
+			"label": "Payment"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationFee",
+			"label": "Consultation Fee"
+		},
+		{
+			"type": "label",
+			"key": "Recent",
+			"label": "Recent"
+		},
+		{
+			"type": "label",
+			"key": "CategoriesWith",
+			"label": "Categories with"
+		},
+		{
+			"type": "label",
+			"key": "DoctorsWithName",
+			"label": "Doctors with the name"
+		},
+		{
+			"type": "label",
+			"key": "SorryMsg",
+			"label": "Sorry! No results"
+		},
+		{
+			"type": "label",
+			"key": "SearchForResults",
+			"label": "Search for the results"
+		},
+		{
+			"type": "label",
+			"key": "MinimumCharReq",
+			"label": "Minimum 3 chars required to search"
+		},
+		{
+			"type": "label",
+			"key": "SearchBySpeciality",
+			"label": "Search by Name, Speciality"
+		},
+		{
+			"type": "label",
+			"key": "search",
+			"label": "search"
+		},
+		{
+			"type": "label",
+			"key": "Connecting",
+			"label": "Connecting..."
+		},
+		{
+			"type": "label",
+			"key": "callConnected",
+			"label": "call connected"
+		},
+		{
+			"type": "label",
+			"key": "UnableToConnect",
+			"label": "Unable to connect the call, Please try again"
+		},
+		{
+			"type": "label",
+			"key": "tryAgain",
+			"label": "Try Again"
+		},
+		{
+			"type": "label",
+			"key": "Cancel",
+			"label": "Cancel"
+		},
+		{
+			"type": "label",
+			"key": "success",
+			"label": "success"
+		},
+		{
+			"type": "label",
+			"key": "AUDIO",
+			"label": "AUDIO"
+		},
+		{
+			"type": "label",
+			"key": "init_madura",
+			"label": "init madura"
+		},
+		{
+			"type": "label",
+			"key": "setup_call_service",
+			"label": "setup call service"
+		},
+		{
+			"type": "label",
+			"key": "setup_call",
+			"label": "setup call"
+		},
+		{
+			"type": "label",
+			"key": "join_call",
+			"label": "join call"
+		},
+		{
+			"type": "label",
+			"key": "called",
+			"label": "called"
+		},
+		{
+			"type": "label",
+			"key": "audio",
+			"label": "audio"
+		},
+		{
+			"type": "label",
+			"key": "WaitingForDoc",
+			"label": "Waiting for Doctor's"
+		},
+		{
+			"type": "label",
+			"key": "Confirmation",
+			"label": "Confirmation..."
+		},
+		{
+			"type": "label",
+			"key": "WhenDr",
+			"label": "When Dr."
+		},
+		{
+			"type": "label",
+			"key": "docAcceptedReq",
+			"label": "When Dr. ${0} has accepted your request, we will notify you"
+		},
+		{
+			"type": "label",
+			"key": "sec",
+			"label": "sec"
+		},
+		{
+			"type": "label",
+			"key": "GoToADVD",
+			"label": "Go to Voice and Video"
+		},
+		{
+			"type": "label",
+			"key": "VoiceCall",
+			"label": "Voice call"
+		},
+		{
+			"type": "label",
+			"key": "notConnected",
+			"label": "Could not connect with Dr."
+		},
+		{
+			"type": "label",
+			"key": "bookAppointment",
+			"label": "Book an appointment"
+		},
+		{
+			"type": "label",
+			"key": "CancellationReason",
+			"label": "Cancellation reason"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationNotNeeded",
+			"label": "I am no longer needed the consultation"
+		},
+		{
+			"type": "label",
+			"key": "WaitedTooLong",
+			"label": "I have waited too long"
+		},
+		{
+			"type": "label",
+			"key": "WrongDocSelected",
+			"label": "I have the wrong Doctor Selected"
+		},
+		{
+			"type": "label",
+			"key": "Caution",
+			"label": "Caution!"
+		},
+		{
+			"type": "label",
+			"key": "CancelMessage",
+			"label": " If you cancel the consultation request. Please be advised that the payment you made prior to this screen will not be refunded"
+		},
+		{
+			"type": "label",
+			"key": "justCancel",
+			"label": "I understand, please cancel it"
+		},
+		{
+			"type": "label",
+			"key": "KeepWaiting",
+			"label": "Keep Waiting"
+		},
+		{
+			"type": "label",
+			"key": "ConfirmProfile",
+			"label": "Please confirm your profile"
+		},
+		{
+			"type": "label",
+			"key": "ConfirmProfileMessage",
+			"label": "On the next screen, we will ask you to confirm your information in order to use this feature."
+		},
+		{
+			"type": "label",
+			"key": "TalkToDoc",
+			"label": "to use the services from Halodoc."
+		},
+		{
+			"type": "label",
+			"key": "ByClickingBelowHalodoc",
+			"label": "By clicking Continue, I agree to the Terms and Conditions of the Halodoc "
+		},
+		{
+			"type": "label",
+			"key": "ByClickingBelowHalodocPart",
+			"label": ", and collection of my profile and personal data in accordance with the Halodoc "
+		},
+		{
+			"type": "label",
+			"key": "ACCEPT",
+			"label": "ACCEPT"
+		},
+		{
+			"type": "label",
+			"key": "DOC",
+			"label": "DOC"
+		},
+		{
+			"type": "label",
+			"key": "OTPSent",
+			"label": "`We sent an OTP to +62 XXXX XX"
+		},
+		{
+			"type": "label",
+			"key": "XX",
+			"label": "XX"
+		},
+		{
+			"type": "label",
+			"key": "VerifyIdentity",
+			"label": "Use it to verify your identity"
+		},
+		{
+			"type": "label",
+			"key": "codeReceivedOrNot",
+			"label": "Didn't receive the code?"
+		},
+		{
+			"type": "label",
+			"key": "ResendCode",
+			"label": "Resend"
+		},
+		{
+			"type": "label",
+			"key": "transparent",
+			"label": "transparent"
+		},
+		{
+			"type": "label",
+			"key": "MALE",
+			"label": "MALE"
+		},
+		{
+			"type": "label",
+			"key": "FEMALE",
+			"label": "FEMALE"
+		},
+		{
+			"type": "label",
+			"key": "gender",
+			"label": "Gender"
+		},
+		{
+			"type": "label",
+			"key": "GenderRequired",
+			"label": "Gender required"
+		},
+		{
+			"type": "label",
+			"key": "verifyPhone",
+			"label": "Please verify phone number"
+		},
+		{
+			"type": "label",
+			"key": "EMAIL",
+			"label": "EMAIL"
+		},
+		{
+			"type": "label",
+			"key": "surName",
+			"label": "surName"
+		},
+		{
+			"type": "label",
+			"key": "lastName",
+			"label": "Last Name"
+		},
+		{
+			"type": "label",
+			"key": "NameRequired",
+			"label": "Name"
+		},
+		{
+			"type": "label",
+			"key": "Unverified",
+			"label": "Unverified"
+		},
+		{
+			"type": "label",
+			"key": "Verified",
+			"label": "Verified"
+		},
+		{
+			"type": "label",
+			"key": "errorOccured",
+			"label": "error"
+		},
+		{
+			"type": "label",
+			"key": "isRequired",
+			"label": "is required"
+		},
+		{
+			"type": "label",
+			"key": "firstName",
+			"label": "First Name"
+		},
+		{
+			"type": "label",
+			"key": "AlphabetValid",
+			"label": "Alphabet is valid for"
+		},
+		{
+			"type": "label",
+			"key": "PhoneNumber",
+			"label": "Phone Number"
+		},
+		{
+			"type": "label",
+			"key": "Done",
+			"label": "Done"
+		},
+		{
+			"type": "label",
+			"key": "consultationConfirmed",
+			"label": "Appointment Confirmed. Doctor has accepted your consultation request."
+		},
+		{
+			"type": "label",
+			"key": "consultationRejected",
+			"label": "Appointment Rejected. Doctor has rejected your consultation request."
+		},
+		{
+			"type": "label",
+			"key": "consultationMissed",
+			"label": "Appointment Missed. Doctor has missed your consultation request."
+		},
+		{
+			"type": "label",
+			"key": "consultationClosed",
+			"label": "Appointment Closed. Doctor has closed your consultation."
+		},
+		{
+			"type": "label",
+			"key": "consultationJoined",
+			"label": "Appointment Joined. Doctor has Joined the call."
+		},
+		{
+			"type": "label",
+			"key": "consultationEnded",
+			"label": "Doctor has ended your call."
+		},
+		{
+			"type": "label",
+			"key": "consultationCompleted",
+			"label": "Appointment Completed. Doctor has Completed the consultation."
+		},
+		{
+			"type": "label",
+			"key": "consultationNotes",
+			"label": "Notes received."
+		},
+		{
+			"type": "label",
+			"key": "consultationPrescription",
+			"label": "Prescription received."
+		},
+		{
+			"type": "label",
+			"key": "doctorAppointment",
+			"label": "Doctor Appointment."
+		},
+		{
+			"type": "label",
+			"key": "paymentStatus",
+			"label": "Payment status."
+		},
+		{
+			"type": "label",
+			"key": "consultationEpisode",
+			"label": "You have been added to the conversation: Episode"
+		},
+		{
+			"type": "label",
+			"key": "consultationDoctor_msg",
+			"label": "Your doctor has a message for you!!"
+		},
+		{
+			"type": "label",
+			"key": "consultationIgnore_msg",
+			"label": "Ignore"
+		},
+		{
+			"type": "label",
+			"key": "consultationCancel",
+			"label": "cancel"
+		},
+		{
+			"type": "label",
+			"key": "consultationSee",
+			"label": "OK"
+		},
+		{
+			"type": "label",
+			"key": "consultationText",
+			"label": "text"
+		},
+		{
+			"type": "label",
+			"key": "doctorJoinedChat",
+			"label": "Doctor joined the chat"
+		},
+		{
+			"type": "label",
+			"key": "joinCall",
+			"label": "Join Call"
+		},
+		{
+			"type": "label",
+			"key": "haloDocDoctor",
+			"label": "doctor"
+		},
+		{
+			"type": "label",
+			"key": "haloDocAgent",
+			"label": "agent"
+		},
+		{
+			"type": "label",
+			"key": "haloDocModalCLosed",
+			"label": "Modal has been closed."
+		},
+		{
+			"type": "label",
+			"key": "haloDocModalCLosed",
+			"label": "Modal has been closed."
+		},
+		{
+			"type": "label",
+			"key": "haloDocIOS",
+			"label": "ios"
+		},
+		{
+			"type": "label",
+			"key": "PruSansNormal",
+			"label": "PruSansNormal"
+		},
+		{
+			"type": "label",
+			"key": "pruRegular",
+			"label": "pru regular"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToJoinCall",
+			"label": "Not able to join the call"
+		},
+		{
+			"type": "label",
+			"key": "patientJoinedCall",
+			"label": "Patient joined the call"
+		},
+		{
+			"type": "label",
+			"key": "patientEndedCall",
+			"label": "Patient ended the call"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToLeaveCall",
+			"label": "Not able to leave the call"
+		},
+		{
+			"type": "label",
+			"key": "notAbleToSetupCall",
+			"label": "Not able to setup the call"
+		},
+		{
+			"type": "label",
+			"key": "doctorChat",
+			"label": "Doctor's Chat"
+		},
+		{
+			"type": "label",
+			"key": "attachments",
+			"label": "Attachments"
+		},
+		{
+			"type": "label",
+			"key": "new",
+			"label": "New"
+		},
+		{
+			"type": "label",
+			"key": "makeRequest",
+			"label": "Do you want to make a Request"
+		},
+		{
+			"type": "label",
+			"key": "request",
+			"label": "Request"
+		},
+		{
+			"type": "label",
+			"key": "Proceed",
+			"label": "Proceed"
+		},
+		{
+			"type": "label",
+			"key": "ConsultationHistory",
+			"label": "Consultation History"
+		},
+		{
+			"type": "label",
+			"key": "loadmore",
+			"label": "Load more"
+		},
+		{
+			"type": "label",
+			"key": "Consultation_date",
+			"label": "Consultation Date:"
+		},
+		{
+			"type": "label",
+			"key": "Patient_note",
+			"label": "Patient Note:"
+		},
+		{
+			"type": "label",
+			"key": "Diagnosis",
+			"label": "Diagnosis"
+		},
+		{
+			"type": "label",
+			"key": "HaloDocHeight",
+			"label": "Height"
+		},
+		{
+			"type": "label",
+			"key": "HaloDocWeight",
+			"label": "Weight"
+		},
+		{
+			"type": "label",
+			"key": "UserCancelTitle",
+			"label": "Cancel Appointment?"
+		},
+		{
+			"type": "label",
+			"key": "all_my_files",
+			"label": "All My Files"
+		},
+		{
+			"type": "label",
+			"key": "UserCancelDesc",
+			"label": "You are about to cancel the appointment request. If your money was deducted, it will be refunded by Halodoc soon"
+		},
+		{
+			"type": "label",
+			"key": "consultation_approved",
+			"label": "Appointment Confirmed. Doctor has accepted your consultation request."
+		},
+		{
+			"type": "label",
+			"key": "consultation_rejected",
+			"label": "Appointment Rejected. Doctor has rejected your consultation request."
+		},
+		{
+			"type": "label",
+			"key": "consultation_missed",
+			"label": "Doctor has missed your consultation request. If your money was deducted, it will be refunded by Halodoc soon."
+		},
+		{
+			"type": "label",
+			"key": "consultation_closed",
+			"label": "Consultation closed. The doctor has closed the consultation."
+		},
+		{
+			"type": "label",
+			"key": "consultation_joined",
+			"label": "Appointment Joined. Doctor has Joined the call."
+		},
+		{
+			"type": "label",
+			"key": "consultation_ended",
+			"label": "Doctor has ended your call."
+		},
+		{
+			"type": "label",
+			"key": "consultation_completed",
+			"label": "Consultation ended. The doctor has ended the consultation."
+		},
+		{
+			"type": "label",
+			"key": "doctor_notes",
+			"label": "Doctor has sent notes."
+		},
+		{
+			"type": "label",
+			"key": "doctor_prescription",
+			"label": "Doctor has sent prescription."
+		},
+		{
+			"type": "label",
+			"key": "doctor_follow_up",
+			"label": "Doctor has requested a follow up."
+		},
+		{
+			"type": "label",
+			"key": "doctor_referral_notes",
+			"label": "Doctor has sent referral notes."
+		},
+		{
+			"type": "label",
+			"key": "doctor_sent_notes",
+			"label": "Doctor has sent attachments."
+		},
+		{
+			"type": "label",
+			"key": "consultation_payment_success",
+			"label": "Your payment is completed successfully."
+		},
+		{
+			"type": "label",
+			"key": "consultation_payment_failure",
+			"label": "Your payment has failed."
+		},
+		{
+			"type": "label",
+			"key": "consultation_refund_initiated",
+			"label": "Your refund has been initiated from Halodoc."
+		},
+		{
+			"type": "label",
+			"key": "doctors_cat",
+			"label": "Doctors"
+		},
+		{
+			"type": "label",
+			"key": "speciality_cat",
+			"label": "Speciality"
+		},
+		{
+			"label": "started",
+			"type": "label",
+			"key": "started"
+		},
+		{
+			"label": "closed",
+			"type": "label",
+			"key": "closed"
+		},
+		{
+			"label": "completed",
+			"type": "label",
+			"key": "completed"
+		},
+		{
+			"label": "requested",
+			"type": "label",
+			"key": "requested"
+		},
+		{
+			"label": "Whenever",
+			"type": "label",
+			"key": "Whenever"
+		},
+		{
+			"label": "Continue",
+			"type": "label",
+			"key": "halodoc_continue"
+		},
+		{
+			"label": "Do you want to use this voucher",
+			"type": "label",
+			"key": "halodoc_voucher"
+		},
+		{
+			"label": "PULSESUBSCD239X730",
+			"type": "label",
+			"key": "halodoc_voucher_code"
+		}
+	]
+}

@@ -1,0 +1,387 @@
+{
+	"image": "",
+	"label": "",
+	"key": "healthTab",
+	"elements": [
+		{
+			"label": "Kesehatan dalam genggamanmu",
+			"type": "label",
+			"key": "babylonServiceSubtitle"
+		},
+		{
+			"label": "Pemeriksaan Kesehatan Babylon",
+			"type": "label",
+			"key": "babylonService"
+		},
+		{
+			"label": "Waspada Demam Berdarah",
+			"type": "label",
+			"key": "amieSubTitle"
+		},
+		{
+			"label": "Periksa Gejala Penyakitmu",
+			"type": "label",
+			"key": "symptomChecker"
+		},
+		{
+			"type": "label",
+			"key": "descriptionSC",
+			"label": "Kurang enak badan? Yuk cek gejala dengan teknologi AI interaktif kami yang bisa membantu menganalisa kondisimu."
+		},
+		{
+			"type": "label",
+			"key": "descriptionSC1",
+			"label": "Kurang enak badan?"
+		},
+		{
+			"type": "label",
+			"key": "descriptionSC2",
+			"label": "Ijinkan periksa gejala berbasis AI kami menanyakan beberapa pertanyaan untuk menganalisa kondisi Anda. "
+		},
+		{
+			"type": "label",
+			"key": "descriptionAmie",
+			"label": "Tetap waspada dengan demam berdarah yang terjadi di lokasi yang dekat dengan Anda demi ketenangan pikiran. "
+		},
+		{
+			"type": "label",
+			"key": "buttonSC",
+			"label": "Cek Gejala Penyakit"
+		},
+		{
+			"type": "label",
+			"key": "newUserDescriptionSC",
+			"label": "Tanya Babylon sekarang"
+		},
+		{
+			"type": "label",
+			"key": "healthAssessment",
+			"label": "Pemeriksaan Kesehatan"
+		},
+		{
+			"type": "label",
+			"key": "descriptionHA",
+			"label": "Ketahui kondisi tubuhmu saat ini lewat pemeriksaan kesehatan berbasis AI kami. Lihat melalui model virtualmu dan dapatkan info lengkap & tips kesehatan untukmu."
+		},
+		{
+			"type": "label",
+			"key": "buttonHA",
+			"label": "Coba Periksa Kesehatan"
+		},
+		{
+			"type": "label",
+			"key": "newUserDescriptionHA",
+			"label": "Kelola kesehatan di genggamanmu"
+		},
+		{
+			"type": "label",
+			"key": "bmi",
+			"label": "Alat Ukur BMI"
+		},
+		{
+			"type": "label",
+			"key": "wrinkle",
+			"label": "Cermin Kerutan Wajah"
+		},
+		{
+			"type": "label",
+			"key": "foodsdk",
+			"label": "Penangkal Gout"
+		},
+		{
+			"type": "label",
+			"key": "bmiDescription",
+			"label": "Coba pantau BMI-mu cuma dengan selfie."
+		},
+		{
+			"type": "label",
+			"key": "bmiDescription1",
+			"label": "Apakah Anda memonitor BMI Anda?"
+		},
+		{
+			"type": "label",
+			"key": "bmiDescription2",
+			"label": "Ambil selfie sekarang untuk mengecek"
+		},
+		{
+			"label": "Keriput, siapa takut? Yuk cek kerutan dengan selfie.",
+			"type": "label",
+			"key": "wrinkleDescription"
+		},
+		{
+			"label": "Khawatir dengan kerutan?",
+			"type": "label",
+			"key": "wrinkleDescription1"
+		},
+		{
+			"label": "Ambil selfie sekarang untuk mengecek",
+			"type": "label",
+			"key": "wrinkleDescription2"
+		},
+		{
+			"label": "Pemindai lidah dan pelacak hidrasi kami akan membantu Kamu terhindar dari serangan Asam Urat",
+			"type": "label",
+			"key": "foodsdkDescription"
+		},
+		{
+			"label": "Ambil Selfie",
+			"type": "label",
+			"key": "bmiButton"
+		},
+		{
+			"type": "label",
+			"key": "wrinkleButton",
+			"label": "Ambil Selfie"
+		},
+		{
+			"type": "label",
+			"key": "foodsdkButton",
+			"label": "Mulai"
+		},
+		{
+			"type": "label",
+			"key": "wellnessGoals",
+			"label": "Target Kesehatan"
+		},
+		{
+			"type": "label",
+			"key": "wellnessGoalSubTitle",
+			"label": "Ayo tantang diri sendiri untuk hidup yang lebih sehat"
+		},
+		{
+			"type": "label",
+			"key": "wellnessGoalButton",
+			"label": "Lanjutkan"
+		},
+		{
+			"type": "label",
+			"key": "navigator",
+			"label": "Navigasi"
+		},
+		{
+			"type": "label",
+			"key": "navigatorSubTitle",
+			"label": "Temukan klinik dan rumah sakit terdekat"
+		},
+		{
+			"type": "label",
+			"key": "navigatorButton",
+			"label": "Cari"
+		},
+		{
+			"type": "label",
+			"key": "onlineConsultation",
+			"label": "Bicara dengan Dokter"
+		},
+		{
+			"type": "label",
+			"key": "onlineConsultationSubTitle",
+			"label": "Dapatkan konsultasi dari dokter kami yang dekat dengan rumah Anda"
+		},
+		{
+			"type": "label",
+			"key": "onlineConsultationButton",
+			"label": "Mulai konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "medicalRecords",
+			"label": "Rekam Medis"
+		},
+		{
+			"type": "label",
+			"key": "consultDoctor",
+			"label": "Konsultasi Dokter"
+		},
+		{
+			"type": "label",
+			"key": "checkSymptoms",
+			"label": "Cek Gejala"
+		},
+		{
+			"type": "label",
+			"key": "newChallenge",
+			"label": "Tantangan Baru"
+		},
+		{
+			"type": "label",
+			"key": "wellnessGoals",
+			"label": "Ikut serta tujuan"
+		},
+		{
+			"type": "label",
+			"key": "assessHealth",
+			"label": "Lengkapi Penilaian"
+		},
+		{
+			"type": "label",
+			"key": "findHospital",
+			"label": "Temukan Klinik"
+		},
+		{
+			"type": "label",
+			"key": "checkBmi",
+			"label": "Ambil Selfie"
+		},
+		{
+			"type": "label",
+			"key": "Wellness",
+			"label": "Gabung"
+		},
+		{
+			"type": "label",
+			"key": "Goals",
+			"label": "Tujuan Kesehatan"
+		},
+		{
+			"type": "label",
+			"key": "Health",
+			"label": "Pemeriksaan Kesehatan"
+		},
+		{
+			"type": "label",
+			"key": "Assessment",
+			"label": "Lengkap"
+		},
+		{
+			"type": "label",
+			"key": "Find",
+			"label": "Temukan"
+		},
+		{
+			"type": "label",
+			"key": "Hospital",
+			"label": "Rumah Sakit"
+		},
+		{
+			"type": "label",
+			"key": "Check",
+			"label": "Periksa"
+		},
+		{
+			"type": "label",
+			"key": "Bmi",
+			"label": "BMI"
+		},
+		{
+			"type": "label",
+			"key": "Check",
+			"label": "Periksa"
+		},
+		{
+			"type": "label",
+			"key": "Symptoms",
+			"label": "Gejala"
+		},
+		{
+			"type": "label",
+			"key": "navigatorSubTitle",
+			"label": "Temukan klinik dan rumah sakit di sekitar Anda"
+		},
+		{
+			"type": "label",
+			"key": "onlineConsultationDesc",
+			"label": "Dapatkan konsultasi dari dokter kami di sekitar rumah Anda"
+		},
+		{
+			"type": "label",
+			"key": "startConsultation",
+			"label": "Mulai konsultasi"
+		},
+		{
+			"type": "label",
+			"key": "haloDoc",
+			"label": "Bicara dengan Dokter"
+		},
+		{
+			"type": "label",
+			"key": "haloDocSubTitle",
+			"label": "Lakukan konsultasi kesehatan online dengan \ndokter bersertifikat"
+		},
+		{
+			"type": "label",
+			"key": "haloDocButton",
+			"label": "Konsultasi Sekarang"
+		},
+		{
+			"type": "label",
+			"key": "buyMedicine",
+			"label": "Pengiriman Obat"
+		},
+		{
+			"type": "label",
+			"key": "buyMedicineSubTitle",
+			"label": "Solusi beli kebutuhan obat dalam satu sentuhan"
+		},
+		{
+			"type": "label",
+			"key": "buyMedicineButton",
+			"label": "Beli obat"
+		},
+		{
+		  "label": "{\"fontSize\": 12, \"color\": \"#7e7e7e\", \"textAlign\": \"center\"}",
+		  "type": "label",
+		  "key": "health/thatsallStyle"
+		},
+		{
+		  "label": "Selesai!",
+		  "type": "label",
+		  "key": "health/thatsallText"
+		},
+		{
+		  "label": "aktifkan",
+		  "type": "label",
+		  "key": "health/thatsallConfig"
+		},
+		{
+      "type": "label",
+      "key": "foodsdkSubTitle",
+      "label": "Membuat Anda makan dengan mudah"
+    },	
+		{
+			"type": "label",
+			"key": "wrinkleIndex1",
+			"label": "Cermin Kerutan"
+		},
+		{
+			"type": "label",
+			"key": "wrinkleIndex2",
+			"label": "Wajah"
+		},
+		{
+			"type": "label",
+			"key": "checkNow",
+			"label": "Cek Sekarang"
+		},
+		{
+			"type": "label",
+			"key": "workoutVideo",
+			"label": "Video Latihan"
+		},
+		{
+			"type": "label",
+			"key": "checkNewVideos",
+			"label": "Tonton video olahraga terbaru Kamu"
+		},
+		{
+			"type": "label",
+			"key": "myFood1",
+			"label": "My"
+		  },
+		  {
+			"type": "label",
+			"key": "myFood2",
+			"label": "Food"
+		  },
+		  {
+			"type": "label",
+			"key": "myFitness1",
+			"label": "My"
+		  },
+		  {
+			"type": "label",
+			"key": "myFitness2",
+			"label": "Fitness"
+		}
+	]
+}

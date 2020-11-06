@@ -1,0 +1,81 @@
+{
+  "key": "SecurityNew",
+  "image": "",
+  "elements": [
+    {
+      "label": "Masuk dengan fingerprint",
+      "type": "label",
+      "key": "touchHead"
+    },
+    {
+      "label": "Fingerprint tidak diaktifkan",
+      "type": "label",
+      "key": "touchsubhead"
+    },
+    {
+      "label": "BATAL",
+      "type": "label",
+      "key": "cancel"
+    },
+    {
+      "label": "DAFTAR",
+      "type": "label",
+      "key": "enroll"
+    },
+    {
+      "label": "Registrasi Fingerprint",
+      "type": "label",
+      "key": "touchenrollement"
+    },
+    {
+      "label": "Registrasi fingerprint berhasil",
+      "type": "label",
+      "key": "touchsuccess"
+    },
+    {
+      "label": "OK",
+      "type": "label",
+      "key": "touchok"
+    },
+    {
+      "label": "Pengaturan",
+      "type": "label",
+      "key": "settings"
+    },
+    {
+      "label": "Keamanan",
+      "type": "label",
+      "key": "Security"
+    },
+    {
+      "label": "Ganti Kata Sandi",
+      "type": "label",
+      "key": "Change_Password"
+    },
+    {
+      "label": "Aktifkan Touch ID",
+      "type": "label",
+      "key": "EnableTouch"
+    },
+    {
+      "label": "Aktifkan Face ID",
+      "type": "label",
+      "key": "EnableFace"
+    },
+    {
+      "label": "Ubah kata sandi berhasil",
+      "type": "label",
+      "key": "Passwordchangedsuccessfully"
+    },
+    {
+      "label": "Negara",
+      "type": "label",
+      "key": "countrySettings"
+    },
+    {
+      "label": "Polis Saya",
+      "type": "label",
+      "key": "mypolicies"
+    }
+  ]
+}

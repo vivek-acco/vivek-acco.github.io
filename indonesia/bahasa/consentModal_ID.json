@@ -1,0 +1,46 @@
+{
+  "key": "ConsentModal",
+  "image": "",
+  "elements": [
+    { 
+      "type": "label", 
+      "key": "title", 
+      "label": "Sejak 3 September 2020, Pulse dikelola oleh Pulse Ecosystem Pte. Ltd., perusahaan yang berbasis di Singapura" 
+    },
+    { 
+      "type": "label", 
+      "key": "description", 
+      "label": " " 
+    },
+    { 
+      "type": "label", 
+      "key": "description1", 
+      "label": " Kami juga telah memperbarui " 
+    },
+    { 
+      "type": "label", 
+      "key": "description2", 
+      "label": "Syarat dan Ketentuan " 
+    },
+    { 
+      "type": "label", 
+      "key": "description3", 
+      "label": "serta " 
+    },
+    { 
+      "type": "label", 
+      "key": "description4", 
+      "label": "Pernyataan Privasi " 
+    },
+    { 
+      "type": "label", 
+      "key": "description5", 
+      "label": "seiring dengan kehadiran berbagai fitur dan layanan baru. Pastikan Anda telah membaca pembaruan tersebut. Dengan melanjutkan, maka Anda menyetujui perubahan Syarat dan Ketentuan serta Pernyataan Privasi yang ada." 
+    },
+    { 
+      "type": "label", 
+      "key": "button", 
+      "label": "Lanjutkan" 
+    }
+  ]
+}

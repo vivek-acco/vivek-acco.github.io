@@ -1,0 +1,27 @@
+{
+  "image": "https://preview.ibb.co/jCHZiL/chat-background-image.png",
+  "label": "",
+  "key": "chathome",
+  "elements": [
+    {
+      "type": "label",
+      "key": "title",
+      "label": "Tolong jelaskan gejala yang kamu rasakan"
+    },
+    {
+      "type": "label",
+      "key": "hiText",
+      "label": "Hai "
+    },
+    {
+      "type": "label",
+      "key": "placeholder",
+      "label": "contoh: sakit kepala"
+    },
+    {
+      "type": "label",
+      "key": "chathistory",
+      "label": "Riwayat percakapan"
+    }
+  ]
+}

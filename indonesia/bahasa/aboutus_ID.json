@@ -1,0 +1,15 @@
+{
+  "image": "",
+  "label": "About us",
+  "key": "aboutus",
+  "elements": [
+    {
+      "key": "termsandconditions",
+      "label": "Syarat dan ketentuan"
+    },
+    {
+      "key": "privacy",
+      "label": "Kebijakan Privasi"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+	"key": "PrayerTimeConvention",
+	"image": "",
+	"elements": [
+		{
+			"label": "Egypt General Authority",
+			"type": "label",
+			"key": "InsaanEgyptGeneralAuthority"
+		},
+		{
+			"label": "Amerika Utara (ISNA)",
+			"type": "label",
+			"key": "InsaanNorthAmerica_ISNA"
+		},
+		{
+			"label": "Muslim World League (MWL)",
+			"type": "label",
+			"key": "InsaanMuslimWorldLeague"
+		},
+		{
+			"label": "Umm Al-Qura, Mekah",
+			"type": "label",
+			"key": "InsaanUmmAlQuraMakkah"
+		},
+		{
+			"label": "Islamic University, Karachi",
+			"type": "label",
+			"key": "InsaanIslamicUniversityKarachi"
+		},
+		{
+			"label": "Indonesia",
+			"type": "label",
+			"key": "InsaanJakimMalaysia"
+		},
+		{
+			"label": "Afrika, Suriah, Libanon, Malaysia, Indonesia",
+			"type": "label",
+			"key": "InsaanAfricaSyriaLebanonMalaysia"
+		},
+		{
+			"label": "Amerika Utara (AS dan Kanada)",
+			"type": "label",
+			"key": "InsaanNorthAmerica_US"
+		},
+		{
+			"label": "Eropa, Timur Jauh, sebagian AS",
+			"type": "label",
+			"key": "InsaanEuropeFarEastpartofUS"
+		},
+		{
+			"label": "Semananjung Arab",
+			"type": "label",
+			"key": "InsaanArabianPeninsula"
+		},
+		{
+			"label": "Pakistan, Afganistan, Banglades, India",
+			"type": "label",
+			"key": "InsaanPakistanAfghanistanBangladeshIndia"
+		},
+		{
+			"label": "Konvensi Waktu Shalat",
+			"type": "label",
+			"key": "InsaanPrayerTimeConventions"
+		},
+		{ "label": "Negara Bagian", "type": "label", "key": "InsaanState" },
+		{ "label": "Zona", "type": "label", "key": "InsaanZone" },
+		{ "label": "Konfirmasi", "type": "label", "key": "InsaanConfirm" },
+		{
+			"label": "Pilih Negara Bagian",
+			"type": "label",
+			"key": "InsaanSelectState"
+		},
+		{ "label": "Pilih Zona", "type": "label", "key": "InsaanSelectZone" }
+	]
+}

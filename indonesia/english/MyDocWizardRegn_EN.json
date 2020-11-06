@@ -1,0 +1,157 @@
+{
+    "key": "MyDocWizardRegn",
+    "image": "",
+    "elements": [
+        {
+            "label": "Free Teleconsultation",
+            "type": "label",
+            "key": "mydocWizardRegnTitle"
+        },
+        {
+            "label": "Activate your free one time Teleconsultation from our board certified doctors.",
+            "type": "label",
+            "key": "mydocWizardOfferDesc"
+        },
+        {
+            "label": "",
+            "type": "label",
+            "key": "mydocWizardOfferTerms",
+            "termsList": [
+                "Avail one time Free teleconsultation benefit from our board certified doctors",
+                "Get e-prescriptions, recommendations and referrals from doctor"
+            ]
+        },
+        {
+            "label": "Your Details",
+            "type": "label",
+            "key": "userDetailTitle"
+        },
+        {
+            "label": "ACTIVATE MY FREE VOUCHER",
+            "type": "label",
+            "key": "mydocWizardActivateFreeVoucher"
+        },
+        {
+            "label": "SKIP and explore Pulse",
+            "type": "label",
+            "key": "mydocWizardIgnoreOffer"
+        },
+        {
+            "label": "ID Number",
+            "type": "label",
+            "key": "mydocWizIdNumberLabel"
+        },
+        {
+            "label": "First Name",
+            "type": "label",
+            "key": "mydocWizFirstNameLabel"
+        },
+        {
+            "label": "Last Name",
+            "type": "label",
+            "key": "mydocWizLastNameLabel"
+        },
+        {
+            "label": "Date Of Birth",
+            "type": "label",
+            "key": "mydocWizDateOfBirthLabel"
+        },
+        {
+            "label": "Gender",
+            "type": "label",
+            "key": "mydocWizGenderLabel"
+        },
+        {
+            "label": "Address",
+            "type": "label",
+            "key": "mydocWizAddressLabel"
+        },
+        {
+            "label": "Email",
+            "type": "label",
+            "key": "mydocWizEmailLabel"
+        },
+        {
+            "label": "Phone Number",
+            "type": "label",
+            "key": "mydocWizPhoneNumberLabel"
+        },
+        {
+            "label": "Congratulations!",
+            "type": "label",
+            "key": "mydocWizCongrats"
+        },
+        {
+            "label": "Your unique journey to health and wellness with PULSE has just begun",
+            "type": "label",
+            "key": "mydocWizUniqueJourneyDesc"
+        },
+        {
+            "list": [
+                "Health Assessment",
+                "Symptoms Checker",
+                "My Policies",
+                "e-Claims",
+                "Health and Wellness Articles",
+                "Hospital and Clinic locator"
+            ],
+            "type": "label",
+            "key": "mydocWizPulseFeatures"
+        },
+        {
+            "label": "Enjoy the following great features in Pulse",
+            "type": "label",
+            "key": "mydocWizEnjoyPulseFeaturesDesc"
+        },
+        {
+            "label": "And many more to come...",
+            "type": "label",
+            "key": "mydocWizPulseFeatureComingMore"
+        },
+        {
+            "label": "Continue",
+            "type": "label",
+            "key": "mydocWizContinue"
+        },
+        {
+          "label": "Your Phone Number",
+          "type": "label",
+          "key": "phoneNumber"
+        },
+        {
+          "label": "Your NRIC",
+          "type": "label",
+          "key": "nric"
+        },
+        {
+          "label": "Enter your gender",
+          "type": "label",
+          "key": "yourGender"
+        },
+        {
+          "label": "Enter your date of birth",
+          "type": "label",
+          "key": "yourdob"
+        },
+        {
+          "label": "FEMALE",
+          "type": "label",
+          "key": "female"
+        },
+        {
+          "label": "MALE",
+          "type": "label",
+          "key": "male"
+        },
+        {
+          "label": "Error",
+          "type": "label",
+          "key": "error"
+        },
+        {
+          "label": "Please fill all the fields",
+          "type": "label",
+          "key": "fillFields"
+        }
+    ]
+}

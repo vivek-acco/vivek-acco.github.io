@@ -1,0 +1,72 @@
+{
+  "image": "",
+  "label": "Ayo Mulai",
+  "key": "healthcheckgetstarted",
+  "elements": [
+    {
+      "type": "label",
+      "key": "healthcheckgetstarteddescription",
+      "label": "Jawab pertanyaan tentang gaya hidup dan riwayat keluargamu untuk membuat Digital Twin dan dapatkan informasi untuk hidup sehat. Selesaikan Pemeriksaan Menyeluruh atau pilih sesi untuk memulai"
+    },
+    {
+      "type": "label",
+      "key": "healthcheckgetstartedfooterdescription",
+      "label": "Pemeriksaan Kesehatan hanya untuk tujuan informasi. Ini bukan pengganti diagnosis atau nasihat medis."
+    },
+    {
+      "type": "label",
+      "key": "healthcheckgetstartedaboutlabel",
+      "label": "Sekitar"
+    },
+    {
+      "type": "label",
+      "key": "healthcheckgetstartedminuteslabel",
+      "label": "Menit"
+    },
+    {
+      "type": "image",
+      "image": "",
+      "key": "healthcheckgetstartedactivityicon"
+    },
+    {
+      "type": "image",
+      "image": "",
+      "key": "healthcheckgetstartednutritionicon"
+    },
+    {
+      "type": "image",
+      "image": "",
+      "key": "healthcheckgetstartedmoodicon"
+    },
+    {
+      "type": "image",
+      "image": "",
+      "key": "healthcheckgetstartedassessmenticon"
+    },
+    {
+      "type": "image",
+      "image": "",
+      "key": "healthcheckgetstartedarrowicon"
+    },
+    {
+      "type": "label",
+      "key": "conversationnotcomplete",
+      "label": "Percakapan terakhir tidak selesai. Harap melengkapi dahulu untuk melanjutkan."
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "OK"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "alert",
+      "label": "Alert"
+    }
+  ]
+}

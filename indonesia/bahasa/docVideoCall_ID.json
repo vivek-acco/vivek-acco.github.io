@@ -1,0 +1,26 @@
+{
+  "image": "",
+  "key": "docVideoCall",
+  "elements": [
+    {
+      "type": "label",
+      "key": "endsessionconfirmation",
+      "label": "Sesi akan diakhiri. Kamu yakin ingin mengakhiri sesi ini?"
+    },
+    {
+      "type": "label",
+      "key": "unstableconnection",
+      "label": "Koneksi internet tidak stabil"
+    },
+    {
+      "type": "label",
+      "key": "yes",
+      "label": "IYA"
+    },
+    {
+      "type": "label",
+      "key": "no",
+      "label": "TIDAK"
+    }
+  ]
+}

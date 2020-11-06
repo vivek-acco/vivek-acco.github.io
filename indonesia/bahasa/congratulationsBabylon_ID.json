@@ -1,0 +1,118 @@
+{
+  "label": "Perbarui Detail",
+  "image": "",
+  "key": "pruWizardBabylon",
+  "elements": [
+    {
+      "label": "Tidak, terima kasih. Saya tidak perlu layanan bebas biaya",
+      "type": "label",
+      "key": "noMayBeLater"
+    },
+    {
+      "label": "MULAI PEMERIKSAAN BEBAS BIAYA",
+      "type": "label",
+      "key": "activateFreeHealthCheckup"
+    },
+    {
+      "label": "Dengan klik tombol dibawah ini, Saya memberikan persetujuan kepada Babylon",
+      "type": "label",
+      "key": "babylonConsent1"
+    },
+    {
+      "label": " Syarat & Ketentuan ",
+      "type": "label",
+      "key": "babylonConsent2"
+    },
+    {
+      "label": "dan koleksi Babylon, penggunaan dan pemberitahuan rahasia terhadap data pribadi saya sesuai dengan Babylon",
+      "type": "label",
+      "key": "babylonConsent3"
+    },
+    {
+      "label": " Kebijakan Privasi",
+      "type": "label",
+      "key": "babylonConsent4"
+    },
+    {
+      "label": "Detail Anda",
+      "type": "label",
+      "key": "yourDetails"
+    },
+    {
+      "label": "Selamat",
+      "type": "label",
+      "key": "congrats"
+    },
+    {
+      "label": "Kamu Layak Mendapatkan Pemeriksaan Bebas Biaya 100%",
+      "type": "label",
+      "key": "congrats1"
+    },
+    {
+      "label": "Kelola kesehatan di genggamanmu. Dapatkan wawasan kesehatan untuk tetap hidup sehat.",
+      "type": "label",
+      "key": "congrats2"
+    },
+    {
+      "label": "Analisis lengkap tubuhmu & Gambaran kondisi kesehatanmu saat ini",
+      "type": "label",
+      "key": "congrats3"
+    },
+    {
+      "label": "Informasi praktis untuk membuat perubahan positif gaya hidupmu",
+      "type": "label",
+      "key": "congrats4"
+    },
+    {
+      "label": "NRIC",
+      "type": "label",
+      "key": "idNum"
+    },
+    {
+      "label": "Nama Depan",
+      "type": "label",
+      "key": "firstName"
+    },
+    {
+      "label": "Nama Belakang",
+      "type": "label",
+      "key": "lastName"
+    },
+    {
+      "label": "Tanggal Lahir",
+      "type": "label",
+      "key": "dob"
+    },
+    {
+      "label": "Jenis Kelamin",
+      "type": "label",
+      "key": "gender"
+    },
+    {
+      "label": "Email",
+      "type": "label",
+      "key": "email"
+    },
+    {
+      "label": "Alamat",
+      "type": "label",
+      "key": "address"
+    },
+    {
+      "label": "Nomor Telepon Seluler",
+      "type": "label",
+      "key": "phone"
+    },
+    {
+      "label": "Laki-Laki",
+      "type": "label",
+      "key": "male"
+    },
+    {
+      "label": "Perempuan",
+      "type": "label",
+      "key": "female"
+    }
+
+  ]
+}

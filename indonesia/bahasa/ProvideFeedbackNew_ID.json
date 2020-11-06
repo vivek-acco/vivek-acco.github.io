@@ -1,0 +1,119 @@
+{
+  "key": "ProvideFeedbackNew",
+  "image": "",
+  "elements": [
+    {
+      "errorMessages": [
+        {
+          "message": "Saran harus diisi",
+          "key": "Feedbackisrequired"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "key": "newFeedbackSelectDropdownVal",
+      "label": "Silahkan pilih dari pilihan yang ada"
+    },
+    {
+      "type": "label",
+      "key": "newFeedbackTitle",
+      "label": "Saran Saya"
+    },
+    {
+      "type": "label",
+      "key": "newFeedbackWhatToImprove",
+      "label": "Apa yang dapat kami perbaiki lebih lanjut?"
+    },
+    {
+      "type": "label",
+      "key": "newFeedbackYourComments",
+      "label": "Saran Kamu"
+    },
+    {
+      "label": "Saran Saya",
+      "type": "label",
+      "key": "ProvideFeedback"
+    },
+    {
+      "label": "Terima kasih telah menggunakn Pulse! \n Kami ingin dengar tanggapan Kamu untuk membantu kami \n meningkatkan layanan.",
+      "type": "label",
+      "key": "about"
+    },
+    {
+      "label": "Saran Saya",
+      "type": "label",
+      "key": "Feedback"
+    },
+    {
+      "label": "${0} huruf lagi",
+      "type": "label",
+      "key": "Remaining"
+    },
+    {
+      "label": "Kirim Saran",
+      "type": "label",
+      "key": "SubmitFeedback"
+    },
+    {
+      "label": "Terima Kasih atas saran Kamu! Kami akan menghubungi Kamu kembali melalui e-mail.",
+      "type": "label",
+      "key": "Thank"
+    },
+    {
+      "label": "Bagaimana kualitas layanan Kami?",
+      "type": "label",
+      "key": "howtheservice"
+    },
+    {
+      "label": "Baik",
+      "type": "label",
+      "key": "good"
+    },
+    {
+      "label": "Sangat Baik",
+      "type": "label",
+      "key": "verygood"
+    },
+    {
+      "label": "Rata-rata",
+      "type": "label",
+      "key": "average"
+    },
+    {
+      "label": "Tidak Baik",
+      "type": "label",
+      "key": "poor"
+    },
+    {
+      "label": "Sangat Tidak Baik",
+      "type": "label",
+      "key": "verypoor"
+    },
+    {
+      "label": "Apakah yang kurang berjalan dengan baik?",
+      "type": "label",
+      "key": "wentwrong"
+    },
+    {
+      "label": "Apakah yang harus diperbaiki?",
+      "type": "label",
+      "key": "canimprove"
+    },
+    {
+      "label": "Apakah yang sudah berjalan dengan baik?",
+      "type": "label",
+      "key": "wentgood"
+    },
+    {
+      "label": "Beritahu kami pendapatmu",
+      "type": "label",
+      "key": "shareThoughts"
+    },
+    {
+      "label": "Saranmu sangat berarti untuk peningkatan layanan kami",
+      "type": "label",
+      "key": "feedbackImprove"
+    }
+  ]
+}

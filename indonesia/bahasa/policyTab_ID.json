@@ -1,0 +1,32 @@
+{
+    "label": "My Policies",
+    "image": "",
+    "key": "policyTabScreen",
+    "elements": [
+        {
+            "label": "Sebentar Lagi!",
+            "key": "policyTabComingSoon",
+            "type": "label"
+        },
+        {
+            "label": "Produk Pulse",
+            "key": "policyTabPulseProducts",
+            "type": "label"
+        },
+        {
+            "label": "Pru Personal Accident Policy",
+            "key": "personalAccidentPolicyTitle",
+            "type": "label"
+        },
+        {
+            "label": "Memberikan uang tunai jika terjadi cedera atau kematian karena kecelakaan.",
+            "key": "personalAccidentPolicyDesc",
+            "type": "label"
+        },
+        {
+            "label": "Dapatkan sekarang",
+            "key": "getNowButton",
+            "type": "label"
+        }
+    ]
+}

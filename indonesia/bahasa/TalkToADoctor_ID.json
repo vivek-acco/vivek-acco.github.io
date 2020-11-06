@@ -1,0 +1,926 @@
+{
+  "key": "TalkToADoctor",
+  "image": "",
+  "elements": [
+    {
+      "label": "Permohonan janji terkirim. Dokter akan segera menghubungi Kamu",
+      "type": "label",
+      "key": "TALKTODOCTOR_DESC"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionChoking",
+      "label": "Tersedak"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionBreathing",
+      "label": "Kesulitan bernapas"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionChestPain",
+      "label": "Nyeri dada"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionWeakness",
+      "label": "Kelemahan di lengan atau tungkai"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionSpeechDifficulty",
+      "label": "Kesulitan berbicara"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionConsciousnessLoss",
+      "label": "Hilang kesadaran"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionSuicidal",
+      "label": "Pikiran untuk bunuh diri atau pembunuhan"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionSeizures",
+      "label": "Kejang"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionBleeding",
+      "label": "Pendarahan"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionSeverePain",
+      "label": "Sakit parah"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionHallucinations",
+      "label": "Kebingungan dan / atau halusinasi"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionBrokenBones",
+      "label": "Patah tulang"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionMyDocRequestSent",
+      "label": "Kami telah mengirimkan permintaanmu ke tim MyDoc. Kami akan memberi tahu segera setelah dokter mengkonfirmasi permintaan tersebut."
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionAppointmentConfirmed",
+      "label": "Permintaan konsultasi telah dikonfirmasi. Dokter sedang meninjau detail informasi mu dan kamu akan diberi tahu setelah dokter memulai panggilan."
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionDocsPrepped",
+      "label": "Dokter sedang mempersiapkan dokumentasi yang diperlukan dari konsultasi. Kami akan memberi tahu segera setelah mereka siap untuk direview."
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionYes",
+      "label": "Ya"
+    },
+    {
+      "type": "label",
+      "key": "preConQuestionNoneOfAbove",
+      "label": "Bukan dari salah satu di atas"
+    },
+    {
+      "type": "label",
+      "key": "preConOkayLabel",
+      "label": "OKE"
+    },
+    {
+      "type": "label",
+      "key": "preConCompleteMedicalProfile",
+      "label": "Baik. Sekarang mari lengkapi profil medismu sehingga kami dapat membagikan detail terbaru dengan doktermu."
+    },
+    {
+      "type": "label",
+      "key": "preConSelectAnswerLabel",
+      "label": "Pilih jawaban:"
+    },
+    {
+      "type": "label",
+      "key": "medProfileTitle",
+      "label": "Profil Medis"
+    },
+    {
+      "type": "label",
+      "key": "medProfileAllergies",
+      "label": "Alergi"
+    },
+    {
+      "type": "label",
+      "key": "medProfileNoAllergies",
+      "label": "Masukkan 'Tidak Ada' jika tidak ada alergi"
+    },
+    {
+      "type": "label",
+      "key": "medProfileMedConditions",
+      "label": "Kondisi medis"
+    },
+    {
+      "type": "label",
+      "key": "medProfileNoMedConditions",
+      "label": "Masukkan 'Tidak Ada' jika tidak ada kondisi medis"
+    },
+    {
+      "type": "label",
+      "key": "medProfileMedications",
+      "label": "Pengobatan"
+    },
+    {
+      "type": "label",
+      "key": "medProfileNoMedications",
+      "label": "Masukkan 'Tidak Ada' jika tidak ada obat"
+    },
+    {
+      "type": "label",
+      "key": "medProfileEmergencyContact",
+      "label": "Nama kontak darurat"
+    },
+    {
+      "type": "label",
+      "key": "medProfileEmergencyContactNumber",
+      "label": "Nomor kontak darurat"
+    },
+    {
+      "type": "label",
+      "key": "medProfileProceed",
+      "label": "Memproses"
+    },
+    {
+      "type": "label",
+      "key": "medProfileEnterValidPhone",
+      "label": "Masukkan nomor telepon yang valid"
+    },
+    {
+      "type": "label",
+      "key": "medProfileEnterValidName",
+      "label": "Masukkan nama yang valid"
+    },
+    {
+      "type": "label",
+      "key": "medProfileEnterNumberDiffThanProfile",
+      "label": "Masukkan nomor yang berbeda dari nomor kontak profil Pulse-mu"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsHeader",
+      "label": "Rincian Pembayaran"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsWhatThisFor",
+      "label": "Untuk apa ini？"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsFeeDetails",
+      "label": "Biaya tersebut mencakup konsultasi video .."
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsDoesItIncludeMedication",
+      "label": "Apakah itu termasuk obat？"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsCostOfMedication",
+      "label": "Biaya pengobatan tidak termasuk."
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsWhenWillBeCharged",
+      "label": "Kapan saya akan ditagih?"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsAmountChargedDtls",
+      "label": "Jumlah tersebut akan dibebankan setelah konsultasi video selesai."
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsEnterCardDtls",
+      "label": "Masukkan Detail Kartu"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsFailed",
+      "label": "Pembayaran Gagal"
+    },
+    {
+      "type": "label",
+      "key": "paymentDtlsPayNow",
+      "label": "Bayar Sekarang"
+    },
+    {
+      "type": "label",
+      "key": "doctorCardCallEnded",
+      "label": "Panggilan Berakhir"
+    },
+    {
+      "type": "label",
+      "key": "doctorCardJoinCall",
+      "label": "Gabung panggilan"
+    },
+    {
+      "type": "label",
+      "key": "doctorChatStartToChatWith",
+      "label": "Mulai percakapan dengan"
+    },
+    {
+      "type": "label",
+      "key": "doctorChatSelectPhoto",
+      "label": "Pilih foto dari"
+    },
+    {
+      "type": "label",
+      "key": "doctorChatCamera",
+      "label": "Kamera"
+    },
+    {
+      "type": "label",
+      "key": "doctorChatGallery",
+      "label": "Galeri"
+    },
+    {
+      "type": "label",
+      "key": "fsmDoctorOurWorkingHours",
+      "label": "Jam kerja kami dari"
+    },
+    {
+      "type": "label",
+      "key": "fsmDoctorTo",
+      "label": "ke"
+    },
+    {
+      "type": "label",
+      "key": "fsmDoctorComeBackLater",
+      "label": "Silakan kembali lagi nanti"
+    },
+    {
+      "type": "label",
+      "key": "fsmDoctorAlert",
+      "label": "Ingatkan saya"
+    },
+    {
+      "type": "label",
+      "key": "fsmDoctorOk",
+      "label": "Oke"
+    },
+    {
+      "type": "label",
+      "key": "preConMyDocConsent",
+      "label": "Kamu bertanggung jawab atas profilmu di MyDoc dan Prudential tidak bertanggung jawab jika orang lain menggunakan akunmu dan mendapatkan saran medis yang tidak akurat berdasarkan informasi yang kamu berikan."
+    },
+    {
+      "type": "label",
+      "key": "preConPhoneVerifyError",
+      "label": "Harap verifikasi nomor telepon"
+    },
+    {
+      "type": "label",
+      "key": "preConInvalidPhoneError",
+      "label": "Nomor telepon tidak valid"
+    },
+    {
+      "type": "label",
+      "key": "preConNo",
+      "label": "Tidak"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryConsulDate",
+      "label": "Tanggal Konsultasi"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryPatientNote",
+      "label": "Catatan Pasien"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryDiagnosis",
+      "label": "Diagnosa"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryDoctorsChat",
+      "label": "Percakapan Dokter"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryConciergeChat",
+      "label": "Percakapan Petugas"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryAttachments",
+      "label": "Lampiran"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryMedicalCertificate",
+      "label": "Sertifikat Medis"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryPrescription",
+      "label": "Resep"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryReciept",
+      "label": "Resi"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryReferralLetter",
+      "label": "Surat rujukan"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryCaseNotes",
+      "label": "Catatan Kasus"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryOtherDocuments",
+      "label": "Dokumen Lainnya"
+    },
+    {
+      "type": "label",
+      "key": "consulHistoryOtherImages",
+      "label": "Gambar Lainnya"
+    },
+    {
+      "type": "label",
+      "key": "allMyFilesTitle",
+      "label": "Semua File Saya"
+    },
+    {
+      "type": "label",
+      "key": "allMyFilesRecieved",
+      "label": "Diterima"
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifDoctorHasMessage",
+      "label": "Dokter memiliki pesan untukmu"
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifIgnore",
+      "label": "Abaikan"
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifSee",
+      "label": "Lihat"
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifApptConf",
+      "label": "Pertemuan dikonfirmasi. Dokter telah menerima permintaan konsultasimu."
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifApptReqSent",
+      "label": "Permintaan konsultasi dikirim. Dokter akan segera menghubungimu."
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifDoctorJoinedCall",
+      "label": "Dokter telah bergabung dalam panggilan telepon. Silakan bergabung."
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifStart",
+      "label": "Mulai"
+    },
+    {
+      "type": "label",
+      "key": "firebaseMsgNotifDoctorAppointment",
+      "label": "Konsultasi Dokter"
+    },
+    {
+      "type": "label",
+      "key": "preConWeAreSorryLabel",
+      "label": "Kami minta maaf. Dokter sedang sibuk atau tidak tersedia pada jam ini. Silakan coba lagi setelah beberapa saat."
+    },
+    {
+      "type": "label",
+      "key": "preConBackToHomeLabel",
+      "label": "Kembali ke Home"
+    },
+    {
+      "type": "label",
+      "key": "preConConsulRequestSentLabel",
+      "label": "Permintaan terkirim! Kami akan memberi tahu saat dokter sudah mengkonfirmasi permintaan tersebut."
+    },
+    {
+      "type": "label",
+      "key": "preConSubmitLabel",
+      "label": "Kirim"
+    },
+    {
+      "type": "label",
+      "key": "preConBookAppointment",
+      "label": "Jadwalkan Pertemuan"
+    },
+    {
+      "type": "label",
+      "key": "preConMakeSureInternetLabel",
+      "label": "Pastikan kamu berada di area yang memiliki konektivitas internet yang baik."
+    },
+    {
+      "type": "label",
+      "key": "preConOnceConsulSentLabel",
+      "label": "Setelah permintaan konsultasi dikirim, permintaan tidak dapat ditarik kembali atau dibatalkan."
+    },
+    {
+      "type": "label",
+      "key": "preConAverageWaitTimeLabel",
+      "label": "Waktu tunggu rata-rata untuk memulai konsultasi adalah 10-20 menit."
+    },
+    {
+      "type": "label",
+      "key": "preConSwitchOnNotification",
+      "label": "Harap pastikan bahwa fungsi notifikasi dihidupkan untuk memastikan kamu mendapatkan konfirmasi pertemuan konsultasi, pengingat dan peringatan dari dokter dan petugas medis."
+    },
+    {
+      "type": "label",
+      "key": "preConMyDocHotlineLabel",
+      "label": "Jika kamu ingin melakukan penjadwalan ulang atau pembatalan. Silakan hubungi hotline Mydoc: 0707150628"
+    },
+    {
+      "type": "label",
+      "key": "preConPleaseNoteLabel",
+      "label": "Tolong dicatat"
+    },
+    {
+      "type": "label",
+      "key": "preConEmergencyNumberLabel",
+      "label": "Antara sekarang dan dimulainya konsultasi video, jika kamu mengalami salah satu dari yang berikut, silakan kunjungi A&E terdekat atau hubungi 115."
+    },
+    {
+      "label": "Dokter",
+      "type": "label",
+      "key": "doctorLabelKey"
+    },
+    {
+      "label": "MCR",
+      "type": "label",
+      "key": "mcrLabelKey"
+    },
+    {
+      "label": "Nama",
+      "type": "label",
+      "key": "nameLabelKey"
+    },
+    {
+      "label": "video",
+      "type": "label",
+      "key": "CONSULTATION_FILTER_VIDEO"
+    },
+    {
+      "label": "Suara",
+      "type": "label",
+      "key": "CONSULTATION_FILTER_AUDIO"
+    },
+    {
+      "label": "Riwayat konsultasi",
+      "type": "label",
+      "key": "CONSULTATION_HISTORY_TITLE"
+    },
+    {
+      "label": "Semua File Saya",
+      "type": "label",
+      "key": "ALL_MY_FILES"
+    },
+    {
+      "label": "Rincian Konsultasi",
+      "type": "label",
+      "key": "CONSULTATION_DETAIL_TITLE"
+    },
+    {
+      "label": "Saringan",
+      "type": "label",
+      "key": "CONSULTATION_FILTER_TITLE"
+    },
+    {
+      "label": "Tanggal Konsultasi",
+      "type": "label",
+      "key": "CONSULTATION_CONSULTATION_DATE"
+    },
+    {
+      "label": "Jenis Konsultasi",
+      "type": "label",
+      "key": "CONSULTATION_TYPE_OF_CONSULTATION"
+    },
+    {
+      "label": "Terapkan",
+      "type": "label",
+      "key": "CONSULTATION_BUTTON_APPLY"
+    },
+    {
+      "label": "Batal",
+      "type": "label",
+      "key": "CONSULTATION_BUTTON_CANCEL"
+    },
+    {
+      "label": "Hapus",
+      "type": "label",
+      "key": "CONSULTATION_BUTTON_CLEAR"
+    },
+    {
+      "label": "Konfirmasi",
+      "type": "label",
+      "key": "CONSULTATION_BUTTON_CONFIRM"
+    },
+    {
+      "label": "Tidak ada",
+      "type": "label",
+      "key": "CONSULTATION_TYPE_SELECTION_NONE"
+    },
+    {
+      "label": "Suara",
+      "type": "label",
+      "key": "CONSULTATION_TYPE_SELECTION_AUDIO"
+    },
+    {
+      "label": "Video",
+      "type": "label",
+      "key": "CONSULTATION_TYPE_SELECTION_VIDEO"
+    },
+    {
+      "label": "Dari",
+      "type": "label",
+      "key": "CONSULTATION_PLACEHOLDER_FROM"
+    },
+    {
+      "label": "sampai",
+      "type": "label",
+      "key": "CONSULTATION_PLACEHOLDER_TO"
+    },
+    {
+      "label": "Pilih",
+      "type": "label",
+      "key": "CONSULTATION_PLACEHOLDER_SELECT"
+    },
+    {
+      "label": "Bicara dengan Dokter",
+      "type": "label",
+      "key": "TalkDoctor"
+    },
+    {
+      "label": " Konsultasikan dengan dokter mengenai masalahmu ",
+      "type": "label",
+      "key": "Consultwithaqualified"
+    },
+    {
+      "label": "Dokter yang berkualifikasi dan terdaftar memberikan diagnosis, merekomendasikan perawatan yang tepat, dan jika perlu, berikan resep elektronik.",
+      "type": "label",
+      "key": "TalkToADoctordescription"
+    },
+    {
+      "label": "Apabila ",
+      "type": "label",
+      "key": "Whenever"
+    },
+    {
+      "label": "tertera, Kamu sedang menerima pelayanan dari Halodoc.",
+      "type": "label",
+      "key": "appearsoncall"
+    },
+    {
+      "label": "muncul, kamu menerima layanan dari MyDoc.",
+      "type": "label",
+      "key": "mydocappearsoncall"
+    },
+    {
+      "label": "Dengan mengklik 'Lanjut' Kamu mengonfirmasi telah membaca dan menyetujui Syarat dan Ketentuan serta Pemberitahuan Privasi kami untuk menggunakan layanan ini.",
+      "type": "label",
+      "key": "ByclickingAgreebelow"
+    },
+    {
+      "label": "Syarat & Ketentuan",
+      "type": "label",
+      "key": "TermsConditions"
+    },
+    {
+      "label": "dan",
+      "type": "label",
+      "key": "dan"
+    },
+    {
+      "label": "Pemberitahuan Privasi",
+      "type": "label",
+      "key": "PrivacyNotice"
+    },
+    {
+      "label": "Dengan melakukan konfirmasi ini, Kamu setuju bahwa informasi yang diberikan akan digunakan di profil PULSE Kamu dan mengacu ke kebijakan dari PULSE ",
+      "type": "label",
+      "key": "ByConfirmPatientRegistration"
+    },
+    {
+      "label": "untuk menggunakan layanan dari DoctorOnCall.",
+      "type": "label",
+      "key": "DoctorOnCall"
+    },
+    {
+      "key": "NricFinImage",
+      "label": "Gambar NRIC / FIN",
+      "type": "label"
+    },
+    {
+      "label": "untuk menggunakan layanan dari MyDoc.",
+      "type": "label",
+      "key": "ToUseServicesMyDoc"
+    },
+    {
+      "label": "Lanjut",
+      "type": "label",
+      "key": "IAgree"
+    },
+    {
+      "label": "Kami memerlukan informasi yang lebih lengkap tentang Kamu sebelum kita mulai",
+      "type": "label",
+      "key": "Ijustneedstarted"
+    },
+    {
+      "label": "Mulai sekarang.",
+      "type": "label",
+      "key": "Getstarted"
+    },
+    {
+      "label": "Konsultasi Online",
+      "type": "label",
+      "key": "OnlineConsultation"
+    },
+    {
+      "label": "Sebelum kami dapat membantu, kami memerlukan detail darimu.",
+      "type": "label",
+      "key": "Beforewecanhelp"
+    },
+    {
+      "label": "Untuk membantu kami memberikan saran terbaik.",
+      "type": "label",
+      "key": "helpsadvise"
+    },
+    {
+      "label": "Nama Depan",
+      "type": "label",
+      "key": "FirstName"
+    },
+    {
+      "label": "Nama Belakang",
+      "type": "label",
+      "key": "LastName"
+    },
+    {
+      "label": "Email",
+      "type": "label",
+      "key": "Email"
+    },
+    {
+      "label": "Negara Asal",
+      "type": "label",
+      "key": "CountryofResidence"
+    },
+    {
+      "label": "Kode negara",
+      "type": "label",
+      "key": "CountryCode"
+    },
+    {
+      "label": "No Telepon",
+      "type": "label",
+      "key": "PhoneNo"
+    },
+    {
+      "label": "Konfirmasi",
+      "type": "label",
+      "key": "Confirm"
+    },
+    {
+      "label": "NRIC",
+      "type": "label",
+      "key": "NRIC"
+    },
+    {
+      "label": "Verifikasi",
+      "type": "label",
+      "key": "Verify"
+    },
+    {
+      "label": "Batal",
+      "type": "label",
+      "key": "Cancel"
+    },
+    {
+      "label": "Dengan mengklik 'Konfirmasi' kamu telah menyutujui bahwa informasi di atas dapat dimasukkan dalam profil Pulse dan mematuhi Kebijakan Privasi Pulse.",
+      "type": "label",
+      "key": "Byclick"
+    },
+    {
+      "label": "Konfirmasi",
+      "type": "label",
+      "key": "Proceed"
+    },
+    {
+      "label": "Mulai Konsultasi",
+      "type": "label",
+      "key": "StartConsultation"
+    },
+    {
+      "label": "Riwayat konsultasi",
+      "type": "label",
+      "key": "ConsultationHistory"
+    },
+    {
+      "label": "Pesanan obat",
+      "type": "label",
+      "key": "MedicineOrder"
+    },
+    {
+      "label": "Jenis Panggilan apa yang ingin kamu lakukan?",
+      "type": "label",
+      "key": "Howwouldyoulike"
+    },
+    {
+      "label": "NRIC diperlukan",
+      "type": "label",
+      "key": "DOC_NRIC_REQUIRED"
+    },
+    {
+      "label": "Kamu adalah nasabah Prudential! Ayo mulai konsultasi gratis kamu!",
+      "type": "label",
+      "key": "Prudentialcustomer"
+    },
+    {
+      "label": "Layanan ini dikenakan biaya untuk nasabah non-Prudential. Apakah kamu setuju untuk proses pembayaran?",
+      "type": "label",
+      "key": "NOPrudentialcustomer"
+    },
+    {
+      "label": "Pilih jawaban:",
+      "type": "label",
+      "key": "Selectanswer"
+    },
+    {
+      "label": "Panggilan Video",
+      "type": "label",
+      "key": "VideoCall"
+    },
+    {
+      "label": "Panggilan suara",
+      "type": "label",
+      "key": "AudioCall"
+    },
+    {
+      "label": "Pembayaran",
+      "type": "label",
+      "key": "Payment"
+    },
+    {
+      "label": "Pilih metode pembayaran",
+      "type": "label",
+      "key": "Selectyourpaymentmethod"
+    },
+    {
+      "label": "Kartu Kredit/Debit",
+      "type": "label",
+      "key": "CreditCard"
+    },
+    {
+      "label": "Perbankan Online (FPX)",
+      "type": "label",
+      "key": "OnlineBanking"
+    },
+    {
+      "label": "ATM / Bank Transfer",
+      "type": "label",
+      "key": "ATMTransfer"
+    },
+    {
+      "label": "Pembayaran Berhasil",
+      "type": "label",
+      "key": "PaymentSuccessful"
+    },
+    {
+      "label": "Pembayaran Konsultasi online",
+      "type": "label",
+      "key": "PaymentOnlineConsultaion"
+    },
+    {
+      "label": "RM 10.00",
+      "type": "label",
+      "key": "RM10"
+    },
+    {
+      "label": "Ringkasan Pesanan",
+      "type": "label",
+      "key": "OrderSummary"
+    },
+    {
+      "label": "Pembayaran sebesar RM10.00 untuk Konsultasi Online telah berhasil",
+      "type": "label",
+      "key": "Yourpaymentsuccessful"
+    },
+    {
+      "label": "Konfirmasi Janji",
+      "type": "label",
+      "key": "ConfirmAppointment"
+    },
+    {
+      "label": "Konfirmasi Janji",
+      "type": "label",
+      "key": "AppointmentConfirmation"
+    },
+    {
+      "label": "Konsultasi Online Melalui Video",
+      "type": "label",
+      "key": "OnlineConsultationAudioAppointment"
+    },
+    {
+      "label": "Pembayaran sebesar RM 10.00 untuk Panggilan Video berhasil",
+      "type": "label",
+      "key": "PaymentSuccessfully"
+    },
+    {
+      "label": "Lanjut",
+      "type": "label",
+      "key": "NEXT"
+    },
+    {
+      "label": "Masukkan gejala yang kamu rasakan di sini.",
+      "type": "label",
+      "key": "Pleaseenterany"
+    },
+    {
+      "label": "Kirim",
+      "type": "label",
+      "key": "Submit"
+    },
+    {
+      "label": "Permintaan konsultasi telah dikirim. Dokter akan segera menghubungimu.",
+      "type": "label",
+      "key": "Appointmenthortly"
+    },
+    {
+      "label": "Resep dan surat rujukan kamu sudah siap. Silakan klik untuk melihat lebih rinci.",
+      "type": "label",
+      "key": "Yourprescriptiondetails"
+    },
+    {
+      "label": "Permohonan Konsultasi",
+      "type": "label",
+      "key": "ConsultationRequest"
+    },
+    {
+      "label": "Permohonan Terkirim",
+      "type": "label",
+      "key": "Requestsent"
+    },
+    {
+      "label": "Menunggu konfirmasi dokter",
+      "type": "label",
+      "key": "Waitingforconfirmation"
+    },
+    {
+      "label": "1. Pastikan kamu berada di area dengan koneksi internet yang baik.",
+      "type": "label",
+      "key": "TalkToADoctordescription2"
+    },
+    {
+      "label": "2. Biaya konsultasi Online adalah sebesar RM10 per sesi.",
+      "type": "label",
+      "key": "TalkToADoctordescription3"
+    },
+    {
+      "label": "3. Setelah permohonan konsultasi dikirim, tidak dapat ditarik kembali atau dibatalkan.",
+      "type": "label",
+      "key": "TalkToADoctordescription4"
+    },
+    {
+      "label": "Permohonan dikonfirmasi!",
+      "type": "label",
+      "key": "RequestConfirmed"
+    },
+    {
+      "key": "NricFinImage",
+      "label": "NRIC/FIN Gambar",
+      "type": "label"
+    }
+  ]
+}

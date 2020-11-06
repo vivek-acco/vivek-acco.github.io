@@ -1,0 +1,16 @@
+{
+    "image": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/1be64d7d-f17a-4134-a491-1cab0983bdbd?namespace=VN",
+    "key": "MyDocGiftVoucher",
+    "elements": [
+        {
+            "key": "mydocGiftVoucherButton",
+            "type": "label",
+            "label": "Gift your friends free Voucher"
+        },
+        {
+            "key": "mydocGiftShareTitle",
+            "type": "label",
+            "label": "Gift Teleconsultation"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "image": "",
+  "label": "",
+  "key": "denguePoliciesList",
+  "elements": [
+    {
+      "type": "label",
+      "value": "Kartu Polis PRUTect Syariah DBD Anda",
+      "key": "yourPolicyCards"
+    },
+    {
+      "type": "label",
+      "value": "Cari menggunakan nama, premi, atau nomor polis",
+      "key": "searchPlaceholder"
+    }
+  ]
+}

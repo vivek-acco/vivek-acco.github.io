@@ -1,0 +1,41 @@
+{
+    "key": "BinahAI",
+    "image": "",
+    "elements": [
+        {
+            "label": 1800,
+            "type": "label",
+            "key": "intervalTime"
+        },
+        {
+            "label": "Oxygen Saturation",
+            "type": "label",
+            "key": "oxygenSaturation"
+        },
+        {
+            "label": "Heart Rate",
+            "type": "label",
+            "key": "heartRate"
+        },
+        {
+            "label": "Respiratory Rate",
+            "type": "label",
+            "key": "respiratoryRate"
+        },
+        {
+            "label": "Heart Rate Variability",
+            "type": "label",
+            "key": "heartRateVariability"
+        },
+        {
+            "label": "Pulse Health",
+            "type": "label",
+            "key": "pulseHealth"
+        },
+        {
+            "label": "Stress Level",
+            "type": "label",
+            "key": "stressLevel"
+        }
+    ]
+}

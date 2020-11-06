@@ -1,0 +1,32 @@
+{
+  "image": "",
+  "label": "",
+  "key": "healthChannel",
+  "elements": [
+    {
+      "label": "Acara dan Peristiwa Dunia",
+      "type": "label",
+      "key": "globalEvents"
+    },
+    {
+      "label": "Info Kesehatan",
+      "type": "label",
+      "key": "healthAwareness"
+    },    
+    {
+      "label": "Berita & Komunikasi",
+      "type": "label",
+      "key": "newsAndCommunications"
+    },
+    {
+      "label": "COVID-19",
+      "type": "label",
+      "key": "covid19"
+    },
+    {
+      "label": "Kanal Kesehatan",
+      "type": "label",
+      "key": "HealthChannels"
+    }
+  ]
+}

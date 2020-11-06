@@ -1,0 +1,72 @@
+{
+    "image": "",
+    "label": "",
+    "key": "navigatorMap",
+    "elements": [
+        {
+        "type": "label",
+        "key": "timings",
+        "label": "Timings:"
+        },
+        {
+        "type": "label",
+        "key": "distance",
+        "label": "Distance:"
+        },
+        {
+        "type": "label",
+        "key": "apprx",
+        "label": "apprx."
+        },
+        {
+        "type": "label",
+        "key": "seeDetails",
+        "label": "See Details"
+        },
+        {
+        "type": "label",
+        "key": "gymsNearMe",
+        "label": "gyms near me"
+        },
+        {
+        "type": "label",
+        "key": "markets",
+        "label": "markets"
+        },
+        {
+        "type": "label",
+        "key": "gasStationsNearMe",
+        "label": "gas stations near"
+        },
+        {
+        "type": "label",
+        "key": "groceries",
+        "label": "Groceries"
+        },
+        {
+        "type": "label",
+        "key": "searchHere",
+        "label": "Search here"
+        },
+        {
+        "type": "label",
+        "key": "hospitals",
+        "label": "Hospitals"
+        },
+        {
+        "type": "label",
+        "key": "clinics",
+        "label": "Cilinics"
+        },
+        {
+        "type": "label",
+        "key": "recentSearch",
+        "label": "Recent search"
+        },
+        {
+        "type": "label",
+        "key": "pulseSearch",
+        "label": "Pulse Search"
+        }
+    ]
+}

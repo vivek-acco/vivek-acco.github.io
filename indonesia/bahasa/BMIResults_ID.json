@@ -1,0 +1,141 @@
+{
+  "key": "BMIResults",
+  "image": "",
+  "elements": [
+    {
+      "type": "label",
+      "key": "bmiResultsMale",
+      "label": "Laki-laki"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsFemale",
+      "label": "Perempuan"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsShare",
+      "label": "Bagikan"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsYourResult",
+      "label": "Hasil BMI-mu"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsGotRight",
+      "label": "Apakah sudah benar?"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsNormalBmi",
+      "label": "BMI-mu Normal"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsAge",
+      "label": "Usia"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsGender",
+      "label": "Jenis kelamin"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsHeight",
+      "label": "Tinggi"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsCm",
+      "label": "cm"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsFt",
+      "label": "ft"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsWeight",
+      "label": "Berat badan"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsKgs",
+      "label": "kgs"
+    },
+    {
+      "type": "label",
+      "key": "bmiResultsLb",
+      "label": "lb"
+    },
+    {
+      "type": "label",
+      "key": "bmiIndexGuide",
+      "label": "Panduan Indeks Massa Tubuh (BMI)"
+    },
+    {
+      "type": "label",
+      "key": "bmiValue",
+      "label": "Nilai"
+    },
+    {
+      "type": "label",
+      "key": "lessThanEighteenPointFive",
+      "label": "kurang dari 18,5"
+    },
+    {
+      "type": "label",
+      "key": "eighteenPointFiveToTwentyFive",
+      "label": "dari 18,5 hingga 25"
+    },
+    {
+      "type": "label",
+      "key": "fromTwentyFiveTOThirty",
+      "label": "dari 25 hingga 30"
+    },
+    {
+      "type": "label",
+      "key": "overThirty",
+      "label": "lebih dari 30"
+    },
+    {
+      "type": "label",
+      "key": "bmiUnderWeight",
+      "label": "Berat Badan Kurang"
+    },
+    {
+      "type": "label",
+      "key": "bmiNormal",
+      "label": "Normal"
+    },
+    {
+      "type": "label",
+      "key": "bmiOverWeight",
+      "label": "Kelebihan Berat Badan"
+    },
+    {
+      "type": "label",
+      "key": "bmiObese",
+      "label": "Obesitas"
+    },
+    {
+      "type": "label",
+      "key": "bmiLabel",
+      "label": "BMI"
+    },
+    {
+      "type": "label",
+      "key": "bmiIndexYourIs",
+      "label": "BMI-mu adalah"
+    },
+    {
+      "type": "label",
+      "key": "bmiClassification",
+      "label": "Klasifikasi BMI"
+    }
+  ]
+}

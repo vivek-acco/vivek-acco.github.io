@@ -1,0 +1,17 @@
+{
+  "image": "",
+  "label": "Dokter",
+  "key": "hospiptalDetailDoctorsScreen",
+  "elements": [
+    {
+      "type": "placeholder",
+      "key": "searchDoctorsPlaceholder",
+      "label": "Cari Dokter"
+    },
+    {
+      "type": "placeholder",
+      "key": "emptyDoctorsPlaceholder",
+      "label": "Nama Dokter belum tersedia"
+    }
+  ]
+}

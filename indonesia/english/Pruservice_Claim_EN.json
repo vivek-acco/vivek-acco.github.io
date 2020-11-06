@@ -1,0 +1,1161 @@
+{
+  "image": "",
+  "key": "Pruservice_Claim",
+  "elements": [
+    {
+      "type": "label",
+      "key": "claimcardapproved",
+      "label": "Approved"
+    },
+    {
+      "type": "label",
+      "key": "claimcarddeclined",
+      "label": "Declined"
+    },
+    {
+      "type": "label",
+      "key": "claimcardonprocess",
+      "label": "On Process"
+    },
+    {
+      "type": "label",
+      "key": "claimcardsubmitted",
+      "label": "Submitted"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_title",
+      "label": "Download Failed"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_desc",
+      "label": "Claim failed to download. Re-check your internet connection or contact our Customer Care."
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_button",
+      "label": "Contact Customer Care"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_title",
+      "label": "Download Succeed"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_desc",
+      "label": "Your claim has been successfully downloaded. Please open it on your mobile."
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_button",
+      "label": "Done"
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_message",
+      "label": "Thank you for providing the requested documents. Make sure the documents you enter are valid."
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_button_label",
+      "label": "Yes, Continue"
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_cancel_label",
+      "label": "Recheck"
+    },
+    {
+      "type": "label",
+      "key": "step_1_not_complete",
+      "label": "Please complete step 1"
+    },
+    {
+      "type": "label",
+      "key": "step_2_not_complete",
+      "label": "Please complete step 2"
+    },
+    {
+      "type": "label",
+      "key": "step_3_not_complete",
+      "label": "Please complete step 3"
+    },
+    {
+      "type": "label",
+      "key": "step_4_not_complete",
+      "label": "Please complete step 4"
+    },
+    {
+      "type": "label",
+      "key": "step_toc",
+      "label": "Please agree terms and conditions"
+    },
+    {
+      "type": "label",
+      "key": "la_date_required",
+      "label": "Hospitalised date is required"
+    },
+    {
+      "type": "label",
+      "key": "la_required",
+      "label": "Life Assured is required"
+    },
+    {
+      "type": "label",
+      "key": "enter_policy_number",
+      "label": "Key in Your Policy Number"
+    },
+    {
+      "type": "label",
+      "key": "enter_policy_number_textbox_label",
+      "label": "Policy Number"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_required",
+      "label": "Policy Number must be filled"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_numeric",
+      "label": "Policy number must be numeric only"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_length",
+      "label": "Policy number should be 8 digits or 12 characters with numeric and alphabet"
+    },
+    {
+      "type": "label",
+      "key": "otp_description",
+      "label": "Enter 6 digit authentication code sent with SMS to"
+    },
+    {
+      "type": "label",
+      "key": "otp_countdown",
+      "label": "Enter OTP in"
+    },
+    {
+      "type": "label",
+      "key": "otp_resend_question",
+      "label": "OTP not sent?"
+    },
+    {
+      "type": "label",
+      "key": "otp_resend_button",
+      "label": "Resend"
+    },
+    {
+      "type": "label",
+      "key": "policy_verified_title",
+      "label": "Policy Verified"
+    },
+    {
+      "type": "label",
+      "key": "policy_verified_description",
+      "label": "You can file in a claim now as a Policy Holder."
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_title",
+      "label": "Inpatient Claim"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_title_outpatient",
+      "label": "Outpatient Claim"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_send",
+      "label": "SEND CLAIM"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_error",
+      "label": "Please check your information again"
+    },
+    {
+      "type": "label",
+      "key": "claim_info_command",
+      "label": "Complete the information below."
+    },
+    {
+      "type": "label",
+      "key": "claim_first_step",
+      "label": "Fill Hospitalization Details"
+    },
+    {
+      "type": "label",
+      "key": "claim_second_step",
+      "label": "Select Policy and Benefit"
+    },
+    {
+      "type": "label",
+      "key": "claim_third_step",
+      "label": "Select a Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "claim_fourth_step",
+      "label": "Upload Documents"
+    },
+    {
+      "type": "label",
+      "key": "agreement_desc_1",
+      "label": "I agree with"
+    },
+    {
+      "type": "label",
+      "key": "agreement_button",
+      "label": "inform consent"
+    },
+    {
+      "type": "label",
+      "key": "agreement_desc_2",
+      "label": "claim reimbursement"
+    },
+    {
+      "type": "label",
+      "key": "agreement_desc_death",
+      "label": "Death Claim"
+    },
+    {
+      "type": "label",
+      "key": "coming_soon_title",
+      "label": "Look Forward to Other Claim Features"
+    },
+    {
+      "type": "label",
+      "key": "coming_soon_desc",
+      "label": "Not only you're able to Inpatient Hospitalization Claim, you can access other claim features."
+    },
+    {
+      "type": "label",
+      "key": "understood_button",
+      "label": "UNDERSTOOD"
+    },
+    {
+      "type": "label",
+      "key": "step",
+      "label": "Step"
+    },
+    {
+      "type": "label",
+      "key": "select",
+      "label": "Select"
+    },
+    {
+      "type": "label",
+      "key": "step_1_title",
+      "label": "Fill Hospitalization Details"
+    },
+    {
+      "type": "label",
+      "key": "step_1_insured_select_desc",
+      "label": "Life Assured"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_select_desc",
+      "label": "Hospitalised Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_select_insured",
+      "label": "Select Life Assured"
+    },
+    {
+      "type": "label",
+      "key": "step_1_pledged_card",
+      "label": "Benefit is inactive"
+    },
+    {
+      "type": "label",
+      "key": "step_1_inactive_policy",
+      "label": "Policy is inactive"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_title",
+      "label": "Hospitalised Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_in",
+      "label": "Start Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_out",
+      "label": "End Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_save_back_button",
+      "label": "SAVE AND RETURN"
+    },
+    {
+      "type": "label",
+      "key": "step_1_date_accident",
+      "label": "Date Of Accident"
+    },
+    {
+      "type": "label",
+      "key": "step_1_date_disamblement",
+      "label": "Date Of Disablement"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_title",
+      "label": "Hospitalised Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_info",
+      "label": "Ensure hospitalised date fits with the document uploaded."
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_in",
+      "label": "Start Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_out",
+      "label": "Discharge Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_outpatient",
+      "label": "Outpatient Date"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_continue",
+      "label": "Next"
+    },
+    {
+      "type": "label",
+      "key": "step_2_title",
+      "label": "Select Policy and Benefit"
+    },
+    {
+      "type": "label",
+      "key": "step_2_desc",
+      "label": "You can select more than one Benefits."
+    },
+    {
+      "type": "label",
+      "key": "step_2_select_all",
+      "label": "Select All"
+    },
+    {
+      "type": "label",
+      "key": "step_2_not_select",
+      "label": "Rider is required"
+    },
+    {
+      "type": "label",
+      "key": "step_2_policy_number",
+      "label": "Policy Number:"
+    },
+    {
+      "type": "label",
+      "key": "step_3_title",
+      "label": "Select Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_bank_no_account",
+      "label": "There is no registered bank account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account",
+      "label": "Delete Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_confirmation_title",
+      "label": "Are You Sure You Want to Delete Bank Account?"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_confirmation_desc",
+      "label": "Press Next to delete the bank account you've selected."
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_success_title",
+      "label": "Bank Account Deleted"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_success_desc",
+      "label": "The Bank Account you've selected has been deleted."
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_title",
+      "label": "Update Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_bank_account_title",
+      "label": "Add Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_bank_account_alert",
+      "label": "Please complete the form"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account",
+      "label": "Delete Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_button",
+      "label": "Delete"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_owner_label",
+      "label": "Account Holder Name"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_owner",
+      "label": "Account Holder Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_bank_label",
+      "label": "Bank Name"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_number_label",
+      "label": "Bank Account Number"
+    },
+    {
+      "type": "label",
+      "key": "step_3_select_bank_title",
+      "label": "Select Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_select_bank_search",
+      "label": "Bank Search"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_success_title",
+      "label": "Updated Successfully!"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_success_title",
+      "label": "Added successfully!"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_desc_1",
+      "label": "You have updated account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_desc_1",
+      "label": "You have added account"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_2",
+      "label": "with"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_3",
+      "label": "by name"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_4",
+      "label": "Account number"
+    },
+    {
+      "type": "label",
+      "key": "step_3_alert",
+      "label": "Bank Account is required"
+    },
+    {
+      "type": "label",
+      "key": "step_3_add_bank_account",
+      "label": "Add Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step_4_title",
+      "label": "Upload Documents"
+    },
+    {
+      "type": "label",
+      "key": "step_4_alert",
+      "label": "Document is required"
+    },
+    {
+      "type": "label",
+      "key": "step_4_file_size",
+      "label": "document has reached 32 mb"
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_1",
+      "label": "Keep these documents with you "
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_2",
+      "label": "6 month"
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_3",
+      "label": "from now, we may need the original copy for your claim."
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_4",
+      "label": "Total maximum 20 pages, please prioritize required fields. Any additional document please contact "
+    },
+    {
+      "type": "label",
+      "key": "step_4_take_picture",
+      "label": "Take Picture"
+    },
+    {
+      "type": "label",
+      "key": "step_4_doctor_note",
+      "label": "Doctor's Note"
+    },
+    {
+      "type": "label",
+      "key": "step_4_doctor_note_desc",
+      "label": "Within Prudential Indonesia Format"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_holder_id",
+      "label": "Policy Holder Identification Card"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_other_holder_id",
+      "label": "Other Policy Holder Identification Card"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_holder_id_desc",
+      "label": "Example: KTP / SIM / Passport"
+    },
+    {
+      "type": "label",
+      "key": "step_4_treatment_receipt",
+      "label": "Hospitalization Receipt"
+    },
+    {
+      "type": "label",
+      "key": "step_4_treatment_receipt_detail",
+      "label": "Hospitalization Receipt Details"
+    },
+    {
+      "type": "label",
+      "key": "step_4_lab_results",
+      "label": "Lab Results / Radiology"
+    },
+    {
+      "type": "label",
+      "key": "step_4_lab_results_desc",
+      "label": "Example: X-Ray photo, CT Scan"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs",
+      "label": "Supporting Documents"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_desc",
+      "label": "Refer to claim requirements stated in your policy provisions. Submit claim documents completely and correctly."
+    },
+    {
+      "type": "label",
+      "key": "step_4_optional",
+      "label": "(Optional)"
+    },
+    {
+      "type": "label",
+      "key": "step_4_required",
+      "label": "(Required)"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_1",
+      "label": "Benefit Coordination Letter"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_2",
+      "label": "Policy Holder Reference"
+    },
+    {
+      "type": "label",
+      "key": "step_4_add_document",
+      "label": "Add Document"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_title",
+      "label": "Inpatient Claim"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment",
+      "label": "Hospitalization Details"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_insured_name",
+      "label": "Life Assured Name"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment_date",
+      "label": "Hospitalised Date"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_extra_policy",
+      "label": "Policy and Benefit"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_bank_account",
+      "label": "Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_bank_account_desc",
+      "label": "Ensure bank account holder name fits."
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_documents",
+      "label": "Documents"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_documents_desc",
+      "label": "Ensure uploaded documents fit"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_doctor_notes",
+      "label": "Medical Certificate"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_holder_id",
+      "label": "Policy Holder's Identity Card"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment_receipt",
+      "label": "Treatment Receipt"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_supporting_doc",
+      "label": "Supporting Documents"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_policy_number",
+      "label": "Policy Number"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_title",
+      "label": "Submission Sent"
+    },
+    {
+      "type": "label",
+      "key": "claim_failed_title",
+      "label": "Claim can not be submitted!"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_1",
+      "label": "Claim with"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_2",
+      "label": "is submitted successfully. Check the details and wait for further process."
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_1_digital",
+      "label": "Claim with"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_2_digital",
+      "label": "is submitted successfully."
+    },
+    {
+      "type": "label",
+      "key": "claim_failed_desc",
+      "label": "Sorry, you do not have an active policy to make this claim at the moment. Please check your Policy or Rider status or contact Prudential Customer Line."
+    },
+    {
+      "type": "label",
+      "key": "claim_success_number",
+      "label": "Number"
+    },
+    {
+      "type": "label",
+      "key": "see_claim_history_button",
+      "label": "SEE CLAIM HISTORY"
+    },
+    {
+      "type": "label",
+      "key": "claim_customer_line",
+      "label": "Prudential Customer Line"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_in_progress",
+      "label": "In progress"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_approved",
+      "label": "Approved"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_rejected",
+      "label": "Rejected"
+    },
+    {
+      "type": "label",
+      "key": "claim_save",
+      "label": "Save"
+    },
+    {
+      "type": "label",
+      "key": "claim_done",
+      "label": "Done"
+    },
+    {
+      "type": "label",
+      "key": "claim_delete",
+      "label": "Hapus"
+    },
+    {
+      "type": "label",
+      "key": "claim_cancel",
+      "label": "Cancel"
+    },
+    {
+      "type": "label",
+      "key": "otpnumberfalse",
+      "label": "Number is Invalid?"
+    },
+    {
+      "type": "label",
+      "key": "otpcallus",
+      "label": "Call Us"
+    },
+    {
+      "type": "label",
+      "key": "step_1_insured_select_desc_syaria",
+      "label": "Participant"
+    },
+    {
+      "type": "label",
+      "key": "claim_loading",
+      "label": "Load claim data..."
+    },
+    {
+      "type": "label",
+      "key": "death_claim_policy_number",
+      "label": "e-certificate Number"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_id_number",
+      "label": "ID Number"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_la_name",
+      "label": "Life Assured Name/Participant"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_dob",
+      "label": "Date of Birth "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_fullname",
+      "label": "Full name "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_fullname_placeholder",
+      "label": "Account Holder Name"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_benefitReceiver",
+      "label": "Beneficiary"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_policy_notfound",
+      "label": "Policy not found"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_policy_notsame",
+      "label": "Data policy is not same"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_dob_required",
+      "label": "Date of birth is required"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_idnumber_required",
+      "label": "ID Number is required"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_benefit_required",
+      "label": "Beneficiary is required"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_title",
+      "label": "Death Claim Submission"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1",
+      "label": "Fill claim details"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step3",
+      "label": "Submit claims"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_death_title",
+      "label": "Death information"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_deathtime",
+      "label": "Death Date and Time"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_deathplace",
+      "label": "Place of Death "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_causeofdeath",
+      "label": "Cause of Death "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_rs",
+      "label": "Hospital"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_home",
+      "label": "Home"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_others",
+      "label": "Others"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_accident",
+      "label": "Accident"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_disease",
+      "label": "Disease"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_infectiousdisease",
+      "label": "Infectious disease"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_traffic_accident",
+      "label": "Traffic Accident"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_as_driver",
+      "label": "As a Driver"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_bank_information",
+      "label": "Bank information"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_phone_number_benef",
+      "label": "Beneficiary's Phone Number"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_bank",
+      "label": "Bank"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_bank_placeholder",
+      "label": "Bank Name"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_bank_number",
+      "label": "Account Number "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_bank_number_placeholder",
+      "label": "Bank Account Number "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_contact_title",
+      "label": "Contact information "
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_phone_number",
+      "label": "Phone number"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_general_error",
+      "label": "Field is required"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_error_phone",
+      "label": "format is incompatible"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_summary_policy",
+      "label": "Policy and Benefit"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_type",
+      "label": "Death"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_type_title",
+      "label": "Type of claim"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_detail",
+      "label": "Claim Details"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_certificate_number",
+      "label": "Certificate Number"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_death_date",
+      "label": "Death date"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_error_ktp",
+      "label": "Must 16 Characters"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_yes",
+      "label": "Yes"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_step1_no",
+      "label": "No"
+    },
+    {
+      "type": "label",
+      "key": "digitalvirtual",
+      "label": "Digital/Virtual"
+    },
+    {
+      "type": "label",
+      "key": "pleasechoice",
+      "label": "Please Choice One"
+    },
+    {
+      "type": "label",
+      "key": "claimtype",
+      "label": "Type of claims"
+    },
+    {
+      "type": "label",
+      "key": "step1digitaldeathclaim",
+      "label": "Death Claims "
+    },
+    {
+      "type": "label",
+      "key": "step1digitalTitle",
+      "label": "PRUTect Care - Non Death Claim"
+    },
+    {
+      "type": "label",
+      "key": "step1digital",
+      "label": "Select policy and Benefit"
+    },
+    {
+      "type": "label",
+      "key": "step1digitalLifeAssured",
+      "label": "Name of Life Assured/Participant"
+    },
+    {
+      "type": "label",
+      "key": "step2digital",
+      "label": "Fill in Claims Details"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalTotalDisability",
+      "label": "Total Disability"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalCOH",
+      "label": "Cause Of Hospitalization"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalAccident",
+      "label": "Accident"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalDisease",
+      "label": "Disease"
+    },
+    {
+      "type": "label",
+      "key": "step2digitaTA",
+      "label": "Traffic Accident"
+    },
+    {
+      "type": "label",
+      "key": "step2digitaYES",
+      "label": "Yes"
+    },
+    {
+      "type": "label",
+      "key": "step2digitaNO",
+      "label": "No"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalAD",
+      "label": "As a Driver"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalSummaryBank",
+      "label": "Bank Account"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalRequired",
+      "label": "Please complete"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_verify_title_error",
+      "label": "Oops, your information is invalid!"
+    },
+    {
+      "type": "label",
+      "key": "death_claim_verify_title_msg",
+      "label": "Keep calm and make sure you fill in correct information. Let's try again!"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalTA",
+      "label": "Traffic accident"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalYES",
+      "label": "Yes"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalNO",
+      "label": "No"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalInpatient",
+      "label": "Inpatient"
+    },
+    {
+      "type": "label",
+      "key": "step2digitalTotalDisability",
+      "label": "Total Disability"
+    },
+    {
+      "type": "label",
+      "key": "step1digitalSummaryInpatient",
+      "label": "Claims inpatient"
+    },
+    {
+      "type": "label",
+      "key": "step1digitalSummaryDisability",
+      "label": "Claims total disability"
+    }
+  ]
+}

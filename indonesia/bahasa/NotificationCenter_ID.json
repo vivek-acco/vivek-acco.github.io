@@ -1,0 +1,36 @@
+{
+  "key": "NotificationCenter",
+  "image": "",
+  "elements": [
+    {
+      "label": "Notifikasi Saya",
+      "type": "label",
+      "key": "mynotifications"
+    },
+    {
+      "label": "Reward Saya",
+      "type": "label",
+      "key": "myrewards"
+    },
+    {
+      "label": "Diterima pada",
+      "type": "label",
+      "key": "receivedon"
+    },
+    {
+      "label": "Notifikasi",
+      "type": "label",
+      "key": "notificenter"
+    },
+    {
+      "label": "Belum Ada Notifikasi",
+      "type": "label",
+      "key": "noNotifications"
+    },
+    {
+      "label": "Kamu belum memiliki notifikasi, pastikan selalu cek halaman ini untuk mengetahui informasi terbaru.",
+      "type": "label",
+      "key": "noNotificationsMessage"
+    }
+  ]
+}

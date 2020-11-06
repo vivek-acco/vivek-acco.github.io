@@ -1,0 +1,108 @@
+{
+  "image": "",
+  "label": "",
+  "key": "feedbackscreen",
+  "elements": [
+    {
+      "type": "screendescriptionmessage",
+      "key": "feedbackscreendescription",
+      "label": "Terima kasih telah meluangkan waktumu"
+    },
+    {
+      "type": "screendescriptionmessage",
+      "key": "feedbackscreendetaileddescription",
+      "label": "Kami senang mendengar tanggapanmu tentang layanan kami."
+    },
+    {
+      "type": "dropdownheader",
+      "key": "dropdownheader",
+      "label": "Apa kategori dari masukan yang kamu berikan?"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownassesshealth",
+      "label": "Pemeriksaan Kesehatan"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdowndigitaltwin",
+      "label": "Digital Twin"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownsymptomchecker",
+      "label": "Periksa Gejala"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownmanageprofile",
+      "label": "Kelola Profil"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownchangepassword",
+      "label": "Ganti Kata Sandi"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownchangelanguage",
+      "label": "Change Language"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdowngettingtreatment",
+      "label": "Getting Treatment"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownstayingwell",
+      "label": "Tetap Sehat"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownconnect",
+      "label": "Menghubungkan"
+    },
+    {
+      "type": "dropdownitem",
+      "key": "feedbackscreendropdownnotifications",
+      "label": "Lainnya"
+    },
+    {
+      "type": "label",
+      "key": "feedbackscreendetailedinputlabel",
+      "label": "Jelaskan ke kami lebih detail"
+    },
+    {
+      "image": "",
+      "label": "Unggah lampiran",
+      "type": "button",
+      "key": "feedbackscreenuploadattachmentbutton"
+    },
+    {
+      "errorMessages": [
+        {
+          "message": "Feedback error",
+          "key": "FEEDBACK_ERROR"
+        },
+        {
+          "message": "Data kamu belum terregistrasi",
+          "key": "USER_NOT_REGISTERED"
+        }
+      ],
+      "label": "KIRIM MASUKAN",
+      "type": "button",
+      "key": "feedbackscreensendfeedbackbutton"
+    },
+    {
+      "type": "label",
+      "key": "feedbackscreendescriptionrequired",
+      "label": "Deskripsi diperlukan"
+    },
+    {
+      "type": "label",
+      "key": "feedbackscreensubmittedmessage",
+      "label": "Terima kasih atas masukan yang kamu berikan!"
+    }
+  ]
+}

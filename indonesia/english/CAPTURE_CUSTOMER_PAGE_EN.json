@@ -1,0 +1,585 @@
+{
+    "label": "Update Details",
+    "image": "",
+    "key": "CAPTURE_CUSTOMER_PAGE",
+    "elements": [
+        {
+            "label": "Please enter your details below to complete your insurance policy application or take picture of your KTP.",
+            "type": "label",
+            "key": "CAPTURE_CUSTOMER_PAGE_INSTRUCTIONS_LABEL"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_HEADER_LABEL",
+            "label": "Your Personal Details",
+            "type": "label"
+        },
+        {
+            "label": "KTP No.",
+            "type": "label",
+            "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_ID_LABEL_JSON_EXPRESSION",
+                    "value": "$contains(id, /^[0-9]{16}$/)"
+                }
+            ]
+        },
+        {
+            "label": "First name",
+            "type": "label",
+            "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_LABEL",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_LABEL_REGEX_VALIDATION",
+                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\¿§«»ω⊙¤°℃℉€¥£¢¡®©0-9_+\\-()\\[\\]'`]*$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_LABEL",
+            "label": "Last name",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_LABEL_REGEX_VALIDATION",
+                    "value": "^[^<>{}\\\"\\/|;:.,~!?@#$%^=&*\\\\¿§«»ω⊙¤°℃℉€¥£¢¡®©0-9_+\\-()\\[\\]'`]*$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DATEOFBIRTH_LABEL",
+            "label": "Date of birth",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DATEOFBIRTH_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DATEOFBIRTH_LABEL_REGEX_VALIDATION",
+                    "value": "^\\d\\d-\\d\\d-\\d\\d\\d\\d$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_GENDER_LABEL",
+            "label": "Gender",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_GENDER_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_LABEL",
+            "label": "Address as per ID",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9+\\-\\'.,#'\\/:; ’”“‘`()]+$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_COUNTRYCODE_LABEL",
+            "label": "Country Code",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_LABEL",
+            "label": "Mobile Phone Number",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_LABEL_REGEX_VALIDATION",
+                    "value": "^\\d{10,12}$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL",
+            "label": "Email",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_LABEL_REGEX_VALIDATION",
+                    "value": "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OCCUPATION_LABEL",
+            "label": "Occupation (optional)",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_OCCUPATION_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9 ]+$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ID_REQUIRED_MESSAGE",
+            "label": "KTP is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOCUMENT_INVALID_MESSAGE",
+            "label": "Document is invalid.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_INVALID_ID_NO_MESSAGE",
+            "label": "KTP No must be 16 digits.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_REQUIRED_MESSAGE",
+            "label": "Firstname is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_INVALID_MESSAGE",
+            "label": "Please enter a valid name.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_REQUIRED_MESSAGE",
+            "label": "Last name is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_INVALID_MESSAGE",
+            "label": "Please enter a valid name.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOB_REQUIRED_MESSAGE",
+            "label": "Date of birth is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOB_INVALID_MESSAGE",
+            "label": "Please select a valid date.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_GENDER_REQUIRED_MESSAGE",
+            "label": "Please select a gender.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_REQUIRED_MESSAGE",
+            "label": "Address required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_INVALID_MESSAGE",
+            "label": "Please enter a valid Address as per KTP.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PHONE_REQUIRED_MESSAGE",
+            "label": "Mobile phone number is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_INVALID_PHONE_MESSAGE",
+            "label": "Please enter a valid mobile phone number.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_INVALID_OCCUPATION_MESSAGE",
+            "label": "Please enter a valid occupation.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_PLAN_COVERAGE",
+            "label": "Coverage",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_VIEW_PACKAGE",
+            "label": "View More Packages",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_RECOMMENDED_PRODUCT",
+            "label": "Recommended for you",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_BUTTON_BUY",
+            "label": "PROCEED",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_TERMS_AND_CONDITIONS_HEADER",
+            "label": "Terms & Conditions",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_INSTRUCTION",
+            "label": "Select photo from",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_CAMERA_LABEL",
+            "label": "Camera",
+            "type": "label"
+        },
+        {
+            "key": "OCR_PICKER_GALLERY_LABEL",
+            "label": "Gallery",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_GENDER_MALE",
+            "label": "Male",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_GENDER_FEMALE",
+            "label": "Female",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_GENDER_OTHER",
+            "label": "Other",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_PAGE_TITLE",
+            "label": "Update Details",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PRODUCT_UNAVAILABLE_ERROR",
+            "label": "Product unavailable",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_VIEW_MORE_DETAILS",
+            "label": "View more details",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_SHOW_MORE_TEXT",
+            "label": "Show more",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_DETAILS_LABEL_SHOW_LESS_TEXT",
+            "label": "Show less",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_LABEL",
+            "label": "Have you been in touch with Prudential agent? Please insert your agent code",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_LABEL_REGEX_VALIDATION",
+                    "value": "^\\d{6,8}$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_INVALID_REFERRAL_CODE_MESSAGE",
+            "label": "Please enter a valid referral code",
+            "type": "label"
+        },
+        {
+            "key": "OCR_IMAGE_SIZE_MESSAGE",
+            "label": "Please select an image with a size less than {0} MB.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL",
+            "label": "Name as per ID",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]*$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_REQUIRED_MESSAGE",
+            "label": "Name is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_INVALID_MESSAGE",
+            "label": "Please enter a valid Name as per KTP.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL",
+            "label": "Place of Birth",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_LABEL_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9 \\-\\.,'\\/\\(\\)'’”“‘`]+$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_REQUIRED_MESSAGE",
+            "label": "Place of Birth is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_INVALID_MESSAGE",
+            "label": "Please enter a valid Place of Birth as per KTP.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY",
+            "label": "Domicile City",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z0-9 \\-\\.,'\\/\\(\\)'’”“‘`]+$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_REQUIRED_MESSAGE",
+            "label": "City is required.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_INVALID_MESSAGE",
+            "label": "Enter a valid City.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ID_PLACEHOLDER",
+            "label": "Enter ID as per KTP",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_PLACEOFBIRTH_PLACEHOLDER",
+            "label": "Enter Place of birth",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_DOMICILE_CITY_PLACEHOLDER",
+            "label": "Enter City",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_REFERRAL_CODE_PLACEHOLDER",
+            "label": "Enter Referral Code",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FIRSTNAME_PLACEHOLDER",
+            "label": "Enter First Name",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_LASTNAME_PLACEHOLDER",
+            "label": "Enter Last Name",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OCCUPATION_PLACEHOLDER",
+            "label": "Enter Occupation",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_FULLNAME_PLACEHOLDER",
+            "label": "Enter Full Name",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_ADDRESS_PLACEHOLDER",
+            "label": "Enter Address as per KTP",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_MOBILENUMBER_PLACEHOLDER",
+            "label": "8xxxxxxxx",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULL_NAME",
+            "label": "Beneficiary Full Name",
+            "type": "label",
+            "validation": [
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_REQUIRED_VALIDATION",
+                    "value": "required"
+                },
+                {
+                    "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_REGEX_VALIDATION",
+                    "value": "^[a-zA-Z \\-\\.,'\\/\\(\\)’”“‘`()]{1,60}$"
+                }
+            ]
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_REQUIRED_MESSAGE",
+            "label": "Name is required",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_INVALID_MESSAGE",
+            "label": "Please enter a valid name",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_BENEFICIARY_FULLNAME_PLACEHOLDER",
+            "label": "Enter Beneficiary Full Name",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_REQUIRED_MESSAGE",
+            "label": "Please enter an email.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_EMAIL_INVALID_MESSAGE",
+            "label": "Please enter a valid email.",
+            "type": "label"
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_USE_WALLET_PAYMENT",
+            "label": "true",
+            "type": "label"
+        },
+         {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_ERROR_MESSAGE_2080",
+             "label": "User entered invalid OTP",
+            "type": "label"   
+        },
+         {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_GENERIC_ERROR_MESSAGE",
+             "label": "Oops, Something went wrong.",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_ERROR_MESSAGE_999",
+             "label": "User entered invalid OTP",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_SELECTION_HEADER",
+             "label": "We need authentication to process this transaction",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_SELECTION_ICON",
+             "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0//cms/eea2a00c-bc32-49bf-8f10-1347af3bce95",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_SELECTION_DESC",
+             "label": "Please confirm your Mobile or Email Id to receive the One Time Password",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_TYPES_AVAILABLE",
+             "label": "Email|email;Mobile Number|phone",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_OTP_SEND_BUTTON",
+             "label": "Send",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_NUMBER_DISPLAY_JOINER",
+             "label": " and ",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_CONTACT_SELECTION_INFO",
+             "label": "A One Time Password would be sent to the selected Mobile or Email Id for this transaction.",
+            "type": "label"   
+        },
+        {
+            "key" : "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_HEADER_MESSAGE_FOR_NEW_MODULE",
+             "label": "We sent a verification code to your registered ",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_CANCEL_BUTTON",
+            "label": "Cancel",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_CONTINUE_BUTTON",
+            "label": "Continue",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_HEADER",
+            "label": "OTP Verification",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_HEADER_MESSAGE",
+            "label": "We sent a verification code to",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_PLACEHOLDER",
+            "label": "Verification Code",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_RESEND_MESSAGE_LABEL",
+            "label": "Didn't receive the code?",
+            "type": "label"   
+        },
+        {
+            "key": "CAPTURE_CUSTOMER_PAGE_OTP_VERIFICATION_RESEND_LABEL",
+            "label": "Resend",
+            "type": "label"   
+        }
+    ]
+}

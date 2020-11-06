@@ -1,0 +1,244 @@
+{
+	"key": "MedDelivery",
+	"image": "",
+	"elements": [
+		{ "label": "Purchase Medicine", "type": "label", "key": "MedPurchaseMed" },
+		{
+			"label": "Select a Consultation",
+			"type": "label",
+			"key": "MedSelectConsultation"
+		},
+		{ "label": "Order History", "type": "label", "key": "MedOrderHistory" },
+		{
+			"label": "You have no e-Prescriptions yet. Complete a",
+			"type": "label",
+			"key": "MedNoEPrescription"
+		},
+		{
+			"label": "Order ",
+			"type": "label",
+			"key": "MedOrderText"
+		},
+		{
+			"label": "Doctor Consultation",
+			"type": "label",
+			"key": "MedDoctorConsultation"
+		},
+		{
+			"label": "on Pulse and continue",
+			"type": "label",
+			"key": "MedOnPulseContinue"
+		},
+		{
+			"label": "Unfortunately we cannot deliver to the shipping address provided. Please change the address in",
+			"type": "label",
+			"key": "MedNoDelivery"
+		},
+		{ "label": "your account", "type": "label", "key": "MedYourAccount" },
+		{ "label": "to proceed.", "type": "label", "key": "MedToProceed" },
+		{
+			"label": "Please wait, we are checking availability of medicines and the prescribed quantities.",
+			"type": "label",
+			"key": "MedCheckAvailabiity"
+		},
+		{
+			"label": "We are sorry, this order could not be processed. Please try placing the order again.",
+			"type": "label",
+			"key": "MedOrderNotProcessed"
+		},
+		{
+			"label": "Your shipping address is not provided. Please input the address in",
+			"type": "label",
+			"key": "MedNoAddress"
+		},
+		{
+			"label": "Consultation Selection",
+			"type": "label",
+			"key": "MedConsultationSelection"
+		},
+		{ "label": "Ongoing Orders", "type": "label", "key": "MedOngoingOrders" },
+		{ "label": "Processing", "type": "label", "key": "MedOrderProcessing" },
+		{ "label": "Past Orders", "type": "label", "key": "MedPastOrders" },
+		{ "label": "Delivered", "type": "label", "key": "MedOrderDelivered" },
+		{ "label": "Cart", "type": "label", "key": "MedCart" },
+		{
+			"label": "One or more items in the cart are lower in quantity than prescribed",
+			"type": "label",
+			"key": "MedLessItem"
+		},
+		{
+			"label": "Special instructions related to medicines or shipping",
+			"type": "label",
+			"key": "MedCartInstructions"
+		},
+		{ "label": "Reset", "type": "label", "key": "MedCartReset" },
+		{
+			"label": "The quantity in your cart has been modiﬁed",
+			"type": "label",
+			"key": "MedCartModified"
+		},
+		{ "label": "Out Of Stock", "type": "label", "key": "MedOutOfStock" },
+		{ "label": "DELIVERING TO", "type": "label", "key": "MedDeliveringTo" },
+		{ "label": "Name", "type": "label", "key": "MedName" },
+		{ "label": "Address", "type": "label", "key": "MedAddress" },
+		{ "label": "To Pay", "type": "label", "key": "MedToPay" },
+		{ "label": "Next", "type": "label", "key": "MedNext" },
+		{
+			"label": "MEDICINES FOR CONSULTATION",
+			"type": "label",
+			"key": "MedForConsultation"
+		},
+		{ "label": "Notes", "type": "label", "key": "MedNotes" },
+		{ "label": "Payment", "type": "label", "key": "MedPayment" },
+		{ "label": "Payment Summary", "type": "label", "key": "MedPaymentSummary" },
+		{ "label": "PAYMENT DETAILS", "type": "label", "key": "MedPaymentDetails" },
+		{ "label": "MRP Total", "type": "label", "key": "MedMRPTotal" },
+		{
+			"label": "Delivery Charges",
+			"type": "label",
+			"key": "MedDeliveryCharges"
+		},
+		{ "label": "Coupon Applied", "type": "label", "key": "MedCouponApplied" },
+		{ "label": "Total Amount", "type": "label", "key": "MedTotalAmount" },
+		{ "label": "Apply Promo Code", "type": "label", "key": "MedApplyPromo" },
+		{ "label": "Apply", "type": "label", "key": "MedApply" },
+		{ "label": "PAYMENT OPTIONS", "type": "label", "key": "MedPaymentOptions" },
+		{ "label": "Cash On Delivery", "type": "label", "key": "MedCOD" },
+		{ "label": "Go Pay", "type": "label", "key": "MedGopay" },
+		{ "label": "Halodoc Wallet", "type": "label", "key": "MedHalodocWallet" },
+		{ "label": "More Options", "type": "label", "key": "MedMoreOptions" },
+		{ "label": "Total Saving", "type": "label", "key": "MedTotalSavings" },
+		{
+			"label": "Flat 25% oﬀ on orders above 300",
+			"type": "label",
+			"key": "MedOffers"
+		},
+		{ "label": "Remove", "type": "label", "key": "MedRemove" },
+		{
+			"label": "Invalid Promo Code, Try Again",
+			"type": "label",
+			"key": "MedPaymentPromoError"
+		},
+		{ "label": "Medicine Price", "type": "label", "key": "MedPaymentMedPrice" },
+		{
+			"label": "Delivery Charges",
+			"type": "label",
+			"key": "MedPaymentDeliveryCharge"
+		},
+		{
+			"label": "Manual Coupons Discount",
+			"type": "label",
+			"key": "MedPaymentManCoupon"
+		},
+		{
+			"label": "Auto-applied discount",
+			"type": "label",
+			"key": "MedPaymentAutoCoupon"
+		},
+		{
+			"label": "Pay through Card and get additional discount of upto ",
+			"type": "label",
+			"key": "MedPaymentCardDiscount"
+		},
+		{
+			"label": "Total Savings",
+			"type": "label",
+			"key": "MedPaymentTotalSaving"
+		},
+		{
+			"label": "Total Amount",
+			"type": "label",
+			"key": "MedPaymentTotalAmount"
+		},
+		{
+			"label": "Make Payment",
+			"type": "label",
+			"key": "MedPaymentMakePayment"
+		},
+		{
+			"label": "You have no orders yet. Please select a consultation from your list to start ordering medicines",
+			"type": "label",
+			"key": "MedNoOrder"
+		},
+		{ "label": "Alert", "type": "label", "key": "MedAlert" },
+		{
+			"label": "The below items are available in lower quantity than prescribed. Do you want to continue?",
+			"type": "label",
+			"key": "MedLessAlert"
+		},
+		{ "label": "Cancel", "type": "label", "key": "MedCancel" },
+		{ "label": "Continue", "type": "label", "key": "MedContinue" },
+		{ "label": "Success", "type": "label", "key": "MedSuccess" },
+		{ "label": "Order ID", "type": "label", "key": "MedOrderID" },
+		{
+			"label": "has been successfully placed",
+			"type": "label",
+			"key": "MedOrderSuccess"
+		},
+		{
+			"label": "Your order has been successfully placed. You can view the status of your order in the \"order history\" section",
+			"type": "htmltext",
+			"key": "MedOrderSuccessMsg"
+		},
+		{ "label": "Okay", "type": "label", "key": "MedOkay" },
+		{ "label": "Failure", "type": "label", "key": "MedFailure" },
+		{
+			"label": "Your order could not be placed",
+			"type": "label",
+			"key": "MedOrderFail"
+		},
+		{
+			"label": "Your order has been Declined. You can try to place the order again.",
+			"type": "label",
+			"key": "MedOrderDeclineMsg"
+		},
+		{
+			"label": "Invalid Promo Code, Try again",
+			"type": "label",
+			"key": "MedInvalidPromo"
+		},
+		{ "label": "days ago", "type": "label", "key": "MedDaysAgo" },
+		{
+			"label": "Please wait, we are checking availability of medicines and the prescribed quantities.",
+			"type": "label",
+			"key": "MedCheckOrder"
+		},
+		{
+			"label": "We are sorry, this order could not be processed. Please try placing the order again.",
+			"type": "label",
+			"key": "MedOrderFail"
+		},
+		{ "label": "OK", "type": "label", "key": "MedOK" },
+		{ "label": "Today", "type": "label", "key": "MedToday" },
+		{
+			"label": "We are facing some technical issue while placing order, please try after sometime.",
+			"type": "label",
+			"key": "MedGenericError"
+		},
+		{
+			"label": "Please enter a coupon code",
+			"type": "label",
+			"key": "MedPromoEmptyError"
+		},
+		{
+			"label": "confirmed",
+			"type": "label",
+			"key": "confirmed"
+		},
+		{
+			"label": "delivered",
+			"type": "label",
+			"key": "delivered"
+		},
+		{
+			"label": "shipped",
+			"type": "label",
+			"key": "shipped"
+		},
+		{
+			"label": "cancelled",
+			"type": "label",
+			"key": "cancelled"
+		}
+	]
+}

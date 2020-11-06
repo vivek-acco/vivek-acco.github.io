@@ -1,0 +1,77 @@
+{
+    "label": "Product Packages",
+    "image": "",
+    "key": "PRODUCT_DETAILS_PAGE",
+    "elements": [
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BENEFITS_LABELS",
+            "label": "Benefits",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TOTALPREMIUM_LABELS",
+            "label": "Total Contribution",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_SHOWMORE_LABELS",
+            "label": "Show more",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_SHOWLESS_LABELS",
+            "label": "Show less",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_AGREE_LABELS",
+            "label": "I agree to the",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TERMSANDCONDITION_LABELS",
+            "label": "Terms & Conditions",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BUY_LABELS",
+            "label": "Proceed",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_API_CALL_FAILURE_LABELS",
+            "label": "An error occurred while loading product plans.",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_DISCLOSURE_DOC_LABELS",
+            "label": "Disclosure Doc",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_BY_LABELS",
+            "label": "by",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_DISCLOSURE_DOCUMENT_HEADER",
+            "label": "Disclosure Document",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_TERMS_AND_CONDITIONS_HEADER",
+            "label": "Terms & Conditions",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_RECOMMENDED_TEXT",
+            "label": "Recommended",
+            "type": "label"
+        },
+        {
+            "key": "PRODUCT_DETAILS_PAGE_HEADER_IMGAE_URL",
+            "label": "https://pulse.prudential.co.id/api/v1_0_0/cms/4d37df72-235b-4a4c-bb65-1b8a813e2fb5?namespace=ID",
+            "type": "label"
+        }
+    ]
+}

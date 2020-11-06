@@ -1,0 +1,102 @@
+{
+  "image": "",
+  "label": "",
+  "key": "hometab",
+  "elements": [
+    {
+      "label": "Account",
+      "type": "label",
+      "key": "Account"
+    },
+    {
+      "label": "Health",
+      "type": "label",
+      "key": "PulseHealth"
+    },
+    {
+      "image": "",
+      "key": "activechecksymptoms",
+      "label": "Check Symptoms"
+    },
+    {
+      "image": "",
+      "key": "inactivechecksymptoms",
+      "label": "Check Symptoms"
+    },
+    {
+      "image": "",
+      "key": "activedoctorservice",
+      "label": "Getting Treatment"
+    },
+    {
+      "image": "",
+      "key": "inactivedoctorservice",
+      "label": "Getting Treatment"
+    },
+    {
+      "image": "",
+      "key": "activeassesshealth",
+      "label": "Assess Health"
+    },
+    {
+      "image": "",
+      "key": "inactiveassesshealth",
+      "label": "Assess Health"
+    },
+    {
+      "image": "",
+      "key": "activehome",
+      "label": "Home"
+    },
+    {
+      "image": "",
+      "key": "inactivehome",
+      "label": "Home"
+    },
+    {
+      "image": "",
+      "key": "activemore",
+      "label": "More"
+    },
+    {
+      "image": "",
+      "key": "inactivemore",
+      "label": "More"
+    },
+    {
+      "type": "label",
+      "key": "pruServicesTitle",
+      "label": "PRUServices"
+    },
+    {
+      "type": "label",
+      "key": "pruServicesDescription",
+      "label": "Get your policy information details"
+    },
+    {
+      "type": "label",
+      "key": "pruServicesButton",
+      "label": "View"
+    },
+    {
+      "type": "label",
+      "key": "pruServicesBanner",
+      "label": "Coming soon"
+    },
+    {
+      "image": "",
+      "key": "policyTabLabel",
+      "label": "My Policies"
+    },
+    {
+        "label": "Fitness",
+        "type": "label",
+        "key": "FitnessTab"
+    },
+    {
+        "label": "Food",
+        "type": "label",
+        "key": "FoodTab"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "key": "HomeReward",
+    "image": "",
+    "elements": [
+        {
+            "label": "I am enjoying getting fitter with pulse.Join me by downloading Pulse App.",
+            "type": "label",
+            "key": "fitterpulse"
+        },
+        {
+            "label": "News & Updates",
+            "type": "label",
+            "key": "NewsUpdate"
+        },
+        {
+            "label": "Get Rewards",
+            "type": "label",
+            "key": "GetRewards"
+        },
+        {
+            "label": "Welcome to Pulse!",
+            "type": "label",
+            "key": "WelcometoPulse"
+        },
+        {
+            "label": "Earn a special reward by completing your Pulse profile.",
+            "type": "label",
+            "key": "completingyourPulseprofile"
+        },
+        {
+            "label": "Redeem Reward",
+            "type": "label",
+            "key": "RedeemReward"
+        },
+        {
+            "label": "Prudential customer?",
+            "type": "label",
+            "key": "PrudentialCustomer"
+        },
+        {
+            "label": "Watch out for more customer-only perks coming your way.",
+            "type": "label",
+            "key": "Enjoyspecialperks"
+        },
+        {
+            "label": "Promotion news title",
+            "type": "label",
+            "key": "HOMEREWARD_PROMOTION_TITLE"
+        },
+        {
+            "label": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "type": "label",
+            "key": "HOMEREWARD_PROMOTION_DESC"
+        },
+        {
+            "label": "Get started",
+            "type": "label",
+            "key": "Getstarted"
+        },
+        {
+            "label": "I would like to gift you a free personal accident and COVID -19 policy. Please download Pulse and register to avail the offer",
+            "type": "label",
+            "key": "fitterpulse",
+            "context": "gift"
+        },
+        {
+            "label": "I would like to gift you a free voucher for teleconsultation with mydoc board certified doctors. Please download Pulse and register to avail the offer",
+            "type": "label",
+            "key": "fitterpulse",
+            "context": "giftMydocVoucher"
+        }
+    ]
+}

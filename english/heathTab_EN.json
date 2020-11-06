@@ -1,0 +1,147 @@
+{
+    "image": "",
+    "label": "",
+    "key": "healthTab",
+    "elements": [
+        {
+            "label": "Babylon Healthcheck",
+            "type": "label",
+            "key": "babylonService"
+        },
+        {
+            "label": "Symptom Checker",
+            "type": "label",
+            "key": "symptomChecker"
+        },
+        {
+            "type": "label",
+            "key": "descriptionSC",
+            "label": "Feeling unwell? Let our AI powered interactive symptom checker ask you questions to analyse your condition. "
+        },
+        {
+            "type": "label",
+            "key": "buttonSC",
+            "label": "Check Symptoms"
+        },
+        {
+            "type": "label",
+            "key": "newUserDescriptionSC",
+            "label": "Ask Babylon now."
+        },
+        {
+            "type": "label",
+            "key": "healthAssessment",
+            "label": "Healthcheck"
+        },
+        {
+            "type": "label",
+            "key": "descriptionHA",
+            "label": "Let our AI powered Healthcheck help you understand your current health, view your digital twin and give practical insights to stay healthy"
+        },
+        {
+            "type": "label",
+            "key": "buttonHA",
+            "label": "Try Healthcheck"
+        },
+        {
+            "type": "label",
+            "key": "newUserDescriptionHA",
+            "label": "Put your health in your hands."
+        },
+        {
+            "type": "label",
+            "key": "bmi",
+            "label": "BMI Recorder"
+        },
+        {
+            "type": "label",
+            "key": "wrinkle",
+            "label": "Wrinkle Mirror"
+        },
+        {
+            "type": "label",
+            "key": "bmiDescription",
+            "label": "Are you watching your BMI? Take a selfie now to check"
+        },
+        {
+            "label": "Worried about Wrinkles? Take a selfie now to check",
+            "type": "label",
+            "key": "wrinkleDescription"
+        },
+        {
+            "label": "Take a Selfie",
+            "type": "label",
+            "key": "bmiButton"
+        },
+        {
+            "type": "label",
+            "key": "wrinkleButton",
+            "label": "Take a Selfie"
+        },
+        {
+            "type": "label",
+            "key": "wellnessGoals",
+            "label": "Wellness Goals"
+        },
+        {
+            "type": "label",
+            "key": "wellnessGoalSubTitle",
+            "label": "Challenge yourself to lead a healthier life"
+        },
+        {
+            "type": "label",
+            "key": "wellnessGoalButton",
+            "label": "Get Started"
+        },
+        {
+            "type": "label",
+            "key": "navigator",
+            "label": "Navigator"
+        },
+        {
+            "type": "label",
+            "key": "navigatorSubTitle",
+            "label": "Find clinics and hospitals near you"
+        },
+        {
+            "type": "label",
+            "key": "navigatorButton",
+            "label": "Explore"
+        },
+        {
+            "type": "label",
+            "key": "onlineConsultation",
+            "label": "Online Consultation"
+        },
+        {
+            "type": "label",
+            "key": "onlineConsultationSubTitle",
+            "label": "Get Consultation from our doctors right from your house"
+        },
+        {
+            "type": "label",
+            "key": "onlineConsultationButton",
+            "label": "Start consultation"
+        },
+        {
+            "type": "label",
+            "key": "medicalRecords",
+            "label": "Medical Records"
+        },
+        {
+          "label": "{\"fontSize\": 12, \"color\": \"#7e7e7e\", \"textAlign\": \"center\"}",
+          "type": "label",
+          "key": "health/thatsallStyle"
+        },
+        {
+          "label": "That's all for now!",
+          "type": "label",
+          "key": "health/thatsallText"
+        },
+        {
+          "label": "enable",
+          "type": "label",
+          "key": "health/thatsallConfig"
+        }
+    ]
+}

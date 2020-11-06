@@ -1,0 +1,904 @@
+{
+  "label": "My Claims",
+  "image": "",
+  "key": "myClaims",
+  "elements": [
+    {
+      "label": "My Claim",
+      "key": "backButtonLabel",
+      "type": "label"
+    },
+    {
+      "label": "Policy/Cert No. ",
+      "key": "policyNumberTextLabel",
+      "type": "label"
+    },
+    {
+      "label": "Your claim has been submitted successfully.",
+      "key": "claimSuccess",
+      "type": "label"
+    },
+    {
+      "label": "Your claim number is ",
+      "key": "claimNumber",
+      "type": "label"
+    },
+    {
+      "label": "Required Documents",
+      "key": "claimRequiredDocuments",
+      "type": "label"
+    },
+    {
+      "label": "Email or contact us at",
+      "key": "emailContactLabel",
+      "type": "label"
+    },
+    {
+      "label": "customer.mys@prudential.com.my or \n +60 03-27710228 \n or +60 03-21160228",
+      "key": "claimEmailContact",
+      "type": "label"
+    },
+    {
+      "label": "for any claims-related inqueries.",
+      "key": "claimContactDescription",
+      "type": "label"
+    },
+    {
+      "label": "Claimant Account Details ",
+      "key": "claimantAccountDetails",
+      "type": "label"
+    },
+    {
+      "label": "Life Insured Details",
+      "key": "lifeInsuredDetailsLabel",
+      "type": "label"
+    },
+    {
+      "label": "Life Assured Name",
+      "key": "lifeAssuredNameLabel",
+      "type": "label"
+    },
+    {
+      "label": "Enter Claimant Details",
+      "key": "enterClaimantDetailsLabel",
+      "type": "label"
+    },
+    {
+      "label": "There seems to be an issue. Please try again after sometime",
+      "key": "someIssueError",
+      "type": "label"
+    },
+    {
+      "label": "Please try again after sometime",
+      "key": "someError",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Firstname is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z ]*$",
+          "message": "Please enter a valid name."
+        }
+      ],
+      "label": "Claimant Name",
+      "key": "claimantNameLabel",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Specifing Relation is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z ]*$",
+          "message": "Please enter a valid name."
+        }
+      ],
+      "label": "Relation",
+      "key": "relationLabel",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "ID is required."
+        },
+        {
+          "type": "jsonata-expression",
+          "expr": "$contains(id, /^[a-zA-Z0-9]+$/)",
+          "message": "Please enter a valid ID."
+        }
+      ],
+      "label": "ID No.",
+      "key": "idNumberLabel",
+      "type": "label"
+    },
+    {
+      "label": "Photo Id Proof",
+      "key": "photoIdProofLabel",
+      "type": "label"
+    },
+    {
+      "label": "Take a photo",
+      "key": "takeAPhotoLabel",
+      "type": "label"
+    },
+    {
+      "label": "Browse File",
+      "key": "browseFileLabel",
+      "type": "label"
+    },
+    {
+      "label": "max size limit is 2MB",
+      "key": "maxFileSize",
+      "value": 2048,
+      "type": "label"
+    },
+    {
+      "label": "Cancel",
+      "key": "cancelLabel",
+      "type": "label"
+    },
+    {
+      "label": "Country Code",
+      "key": "countryCodeLabel",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Mobile phone number is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^\\d{8,11}$",
+          "message": "Please enter a valid mobile phone number."
+        }
+      ],
+      "label": "Mobile Phone Number",
+      "key": "mobilePhoneNumberLabel",
+      "type": "label"
+    },
+    {
+      "label": "Email ID",
+      "key": "emailIdLabel",
+      "type": "label"
+    },
+    {
+      "label": "Data is correct and I have read, understood and agreed to the applicable",
+      "key": "termaAndConditionLabel_1",
+      "type": "label"
+    },
+    {
+      "label": "Terms and conditions",
+      "key": "termaAndConditionLabel_2",
+      "type": "label"
+    },
+    {
+      "label": "of COVID19 cover with PA Insurance",
+      "key": "termaAndConditionLabel_3",
+      "type": "label"
+    },
+    {
+      "label": "Next",
+      "key": "nextButtonLabel",
+      "type": "label"
+    },
+    {
+      "label": "Select Claim Type",
+      "key": "claimTypeLabel",
+      "type": "label"
+    },
+    {
+      "label": "Continue",
+      "key": "continueButtonLabel",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Account holder name is required.",
+          "key": "required"
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z ]*$",
+          "message": "Please enter a account holder name.",
+          "key": "not_valid"
+        }
+      ],
+      "label": "Account Holder",
+      "key": "accountHolder",
+      "type": "label"
+    },
+    {
+      "label": "Enter name of the account holder",
+      "key": "accountHolderPlaceholder",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Bank name is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z ]*$",
+          "message": "Please enter a valid bank name."
+        }
+      ],
+      "label": "Bank Name",
+      "key": "bankName",
+      "type": "label"
+    },
+    {
+      "label": "Enter name of the bank",
+      "key": "bankNamePlaceholder",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Branch name is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z ]*$",
+          "message": "Please enter a valid branch name."
+        }
+      ],
+      "label": "Branch Name",
+      "key": "branchName",
+      "type": "label"
+    },
+    {
+      "label": "Enter branch Name",
+      "key": "branchNamePlaceholder",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Branch address is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[a-zA-Z0-9 ]*$",
+          "message": "Please enter a valid branch address."
+        }
+      ],
+      "label": "Branch Address",
+      "key": "branchAddress",
+      "type": "label"
+    },
+    {
+      "label": "Enter bank branch address",
+      "key": "branchAddressPlaceHolder",
+      "type": "label"
+    },
+    {
+      "errorMessages": [
+        {
+          "type": "required",
+          "message": "Account Number is required."
+        },
+        {
+          "type": "regex",
+          "regex": "^[0-9]*$",
+          "message": "Please enter a valid number."
+        }
+      ],
+      "label": "Account Number",
+      "key": "bankAccountNumber",
+      "type": "label"
+    },
+    {
+      "label": "Enter bank account number",
+      "key": "accountNumberPlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "Required Documents",
+      "key": "requiredDocumentLabel",
+      "type": "label"
+    },
+    {
+      "label": "SIGNATURE OF CLAIMANT",
+      "key": "claimantSignatureLabel",
+      "type": "label"
+    },
+    {
+      "label": "clear",
+      "key": "clearLabel",
+      "type": "label"
+    },
+    {
+      "label": "SIGNED DATE AND LOCATION",
+      "key": "signedDateAndLocation",
+      "type": "label"
+    },
+    {
+      "label": "Enter Location",
+      "key": "locationPlaceholder",
+      "type": "label"
+    },
+    {
+      "label": "Retry",
+      "key": "retryLabel",
+      "type": "label"
+    },
+    {
+      "label": "Upload Signature",
+      "key": "uploadSignatureLabel",
+      "type": "label"
+    },
+    {
+      "label": "PRODUCT_DETAILS_PAGE_BENEFITNAME_LABEL",
+      "key": "deathEvent",
+      "type": "label"
+    },
+    {
+      "label": "PRODUCT_DETAILS_PAGE_BENEFITNAME_LABEL",
+      "key": "accidentalDeathDismembement",
+      "type": "label"
+    },
+    {
+      "label": "PRODUCT_DETAILS_PAGE_BENEFITNAME_LABEL",
+      "key": "funeralBenefit",
+      "type": "label"
+    },
+    {
+      "label": "Submit Claim",
+      "key": "submitClaimLabel",
+      "type": "label"
+    },
+    {
+      "label": "Save",
+      "key": "saveButtonLabel",
+      "type": "label"
+    },
+    {
+      "label": "Take a photo or upload",
+      "key": "takeaPhotoOrUpload",
+      "type": "label"
+    },
+    {
+      "label": "Open Gallery",
+      "key": "openGallery",
+      "type": "label"
+    },
+    {
+      "label": "Upload more",
+      "key": "reUploadImageDoc",
+      "type": "label"
+    },
+    {
+      "key": "imagePickerWidth",
+      "label": "1024",
+      "type": "label"
+    },
+    {
+      "key": "imagePickerHeight",
+      "label": "768",
+      "type": "label"
+    },
+    {
+      "key": "imagePickerQuality",
+      "label": "0.5",
+      "type": "label"
+    },
+    {
+      "key": "claimrelationdropdown",
+      "label": "Select Relationship",
+      "allowedValues": [
+        {
+          "key": "grandfather",
+          "label": "GRANDFATHER",
+          "displayLabel": "GRANDFATHER",
+          "value": "GF",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "grandmother",
+          "label": "GRANDMOTHER",
+          "displayLabel": "GRANDMOTHER",
+          "value": "GM",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "grandchild",
+          "label": "GRANDCHILD",
+          "displayLabel": "GRANDCHILD",
+          "value": "GC",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "father",
+          "label": "FATHER",
+          "displayLabel": "FATHER",
+          "value": "FA",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "mother",
+          "label": "MOTHER",
+          "displayLabel": "MOTHER",
+          "value": "MO",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "husband",
+          "label": "HUSBAND",
+          "displayLabel": "HUSBAND",
+          "value": "HU",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "wife",
+          "label": "SPOUSE",
+          "displayLabel": "SPOUSE",
+          "value": "WI",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "daughter",
+          "label": "DAUGHTER",
+          "displayLabel": "DAUGHTER",
+          "value": "DA",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "son",
+          "label": "SON",
+          "displayLabel": "SON",
+          "value": "SO",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "brother",
+          "label": "BROTHER",
+          "displayLabel": "BROTHER",
+          "value": "BR",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "sister",
+          "label": "SISTER",
+          "displayLabel": "SISTER",
+          "value": "ST",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "other",
+          "label": "OTHER",
+          "displayLabel": "OTHER",
+          "value": "other",
+          "userType": "beneficiary"
+        },
+        {
+          "key": "self",
+          "label": "SELF",
+          "displayLabel": "SELF",
+          "value": "self",
+          "userType": "lifeAssured"
+        }
+      ]
+    },
+    {
+      "key": "prtDateFormat",
+      "label": "DD/MM/YYYY",
+      "type": "label"
+    },
+    {
+      "value": false,
+      "key": "showOcrValidation",
+      "type": "boolCheck"
+    },
+    {
+      "label": "Sorry, you can not register a claim against this policy this time.",
+      "key": "productAvailability",
+      "type": "label"
+    },
+    {
+      "key": "claimTemplateType",
+      "type": "label",
+      "allowedValues": {
+        "claimTemplateType": [
+          {
+            "eventType": "DEATH",
+            "value": "DEATH",
+            "riders": {
+              "attributes": ["causeOfDeath", "eventDate", "placeOfDeath"]
+            }
+          },
+          {
+            "eventType": "ACCIDENT",
+            "value": "ACCIDENT",
+            "riders": {
+              "attributes": ["typeOfLoss", "eventDate", "dateOfLoss"]
+            }
+          },
+          {
+            "eventType": "ILLNESS",
+            "value": "ILLNESS",
+            "riders": {
+              "attributes": ["eventDate", "illnessType"]
+            }
+          },
+          {
+            "eventType": "COMA",
+            "value": "COMA",
+            "riders": {
+              "attributes": ["eventDate", "causeOfComa"]
+            }
+          },
+          {
+            "eventType": "MEDICALREIMBURSEMENT",
+            "value": "MEDICALREIMBURSEMENT",
+            "riders": {
+              "attributes": ["eventDate", "causeOfMedicalReimbursement"]
+            }
+          },
+          {
+            "eventType": "HOSPITALIZATION",
+            "value": "HOSPITALIZATION",
+            "riders": {
+              "attributes": [
+                "eventDate",
+                "admissionDate",
+                "dischargeDate",
+                "causeOfAdmission"
+              ]
+            }
+          },
+          {
+            "eventType": "ICU",
+            "value": "ICU",
+            "riders": {
+              "attributes": [
+                "eventDate",
+                "admissionDate",
+                "dischargeDate",
+                "causeOfAdmission"
+              ]
+            }
+          },
+          {
+            "eventType": "TPD",
+            "value": "TPD",
+            "riders": {
+              "attributes": ["eventDate", "causeOfTPD"]
+            }
+          },
+          {
+            "eventType": "MURDERASSAULT",
+            "value": "MURDERASSAULT",
+            "riders": {
+              "attributes": ["causeOfDeath"]
+            }
+          },
+          {
+            "eventType": "ILLNESSDEATH",
+            "value": "ILLNESSDEATH",
+            "riders": {
+              "attributes": ["causeOfDeath", "eventDate"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "benefitObjectMapping",
+      "type": "label",
+      "allowedValues": [
+        {
+          "attribute": "policyStatus",
+          "eventType": "THIS",
+          "domainObjectMapping": ["policyDetails", "status"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "THIS",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "planName",
+          "eventType": "THIS",
+          "domainObjectMapping": ["options", "planName"],
+          "function": "(context)=> context['policyDetails'].productOptions.find(d=>d.options.planName)"
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "DEATH",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "causeOfDeath",
+          "eventType": "DEATH",
+          "domainObjectMapping": ["causeOfDeath"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "THIS",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "DEATH",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "DEATH",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "ACCIDENT",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "ACCIDENT",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "typeOfLoss",
+          "eventType": "ACCIDENT",
+          "domainObjectMapping": ["typeOfLoss"]
+        },
+        {
+          "attribute": "causeOfClaimEvent",
+          "eventType": "ACCIDENT",
+          "defaultValue": "ACCIDENT",
+          "domainObjectMapping": [""]
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "ACCIDENT",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "ILLNESS",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "illnessType",
+          "eventType": "ILLNESS",
+          "domainObjectMapping": ["illnessType"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "ILLNESS",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "ILLNESS",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "COMA",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "causeOfComa",
+          "eventType": "COMA",
+          "domainObjectMapping": ["causeOfComa"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "COMA",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "isSelected",
+          "eventType": "COMA",
+          "domainObjectMapping": ["0", "options", "isSelected"],
+          "function": "(context)=> context['policyDetails'].productOptions.map(d=>d.productComponentOptions.find(e=>e.component.code == context.productRiderCode))"
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "causeOfComa",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["causeOfComa"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "isSelected",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["0", "options", "isSelected"],
+          "function": "(context)=> context['policyDetails'].productOptions.map(d=>d.productComponentOptions.find(e=>e.component.code == context.productRiderCode))"
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "causeOfMedicalReimbursement",
+          "eventType": "MEDICALREIMBURSEMENT",
+          "domainObjectMapping": ["causeOfMedicalReimbursement"]
+        },
+        {
+          "attribute": "isThyroidClaimed",
+          "eventType": "THIS",
+          "domainObjectMapping": ["value"],
+          "function": "() => {return {value : false}}"
+        },
+        {
+          "attribute": "typeOfCancer",
+          "eventType": "THIS",
+          "domainObjectMapping": ["typeOfCancer"]
+        },
+        {
+          "attribute": "totalSumAssured",
+          "eventType": "THIS",
+          "domainObjectMapping": ["totalSumAssured"],
+          "function": "(context)=> context['policyDetails'].productOptions.find(d=>d.totalSumAssured)"
+        },
+        {
+          "attribute": "alreadyClaimedAmount",
+          "eventType": "THIS",
+          "domainObjectMapping": ["value"],
+          "function": "() => {return {value : 0}}"
+        },
+        {
+          "attribute": "policyStatus",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["policyDetails", "status"]
+        },
+        {
+          "attribute": "noOfClaimsOver",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["value"],
+          "function": "() => {return{value : 1}} "
+        },
+        {
+          "attribute": "noOfDaysAdmitted",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["value"],
+          "function": "(context)=> {return{value :parseInt((new Date(context.dischargeDate) -new Date(context.admissionDate)) /(1000 * 60 * 60 * 24),10)}}"
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "causeOfAdmission",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["causeOfAdmission"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "HOSPITALIZATION",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "noOfDaysAdmitted",
+          "eventType": "ICU",
+          "domainObjectMapping": ["value"],
+          "function": "(context)=> {return{value :parseInt((new Date(context.dischargeDate)-new Date(context.admissionDate)) /(1000 * 60 * 60 * 24),10)}}"
+        },
+        {
+          "attribute": "noOfClaimsOver",
+          "eventType": "ICU",
+          "domainObjectMapping": ["value"],
+          "function": "() => {return {value :1}}"
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "ICU",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "ICU",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "causeOfAdmission",
+          "eventType": "ICU",
+          "domainObjectMapping": ["causeOfAdmission"]
+        },
+        {
+          "attribute": "causeOfTPD",
+          "eventType": "TPD",
+          "domainObjectMapping": ["causeOfTPD"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "TPD",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "policyStartDate",
+          "eventType": "TPD",
+          "domainObjectMapping": ["value"],
+          "function": "(context) => {return {value : context['policyDetails'].firstIssueDate || context['policyDetails'].inceptionDate}}"
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "TPD",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "causeOfDeath",
+          "eventType": "MURDERASSAULT",
+          "domainObjectMapping": ["causeOfDeath"]
+        },
+        {
+          "attribute": "dateOfLoss",
+          "eventType": "ACCIDENT",
+          "domainObjectMapping": ["dateOfLoss"]
+        },
+        {
+          "attribute": "eventDate",
+          "eventType": "ILLNESSDEATH",
+          "domainObjectMapping": ["eventDate"]
+        },
+        {
+          "attribute": "causeOfDeath",
+          "eventType": "ILLNESSDEATH",
+          "domainObjectMapping": ["causeOfDeath"]
+        },
+        {
+          "attribute": "claimSubmissionDate",
+          "eventType": "ILLNESSDEATH",
+          "domainObjectMapping": ["claimSubmissionDate"]
+        },
+        {
+          "attribute": "policyStatus",
+          "eventType": "ILLNESSDEATH",
+          "domainObjectMapping": ["policyDetails", "status"]
+        }
+      ]
+    },
+    {
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/770ba4ab-d3b4-4138-bb4f-c5524e91c2d3?namespace=ID",
+      "key": "pageCoverImage",
+      "type": "label"
+    },
+    {
+      "label": "Done",
+      "type": "label",
+      "key": "doneTextLabel"
+    },
+    {
+      "key": "ENABLE_OTP_VALIDATION",
+      "label": true,
+      "type": "label"
+    }
+  ]
+}

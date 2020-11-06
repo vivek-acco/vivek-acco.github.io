@@ -1,0 +1,771 @@
+{
+  "image": "",
+  "key": "mpolicyClaim",
+  "elements": [
+    {
+      "type": "label",
+      "key": "claimcardapproved",
+      "label": "Setuju"
+    },
+    {
+      "type": "label",
+      "key": "claimcarddeclined",
+      "label": "Tolak"
+    },
+    {
+      "type": "label",
+      "key": "claimcardonprocess",
+      "label": "Dalam proses"
+    },
+    {
+      "type": "label",
+      "key": "claimcardsubmitted",
+      "label": "Dikirim"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_title",
+      "label": "Download Gagal"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_desc",
+      "label": "Klaim gagal didownload. Periksa kembali koneksi internet atau hubungi Layanan Pelanggan kami."
+    },
+    {
+      "type": "label",
+      "key": "modal_download_failed_button",
+      "label": "Hubungi Layanan Pelanggan"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_title",
+      "label": "Download Berhasil"
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_desc",
+      "label": "Klaim berhasil didownload. SIlakan buka di ponselmu."
+    },
+    {
+      "type": "label",
+      "key": "modal_download_success_button",
+      "label": "Selesai"
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_message",
+      "label": "Terima kasih telah memberikan dokumen yang diminta. Pastikan dokumen yang kamu masukkan valid."
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_button_label",
+      "label": "Ya, Lanjutkan"
+    },
+    {
+      "type": "label",
+      "key": "modal_claim_history_cancel_label",
+      "label": "Periksa kembali"
+    },
+    {
+      "type": "label",
+      "key": "step_1_not_complete",
+      "label": "Harap selesaikan langkah 1"
+    },
+    {
+      "type": "label",
+      "key": "step_2_not_complete",
+      "label": "Harap selesaikan langkah 2"
+    },
+    {
+      "type": "label",
+      "key": "step_3_not_complete",
+      "label": "Harap selesaikan langkah 3"
+    },
+    {
+      "type": "label",
+      "key": "step_4_not_complete",
+      "label": "Harap selesaikan langkah 4"
+    },
+    {
+      "type": "label",
+      "key": "step_toc",
+      "label": "Harap setujui syarat dan ketentuan"
+    },
+    {
+      "type": "label",
+      "key": "la_date_required",
+      "label": "Tanggal rawat inap wajib diisi"
+    },
+    {
+      "type": "label",
+      "key": "la_required",
+      "label": "Life Assured diperlukan"
+    },
+    {
+      "type": "label",
+      "key": "enter_policy_number",
+      "label": "Masukkan Polis/Sertifikat"
+    },
+    {
+      "type": "label",
+      "key": "enter_policy_number_textbox_label",
+      "label": "Nomor Polis/Sertifikat"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_required",
+      "label": "Nomor Polis wajib diisi"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_numeric",
+      "label": "Harap masukkan nomor polis yang valid"
+    },
+    {
+      "type": "label",
+      "key": "error_policy_number_length",
+      "label": "Nomor polis harus 8 digit"
+    },
+    {
+      "type": "label",
+      "key": "otp_description",
+      "label": "Masukkan 6 digit kode otentikasi yang dikirim dengan SMS ke nomor ponsel yang terdaftar"
+    },
+    {
+      "type": "label",
+      "key": "otp_countdown",
+      "label": "Masukkan OTP"
+    },
+    {
+      "type": "label",
+      "key": "otp_resend_question",
+      "label": "OTP tidak terkirim?"
+    },
+    {
+      "type": "label",
+      "key": "otp_resend_button",
+      "label": "Kirim ulang"
+    },
+    {
+      "type": "label",
+      "key": "policy_verified_title",
+      "label": "Kebijakan Diverifikasi"
+    },
+    {
+      "type": "label",
+      "key": "policy_verified_description",
+      "label": "Kamu dapat mengajukan klaim sekarang sebagai Pemegang Polis."
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_title",
+      "label": "Klaim Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_title_outpatient",
+      "label": "Klaim Rawat Jalan"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_send",
+      "label": "KIRIM KLAIM"
+    },
+    {
+      "type": "label",
+      "key": "claim_screen_error",
+      "label": "Silakan periksa kembali informasimu"
+    },
+    {
+      "type": "label",
+      "key": "claim_info_command",
+      "label": "Lengkapi informasi di bawah ini."
+    },
+    {
+      "type": "label",
+      "key": "claim_first_step",
+      "label": "Isi Rincian Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "claim_second_step",
+      "label": "Pilih Polis dan Manfaat"
+    },
+    {
+      "type": "label",
+      "key": "claim_third_step",
+      "label": "Pilih Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "claim_fourth_step",
+      "label": "Unggah Dokumen"
+    },
+    {
+      "type": "label",
+      "key": "agreement_desc_1",
+      "label": "saya setuju dengan"
+    },
+    {
+      "type": "label",
+      "key": "agreement_button",
+      "label": "menginformasikan persetujuan"
+    },
+    {
+      "type": "label",
+      "key": "agreement_desc_2",
+      "label": "klaim penggantian"
+    },
+    {
+      "type": "label",
+      "key": "coming_soon_title",
+      "label": "Nantikan Fitur Klaim Lainnya"
+    },
+    {
+      "type": "label",
+      "key": "coming_soon_desc",
+      "label": "Tidak hanya Klaim Rawat Inap, kamu juga bisa mengakses fitur klaim lainnya."
+    },
+    {
+      "type": "label",
+      "key": "understood_button",
+      "label": "SAYA MENGERTI"
+    },
+    {
+      "type": "label",
+      "key": "step",
+      "label": "Langkah"
+    },
+    {
+      "type": "label",
+      "key": "select",
+      "label": "Pilih"
+    },
+    {
+      "type": "label",
+      "key": "step_1_title",
+      "label": "Isi Rincian Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_1_insured_select_desc",
+      "label": "Life Assured"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_select_desc",
+      "label": "Tanggal Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_1_select_insured",
+      "label": "Pilih Life Assured"
+    },
+    {
+      "type": "label",
+      "key": "step_1_pledged_card",
+      "label": "Manfaat tidak aktif"
+    },
+    {
+      "type": "label",
+      "key": "step_1_inactive_policy",
+      "label": "Polis tidak aktif"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_title",
+      "label": "Tanggal Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_in",
+      "label": "Mulai tanggal"
+    },
+    {
+      "type": "label",
+      "key": "step_1_treatment_date_out",
+      "label": "Tanggal Berakhir"
+    },
+    {
+      "type": "label",
+      "key": "step_1_save_back_button",
+      "label": "SIMPAN DAN KEMBALI"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_title",
+      "label": "Tanggal Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_info",
+      "label": "Pastikan tanggal rawat inap sesuai dengan dokumen yang diunggah."
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_in",
+      "label": "Mulai tanggal"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_out",
+      "label": "Tanggal Pulang"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_outpatient",
+      "label": "Tanggal Rawat Jalan"
+    },
+    {
+      "type": "label",
+      "key": "step_1_datepicker_continue",
+      "label": "Lanjut"
+    },
+    {
+      "type": "label",
+      "key": "step_2_title",
+      "label": "Pilih Polis dan Manfaat"
+    },
+    {
+      "type": "label",
+      "key": "step_2_desc",
+      "label": "Kamu bisa memilih lebih dari satu manfaat."
+    },
+    {
+      "type": "label",
+      "key": "step_2_select_all",
+      "label": "Pilih Semua"
+    },
+    {
+      "type": "label",
+      "key": "step_2_not_select",
+      "label": "Rider wajib diisi"
+    },
+    {
+      "type": "label",
+      "key": "step_2_policy_number",
+      "label": "Nomor Polis:"
+    },
+    {
+      "type": "label",
+      "key": "step_3_title",
+      "label": "Pilih Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_bank_no_account",
+      "label": "Tidak ada rekening bank terdaftar"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account",
+      "label": "Hapus Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_confirmation_title",
+      "label": "Yakin Ingin Menghapus Rekening Bank?"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_confirmation_desc",
+      "label": "Klik Lanjut untuk menghapus rekening bank yang kamu pilih."
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_success_title",
+      "label": "Rekening Bank Dihapus"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account_success_desc",
+      "label": "Rekening Bank yang kamu pilih telah dihapus."
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_title",
+      "label": "Perbarui Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_bank_account_title",
+      "label": "Tambahkan Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_bank_account_alert",
+      "label": "Harap lengkapi formulirnya"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_bank_account",
+      "label": "Hapus Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_delete_button",
+      "label": "Hapus"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_owner_label",
+      "label": "Nama Pemilik Akun"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_owner",
+      "label": "Bang Pemegang Rekening"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_bank_label",
+      "label": "Nama Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_bank_account_number_label",
+      "label": "Nomor Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_select_bank_title",
+      "label": "Pilih Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_select_bank_search",
+      "label": "Pencarian Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_success_title",
+      "label": "Berhasil Diperbarui!"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_success_title",
+      "label": "Berhasil ditambahkan!"
+    },
+    {
+      "type": "label",
+      "key": "step_3_edit_desc_1",
+      "label": "Kamu telah memperbarui akun"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_desc_1",
+      "label": "Kamu telah menambahkan akun"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_2",
+      "label": "dengan"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_3",
+      "label": "oleh"
+    },
+    {
+      "type": "label",
+      "key": "step_3_create_edit_desc_4",
+      "label": "Nomor akun"
+    },
+    {
+      "type": "label",
+      "key": "step_3_alert",
+      "label": "Rekening Bank diperlukan"
+    },
+    {
+      "type": "label",
+      "key": "step_3_add_bank_account",
+      "label": "Tambahkan Rekening Bank"
+    },
+    {
+      "type": "label",
+      "key": "step_4_title",
+      "label": "Unggah Dokumen"
+    },
+    {
+      "type": "label",
+      "key": "step_4_alert",
+      "label": "Dokumen wajib diisi"
+    },
+    {
+      "type": "label",
+      "key": "step_4_file_size",
+      "label": "dokumen telah mencapai 32 mb"
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_1",
+      "label": "Simpan dokumen "
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_2",
+      "label": "6 bulan"
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_3",
+      "label": "mulai sekarang, kami mungkin memerlukan salinan asli untuk klaim."
+    },
+    {
+      "type": "label",
+      "key": "step_4_desc_4",
+      "label": "Total maksimum 20 halaman, harap prioritaskan bidang yang harus diisi. Jika ada dokumen tambahan silahkan hubungi "
+    },
+    {
+      "type": "label",
+      "key": "step_4_take_picture",
+      "label": "Ambil Gambar"
+    },
+    {
+      "type": "label",
+      "key": "step_4_doctor_note",
+      "label": "Catatan Dokter"
+    },
+    {
+      "type": "label",
+      "key": "step_4_doctor_note_desc",
+      "label": "Dalam Format Prudential Indonesia"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_holder_id",
+      "label": "Kartu Identitas Pemegang Polis"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_other_holder_id",
+      "label": "Kartu Identitas Pemegang Polis Lainnya"
+    },
+    {
+      "type": "label",
+      "key": "step_4_policy_holder_id_desc",
+      "label": "Contoh: KTP / SIM / Paspor"
+    },
+    {
+      "type": "label",
+      "key": "step_4_treatment_receipt",
+      "label": "Kwitansi Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_4_treatment_receipt_detail",
+      "label": "Rincian Tanda Terima Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "step_4_lab_results",
+      "label": "Hasil Lab / Radiologi"
+    },
+    {
+      "type": "label",
+      "key": "step_4_lab_results_desc",
+      "label": "Contoh: Foto X-Ray, CT Scan"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs",
+      "label": "Dokumen pendukung"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_desc",
+      "label": "Lihat persyaratan klaim yang tercantum dalam ketentuan polismu. Kirimkan dokumen klaim dengan lengkap dan benar."
+    },
+    {
+      "type": "label",
+      "key": "step_4_optional",
+      "label": "(Opsional)"
+    },
+    {
+      "type": "label",
+      "key": "step_4_required",
+      "label": "(Wajib diisi)"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_1",
+      "label": "Surat Koordinasi Manfaat"
+    },
+    {
+      "type": "label",
+      "key": "step_4_supporting_docs_2",
+      "label": "Referensi Pemegang Polis"
+    },
+    {
+      "type": "label",
+      "key": "step_4_add_document",
+      "label": "Tambah Dokumen"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_title",
+      "label": "Klaim Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment",
+      "label": "Rincian Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_insured_name",
+      "label": "Nama Tertanggung"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment_date",
+      "label": "Tanggal Rawat Inap"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_extra_policy",
+      "label": "Kebijakan dan Manfaat"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_bank_account",
+      "label": "Akun bank"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_bank_account_desc",
+      "label": "Pastikan nama pemegang rekening bank sesuai."
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_documents",
+      "label": "Dokumen"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_documents_desc",
+      "label": "Pastikan dokumen yang diunggah sesuai"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_doctor_notes",
+      "label": "Sertifikat medis"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_holder_id",
+      "label": "Kartu Identitas Pemegang Polis"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_treatment_receipt",
+      "label": "Kwitansi Pengobatan"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_supporting_doc",
+      "label": "Dokumen pendukung"
+    },
+    {
+      "type": "label",
+      "key": "claim_detail_policy_number",
+      "label": "Nomor Polis"
+	},
+    {
+      "type": "label",
+      "key": "claim_success_title",
+      "label": "Pengajuan Klaim Terkirim"
+    },
+    {
+      "type": "label",
+      "key": "claim_failed_title",
+      "label": "Klaim tidak dapat diajukan!"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_1",
+      "label": "Klaim dengan"
+    },
+    {
+      "type": "label",
+      "key": "claim_success_desc_2",
+      "label": "berhasil dikirim. Cek detailnya dan tunggu proses selanjutnya."
+    },
+    {
+      "type": "label",
+      "key": "claim_failed_desc",
+      "label": "Maaf, kamu tidak memiliki polis yang aktif untuk membuat klaim ini saat ini. Silakan periksa Polis atau status Tertanggung Anda atau hubungi Prudential Customer Line."
+    },
+    {
+      "type": "label",
+      "key": "claim_success_number",
+      "label": "Jumlah"
+    },
+    {
+      "type": "label",
+      "key": "see_claim_history_button",
+      "label": "LIHAT RIWAYAT KLAIM"
+    },
+    {
+      "type": "label",
+      "key": "claim_customer_line",
+      "label": "Layanan Konsumen Prudential"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_in_progress",
+      "label": "Sedang berlangsung"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_approved",
+      "label": "Disetujui"
+    },
+    {
+      "type": "label",
+      "key": "claim_history_rejected",
+      "label": "Ditolak"
+    },
+    {
+      "type": "label",
+      "key": "claim_save",
+      "label": "Simpan"
+    },
+    {
+      "type": "label",
+      "key": "claim_done",
+      "label": "Selesai"
+    },
+    {
+      "type": "label",
+      "key": "claim_delete",
+      "label": "Hapus"
+    },
+    {
+      "type": "label",
+      "key": "claim_cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "otpnumberfalse",
+      "label": "Nomor tidak valid?"
+    },
+    {
+      "type": "label",
+      "key": "otpcallus",
+      "label": "Hubungi Kami"
+    },
+    {
+      "type": "label",
+      "key": "step_1_insured_select_desc_syaria",
+      "label": "Peserta"
+    },
+    {
+      "type": "label",
+      "key": "claim_loading",
+      "label": "Muat data klaim ..."
+    }
+  ]
+}

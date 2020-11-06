@@ -1,0 +1,170 @@
+{
+  "label": "Cancel Policy",
+  "image": "",
+  "key": "cancelPolicy",
+  "elements": [
+    {
+      "label": "No. Polis",
+      "key": "policyNumberTextLabel",
+      "type": "label"
+    },
+    {
+      "label": "Batalkan Polis",
+      "key": "backButtonLabel",
+      "type": "label"
+    },
+    {
+      "label": "Kirim",
+      "key": "submitLabel",
+      "type": "label"
+    },
+    {
+      "label": "Rincian Asuransi Jiwa",
+      "key": "lifeInsuredDetailsLabel",
+      "type": "label"
+    },
+    {
+      "label": "Nama Tertanggung",
+      "key": "lifeAssuredNameLabel",
+      "type": "label"
+    },
+    {
+      "label": "Batalkan Alasan",
+      "key": "CancelReasonsLabel",
+      "type": "label"
+    },
+    {
+      "label": "Pilih Alasan",
+      "key": "reasonsdropdown",
+      "allowedValues": [
+        {
+          "key": "financialDependents",
+          "label": "No longer have financial dependents.",
+          "displayLabel": "No longer have financial dependents.",
+          "value": "No longer have financial dependents."
+        },
+        {
+          "key": "debitPaidOff",
+          "label": "All debt paid off.",
+          "displayLabel": "All debt paid off.",
+          "value": "All debt paid off."
+        },
+        {
+          "key": "cantAffordPremiums",
+          "label": "Can’t afford the premiums.",
+          "displayLabel": "Can’t afford the premiums.",
+          "value": "Can’t afford the premiums."
+        },
+        {
+          "key": "aggressiveApproach",
+          "label": "Want to take aggressive approach to investing.",
+          "displayLabel": "Want to take aggressive approach to investing.",
+          "value": "Want to take aggressive approach to investing."
+        },
+        {
+          "key": "collectCashValue",
+          "label": "Want to collect the cash value portion.",
+          "displayLabel": "Want to collect the cash value portion.",
+          "value": "Want to collect the cash value portion."
+        },
+        {
+          "key": "betterRateElsewhere",
+          "label": "Have been offered a better rate elsewhere.",
+          "displayLabel": "Have been offered a better rate elsewhere.",
+          "value": "Have been offered a better rate elsewhere."
+        },
+        {
+          "key": "others",
+          "label": "Others",
+          "displayLabel": "Others",
+          "value": "Others"
+        }
+      ]
+    },
+    {
+      "label": "Jumlah Pengembalian Uang",
+      "key": "RefundAmountLabel",
+      "type": "label"
+    },
+    {
+      "label": "Konfirmasi Pembatalan",
+      "key": "ConfirmCancellationLabel",
+      "type": "label"
+    },
+    {
+      "label": "Yakin ingin membatalkan polis",
+      "key": "PolicyCancelConfirmationLabel",
+      "type": "label"
+    },
+    {
+      "label": "Terjadi kesalahan dalam sistem. Silakan coba lagi beberapa saat.",
+      "key": "someIssueError",
+      "type": "label"
+    },
+    {
+      "label": "Silakan coba lagi setelah beberapa saat",
+      "key": "someError",
+      "type": "label"
+    },
+    {
+      "label": "Polis berhasil dibatalkan",
+      "key": "cancelSuccess",
+      "type": "label"
+    },
+    {
+      "label": "Saya telah membaca, memahami dan menyetujui yang berlaku",
+      "key": "termaAndConditionLabel_1",
+      "type": "label"
+    },
+    {
+      "label": "Syarat dan Ketentuan",
+      "key": "termaAndConditionLabel_2",
+      "type": "label"
+    },
+    {
+      "label": "untuk",
+      "key": "termaAndConditionLabel_3",
+      "type": "label"
+    },
+    {
+      "label": "Sangat disayangkan mengetahui bahwa kamu ingin membatalkan polis. Polismu memenuhi syarat untuk pengembalian dana 100% dalam 15 hari pertama. Silakan hubungi agen kami untuk memastikan.",
+      "key": "cancelPolicyHeader",
+      "type": "label"
+    },
+    {
+      "label": "Jumlah pengembalian dana akan dikreditkan ke saluran pembayaran yang digunakan selama penjualan dalam 24 jam. Untuk pertanyaan apapun silahkan hubungi",
+      "key": "queryContactPrefix",
+      "type": "label"
+    },
+    {
+      "label": "dan mengutip nomor polis Anda",
+      "key": "queryContactSuffix",
+      "type": "label"
+    },
+    {
+      "label": "Polis telah berhasil dibatalkan",
+      "key": "cancelSuccess",
+      "type": "label"
+    },
+    {
+      "label": "CAPTURE_CUSTOMER_PAGE_TERMSANDCONDITION_LINK",
+      "key": "termsAndCondition",
+      "type": "label"
+    },
+    {
+      "label": "Lanjut",
+      "key": "continueLabel",
+      "type": "label"
+    },
+    {
+      "label": "newclaims.request@prulifeuk.com.ph",
+      "key": "queryEmail",
+      "type": "label"
+    },
+    { 
+      "label": "https://api.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/770ba4ab-d3b4-4138-bb4f-c5524e91c2d3?namespace=ID", 
+      "key": "pageCoverImage", 
+      "type": "label" 
+    }
+  ]
+}

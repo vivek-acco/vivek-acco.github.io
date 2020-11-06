@@ -1,0 +1,420 @@
+{
+  "image": "",
+  "label": "",
+  "key": "wellnessGoals",
+  "elements": [
+    {
+      "type": "label",
+      "key": "welcome",
+      "label": "SELAMAT DATANG DI TARGET KESEHATAN DAN KEBUGARAN"
+    },
+    {
+      "type": "label",
+      "key": "welcomeDesc",
+      "label": "Selamat untuk langkah pertamamu menuju hidup yang lebih sehat. Pakar kesehatan kami telah merancang target dan rutinitas yang praktis untukmu. Ikuti setiap hari, selesaikan, dan ulangi 7 kali untuk ke target selanjutnya."
+    },
+    {
+      "type": "label",
+      "key": "youneed",
+      "label": "Kamu akan mendapatkan reward"
+    },
+    {
+      "type": "label",
+      "key": "badges",
+      "label": "Lencana"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlock",
+      "label": "atas pencapaian tujuan yang Kamu sudah tetapkan"
+    },
+    {
+      "type": "label",
+      "key": "completegoalon",
+      "label": "Kamu telah menyelesaikan tujuan Kamu"
+    },
+    {
+      "type": "label",
+      "key": "confirmhabitchange",
+      "label": "Konfirmasi perubahan sifat?"
+    },
+    {
+      "type": "label",
+      "key": "changehabitmodaldesc",
+      "label": "Semua kemajuan Kamu dalah merubah kebiasaan akan dihapuskan, apakah Kamu yakin akan melanjutkan?"
+    },
+    {
+      "type": "label",
+      "key": "confirmunlock",
+      "label": "Konfirmasi untuk membuka"
+    },
+    {
+      "type": "label",
+      "key": "youhave",
+      "label": "Kamu memiliki"
+    },
+    {
+      "type": "label",
+      "key": "donthavebadges",
+      "label": "Kamu tidak memiliki lencana yang cukup untuk membuka fitur ini"
+    },
+    {
+      "type": "label",
+      "key": "habit",
+      "label": "Kebiasaan"
+    },
+    {
+      "type": "label",
+      "key": "goal",
+      "label": "Tujuan"
+    },
+    {
+      "type": "label",
+      "key": "doyouwantunlock",
+      "label": "Lencana. Kamu mau membuka fitur ini?"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlockthis",
+      "label": "Lencana untuk membuka fitur ini"
+    },
+    {
+      "type": "label",
+      "key": "howtoredeem",
+      "label": "Bagaimana untuk menggunakan"
+    },
+    {
+      "type": "label",
+      "key": "congratulations",
+      "label": "Selamat"
+    },
+    {
+      "type": "label",
+      "key": "redeem",
+      "label": "Gunakan"
+    },
+    {
+      "type": "label",
+      "key": "outof",
+      "label": "diluar dari"
+    },
+    {
+      "type": "label",
+      "key": "congratulationsrewarddesc",
+      "label": "Kamu telah menyelesaikan kebiasaan yang ada dan satu langkah lebih maju dalam gaya hidup Kamu. Ini adalah reward Kamu"
+    },
+    {
+      "type": "label",
+      "key": "collectreward",
+      "label": "Kumpulkan reward"
+    },
+    {
+      "type": "label",
+      "key": "learnmore",
+      "label": "Pelajari lebih"
+    },
+    {
+      "type": "label",
+      "key": " badgesuponcompletion",
+      "label": "Lencana akan diperoleh setelah menyelesaikan"
+    },
+    {
+      "type": "label",
+      "key": "get",
+      "label": "Peroleh"
+    },
+    {
+      "type": "label",
+      "key": "days",
+      "label": "Hari"
+    },
+    {
+      "type": "label",
+      "key": "details",
+      "label": "Detil"
+    },
+    {
+      "type": "label",
+      "key": "unlock",
+      "label": "Dibuka"
+    },
+    {
+      "type": "label",
+      "key": "completed",
+      "label": "Terselesaikan"
+    },
+    {
+      "type": "label",
+      "key": "uponcompletion",
+      "label": "Setelah terselesaikan"
+    },
+    {
+      "type": "label",
+      "key": "continue",
+      "label": "Lanjut"
+    },
+    {
+      "type": "label",
+      "key": "join",
+      "label": "Ikuti"
+    },
+    {
+      "type": "label",
+      "key": "inprogress",
+      "label": "Dalam proses"
+    },
+    {
+      "type": "label",
+      "key": "moreinfo",
+      "label": "Butuh informasi tambahan"
+    },
+    {
+      "type": "label",
+      "key": "habitsinprogress",
+      "label": "Kebiasaan dalam proses"
+    },
+    {
+      "type": "label",
+      "key": "badgesoncompletion",
+      "label": "+30 lencana dalam penyelesaian"
+    },
+    {
+      "type": "label",
+      "key": "oncompletion",
+      "label": "setelah penyelesaian"
+    },
+    {
+      "type": "label",
+      "key": "close",
+      "label": "Tutup"
+    },
+    {
+      "type": "label",
+      "key": "markcomplete",
+      "label": "Selesai dalam penandaan"
+    },
+    {
+      "type": "label",
+      "key": "tounlockhabit",
+      "label": "Kamu tidak memiliki lencana yang cukup untuk membuka kebiasaan ini"
+    },
+    {
+      "type": "label",
+      "key": "ok",
+      "label": "Ok"
+    },
+    {
+      "type": "label",
+      "key": "yesunlock",
+      "label": "Ya, buka fitur ini"
+    },
+    {
+      "type": "label",
+      "key": "no",
+      "label": "Lewati"
+    },
+    {
+      "type": "label",
+      "key": "yeschange",
+      "label": "Lanjut"
+    },
+    {
+      "type": "label",
+      "key": "add",
+      "label": "Tambah"
+    },
+    {
+      "type": "label",
+      "key": "cancel",
+      "label": "Batal"
+    },
+    {
+      "type": "label",
+      "key": "availablehabits",
+      "label": "Tantang diri Kamu dengan kebiasaan baru"
+    },
+    {
+      "type": "label",
+      "key": "taptoadd",
+      "label": "Klik kebiasaan ini untuk memulai"
+    },
+    {
+      "type": "label",
+      "key": "currenthabits",
+      "label": "Kebiasaan sekarang"
+    },
+    {
+      "type": "label",
+      "key": "changehabit",
+      "label": "Rubah kebiasaan"
+    },
+    {
+      "type": "label",
+      "key": "addhabit",
+      "label": "Tambah kebiasaan"
+    },
+    {
+      "type": "label",
+      "key": "donthavebadgesgoal",
+      "label": "Kamu tidak memiliki lencana untuk membuka tujuan ini"
+    },
+    {
+      "type": "label",
+      "key": "wellnessgoals",
+      "label": "Target Kesehatan dan Kebugaran"
+    },
+    {
+      "type": "label",
+      "key": "habits",
+      "label": "Kebiasaan"
+    },
+    {
+      "type": "label",
+      "key": "badgestounlockthisgoal",
+      "label": "Lencana untuk membuka fitur ini?"
+    },
+    {
+      "type": "label",
+      "key": "duration",
+      "label": "Durasi"
+    },
+    {
+      "type": "label",
+      "key": "completehealthassess",
+      "label": "- Selesaikan Pemeriksaan Kesehatan Kamu"
+    },
+    {
+      "type": "label",
+      "key": "15x",
+      "label": "15x"
+    },
+    {
+      "type": "label",
+      "key": "completecurrenthabits",
+      "label": "- Selesaikan kebiasaan kamu sekarang"
+    },
+    {
+      "type": "label",
+      "key": "10x",
+      "label": "10x"
+    },
+    {
+      "type": "label",
+      "key": "referfivefriends",
+      "label": "- Referensi 5 teman Kamu"
+    },
+    {
+      "type": "label",
+      "key": "oops",
+      "label": "Oops..."
+    },
+    {
+      "type": "label",
+      "key": "youneedfourbadges",
+      "label": "Kamu butuh"
+    },
+    {
+      "type": "label",
+      "key": "okay",
+      "label": "Oke"
+    },
+    {
+      "type": "label",
+      "key": "complete",
+      "label": "Selesai"
+    },
+    {
+      "type": "label",
+      "key": "morebadgestounlock",
+      "label": "dibutuhkan lencana lebih untuk membuka fitur ini"
+    },
+    {
+      "type": "label",
+      "key": "cheatsheet",
+      "label": "Ini adalah panduan untuk mendapatkan lencana tambahan"
+    },
+    {
+      "type": "label",
+      "key": "rewards",
+      "label": "Rewards"
+    },
+    {
+      "type": "label",
+      "key": "badgesuponsmall",
+      "label": "setelah penyelesaian"
+    },
+    {
+      "type": "label",
+      "key": "failed",
+      "label": "Tidak berhasil"
+    },
+    {
+      "type": "label",
+      "key": "maxhabits",
+      "label": "Kamu sudah memiliki maksimum kebiasaan, mohon selesaikan untuk menambah kebiasaan yang ada."
+    },
+    {
+      "type": "label",
+      "key": "masterhabits",
+      "label": "Kamu telah menguasai kebiasaan ini"
+    },
+    {
+      "type": "label",
+      "key": "checkofhabits",
+      "label": "Selamat atas pencapaianmu, Kamu dapat mencek kebiasaan baru Kamu 1x sehari. Kami menginginkan Kamu untuk kembali dan menyelesaikannya besok"
+    },
+    {
+      "type": "label",
+      "key": "alreadycompletedhabits",
+      "label": "Kamu telah menyelesaikan kebiasaan ini. Bagaimana bila Kamu memilih kebiasaan lainnya dari pilihan yang ada dan memulainya?"
+    },
+    {
+      "type": "label",
+      "key": "feelproud",
+      "label": "Kami merasa bangga dengan pencapaian Kamu dalam kebiasaan yang baru"
+    },
+    {
+      "type": "label",
+      "key": "awesome",
+      "label": "Luar biasa!"
+    },
+    {
+      "type": "label",
+      "key": "consentBody",
+      "label": "Selamat, Kamu sudah membuka fitur premium affinity group. Dapatkan tips sehat dari para ahli yang telah menjadi anggota dan memotivasi lainnya dengan membagikan kemajuan Kamu."
+    },
+    {
+      "type": "label",
+      "key": "goForIt",
+      "label": "Lanjutkan"
+    },
+    {
+      "type": "label",
+      "key": "mayBeLater",
+      "label": "Tidak sekarang, mungkin nanti"
+    },
+    {
+      "type": "label",
+      "key": "reminderHeading",
+      "label": "Pasang pengingat"
+    },
+    {
+      "type": "label",
+      "key": "selectReminder",
+      "label": "Pilih waktu pengingat"
+    },
+    {
+      "type": "label",
+      "key": "reminderError",
+      "label": "Pilih setidaknya satu slot karena kamu telah 'mengaktifkan' pengingat"
+    },
+    {
+      "type": "label",
+      "key": "reminderValues",
+      "reminders": [
+        { "time": "8 am", "timeZone": "Morning", "value": "8:00" },
+        { "time": "7 pm", "timeZone": "Afternoon", "value": "19:00" }
+      ]
+    }
+  ]
+}

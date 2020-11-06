@@ -1,0 +1,564 @@
+{
+  "key": "RewardCenter",
+  "image": "",
+  "elements": [
+    {
+      "label": false,
+      "type": "label",
+      "key": "enableNewRewardsUI"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableVoucher"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableBadge"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableFAQ"
+    },
+    {
+      "label": true,
+      "type": "label",
+      "key": "enableMyRewards"
+    },
+    {
+      "label": "List Pertanyaan Yang Sering Diajukan",
+      "type": "label",
+      "key": "faqQaList",
+      "faqQaList": [
+        {
+          "question": "1. Apa itu fitur Reward Saya?",
+          "answer": "Reward Saya memungkinkan pengguna untuk mendapatkan point dengan menggunakan fitur-fitur Pulse. Anda dapat melihat berapa banyak point yang sudah didapatkan dan menukar point-point tersebut untuk hadiah yang menarik."
+        },
+        {
+          "question": "2. Bagaimana saya bisa menggunakan point-point ini?",
+          "answer": "Point anda dapat digunakan untuk mengklaim hadiah menarik yang nantinya akan tersedia di aplikasi Pulse. Nantikan informasi selanjutnya."
+        },
+        {
+          "question": "3. Bagaimana cara saya mendapatkan lebih banyak point?",
+          "answer": "Anda bisa mendapatkan lebih banyak point dengan menggunakan dan melengkapi fitur-fitur Pulse. Ada point-point tertentu yang disesuikan untuk berbagai fitur berbeda pada aplikasi.\nMenyelesaikan Pemeriksaan Kesehatan 15 point\nMenggunakan Cek Gejala Penyakit 5 point \nBagikan ke Teman 2 point \nCatatan:\nPoint tambahan juga akan tersedia segera untuk fitur-fitur lainnya di Pulse.\nSistem point juga dapat berubah lebih menguntungkan sebagaimana kami ingin meningkatkan fitur Reward di masa depan. "
+        },
+        {
+          "question": "4. Saya telah meyelesaikan Pemeriksaan Kesehatan dan menggunakan Cek Gejala Penyakit sebelumnya, akankah saya mendapatkan point untuk kegiatan tersebut?",
+          "answer": "Tidak. Anda hanya akan mendapatkan point dari aktivitas anda sejak tanggal yang akan diinformasikan lebih lanjut."
+        },
+        {
+          "question": "5. Dimana saya bisa melihat point-point yang sudah saya dapatkan?",
+          "answer": "Anda dapat melihat point anda dengan mengklik Akun pada aplikasi anda, lalu pergi ke Reward Saya dan anda dapat melihat total point yang sudah anda dapatkan di Dompet Reward Saya, termasuk ringkasan terperinci dari point reward anda."
+        },
+        {
+          "question": "6. Berapa lama point akan diposting ke akun saya?",
+          "answer": "Anda akan menerima point di akun anda segera setelah anda menyelesaikan fitur Pulse."
+        },
+        {
+          "question": "7. Akankah point saya kadaluwarsa?",
+          "answer": "Tidak. Point Reward Saya tidak akan pernah kadaluwarsa dan akan terus bertambah"
+        },
+        {
+          "question": "8. Apakah ada biaya untuk mulai mendapatkan point?",
+          "answer": "Mengunduh dan menggunakan aplikasi Pulse gratis. Setelah mendaftar ke aplikasi, Anda langsung mendapatkan 2 point dan akan terus mendapatkan point dengan terus menggunakan aplikasi."
+        },
+        {
+          "question": "9. Bisakah saya mentransfer point ke teman?",
+          "answer": "Point tidak bisa ditransfer. Semua point diberikan kepada setiap pengguna Pulse melalui penggunaan berkelanjutan dari berbagai fitur Pulse."
+        }
+      ]
+    },
+    {
+      "label": "Rewards",
+      "type": "label",
+      "key": "rewards"
+    },
+    {
+      "label": "Kamu sudah memiliki",
+      "type": "label",
+      "key": "youcurrentlyhave"
+    },
+    {
+      "label": "Tidak ada transaksi",
+      "type": "label",
+      "key": "notransactions"
+    },
+    {
+      "label": "Ingin menghasilkan reward tambahan?",
+      "type": "label",
+      "key": "earnMoreRewards"
+    },
+    {
+      "label": "15",
+      "type": "label",
+      "key": "firstRewardValue"
+    },
+    {
+      "label": "5",
+      "type": "label",
+      "key": "secondRewardValue"
+    },
+    {
+      "label": "Lencana Saya",
+      "type": "label",
+      "key": "transactions"
+    },
+    {
+      "label": "Pertanyaan Yang Sering Diajukan",
+      "type": "label",
+      "key": "faq"
+    },
+    {
+      "label": "Sukses melakukan referensi",
+      "type": "label",
+      "key": "successfulReferral"
+    },
+    {
+      "label": "Selesaikan pemeriksaan kesehatan Kamu",
+      "type": "label",
+      "key": "cha"
+    },
+    {
+      "label": "Gunakan fasilitas Pemeriksaan Gejala",
+      "type": "label",
+      "key": "csc"
+    },
+    {
+      "label": "Lihat Semua",
+      "type": "label",
+      "key": "viewAll"
+    },
+    {
+      "label": "Akan datang",
+      "type": "label",
+      "key": "comingSoon"
+    },
+    {
+      "label": "Bonus Dihasilkan",
+      "type": "label",
+      "key": "bonusRewarded"
+    },
+    {
+      "label": "Rewards Saya",
+      "type": "label",
+      "key": "myRewards"
+    },
+    {
+      "label": "15",
+      "type": "label",
+      "key": "firstRewardValue"
+    },
+    {
+      "label": "5",
+      "type": "label",
+      "key": "secondRewardValue"
+    },
+    {
+      "label": "Tidak ada rewards untuk ditampilkan",
+      "type": "label",
+      "key": "noRewards"
+    },
+    {
+      "label": "Periksa informasi dan pengumuman secara berkala setelah melakukan beberapa aktivitas didalam Pulse.",
+      "type": "label",
+      "key": "checkRegularly"
+    },
+    {
+      "label": "Konten yang dikuratori",
+      "type": "label",
+      "key": "curatedContent"
+    },
+    {
+      "label": "Pengalaman",
+      "type": "label",
+      "key": "experiences"
+    },
+    {
+      "label": "Voucher",
+      "type": "label",
+      "key": "vouchers"
+    },
+    {
+      "label": "Medali",
+      "type": "label",
+      "key": "badges"
+    },
+    {
+      "label": "Kesehatan",
+      "type": "label",
+      "key": "health"
+    },
+    {
+      "label": "Makanan",
+      "type": "label",
+      "key": "food"
+    },
+    {
+      "label": "Kebugaran",
+      "type": "label",
+      "key": "fitness"
+    },
+    {
+      "label": "Hiburan",
+      "type": "label",
+      "key": "entertainment"
+    },
+    {
+      "label": "Bahan Bakar",
+      "type": "label",
+      "key": "fuel"
+    },
+    {
+      "label": "Apakah ini?",
+      "type": "label",
+      "key": "whatisthis"
+    },
+    {
+      "label": "Tenggang waktu aktif",
+      "type": "label",
+      "key": "expireson"
+    },
+    {
+      "label": "Kami bahagia dengan bertambahnya keluarga Pulse Kami, dan Kami berterima kasih kepada Kamu karena telah membantu. Kami ingin menunjukan rasa terima kasih atas loyalitas Kamu dengan memberikan reward kepada Kamu. Dapatkan reward untuk setiap referensi yang Kamu lakkukan.",
+      "type": "label",
+      "key": "rewardProgressInfo"
+    },
+    {
+      "label": "Tidak ada informasi pengalaman",
+      "type": "label",
+      "key": "noexperions"
+    },
+    {
+      "label": "Belum ada medali yang tersedia",
+      "type": "label",
+      "key": "nobadge"
+    },
+    {
+      "label": "Belum ada voucher yang tersedia",
+      "type": "label",
+      "key": "novoucher"
+    },
+    {
+      "label": "Tenggang waktu aktif",
+      "type": "label",
+      "key": "expiredin"
+    },
+    {
+      "label": "Lewat tenggan waktu",
+      "type": "label",
+      "key": "expired"
+    },
+    {
+      "label": "Kemajuan Reward Kamu",
+      "type": "label",
+      "key": "rewardProgress",
+      "rewardProgressList": [
+        {
+          "key": 0,
+          "date": "03 Jan 2020",
+          "point": "20",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": true
+        },
+        {
+          "key": 1,
+          "date": "20 Jan 2020",
+          "point": "30",
+          "desc": "You have reacthed 30 referrals. You will earn 1 badge for every 4 referrals going forward",
+          "isLastIndex": false,
+          "bonusRewarded": true,
+          "taskCompleted": true
+        },
+        {
+          "key": 2,
+          "point": "50",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        },
+        {
+          "key": 3,
+          "point": "60",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": false,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        },
+        {
+          "key": 4,
+          "point": "100",
+          "desc": "1 badge for every 5 referals",
+          "isLastIndex": true,
+          "bonusRewarded": false,
+          "taskCompleted": false
+        }
+      ]
+    },
+    {
+      "label": "Ingin menghasilkan voucher tambahan?",
+      "type": "label",
+      "key": "earnMoreVouchers"
+    },
+    {
+      "label": "Akan datang",
+      "type": "label",
+      "key": "completeYourHealth"
+    },
+    {
+      "label": "Akan datang",
+      "type": "label",
+      "key": "completeYourProfile"
+    },
+    {
+      "label": "Transaksi Voucher",
+      "type": "label",
+      "key": "voucherTransactions"
+    },
+    {
+      "label": "Pertanyaan Yang Sering Diajukan",
+      "type": "label",
+      "key": "faqs"
+    },
+    {
+      "label": "Penawaran untuk Kamu",
+      "type": "label",
+      "key": "yourOffer"
+    },
+    {
+      "label": "Hasilkan lebih",
+      "type": "label",
+      "key": "earnMore"
+    },
+    {
+      "label": "Tanggal dihasilkan",
+      "type": "label",
+      "key": "earnedDate"
+    },
+    {
+      "label": "Tanggal tenggang waktu",
+      "type": "label",
+      "key": "expiredDate"
+    },
+    {
+      "label": "Voucher Aktif",
+      "type": "label",
+      "key": "activeVouchers"
+    },
+    {
+      "label": "Semua voucher",
+      "type": "label",
+      "key": "allVouchers"
+    },
+    {
+      "label": "Total Medali",
+      "type": "label",
+      "key": "totalBadge"
+    },
+    {
+      "label": "Lihat secara detil",
+      "type": "label",
+      "key": "viewDetails"
+    },
+    {
+      "label": "Digunakan untuk",
+      "type": "label",
+      "key": "redeemFor"
+    },
+    {
+      "label": "waktu",
+      "type": "label",
+      "key": "times"
+    },
+    {
+      "label": "Tersisa",
+      "type": "label",
+      "key": "remaining"
+    },
+    {
+      "label": "Akan berakhir dalam",
+      "type": "label",
+      "key": "expiresIn"
+    },
+    {
+      "label": "Lencana yang dihasilkan",
+      "type": "label",
+      "key": "earnBadges"
+    },
+    {
+      "label": "Aktivitas tambahan",
+      "type": "label",
+      "key": "bonusActivityList",
+      "bonusActivityList": []
+    },
+    {
+      "label": "Mulai",
+      "type": "label",
+      "key": "go"
+    },
+    {
+      "label": "Cari pertanyaan",
+      "type": "label",
+      "key": "search"
+    },
+    {
+      "label": "Hari",
+      "type": "label",
+      "key": "days"
+    },
+    {
+      "label": "Tidak ada penawaran untuk saat ini",
+      "type": "label",
+      "key": "noOffers"
+    },
+    {
+      "label": "Tenggang waktu aktif",
+      "type": "label",
+      "key": "expiredOn"
+    },
+    {
+      "label": "AirAsia BIG",
+      "type": "label",
+      "key": "labelTextAA"
+    },
+    {
+      "label": "Tambahan",
+      "type": "label",
+      "key": "labelTextBoost"
+    },
+    {
+      "label": "GSC",
+      "type": "label",
+      "key": "labelTextGSC"
+    },
+    {
+      "label": "<ol><li>Penggunaan AirAisa BIG Poin mengandung 250 AirAsia BIG Poin (&ldquo;Redemption Code&rdquo;)Setiap kode valid untuk 1 bulan sejak tanggal dikeluarkannya dan dapat digunakan melalui the&nbsp;BIG Loyalty app&nbsp;or website&nbsp;only.</li><li>Setiap kode penggunaan adalah valid untuk 1 kali penggunaan dan hanya dapat digunakan oleh pengguna yang belum terdaftar di PULSE (&ldquo;new PULSE user&rdquo;). Setiap pengguna baru PULSE berhak memiliki 1 kode. </li><li>AirAsia BIG dan Prudential memiliki hak untuk meminta tambahan dokumentasi dari Kamu untuk proses verikasi tambahan.</li><li>AirAsia BIG dan Prudential memiliki hak untuk mengupdate syarat & ketentuan yang ada tanpa pemberitahuan sebelumnya. Versi terupdate syarat & ketentuan akan secara otomatis menggantikan versi sebelumnya dan akan berlaku untuk semua provisi atau representasi yang terkandung dalam materi promosi yang ada terkait penggunaan Kode ini.</li><li>Untuk melihat syarat & ketentuan yang lengkap, silahkan kunjungi \"BIG Pulse Download Campaign\" page in AirAsia BIG website at:&nbsp;<a href=\"https://www.airasiabig.com/my/en/financial_services/details/big-pulse-download-campaign\">https://www.airasiabig.com/my/en/financial_services/details/big-pulse-download-campaign</a></li></ol>",
+      "type": "label",
+      "key": "TandCAA"
+    },
+    {
+      "label": "<ol><li>Kode penggunaan ini valid untuk 1 bulan dari tanggal dikeluarkannya melalui Boost app.</li><li>Setiap kode akan valid untuk 1 kali penggunaan saja.</li><li>Koden ini tidak dapat digantikan dengan uang tapi memiliki ekuivalent atas Boost Wallet cash pada saat kode ini digunakan.</li><li>Boost Malaysia dan Prudential memiliki hak untu meminta dokumen tambahan dari Kamu untuk tujuan verifikasi.</li><li>Boost Malaysia dan Prudential memiliki hak untuk melakukan pembaharuan atas syarat & ketentuan yang ada tanpa pemberitahuan sebelumnya. Versi terupdate dari syarat & ketentuan yang ada akan secara otomatis menggantikan versi sebelumnya serta semua provisi atau representasi yang terdapat dalam materi promosi lainnya terkait dengan peggunaan kode ini.</li></ol>",
+      "type": "label",
+      "key": "TandCBoost"
+    },
+    {
+      "label": "<ol><li>Kode ini dapat digunakan untuk ONE (01) x RM5 OFF Normal 2D tiket dengan 1 penggunaan tiap kode.</li><li>Kode hanya dapat digunakan untuk 1 kali transaksi saja.</li><li>Vlid sampai dengan 31 Desember 2020.</li><li>Dapat digunakan untuk GSC Nationwide, terkecuali Aurum Theatres.</li><li>Tidak dapat digunakan untuk 3D, Dolby Atmos, 4DX, MAXX, Onyx, Play Plus, D-Box, Premiere Class, Skybox, IMAX &amp; Gold Class.</li><li>Kode ini tidak termasuk biaya layanan booking; serta biaya lainnya.</li><li>Kode ini tidak dapat diuangkan atau digantikan dengan promosi lainnya.</li><li>Tidak dapat digunakan untuk promosi yang sedang berjalan, vouchers dan/atau kartu anggota lainnya.</li><li>Batas tenggang waktu untuk hal ini tidak akan diperpanjang.</li><li>GSC dan Prudential memiliki hak untuk meminta dokumen tambahan dari Kamu untuk melakukan proses verifikasi.</li><li>GSC dan Prudential memiliki hak untuk mengupdate syarat & ketentuan yang ada atau membatalkan promosi yang ada tanpa ada pemberitahuan sebelumnya.</li></ol>",
+      "type": "label",
+      "key": "TandCGSC"
+    },
+    {
+      "label": "Cara untuk penggunaan Kode",
+      "type": "label",
+      "key": "howToRedeemLabel"
+    },
+    {
+      "label": "Syarat & Ketentuan",
+      "type": "label",
+      "key": "TandCLabel"
+    },
+    {
+      "label": "Untuk menggunakan AirAsia BIG Points, setiap kode memiliki 250 AirAsia BIG Points, silahkan pilih \"BIG Points Code\" di halaman BIG Loyalty app or web. Lanjutkan dengan menggunakan AirAsia BIG Points kode dengan benar.",
+      "type": "label",
+      "key": "howToRedeemAA"
+    },
+    {
+      "label": "Untuk menggunakan kode ini, silahkan pilih \"Redemption Code\" yang terdapat di halaman profil di Boost app. Lanjutkan dengan menggunakan kode dengan benar.",
+      "type": "label",
+      "key": "howToRedeemBoost"
+    },
+    {
+      "label": "Untuk menggunakan kode promo ini, silahkan pilih \"Promo Code\" di halaman pembayaran di GSC app / web. Lanjutkan dengan menggunakan kode dengan benar.",
+      "type": "label",
+      "key": "howToRedeemGSC"
+    },
+    {
+      "label": "Aktif",
+      "type": "label",
+      "key": "active"
+    },
+    {
+      "label": "Lewat Tenggang Waktu",
+      "type": "label",
+      "key": "expired"
+    },
+    {
+      "label": "Sudah digunakan sebagian",
+      "type": "label",
+      "key": "partialRedeemed"
+    },
+    {
+      "label": "Sudah digunakan",
+      "type": "label",
+      "key": "redeemed"
+    },
+    {
+      "label": "Silahkan dibaca secara lengkap",
+      "type": "label",
+      "key": "pleaseReadThrough"
+    },
+    {
+      "label": "yang mana berlaku untuk penawaran ini.",
+      "type": "label",
+      "key": "applicableForOffer"
+    },
+    {
+      "label": "Syarat dan Ketentuan",
+      "type": "label",
+      "key": "viewTandCLabel"
+    },
+    {
+      "label": "Temukan Reward",
+      "type": "label",
+      "key": "discoverRewards"
+    },
+    {
+      "label": "Belum ada Reward",
+      "type": "label",
+      "key": "noRewardsYet"
+    },
+    {
+      "label": "FAQ",
+      "type": "label",
+      "key": "faqs"
+    },
+    {
+      "label": "Tetap sehat dan dapatkan hadiah pada saat bersamaan. ",
+      "type": "label",
+      "key": "noRewardsText"
+    },
+    {
+      "label": "Mau tau caranya?",
+      "type": "label",
+      "key": "transactionHistory"
+    },
+    {
+      "label": "Berlaku sampai",
+      "type": "label",
+      "key": "validTill"
+    },
+    {
+      "label": "Klaim Sekarang",
+      "type": "label",
+      "key": "claimNow"
+    },
+    {
+      "label": "Selesai",
+      "type": "label",
+      "key": "complete"
+    },
+    {
+      "label": "Cek Sekarang",
+      "type": "label",
+      "key": "checkNow"
+    },
+    {
+      "label": "Dapatkan 20 badge dengan ",
+      "type": "label",
+      "key": "checkBmi"
+    }
+  ]
+}

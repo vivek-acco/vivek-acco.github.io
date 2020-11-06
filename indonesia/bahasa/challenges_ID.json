@@ -1,0 +1,565 @@
+{
+  "image": "",
+  "label": "Activity Challenge",
+  "key": "challenges",
+  "elements": [
+    {
+      "key": "activityChallenge",
+      "type": "label",
+      "label": "Tantangan Aktivitas"
+    },
+    {
+      "key": "viewCommunity",
+      "type": "label",
+      "label": "Lihat Komunitas"
+    },
+    {
+      "key": "challenge",
+      "type": "label",
+      "label": "tantangan"
+    },
+    {
+      "key": "challenges",
+      "type": "label",
+      "label": "challenges"
+    },
+    {
+      "key": "Challenge",
+      "type": "label",
+      "label": "Tantangan"
+    },
+    {
+      "key": "todaysSteps",
+      "type": "label",
+      "label": "Kms Hari Ini",
+      "context": "KM"
+    },
+    {
+      "key": "stepsDone",
+      "type": "label",
+      "label": "Selesai",
+      "context": "KM"
+    },
+    {
+      "key": "stepsRemaining",
+      "type": "label",
+      "label": "Sisa",
+      "context": "KM"
+    },
+    {
+      "key": "unitValue",
+      "type": "label",
+      "label": " Km",
+      "context": "KM"
+    },
+    {
+      "key": "unitValue",
+      "type": "label",
+      "label": "",
+      "context": "STEPS"
+    },
+    {
+      "key": "yourRank",
+      "type": "label",
+      "label": "Peringkatmu"
+    },
+    {
+      "key": "todaysSteps",
+      "type": "label",
+      "label": "Langkah Hari Ini",
+      "context": "STEPS"
+    },
+    {
+      "key": "stepsDone",
+      "type": "label",
+      "label": "Langkah Selesai",
+      "context": "STEPS"
+    },
+    {
+      "key": "stepsRemaining",
+      "type": "label",
+      "label": "Sisa Langkah",
+      "context": "STEPS"
+    },
+    {
+      "key": "startDate",
+      "type": "label",
+      "label": "Mulai Tanggal"
+    },
+    {
+      "key": "endDate",
+      "type": "label",
+      "label": "Selesai Tanggal"
+    },
+    {
+      "key": "leaveGroup",
+      "type": "label",
+      "label": "Tinggalkan Tantangan"
+    },
+    {
+      "key": "competitors",
+      "type": "label",
+      "label": " Lawan"
+    },
+    {
+      "key": "startDate",
+      "type": "label",
+      "label": "Mulai Tanggal"
+    },
+    {
+      "key": "endDate",
+      "type": "label",
+      "label": "Selesai Tanggal"
+    },
+    {
+      "key": "learnMore",
+      "type": "label",
+      "label": "Lihat Detail"
+    },
+    {
+      "key": "join",
+      "type": "label",
+      "label": "GABUNG"
+    },
+    {
+      "key": "close",
+      "type": "label",
+      "label": "TUTUP"
+    },
+    {
+      "key": "connect",
+      "type": "label",
+      "label": "Hubungkan Perangkat"
+    },
+    {
+      "key": "dearAthlete",
+      "type": "label",
+      "label": "Selamat datang Atlet! Kamu akan bergabung dalam tantangan perjalanan yang menyenangkan dan bermanfaat"
+    },
+    {
+      "key": "exploreVariety",
+      "type": "label",
+      "label": "Jelajahi berbagai tantangan di"
+    },
+    {
+      "key": "allChallengesDesc",
+      "type": "label",
+      "label": "“SEMUA TANTANGAN”"
+    },
+    {
+      "key": "section",
+      "type": "label",
+      "label": "  bagian."
+    },
+    {
+      "key": "activityChallenge",
+      "type": "label",
+      "label": "Aktivitas Tantangan"
+    },
+    {
+      "key": "day",
+      "type": "label",
+      "label": "Hari"
+    },
+    {
+      "key": "steps",
+      "type": "label",
+      "label": "Langkah"
+    },
+    {
+      "key": "you",
+      "type": "label",
+      "label": "KAMU"
+    },
+    {
+      "key": "leaderboard",
+      "type": "label",
+      "label": "Papan Peringkat"
+    },
+    {
+      "key": "fitnessTracker",
+      "type": "label",
+      "label": "Monitor Olahraga"
+    },
+    {
+      "key": "myChallenges",
+      "type": "label",
+      "label": "Tantangan Saya"
+    },
+    {
+      "key": "allChallenges",
+      "type": "label",
+      "label": "Semua Tantangan"
+    },
+    {
+      "key": "welcome",
+      "type": "label",
+      "label": "Selamat Datang!"
+    },
+    {
+      "key": "welcomeDesc",
+      "type": "label",
+      "label": "Kamu belum mempunyai tantangan. Klik di bawah ini untuk memilih dan mulai tantangan"
+    },
+    {
+      "key": "viewAllChallenges",
+      "type": "label",
+      "label": "Lihat Semua Tantangan"
+    },
+    {
+      "type": "label",
+      "key": "challengesTitle",
+      "label": "Tantangan"
+    },
+    {
+      "type": "label",
+      "key": "challengesDescription",
+      "label": "Lari, Bersepeda, Berenang, atau Gym - pilih aktivitas yang kamu inginkan dan tantang dirimu hari ini."
+    },
+    {
+      "type": "label",
+      "key": "challengesJoinNow",
+      "label": "Lihat Tantangan"
+    },
+    {
+      "type": "label",
+      "key": "alertMessage",
+      "label": "Semua kegiatanmu akan hilang! Tekan OK untuk berhenti, atau Batal untuk tetap melakukan tantangan."
+    },
+    {
+      "type": "label",
+      "key": "noWearable",
+      "label": "Kamu belum menghubungkan Pulse dengan perangkat wearable"
+    },
+    {
+      "type": "label",
+      "key": "t&c",
+      "label": "Syarat & Ketentuan"
+    },
+    {
+      "type": "label",
+      "key": "rewards",
+      "label": "Reward"
+    },
+    {
+      "type": "label",
+      "key": "terms&ConditionsContent",
+      "label": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Refer Terms & Conditions Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum"
+    },
+    {
+      "type": "label",
+      "key": "rank1",
+      "label": "Peringkat 1"
+    },
+    {
+      "type": "label",
+      "key": "rank2",
+      "label": "Peringkat ke-2"
+    },
+    {
+      "type": "label",
+      "key": "rank3",
+      "label": "Peringkat ke-3"
+    },
+    {
+      "type": "label",
+      "key": "rank1Reward",
+      "label": "50 Medali"
+    },
+    {
+      "type": "label",
+      "key": "rank2Reward",
+      "label": "Diskon 30% Teleconsultation"
+    },
+    {
+      "type": "label",
+      "key": "rank3Reward",
+      "label": "Voucher Kebugaran (Reebok)"
+    },
+    {
+      "type": "label",
+      "key": "members",
+      "label": "Anggota"
+    },
+    {
+      "type": "label",
+      "key": "start",
+      "label": "Mulai"
+    },
+    {
+      "type": "label",
+      "key": "end",
+      "label": "Selesai"
+    },
+    {
+      "type": "label",
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "type": "label",
+      "key": "PruRide_header",
+      "label": "<p><strong>PRURide - </strong></p><p>Run to Fitness Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "PruRun_header",
+      "label": "<p><strong>PRURun - </strong></p><p>Run to Fitness Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "PruSwimming_header",
+      "label": "<p><strong>PRUSwimming - </strong></p><p>Swim to Fitness Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "PruWalk_header",
+      "label": "<p><strong>PRURun - </strong></p><p>Walk to Fitness Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "PruCycling_header",
+      "label": "<p><strong>PRUSwimming - </strong></p><p>Cycle to Fitness Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "PruRide_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking or running for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruRun_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking or running for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruSwimming_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by swimming for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruWalk_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruCycling_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by cycling for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruRide_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruRun_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruSwimming_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruWalk_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruCycling_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruRide_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking or running for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruRun_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking or running for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruSwimming_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by swimming for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruWalk_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "PruCycling_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by cycling for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "10K Walking_header",
+      "label": "<p><strong>10K Walking - </strong></p><p>Distance Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "10K Walking_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "10K Walking_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "10K Walking_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by walking for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "type": "label",
+      "key": "Swimming_header",
+      "label": "<p><strong>Swimming - </strong></p><p>Distance Challenge</p>"
+    },
+    {
+      "type": "label",
+      "key": "Swimming_description",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by swimming for 15Days.</span>"
+    },
+    {
+      "type": "label",
+      "key": "Swimming_challengeType",
+      "label": "<span style='font-size:13px'>15Days Challenge</span>"
+    },
+    {
+      "type": "label",
+      "key": "Swimming_info",
+      "label": "<span style='font-size:13px'>Get yourself moving and challenge yourself by swimming for 15Days! Simply link your fitness devices in your Pulse app and get a step closer to a healthier you!</span>"
+    },
+    {
+      "key": "startDateCaps",
+      "type": "label",
+      "label": "START DATE"
+    },
+    {
+      "key": "endDateCaps",
+      "type": "label",
+      "label": "END DATE"
+    },
+    {
+      "key": "peopleJoined",
+      "type": "label",
+      "label": " People Joined"
+    },
+    {
+      "key": "active",
+      "type": "label",
+      "label": "Active"
+    },
+    {
+      "key": "noConnectedWearables",
+      "type": "label",
+      "label": "You have not connected any wearable"
+    },
+    {
+      "key": "connectWearable",
+      "type": "label",
+      "label": "Connect Wearable"
+    },
+    {
+      "key": "PruRun",
+      "type": "label",
+      "label": "PRURun - "
+    },
+    {
+      "key": "runFitnessChallenge",
+      "type": "label",
+      "label": "Run to Fitness Challenge"
+    },
+    {
+      "key": "badgesProgram",
+      "type": "label",
+      "label": "Badges Program"
+    },
+    {
+      "key": "badgeCriteria",
+      "type": "label",
+      "label": "The top 3 runners with the highest number of steps will earn badges."
+    },
+    {
+      "key": "trackNow",
+      "type": "label",
+      "label": "Track Now"
+    },
+    {
+      "key": "leaveAlert",
+      "type": "label",
+      "label": "All your progress will be lost!"
+    },
+    {
+      "key": "leaveAlertDesc",
+      "type": "label",
+      "label": "Press OK to continue, or Cancel to stay."
+    },
+    {
+      "key": "leaveAlertOk",
+      "type": "label",
+      "label": "OK"
+    },
+    {
+      "key": "leaveAlertCancel",
+      "type": "label",
+      "label": "Cancel"
+    },
+    {
+      "key": "knowMore",
+      "type": "label",
+      "label": "Know More"
+    },
+    {
+      "key": "trackNow",
+      "type": "label",
+      "label": "Track Now"
+    },
+    {
+      "key": "joinNow",
+      "type": "label",
+      "label": "Join Now"
+    },
+    {
+      "key": "joined",
+      "type": "label",
+      "label": "Joined"
+    },
+    {
+      "key": "noChallengesAvailable",
+      "type": "label",
+      "label": "No Challenges Available"
+    },
+    {
+      "key": "noChallengesDesc",
+      "type": "label",
+      "label": "We will notify you for next Challenge. Meanwhile maintain good health."
+    },
+    {
+      "key": "noChallengesBackHome",
+      "type": "label",
+      "label": "Back Home"
+    },
+    {
+      "key": "selectFitnessTracker",
+      "type": "label",
+      "label": "Select Fitness Tracker"
+    },
+    {
+      "key": "yourRankIs",
+      "type": "label",
+      "label": "Your rank is "
+    },
+    {
+      "key": "leaderboard",
+      "type": "label",
+      "label": "Leaderboard"
+    }
+  ]
+}

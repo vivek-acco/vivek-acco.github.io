@@ -1,0 +1,18 @@
+{
+  "en": {
+    "trendingArticle": "healthArticles.png",
+    "healthAndNutrition": "globalEvents.png",
+    "physicalWellness": "healthAwareness.png",
+    "healthyLifestyle": "newsCommunication.png",
+    "trending":"trending.png",
+    "healthAwareness": "health_awareness.png"
+  },
+  "id": {
+    "trendingArticle": "healthArticles.png",
+    "healthAndNutrition": "globalEvents.png",
+    "physicalWellness": "healthAwareness.png",
+    "healthyLifestyle": "newsCommunication.png",
+    "trending":"trending.png",
+     "healthAwareness": "health_awareness.png"
+  }
+}
