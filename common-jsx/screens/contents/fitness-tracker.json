@@ -1,0 +1,58 @@
+{
+  "en": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "vi": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "th": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "km": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "id": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "la": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "bm": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  },
+  "my": {
+    "fitnessCircle": "fitness_tracker.png",
+    "linkFitness": "link_fitness.png",
+    "fitnessactivitytracker": "fitnesstracker.png",
+    "fittnessHalfCircle": "fitnesstrackerresult.png",
+    "fitnessTrackerCard": "fitnesstrackercard.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+	"default": {
+		"imageBgView": {
+			"backgroundColor": "#ffffff",
+			"marginHorizontal": 14,
+			"borderWidth": 5,
+			"borderColor": "#ffffff",
+			"justifyContent": "center",
+			"marginTop": 10,
+			"borderRadius": 3.3,
+			"shadowColor": "#000",
+			"shadowOffset": {
+				"width": 0,
+				"height": 2
+			},
+			"shadowOpacity": 0.25,
+			"shadowRadius": 3.84,
+			"elevation": 5
+		},
+		"tileImage": {
+			"width": "100%",
+			"height": 150,
+			"borderRadius": 3.3
+		},
+		"imageOpaqueView": {
+			"width": "100%",
+			"height": 150,
+			"borderRadius": 3.3,
+			"paddingTop": 7.5,
+			"paddingBottom": 15,
+			"paddingLeft": 7.5,
+			"paddingRight": 15
+		},
+		"headingText": {
+			"color": "#ffffff",
+			"fontSize": 16,
+			"lineHeight": 22,
+			"fontFamily": "Avenir",
+			"fontWeight": "bold"
+		},
+		"subHeadingText": {
+			"color": "#ffffff",
+			"fontSize": 12,
+			"lineHeight": 17,
+			"fontFamily": "Avenir",
+			"marginVertical": 5
+		},
+		"btnView": {
+			"flex": 1,
+			"alignItems": "flex-end",
+			"justifyContent": "flex-end"
+		},
+		"gradientButton": {
+			"alignItems": "center",
+			"justifyContent": "center",
+			"width": 120,
+			"height": 40,
+			"borderRadius": 120
+		},
+		"buttonText": {
+			"color": "#ffffff",
+			"fontSize": 11,
+			"lineHeight": 15,
+			"fontFamily": "Avenir",
+			"fontWeight": "bold"
+		}
+	}
+}

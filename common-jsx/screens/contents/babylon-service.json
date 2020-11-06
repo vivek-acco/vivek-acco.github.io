@@ -1,0 +1,79 @@
+{
+  "en": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "vi": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "th": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "hk": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "zh": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "km": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "id": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "la": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "bm": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "my": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  },
+  "tw": {
+    "babylonservice": "babylon-service.png",
+    "eyeMonitoring": "eyeMonitoringNew.png",
+    "skinCareTile": "skinCareTile.png",
+    "heartRateTile": "heartRateTile.png",
+    "onlineConsultation": "onlineConsultationNew.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "babylonService": "babylonService",
+  "symptomChecker": "symptomChecker",
+  "descriptionHA": "descriptionHA",
+  "descriptionSC1": "descriptionSC1",
+  "descriptionSC2": "descriptionSC2",
+  "healthAssessment": "healthAssessment",
+  "newUserDescriptionHA":"newUserDescriptionHA",
+  "newUserDescriptionSC":"newUserDescriptionSC",
+  "buttonSC":"buttonSC",
+  "buttonHA":"buttonHA",
+  "babylonServiceSubtitle": "babylonServiceSubtitle"
+}

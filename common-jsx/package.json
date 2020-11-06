@@ -1,0 +1,9 @@
+{
+  "name": "LandingScreen",
+  "rootUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/pulse",
+  "platformUrl": "ws://apiuat.pulse.prudentialcorporation-asia.com/ws",
+  "cmsRootUrl": "https://apiuat.pulse.prudentialcorporation-asia.com/api/v1_0_0/cms/pulse/resources",
+  "bundle":"bundle.json",
+  "theme": "default",
+  "version": "1.0"
+}

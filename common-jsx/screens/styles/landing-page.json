@@ -1,0 +1,316 @@
+{
+  "default": {
+    "screenContainer": {
+      "flex": 1
+    },
+    "loginMail": {
+      "width": 295,
+      "height": 44,
+      "flexDirection": "row",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "backgroundColor": "#d00016",
+      "color": "#000",
+      "marginBottom": 12,
+      "borderRadius": 22,
+      "borderColor": "#d00016",
+      "paddingRight": 6,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "width": 0,
+        "height": 1
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 1,
+      "elevation": 1
+    },
+    "loginMailWhite": {
+      "width": 295,
+      "height": 44,
+      "flexDirection": "row",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "backgroundColor": "#00000000",
+      "marginBottom": 12,
+      "borderRadius": 22,
+      "borderColor": "#FFFFFF",
+      "borderWidth": 1,
+      "paddingRight": 6
+     
+    },
+    "mailLoginText": {
+      "fontSize": 14,
+      "lineHeight": 16,
+      "letterSpacing": 1.12,
+      "fontFamily": "pru-bold",
+      "color": "#ffffff",
+      "textTransform": "uppercase",
+      "marginLeft": 14
+    },
+    "mailLoginTextNew": {
+      "fontSize": 14,
+      "lineHeight": 16,
+      "letterSpacing": 1.12,
+      "fontFamily": "pru-bold",
+      "color": "#ffffff",
+      "marginLeft": 14
+    },
+    "iconMailLogo": {
+      "height": 20,
+      "width": 20
+    },
+    "loginBtnsContainer": {
+      "padding": 10,
+      "alignItems": "center"
+    },
+    "disclaimer": {
+      "alignItems": "center",
+      "marginVertical": 20,
+      "width": "100%"
+    },
+    "disclaimerFont": {
+      "fontSize": 16,
+      "textAlign": "center"
+    },
+    "tncPrivacyContainer": {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "marginTop": 15,
+      "marginVertical": 10,
+      "width": "98%",
+      "justifyContent": "center"
+    },
+    "tncPrivacyTextSpacing": {
+      "paddingRight": 5
+    },
+    "tncPrivacyTextStyle": {
+      "color": "#222529",
+      "fontFamily": "Avenir",
+      "fontSize": 10,
+      "lineHeight": 12,
+      "textAlign": "center",
+      "justifyContent": "center"
+    },
+    "tncPrivacyTextStyleWithUl": {
+      "color": "#222529",
+      "fontFamily": "Avenir",
+      "fontSize": 10,
+      "lineHeight": 12,
+      "textAlign": "center",
+      "justifyContent": "center",
+      "textDecorationLine": "underline"
+    },
+    "tncPrivacyTextStyleWhite": {
+      "color": "rgba(250, 248, 242, 0.7)",
+      "fontFamily": "Avenir",
+      "fontSize": 10,
+      "lineHeight": 12,
+      "textAlign": "center",
+      "justifyContent": "center"
+    },
+    "tncPrivacyTextStyleWithUlWhite": {
+      "color": "rgba(250, 248, 242, 0.7)",
+      "fontFamily": "Avenir",
+      "fontSize": 10,
+      "lineHeight": 12,
+      "textDecorationLine": "underline",
+      "textAlign": "center",
+      "justifyContent": "center"
+    },
+    "aboutImg": {
+      "resizeMode": "contain",
+      "width": 170,
+      "height": 110
+    },
+    "container": {
+      "flex": 1,
+      "justifyContent": "space-between"
+    },
+    "subDescription": {
+      "fontSize": 24,
+      "textAlign": "center"
+    },
+    "subDescriptionWhite": {
+      "color": "#fcfcfc",
+      "fontSize": 20,
+      "textAlign": "center"
+    },
+    "aboutContainer": {
+      "marginTop": 40,
+      "alignItems": "center"
+    },
+    "langHeader": {
+      "flexDirection": "row",
+      "justifyContent": "flex-end"
+    },
+    "langStyle": {
+      "fontSize": 24
+    },
+    "about_varied_Img": {
+      "resizeMode": "contain",
+      "width": 70,
+      "height": 70
+    },
+    "subDescription_Container": {
+      "flex": 1,
+      "justifyContent": "flex-end",
+      "alignItems": "center",
+      "marginBottom": 40
+    },
+    "subDescription_New": {
+      "fontSize": 22,
+      "fontWeight": "bold",
+      "textAlign": "center",
+      "fontFamily": "Open Sans",
+      "color": "#FFFFFF"
+    },
+    "SocialLogin": {
+      "container": {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "width": 295
+      },
+      "iconFb": {
+        "height": 20,
+        "width": 20,
+        "marginRight": 13,
+        "marginLeft": 20
+      },
+      "iconGmail": {
+        "height": 20,
+        "width": 20,
+        "marginRight": 13,
+        "marginLeft": 8
+      },
+      "fb": {
+        "width": "100%",
+        "height": 44,
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "backgroundColor": "#3c5098",
+        "marginBottom": 12,
+        "borderRadius": 22,
+        "borderWidth": 1,
+        "borderColor": "#3c5098",
+        "paddingRight": 6,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "width": 0,
+          "height": 1
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 1,
+        "elevation": 1
+      },
+      "gmail": {
+        "width": "100%",
+        "height": 44,
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "backgroundColor": "#d00016",
+        "marginBottom": 12,
+        "borderRadius": 22,
+        "borderColor": "#d00016",
+        "paddingRight": 6,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "width": 0,
+          "height": 1
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 1,
+        "elevation": 1
+      },
+      "socialText": {
+        "fontSize": 14,
+        "lineHeight": 16,
+        "letterSpacing": 1.12,
+        "color": "#ffffff",
+        "textTransform": "uppercase"
+      },
+      "socialTextGmail": {
+        "fontSize": 14,
+        "lineHeight": 16,
+        "letterSpacing": 1.12,
+        "color": "#ffffff",
+        "textTransform": "uppercase"
+      }
+    },
+    "SocialLoginNew": {
+      "container": {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "width": 295
+      },
+      "iconFb": {
+        "height": 20,
+        "width": 20,
+        "marginRight": 13,
+        "marginLeft": 20
+      },
+      "iconGmail": {
+        "height": 20,
+        "width": 20,
+        "marginRight": 13,
+        "marginLeft": 8
+      },
+      "fb": {
+        "width": "100%",
+        "height": 44,
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "backgroundColor": "#3c5098",
+        "marginBottom": 12,
+        "borderRadius": 22,
+        "borderWidth": 1,
+        "borderColor": "#3c5098",
+        "paddingRight": 6,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "width": 0,
+          "height": 1
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 1,
+        "elevation": 1
+      },
+      "gmail": {
+        "width": "100%",
+        "height": 44,
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "backgroundColor": "#d00016",
+        "marginBottom": 12,
+        "borderRadius": 22,
+        "borderColor": "#d00016",
+        "paddingRight": 6,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "width": 0,
+          "height": 1
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 1,
+        "elevation": 1
+      },
+      "socialText": {
+        "fontSize": 14,
+        "lineHeight": 16,
+        "letterSpacing": 1.12,
+        "color": "#ffffff"
+      },
+      "socialTextGmail": {
+        "fontSize": 14,
+        "lineHeight": 16,
+        "letterSpacing": 1.12,
+        "color": "#ffffff"
+      }
+    }
+  }
+}
